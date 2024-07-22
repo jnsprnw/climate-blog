@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Untitled Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''), url('/fonts/untitled-sans-web-regular-subset.woff2') format('woff2'),
+    url('/fonts/untitled-sans-web-regular-subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Untitled Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local(''), url('/fonts/untitled-sans-web-medium-subset.woff2') format('woff2'),
+    url('/fonts/untitled-sans-web-medium-subset.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Untitled Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), url('/fonts/untitled-sans-web-bold-subset.woff2') format('woff2'),
+    url('/fonts/untitled-sans-web-bold-subset.woff') format('woff');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

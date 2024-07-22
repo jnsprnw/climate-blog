@@ -13,9 +13,10 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		alias: {
+			$config: 'src/config.ts',
 			$posts: 'src/data/posts.json',
+			$types: 'src/types',
 			$utils: 'src/lib/utils',
-			$types: 'src/types'
 		},
 		version: {
 			name: process.env.npm_package_version

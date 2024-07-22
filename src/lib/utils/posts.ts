@@ -18,3 +18,7 @@ export function getCurrentPosts(
 	data = data.slice(offset * POSTS_PER_PAGE, offset * POSTS_PER_PAGE + POSTS_PER_PAGE);
 	return data;
 }
+
+export function getPostBySlug(slug: string) {
+	return posts.find((post) => post.slug === slug);
+}

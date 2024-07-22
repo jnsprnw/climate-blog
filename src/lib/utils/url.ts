@@ -1,8 +1,8 @@
 import { dev } from '$app/environment';
-import { PAGE_URL } from '$env/static/private';
+import { PUBLIC_PAGE_URL } from '$env/static/public';
 
 export function getAbsoluteURL(path: string = ''): string {
-	return new URL(path, dev ? 'http://localhost:5173' : PAGE_URL).toString();
+	return new URL(path, dev ? 'http://localhost:5173' : PUBLIC_PAGE_URL).toString();
 }
 
 const FAVORITE_STR = 'favorite';

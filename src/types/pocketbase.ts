@@ -3,6 +3,14 @@ export type Post = {
 	slug: string;
 	title: string;
 	content: string;
+	image:
+		| undefined
+		| {
+				url: string;
+				width: number;
+				height: number;
+				caption: string;
+		  };
 	language: {
 		key: string;
 		slug: string;

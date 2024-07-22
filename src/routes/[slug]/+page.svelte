@@ -2,9 +2,11 @@
 	import PostSingle from '$lib/components/PostSingle.svelte';
 	import { type Post } from '$types/pocketbase';
 
-	const { posts }: { posts: Post[] } = $props();
+	type Props = {
+		post: Post;
+	};
+
+	const { data }: { data: Props } = $props();
 </script>
 
-{#each posts as post (post.id)}
-	<PostSingle {post} />
-{/each}
+<PostSingle post={data.post} />
