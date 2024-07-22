@@ -1,20 +1,269 @@
 [
   {
     "authors": [
+      "0wwmyn43sz1cd2w"
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>Agnes Denes (*1931 in Budapest) is a pioneer in conceptual, environmental and ecological art. One of her <a href=\"https://en.m.wikipedia.org/wiki/Wheatfield_%E2%80%94_A_Confrontation\">most striking installations</a> is &ldquo;<a href=\"http://www.agnesdenesstudio.com/works7.html\">Wheatfield - A Confrontation: Battery Park Landfill, Downtown Manhattan</a>&rdquo; from 1982. During a three month period the artist and volunteers planted a wheat field in one of the last undeveloped sections of Manhattan. An area right next to the Twin Towers and Wall Street called <a href=\"https://en.m.wikipedia.org/wiki/Battery_Park_City\">Battery Park City</a>. The artist <a href=\"https://www.nytimes.com/2018/06/14/t-magazine/agnes-denes-art.html\">gained</a> <a href=\"https://www.theguardian.com/artanddesign/2022/jul/18/a-field-of-wheat-on-a-45bn-patch-of-new-york-the-prophetic-eco-art-of-agnes-denes\">more</a> <a href=\"https://www.architecturaldigest.com/story/agnes-denes-prophetic-wheatfield-remains-as-relevant-as-ever\">attention</a> recently, but is still overlooked in her prophetic art.</p>",
+    "created": "2024-07-22 10:21:32.361Z",
+    "date": "1982-05-01 12:00:00.000Z",
+    "formats": [
+      "s8o10bax2898t4e"
+    ],
+    "id": "9qe2hqoo20eghb9",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/hpeaamtnef3nc7kwqwgw?_a=BAMAEuFC0",
+      "width": 3800,
+      "height": 2560
+    },
+    "image_caption": "Photo by John McGrall. Courtesy the artist and Leslie Tonkonow Artworks + Projects.",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2024-07-20 12:00:00.000Z",
+    "publisher": "5iw2sevyzskbqxc",
+    "quote": "",
+    "quote_author": "",
+    "reference": "qohs4d16nhhjn1x",
+    "reference_link": "https://www.smb.museum/museen-einrichtungen/neue-nationalgalerie/ausstellungen/detail/zerreissprobe-kunst-zwischen-politik-und-gesellschaft/",
+    "schemas": "lcwajb711u724h8",
+    "tags": [
+      "e7g701bpr9rpyf7",
+      "c5ifgkr9e7l91y5"
+    ],
+    "title": "Agnes Denes: Wheatfield - A Confrontation",
+    "updated": "2024-07-22 10:21:32.361Z",
+    "url": "http://www.agnesdenesstudio.com/works7.html",
+    "slug": "agnes-denes-wheatfield-a-confrontation"
+  },
+  {
+    "authors": [
+      "2gvh0g8198jnj4d"
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "",
+    "created": "2024-07-22 10:16:27.915Z",
+    "date": "2023-05-24 12:00:00.000Z",
+    "formats": [
+      "9bmouhsbp8hib57"
+    ],
+    "id": "g25dz6jyfp0at9p",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/A27686_ktpm2t?_a=BAMAEuFC0",
+      "width": 1500,
+      "height": 1500
+    },
+    "image_caption": "John McNamee",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2023-09-02 12:00:00.000Z",
+    "publisher": "fxaeqism8f4buno",
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": "lcwajb711u724h8",
+    "tags": [
+      "amcy42c38zhh1z1",
+      "w98y5g1o477uz2a",
+      "w3agiq4xxjerj14"
+    ],
+    "title": "“Looks like Congress might finally do something about TikTok.”",
+    "updated": "2024-07-22 10:16:44.009Z",
+    "url": "https://www.newyorker.com/cartoons/daily-cartoon/friday-march-24th-congress-tiktok",
+    "slug": "looks-like-congress-might-finally-do-something-about-tik-tok"
+  },
+  {
+    "authors": [
+      "fhxt43oxa68bpxp"
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p><a href=\"https://twitter.com/Nick_Newman/status/1666510464631595010\">Nick Newman</a> captures a billboard advertising the release of the new <a href=\"https://en.m.wikipedia.org/wiki/Diablo_IV\">Diablo IV</a> computer game while New York is being hit by <a href=\"https://www.nytimes.com/2023/06/09/podcasts/the-daily/wildfire-smoke-new-york.html\">heavy smoke from wildfire smoke in Canada</a>.</p>",
+    "created": "2024-07-22 10:11:56.723Z",
+    "date": "2023-06-07 12:00:00.000Z",
+    "formats": [
+      "083vuiauoti4xno"
+    ],
+    "id": "re9uatc7cbmd38v",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/FyCibgvWIAMzFcL_y25iri?_a=BAMAEuFC0",
+      "width": 1152,
+      "height": 2048
+    },
+    "image_caption": "Nick Newman",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2023-06-08 12:00:00.000Z",
+    "publisher": "kgdjpowkwomdpsh",
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": "szyprkkgbf613rs",
+    "tags": [
+      "w98y5g1o477uz2a",
+      "fvwjbq5laixe87e",
+      "991yaahmkskmr6t"
+    ],
+    "title": "Diablo IV advertising with wildfire smoke",
+    "updated": "2024-07-22 10:13:11.081Z",
+    "url": "https://twitter.com/Nick_Newman/status/1666510464631595010/photo/1",
+    "slug": "diablo-iv-advertising-with-wildfire-smoke"
+  },
+  {
+    "authors": [
+      "z6e3q1sqxy4gz2b"
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>In this <a href=\"https://www.washingtonpost.com/opinions/2023/03/15/rebecca-solnit-climate-change-wealth-abundance/\">article Rebecca Solnit shifts the perspective on climate change</a>: Instead of framing the shift towards a green future as abundance to austerity, we should look at it as freeing from a flagellating state. By getting rid of &ldquo;deadly emissions[&hellip;], nagging feelings of doom and complicity in destruction.&rdquo; We could shift to a &ldquo;sense of security, social connectedness, mental and physical health, and other measures of well-being are often dismal.&rdquo; She shows how this would be an opportunity for &ldquo;a sense of meaning, of deep connection and generosity, of being truly alive in the face of uncertainty. Of joy.&rdquo;</p>",
+    "created": "2024-07-22 10:09:20.196Z",
+    "date": "2023-03-15 12:00:00.000Z",
+    "formats": [
+      "0d54tsl3d3vtji1"
+    ],
+    "id": "1asyepfsej62h0c",
+    "image": null,
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2023-03-28 12:00:00.000Z",
+    "publisher": "tfpv56onpdhlysp",
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": "uzq8yloglx50dg2",
+    "tags": [
+      "ptpbk4nicqrykya"
+    ],
+    "title": "What if climate change meant not doom — but abundance?",
+    "updated": "2024-07-22 10:09:20.196Z",
+    "url": "https://www.washingtonpost.com/opinions/2023/03/15/rebecca-solnit-climate-change-wealth-abundance/",
+    "slug": "what-if-climate-change-meant-not-doom-but-abundance"
+  },
+  {
+    "authors": [
+      "p6w1a38nveyd9e1",
+      "eg75svvufbxotrv"
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>November 2022 hatten Aktivisti der Letzten Generation im Wiener Leopold Museum das Schutzglas eines Klimt-Bildes mit <a href=\"https://twitter.com/letztegenAT/status/1592461949719437312\">&Ouml;l besch&uuml;ttet und sich daran festgeklebt</a>. Der Museumsdirektor Hans-Peter Wipplinger hatte die Aktion damals als inhaltlich richtig aber formell kontraproduktiv kritisiert.</p>\r\n<p>Nun hat das Museum eine eigene Form der Aufmerksamkeitsgenerierung gefunden und <a href=\"https://www.weltkunst.de/kunstwissen/2023/03/leopold-museum-klima-schieflage\">15 Kunstwerke schief aufgehangen</a>. Die Neigung der Bilder skaliert dabei mit dem Temperaturanstieg in den entsprechend gezeigten Orten.</p>",
+    "created": "2024-07-22 10:05:33.845Z",
+    "date": "2023-03-21 12:00:00.000Z",
+    "formats": [
+      "p5dd8nazemrsnj6"
+    ],
+    "id": "u2htqw65423ztjc",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAEuFC0",
+      "width": 1282,
+      "height": 962
+    },
+    "image_caption": "Andreas Jakwerth/Leopold Museum, Wien/dpa",
+    "isFavorite": false,
+    "language": {
+      "label": "German",
+      "slug": "german",
+      "key": "de"
+    },
+    "published": "2023-03-23 12:00:00.000Z",
+    "publisher": "5ytkvwmz5lvzmjd",
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": "lcwajb711u724h8",
+    "tags": [
+      "uibq39vbkpnuibt",
+      "w98y5g1o477uz2a",
+      "e7g701bpr9rpyf7"
+    ],
+    "title": "Schiefe Bilder als Klimaprotest",
+    "updated": "2024-07-22 10:13:32.806Z",
+    "url": "https://www.weltkunst.de/kunstwissen/2023/03/leopold-museum-klima-schieflage",
+    "slug": "schiefe-bilder-als-klimaprotest"
+  },
+  {
+    "authors": [
+      "qwal82spx2cm87u",
+      "whb5sii0itcvxat"
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>Light pollution is an often overlooked environmental problem. In his &ldquo;<a href=\"https://www.penguin.co.uk/books/447865/the-darkness-manifesto-by-eklof-johan/9781847927156\">The Darkness Manifesto</a>&rdquo;, the Swedish ecologist Johan Ekl&ouml;f describes the various problems the lid-up night sky has for animals and plants. But also the effects of screens and other light sources for humans.</p>",
+    "created": "2024-07-22 09:58:48.334Z",
+    "date": "2023-02-20 12:00:00.000Z",
+    "formats": [
+      "g4dageb16cku2q3"
+    ],
+    "id": "q0ie38eb47i57vz",
+    "image": null,
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2023-03-04 12:00:00.000Z",
+    "publisher": "fxaeqism8f4buno",
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": "uzq8yloglx50dg2",
+    "tags": [
+      "zbvrnn8292uibq6",
+      "er049nnd0czun4v",
+      "xrpst36djjaxj2f"
+    ],
+    "title": "Is Artificial Light Poisoning the Planet?",
+    "updated": "2024-07-22 09:58:48.334Z",
+    "url": "https://www.newyorker.com/magazine/2023/02/27/darkness-manifesto-book-johan-eklof",
+    "slug": "is-artificial-light-poisoning-the-planet"
+  },
+  {
+    "authors": [
       "2asshd52mks5dxh",
       "luc1mavvvalxd3y"
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
     "connection": [],
-    "content": "<p>A team of scientists from the University of W&uuml;rzburg published an updated estimates of weight of biomass on earth by category. Wild land mammals have a total biomass of 22 million tons. Marine mammals account for 40 million tons. These numbers are far overshadowed by 390 million tons of human biomass and 630 million tons of livestock and other hangers-on such as urban rats.<!-- notionvc: fa52c07f-63a8-4bdd-b0d4-7d788e4c8a38 --></p>\r\n<p>Reading the list of numbers in the <a tabindex=\"0\" href=\"https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals\" rel=\"noopener noreferrer\" data-token-index=\"1\">article</a> makes me wish for a visualisation, that would make the relations and categories much clearer.<!-- notionvc: ff1c373d-aca2-48fa-b7f9-905b0bf7c2b1 --></p>\r\n<p>But at the very end, the article reveals another insight. But this time, it&rsquo;s about the thinking of one of the involved scientists, which could be read as representative of Western thinking about nature in general: &ldquo;We can only conserve what we understand, and we can only truly understand what we can quantify.&rdquo;<!-- notionvc: 86832bc2-0da6-4bdf-b5a7-aa2071dc19f8 --></p>",
+    "content": "<p>A team of scientists from the University of W&uuml;rzburg published an updated estimates of weight of biomass on earth by category. Wild land mammals have a total biomass of 22 million tons. Marine mammals account for 40 million tons. These numbers are far overshadowed by 390 million tons of human biomass and 630 million tons of livestock and other hangers-on such as urban rats.</p>\r\n<p>Reading the list of numbers in the <a href=\"https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals\">article</a> makes me wish for a visualisation, that would make the relations and categories much clearer.</p>\r\n<p>But at the very end, the article reveals another insight. But this time, it&rsquo;s about the thinking of one of the involved scientists, which could be read as representative of Western thinking about nature in general: &ldquo;We can only conserve what we understand, and we can only truly understand what we can quantify.&rdquo;</p>",
     "created": "2024-07-21 20:53:04.659Z",
     "date": "2023-02-27 12:00:00.000Z",
     "formats": [
       "5beu55drtyhaoal"
     ],
     "id": "s62x1iuzsoyt1bw",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -34,7 +283,7 @@
       "h4zh134ouuiosbo"
     ],
     "title": "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
-    "updated": "2024-07-21 20:53:04.659Z",
+    "updated": "2024-07-22 09:50:02.358Z",
     "url": "https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals",
     "slug": "who-rules-earth-wild-mammals-far-outweighed-by-humans-and-domestic-animals"
   },
@@ -43,14 +292,14 @@
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
     "connection": [],
-    "content": "<p><a href=\"https://store.steampowered.com/app/1593030/Terra_Nil/\">Terra Nil</a> is an intricate environmental strategy game about transforming a barren wasteland into a thriving, balanced ecosystem. Bring life back to a lifeless world by purifying soil, cleaning oceans, planting trees, and reintroducing wildlife, then leave without a trace.<!-- notionvc: fbdcc00f-4a75-432d-adcc-5162ae152616 --></p>",
+    "content": "<p><a href=\"https://store.steampowered.com/app/1593030/Terra_Nil/\">Terra Nil</a> is an intricate environmental strategy game about transforming a barren wasteland into a thriving, balanced ecosystem. Bring life back to a lifeless world by purifying soil, cleaning oceans, planting trees, and reintroducing wildlife, then leave without a trace.</p>",
     "created": "2024-07-21 20:50:52.497Z",
     "date": "",
     "formats": [
       "vpajdhhs4wh4x54"
     ],
     "id": "p0btg4p99039lql",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -71,7 +320,7 @@
       "w98y5g1o477uz2a"
     ],
     "title": "Terra Nil",
-    "updated": "2024-07-21 20:50:52.497Z",
+    "updated": "2024-07-22 09:50:15.761Z",
     "url": "https://www.youtube.com/watch?v=wpX9MsuUmow",
     "slug": "terra-nil"
   },
@@ -83,14 +332,14 @@
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
     "connection": [],
-    "content": "<p>It might not look like much but it's probably the most defining number of our time, one that will shape this century and many beyond it. It is the amount, in parts-per-million, of carbon dioxide in our planet's atmosphere.<!-- notionvc: 856c305c-e695-4d3d-99e4-2567f0bc6a86 --></p>",
+    "content": "<p>It might not look like much but it's probably the most defining number of our time, one that will shape this century and many beyond it. It is the amount, in parts-per-million, of carbon dioxide in our planet's atmosphere.</p>",
     "created": "2024-07-21 20:48:14.866Z",
     "date": "2023-02-23 12:00:00.000Z",
     "formats": [
       "pmnih8jyctsnsnz"
     ],
     "id": "w04hcgjoetgitsv",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": true,
     "language": {
@@ -111,7 +360,7 @@
       "szgsdkhgi47pu4u"
     ],
     "title": "Permillion",
-    "updated": "2024-07-21 20:48:14.866Z",
+    "updated": "2024-07-22 09:50:27.068Z",
     "url": "https://permillion.live/",
     "slug": "permillion"
   },
@@ -131,7 +380,7 @@
       "0d54tsl3d3vtji1"
     ],
     "id": "xujb8grwu3jtyzo",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -171,7 +420,7 @@
       "0d54tsl3d3vtji1"
     ],
     "id": "p4eg5vdtb0s27m5",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -210,7 +459,7 @@
       "z4n6gdl8b9ia52u"
     ],
     "id": "xpoqvlqgux3h18o",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -249,7 +498,7 @@
       "2zqsvu4eocmlg7j"
     ],
     "id": "y2iu9zo4wpp8q01",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -289,7 +538,7 @@
       "77mtnn8lukoi4gr"
     ],
     "id": "77vrdbqfpwq2kni",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -331,7 +580,7 @@
       "77mtnn8lukoi4gr"
     ],
     "id": "x54u2ri7d1l1kh0",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": true,
     "language": {
@@ -371,7 +620,7 @@
       "g4dageb16cku2q3"
     ],
     "id": "tdzmyhh3znbsxo8",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -411,7 +660,7 @@
       "2zqsvu4eocmlg7j"
     ],
     "id": "ze49xideou30wmw",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -448,7 +697,11 @@
       "083vuiauoti4xno"
     ],
     "id": "9qfq6dn8b3tjw0k",
-    "image": "Flpi0eoXwBcT2Ud_uanvbu_ubagwd",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAEuFC0",
+      "width": 4096,
+      "height": 2731
+    },
     "image_caption": "Marius Michusch",
     "isFavorite": false,
     "language": {
@@ -489,7 +742,7 @@
       "hbmu2ij7og7saed"
     ],
     "id": "zqo6lkqydw2rgpv",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -528,7 +781,7 @@
       "pmnih8jyctsnsnz"
     ],
     "id": "8d0d222q1a7fmmc",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -568,7 +821,7 @@
       "uv5e3h2wrmrfn5c"
     ],
     "id": "xarbrf46tusa1my",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": true,
     "language": {
@@ -606,7 +859,7 @@
       "2zqsvu4eocmlg7j"
     ],
     "id": "4nyyc46752yo3js",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -648,7 +901,7 @@
       "vpajdhhs4wh4x54"
     ],
     "id": "qb4ztd0p2l62cld",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": true,
     "language": {
@@ -689,7 +942,7 @@
       "0d54tsl3d3vtji1"
     ],
     "id": "iiyhzpnw1m773dr",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -727,7 +980,7 @@
       "0d54tsl3d3vtji1"
     ],
     "id": "bo1t775idhwlqwx",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {
@@ -762,7 +1015,7 @@
       "0d54tsl3d3vtji1"
     ],
     "id": "6i61wlod7qvnykj",
-    "image": "",
+    "image": null,
     "image_caption": "",
     "isFavorite": false,
     "language": {

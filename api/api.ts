@@ -1,5 +1,6 @@
 import { getLanguages, getAuthors, getFormats, getPosts } from './pocketbase';
 import { writeFile, slugify } from './utils';
+import { getImageDetails } from './cloudinary';
 
 async function getData() {
 	// const authors = await getAuthors();
@@ -10,13 +11,17 @@ async function getData() {
 	console.log(languages);
 
 	const posts = await getPosts();
-	const entries = posts.map((post) => {
-		return {
-			...post,
-			slug: slugify(post.title),
-			language: languages.get(post.language)
-		};
-	});
+	const entries = await Promise.all(
+		posts.map(async (post) => {
+			const image = post.image ? await getImageDetails(post.image, post.caption) : null;
+			return {
+				...post,
+				slug: slugify(post.title),
+				language: languages.get(post.language),
+				image
+			};
+		})
+	);
 	writeFile('posts', entries);
 }
 
