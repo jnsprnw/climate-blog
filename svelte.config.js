@@ -14,6 +14,7 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$posts: 'src/data/posts.json',
+			$utils: 'src/lib/utils',
 			$types: 'src/types'
 		},
 		version: {

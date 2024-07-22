@@ -35,7 +35,8 @@
     ],
     "title": "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
     "updated": "2024-07-21 20:53:04.659Z",
-    "url": "https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals"
+    "url": "https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals",
+    "slug": "who-rules-earth-wild-mammals-far-outweighed-by-humans-and-domestic-animals"
   },
   {
     "authors": [],
@@ -71,7 +72,8 @@
     ],
     "title": "Terra Nil",
     "updated": "2024-07-21 20:50:52.497Z",
-    "url": "https://www.youtube.com/watch?v=wpX9MsuUmow"
+    "url": "https://www.youtube.com/watch?v=wpX9MsuUmow",
+    "slug": "terra-nil"
   },
   {
     "authors": [
@@ -110,7 +112,8 @@
     ],
     "title": "Permillion",
     "updated": "2024-07-21 20:48:14.866Z",
-    "url": "https://permillion.live/"
+    "url": "https://permillion.live/",
+    "slug": "permillion"
   },
   {
     "authors": [
@@ -150,7 +153,8 @@
     ],
     "title": "Our Attention Spans Are Being Stolen",
     "updated": "2024-07-21 20:16:46.681Z",
-    "url": "https://atmos.earth/johann-hari-stolen-focus-concentration-span-attention-economy-climate-action"
+    "url": "https://atmos.earth/johann-hari-stolen-focus-concentration-span-attention-economy-climate-action",
+    "slug": "our-attention-spans-are-being-stolen"
   },
   {
     "authors": [
@@ -188,7 +192,8 @@
     ],
     "title": "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
     "updated": "2024-07-21 20:13:09.918Z",
-    "url": "https://www.republik.ch/2023/02/10/wie-science-fiction-autor-kim-stanley-robinson-die-zukunft-sieht"
+    "url": "https://www.republik.ch/2023/02/10/wie-science-fiction-autor-kim-stanley-robinson-die-zukunft-sieht",
+    "slug": "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise-eine-bessere-welt-erschaffen-konnen"
   },
   {
     "authors": [
@@ -226,7 +231,8 @@
     ],
     "title": "Climate change conversations during live commentary",
     "updated": "2024-07-21 20:09:50.719Z",
-    "url": "https://twitter.com/ed_hawkins/status/1619456016638427136?s=20"
+    "url": "https://twitter.com/ed_hawkins/status/1619456016638427136?s=20",
+    "slug": "climate-change-conversations-during-live-commentary"
   },
   {
     "authors": [
@@ -265,7 +271,8 @@
     ],
     "title": "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
     "updated": "2024-07-21 20:05:48.122Z",
-    "url": "https://www.nytimes.com/2023/01/29/podcasts/the-daily/amazon-rainforest-deforestation.html"
+    "url": "https://www.nytimes.com/2023/01/29/podcasts/the-daily/amazon-rainforest-deforestation.html",
+    "slug": "the-sunday-read-has-the-amazon-reached-its-tipping-point"
   },
   {
     "authors": [
@@ -305,7 +312,8 @@
     ],
     "title": "Nuisance Bear",
     "updated": "2024-07-21 20:06:07.433Z",
-    "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/when-polar-bears-come-to-town"
+    "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/when-polar-bears-come-to-town",
+    "slug": "nuisance-bear"
   },
   {
     "authors": [
@@ -346,7 +354,8 @@
     ],
     "title": "Haulout",
     "updated": "2024-07-21 20:06:23.417Z",
-    "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone"
+    "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone",
+    "slug": "haulout"
   },
   {
     "authors": [
@@ -383,7 +392,8 @@
     ],
     "title": "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
     "updated": "2024-07-21 20:06:40.813Z",
-    "url": "https://www.matthes-seitz-berlin.de/buch/klimabilder.html"
+    "url": "https://www.matthes-seitz-berlin.de/buch/klimabilder.html",
+    "slug": "klimabilder-eine-genealogie-globaler-bildpolitiken-von-klima-und-klimawandel"
   },
   {
     "authors": [
@@ -421,7 +431,8 @@
     ],
     "title": "Consider the Burying Beetle. (Or Else.)",
     "updated": "2024-07-21 19:50:58.870Z",
-    "url": "https://www.nytimes.com/2023/01/06/podcasts/the-daily/biodiversity-cop15-montreal.html"
+    "url": "https://www.nytimes.com/2023/01/06/podcasts/the-daily/biodiversity-cop15-montreal.html",
+    "slug": "consider-the-burying-beetle-or-else"
   },
   {
     "authors": [
@@ -440,6 +451,11 @@
     "image": "Flpi0eoXwBcT2Ud_uanvbu_ubagwd",
     "image_caption": "Marius Michusch",
     "isFavorite": false,
+    "language": {
+      "label": "German",
+      "slug": "german",
+      "key": "de"
+    },
     "published": "2023-01-23 12:00:00.000Z",
     "publisher": "kgdjpowkwomdpsh",
     "quote": "",
@@ -453,8 +469,9 @@
       "0eiwce9y5tzc4ih"
     ],
     "title": "Bagger 288 in Lützerath",
-    "updated": "2024-07-20 10:28:40.095Z",
-    "url": "https://twitter.com/marius_mich/status/1610708837463474183"
+    "updated": "2024-07-21 22:52:51.546Z",
+    "url": "https://twitter.com/marius_mich/status/1610708837463474183",
+    "slug": "bagger-288-in-lutzerath"
   },
   {
     "authors": [
@@ -494,7 +511,8 @@
     ],
     "title": "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
     "updated": "2024-07-20 10:20:37.142Z",
-    "url": "https://youtu.be/KW-J6QqQarQ"
+    "url": "https://youtu.be/KW-J6QqQarQ",
+    "slug": "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien-mussen-durfen"
   },
   {
     "authors": [
@@ -531,7 +549,8 @@
     ],
     "title": "100 gute Gründe gegen Atomkraft",
     "updated": "2024-07-20 10:17:46.172Z",
-    "url": "https://www.100-gute-gruende.de/gruende/"
+    "url": "https://www.100-gute-gruende.de/gruende/",
+    "slug": "100-gute-grunde-gegen-atomkraft"
   },
   {
     "authors": [
@@ -569,7 +588,8 @@
     ],
     "title": "Anthropocene: The Human Epoch",
     "updated": "2024-07-20 10:14:25.242Z",
-    "url": "https://theanthropocene.org/film/"
+    "url": "https://theanthropocene.org/film/",
+    "slug": "anthropocene-the-human-epoch"
   },
   {
     "authors": [
@@ -608,7 +628,8 @@
     ],
     "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
     "updated": "2024-07-20 10:10:32.823Z",
-    "url": "https://www.nytimes.com/2022/11/20/podcasts/the-daily/uruguay-sustainable-living.html"
+    "url": "https://www.nytimes.com/2022/11/20/podcasts/the-daily/uruguay-sustainable-living.html",
+    "slug": "the-sunday-read-what-does-sustainable-living-look-like-maybe-like-uruguay"
   },
   {
     "authors": [
@@ -649,7 +670,8 @@
     ],
     "title": "Half Earth Socialism Game",
     "updated": "2024-07-20 10:07:24.982Z",
-    "url": "https://play.half.earth/"
+    "url": "https://play.half.earth/",
+    "slug": "half-earth-socialism-game"
   },
   {
     "authors": [
@@ -687,7 +709,8 @@
     ],
     "title": "Why climate despair is a luxury",
     "updated": "2024-07-20 10:02:27.016Z",
-    "url": "https://www.newstatesman.com/environment/2022/10/rebecca-solnit-climate-despair-luxury"
+    "url": "https://www.newstatesman.com/environment/2022/10/rebecca-solnit-climate-despair-luxury",
+    "slug": "why-climate-despair-is-a-luxury"
   },
   {
     "authors": [
@@ -722,7 +745,8 @@
     "tags": [],
     "title": "There’s no planet B",
     "updated": "2024-07-20 10:00:07.900Z",
-    "url": "https://aeon.co/essays/we-will-never-be-able-to-live-on-another-planet-heres-why"
+    "url": "https://aeon.co/essays/we-will-never-be-able-to-live-on-another-planet-heres-why",
+    "slug": "theres-no-planet-b"
   },
   {
     "authors": [
@@ -758,6 +782,7 @@
     ],
     "title": "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
     "updated": "2024-07-20 09:56:12.364Z",
-    "url": "https://www.republik.ch/2023/01/16/wir-haben-kein-recht-vor-der-klimakrise-zu-kapitulieren"
+    "url": "https://www.republik.ch/2023/01/16/wir-haben-kein-recht-vor-der-klimakrise-zu-kapitulieren",
+    "slug": "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren"
   }
 ]

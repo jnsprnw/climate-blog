@@ -1,5 +1,5 @@
 import { getLanguages, getAuthors, getFormats, getPosts } from './pocketbase';
-import { writeFile } from './utils';
+import { writeFile, slugify } from './utils';
 
 async function getData() {
 	// const authors = await getAuthors();
@@ -13,6 +13,7 @@ async function getData() {
 	const entries = posts.map((post) => {
 		return {
 			...post,
+			slug: slugify(post.title),
 			language: languages.get(post.language)
 		};
 	});
