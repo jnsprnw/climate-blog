@@ -2,7 +2,15 @@
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		fontFamily: {
+			sans: ['Untitled Sans', 'Helvetica Neue', 'Helvetica', 'sans-serif'],
+			serif: ['Times New Roman', 'serif']
+		},
+		extend: {
+			colors: {
+				accent: '#38b000'
+			}
+		}
 	},
 	plugins: []
 };
