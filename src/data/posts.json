@@ -1,7 +1,10 @@
 [
   {
     "authors": [
-      "0wwmyn43sz1cd2w"
+      {
+        "label": "Agnes Denes",
+        "slug": "agnes-denes"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -10,7 +13,10 @@
     "created": "2024-07-22 10:21:32.361Z",
     "date": "1982-05-01 12:00:00.000Z",
     "formats": [
-      "s8o10bax2898t4e"
+      {
+        "label": "Installation",
+        "slug": "installation"
+      }
     ],
     "id": "9qe2hqoo20eghb9",
     "image": {
@@ -26,12 +32,19 @@
       "key": "en"
     },
     "published": "2024-07-20 12:00:00.000Z",
-    "publisher": "5iw2sevyzskbqxc",
+    "publisher": {
+      "label": "Agnes Denes",
+      "slug": "agnes-denes"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "qohs4d16nhhjn1x",
     "reference_link": "https://www.smb.museum/museen-einrichtungen/neue-nationalgalerie/ausstellungen/detail/zerreissprobe-kunst-zwischen-politik-und-gesellschaft/",
-    "schemas": "lcwajb711u724h8",
+    "schemas": {
+      "label": "Visual artwork",
+      "slug": "visual-artwork",
+      "key": "VisualArtwork"
+    },
     "tags": [
       "e7g701bpr9rpyf7",
       "c5ifgkr9e7l91y5"
@@ -39,11 +52,24 @@
     "title": "Agnes Denes: Wheatfield - A Confrontation",
     "updated": "2024-07-22 10:21:32.361Z",
     "url": "http://www.agnesdenesstudio.com/works7.html",
-    "slug": "agnes-denes-wheatfield-a-confrontation"
+    "slug": "agnes-denes-wheatfield-a-confrontation",
+    "topics": [
+      {
+        "label": "Art",
+        "slug": "art"
+      },
+      {
+        "label": "Capitalism",
+        "slug": "capitalism"
+      }
+    ]
   },
   {
     "authors": [
-      "2gvh0g8198jnj4d"
+      {
+        "label": "John McNamee",
+        "slug": "john-mc-namee"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -52,7 +78,10 @@
     "created": "2024-07-22 10:16:27.915Z",
     "date": "2023-05-24 12:00:00.000Z",
     "formats": [
-      "9bmouhsbp8hib57"
+      {
+        "label": "Comic",
+        "slug": "comic"
+      }
     ],
     "id": "g25dz6jyfp0at9p",
     "image": {
@@ -68,12 +97,19 @@
       "key": "en"
     },
     "published": "2023-09-02 12:00:00.000Z",
-    "publisher": "fxaeqism8f4buno",
+    "publisher": {
+      "label": "The New Yorker",
+      "slug": "the-new-yorker"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "lcwajb711u724h8",
+    "schemas": {
+      "label": "Visual artwork",
+      "slug": "visual-artwork",
+      "key": "VisualArtwork"
+    },
     "tags": [
       "amcy42c38zhh1z1",
       "w98y5g1o477uz2a",
@@ -82,11 +118,28 @@
     "title": "“Looks like Congress might finally do something about TikTok.”",
     "updated": "2024-07-22 10:16:44.009Z",
     "url": "https://www.newyorker.com/cartoons/daily-cartoon/friday-march-24th-congress-tiktok",
-    "slug": "looks-like-congress-might-finally-do-something-about-tik-tok"
+    "slug": "looks-like-congress-might-finally-do-something-about-tik-tok",
+    "topics": [
+      {
+        "label": "Satire",
+        "slug": "satire"
+      },
+      {
+        "label": "Popculture",
+        "slug": "popculture"
+      },
+      {
+        "label": "Attention",
+        "slug": "attention"
+      }
+    ]
   },
   {
     "authors": [
-      "fhxt43oxa68bpxp"
+      {
+        "label": "Nick Newman",
+        "slug": "nick-newman"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -95,7 +148,10 @@
     "created": "2024-07-22 10:11:56.723Z",
     "date": "2023-06-07 12:00:00.000Z",
     "formats": [
-      "083vuiauoti4xno"
+      {
+        "label": "Photograph",
+        "slug": "photograph"
+      }
     ],
     "id": "re9uatc7cbmd38v",
     "image": {
@@ -111,12 +167,19 @@
       "key": "en"
     },
     "published": "2023-06-08 12:00:00.000Z",
-    "publisher": "kgdjpowkwomdpsh",
+    "publisher": {
+      "label": "Twitter",
+      "slug": "twitter"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "szyprkkgbf613rs",
+    "schemas": {
+      "label": "Photograph",
+      "slug": "photograph",
+      "key": "Photograph"
+    },
     "tags": [
       "w98y5g1o477uz2a",
       "fvwjbq5laixe87e",
@@ -125,11 +188,28 @@
     "title": "Diablo IV advertising with wildfire smoke",
     "updated": "2024-07-22 10:13:11.081Z",
     "url": "https://twitter.com/Nick_Newman/status/1666510464631595010/photo/1",
-    "slug": "diablo-iv-advertising-with-wildfire-smoke"
+    "slug": "diablo-iv-advertising-with-wildfire-smoke",
+    "topics": [
+      {
+        "label": "Popculture",
+        "slug": "popculture"
+      },
+      {
+        "label": "Wildfire",
+        "slug": "wildfire"
+      },
+      {
+        "label": "Society",
+        "slug": "society"
+      }
+    ]
   },
   {
     "authors": [
-      "z6e3q1sqxy4gz2b"
+      {
+        "label": "Rebecca Solnit",
+        "slug": "rebecca-solnit"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -138,7 +218,10 @@
     "created": "2024-07-22 10:09:20.196Z",
     "date": "2023-03-15 12:00:00.000Z",
     "formats": [
-      "0d54tsl3d3vtji1"
+      {
+        "label": "Article",
+        "slug": "article"
+      }
     ],
     "id": "1asyepfsej62h0c",
     "image": null,
@@ -150,24 +233,43 @@
       "key": "en"
     },
     "published": "2023-03-28 12:00:00.000Z",
-    "publisher": "tfpv56onpdhlysp",
+    "publisher": {
+      "label": "Washington Post",
+      "slug": "washington-post"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "uzq8yloglx50dg2",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
     "tags": [
       "ptpbk4nicqrykya"
     ],
     "title": "What if climate change meant not doom — but abundance?",
     "updated": "2024-07-22 10:09:20.196Z",
     "url": "https://www.washingtonpost.com/opinions/2023/03/15/rebecca-solnit-climate-change-wealth-abundance/",
-    "slug": "what-if-climate-change-meant-not-doom-but-abundance"
+    "slug": "what-if-climate-change-meant-not-doom-but-abundance",
+    "topics": [
+      {
+        "label": "Hope",
+        "slug": "hope"
+      }
+    ]
   },
   {
     "authors": [
-      "p6w1a38nveyd9e1",
-      "eg75svvufbxotrv"
+      {
+        "label": "Leopold Museum",
+        "slug": "leopold-museum"
+      },
+      {
+        "label": "Hans-Peter Wipplinger",
+        "slug": "hans-peter-wipplinger"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -176,7 +278,10 @@
     "created": "2024-07-22 10:05:33.845Z",
     "date": "2023-03-21 12:00:00.000Z",
     "formats": [
-      "p5dd8nazemrsnj6"
+      {
+        "label": "Artwork",
+        "slug": "artwork"
+      }
     ],
     "id": "u2htqw65423ztjc",
     "image": {
@@ -192,12 +297,19 @@
       "key": "de"
     },
     "published": "2023-03-23 12:00:00.000Z",
-    "publisher": "5ytkvwmz5lvzmjd",
+    "publisher": {
+      "label": "Weltkunst",
+      "slug": "weltkunst"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "lcwajb711u724h8",
+    "schemas": {
+      "label": "Visual artwork",
+      "slug": "visual-artwork",
+      "key": "VisualArtwork"
+    },
     "tags": [
       "uibq39vbkpnuibt",
       "w98y5g1o477uz2a",
@@ -206,12 +318,32 @@
     "title": "Schiefe Bilder als Klimaprotest",
     "updated": "2024-07-22 10:13:32.806Z",
     "url": "https://www.weltkunst.de/kunstwissen/2023/03/leopold-museum-klima-schieflage",
-    "slug": "schiefe-bilder-als-klimaprotest"
+    "slug": "schiefe-bilder-als-klimaprotest",
+    "topics": [
+      {
+        "label": "Protest",
+        "slug": "protest"
+      },
+      {
+        "label": "Popculture",
+        "slug": "popculture"
+      },
+      {
+        "label": "Art",
+        "slug": "art"
+      }
+    ]
   },
   {
     "authors": [
-      "qwal82spx2cm87u",
-      "whb5sii0itcvxat"
+      {
+        "label": "Adam Gopnik",
+        "slug": "adam-gopnik"
+      },
+      {
+        "label": "Johan Eklöf",
+        "slug": "johan-eklof"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -220,7 +352,10 @@
     "created": "2024-07-22 09:58:48.334Z",
     "date": "2023-02-20 12:00:00.000Z",
     "formats": [
-      "g4dageb16cku2q3"
+      {
+        "label": "Book",
+        "slug": "book"
+      }
     ],
     "id": "q0ie38eb47i57vz",
     "image": null,
@@ -232,12 +367,19 @@
       "key": "en"
     },
     "published": "2023-03-04 12:00:00.000Z",
-    "publisher": "fxaeqism8f4buno",
+    "publisher": {
+      "label": "The New Yorker",
+      "slug": "the-new-yorker"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "uzq8yloglx50dg2",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
     "tags": [
       "zbvrnn8292uibq6",
       "er049nnd0czun4v",
@@ -246,12 +388,32 @@
     "title": "Is Artificial Light Poisoning the Planet?",
     "updated": "2024-07-22 09:58:48.334Z",
     "url": "https://www.newyorker.com/magazine/2023/02/27/darkness-manifesto-book-johan-eklof",
-    "slug": "is-artificial-light-poisoning-the-planet"
+    "slug": "is-artificial-light-poisoning-the-planet",
+    "topics": [
+      {
+        "label": "Light pollution",
+        "slug": "light-pollution"
+      },
+      {
+        "label": "Animals",
+        "slug": "animals"
+      },
+      {
+        "label": "Biodiversity",
+        "slug": "biodiversity"
+      }
+    ]
   },
   {
     "authors": [
-      "2asshd52mks5dxh",
-      "luc1mavvvalxd3y"
+      {
+        "label": "Elizabeth Pennisi",
+        "slug": "elizabeth-pennisi"
+      },
+      {
+        "label": "Patrick Schultheiss",
+        "slug": "patrick-schultheiss"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -260,7 +422,10 @@
     "created": "2024-07-21 20:53:04.659Z",
     "date": "2023-02-27 12:00:00.000Z",
     "formats": [
-      "5beu55drtyhaoal"
+      {
+        "label": "Study",
+        "slug": "study"
+      }
     ],
     "id": "s62x1iuzsoyt1bw",
     "image": null,
@@ -272,12 +437,19 @@
       "key": "en"
     },
     "published": "2023-03-04 12:00:00.000Z",
-    "publisher": "x43yhbnmvmqt394",
+    "publisher": {
+      "label": "Nature",
+      "slug": "nature"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "uzq8yloglx50dg2",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
     "tags": [
       "r1tph6cj1wvyj2y",
       "h4zh134ouuiosbo"
@@ -285,7 +457,17 @@
     "title": "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
     "updated": "2024-07-22 09:50:02.358Z",
     "url": "https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals",
-    "slug": "who-rules-earth-wild-mammals-far-outweighed-by-humans-and-domestic-animals"
+    "slug": "who-rules-earth-wild-mammals-far-outweighed-by-humans-and-domestic-animals",
+    "topics": [
+      {
+        "label": "Biomass",
+        "slug": "biomass"
+      },
+      {
+        "label": "Science",
+        "slug": "science"
+      }
+    ]
   },
   {
     "authors": [],
@@ -296,7 +478,10 @@
     "created": "2024-07-21 20:50:52.497Z",
     "date": "",
     "formats": [
-      "vpajdhhs4wh4x54"
+      {
+        "label": "Game",
+        "slug": "game"
+      }
     ],
     "id": "p0btg4p99039lql",
     "image": null,
@@ -308,12 +493,19 @@
       "key": "en"
     },
     "published": "",
-    "publisher": "kkj1lfiuycp8496",
+    "publisher": {
+      "label": "YouTube.com",
+      "slug": "you-tube-com"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "a2cl8omtsh59odr",
     "reference_link": "",
-    "schemas": "3sopci1ondhs49v",
+    "schemas": {
+      "label": "Game",
+      "slug": "game",
+      "key": "Game"
+    },
     "tags": [
       "xvy0yzm7zdmm0bt",
       "y28jya5ewiwlz41",
@@ -322,12 +514,32 @@
     "title": "Terra Nil",
     "updated": "2024-07-22 09:50:15.761Z",
     "url": "https://www.youtube.com/watch?v=wpX9MsuUmow",
-    "slug": "terra-nil"
+    "slug": "terra-nil",
+    "topics": [
+      {
+        "label": "Technology",
+        "slug": "technology"
+      },
+      {
+        "label": "Solar punk",
+        "slug": "solar-punk"
+      },
+      {
+        "label": "Popculture",
+        "slug": "popculture"
+      }
+    ]
   },
   {
     "authors": [
-      "y0s47e1izfjk8b3",
-      "qnyuoplttx3i4wd"
+      {
+        "label": "Julian Oliver",
+        "slug": "julian-oliver"
+      },
+      {
+        "label": "Gordan Savičić",
+        "slug": "gordan-savicic"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -336,7 +548,10 @@
     "created": "2024-07-21 20:48:14.866Z",
     "date": "2023-02-23 12:00:00.000Z",
     "formats": [
-      "pmnih8jyctsnsnz"
+      {
+        "label": "Website",
+        "slug": "website"
+      }
     ],
     "id": "w04hcgjoetgitsv",
     "image": null,
@@ -348,12 +563,15 @@
       "key": "en"
     },
     "published": "2023-02-24 12:00:00.000Z",
-    "publisher": "",
     "quote": "",
     "quote_author": "",
     "reference": "niqd6igfxo7zbdj",
     "reference_link": "https://mastodon.social/@JulianOliver/109912227272939613",
-    "schemas": "nyobonrywr4cxkr",
+    "schemas": {
+      "label": "Web site",
+      "slug": "web-site",
+      "key": "WebSite"
+    },
     "tags": [
       "uibq39vbkpnuibt",
       "e7g701bpr9rpyf7",
@@ -362,13 +580,36 @@
     "title": "Permillion",
     "updated": "2024-07-22 09:50:27.068Z",
     "url": "https://permillion.live/",
-    "slug": "permillion"
+    "slug": "permillion",
+    "topics": [
+      {
+        "label": "Protest",
+        "slug": "protest"
+      },
+      {
+        "label": "Art",
+        "slug": "art"
+      },
+      {
+        "label": "Activism",
+        "slug": "activism"
+      }
+    ]
   },
   {
     "authors": [
-      "lll0j30gcpvgcrh",
-      "k9jmgiusrho0c46",
-      "cwg3l29drs6qvxm"
+      {
+        "label": "Johann Hari",
+        "slug": "johann-hari"
+      },
+      {
+        "label": "Daphne Chouliaraki Milner",
+        "slug": "daphne-chouliaraki-milner"
+      },
+      {
+        "label": "Dr. Charles Czeisler",
+        "slug": "dr-charles-czeisler"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -377,7 +618,10 @@
     "created": "2024-07-21 20:16:46.681Z",
     "date": "2023-02-02 12:00:00.000Z",
     "formats": [
-      "0d54tsl3d3vtji1"
+      {
+        "label": "Article",
+        "slug": "article"
+      }
     ],
     "id": "xujb8grwu3jtyzo",
     "image": null,
@@ -389,12 +633,19 @@
       "key": "en"
     },
     "published": "2023-02-22 12:00:00.000Z",
-    "publisher": "ufydrj5tkxxy1vv",
+    "publisher": {
+      "label": "Atmos.Earth",
+      "slug": "atmos-earth"
+    },
     "quote": "If we did go back to sleeping as much as we need to, as much as we did a century ago, then that would cause a huge recession as people would consume an hour less every day.",
     "quote_author": "Dr. Charles Czeisler",
     "reference": "yzo15os7g51t9b3",
     "reference_link": "https://www.densediscovery.com/issues/226",
-    "schemas": "uzq8yloglx50dg2",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
     "tags": [
       "w3agiq4xxjerj14",
       "lei1ymcyrz3jd1u",
@@ -403,12 +654,32 @@
     "title": "Our Attention Spans Are Being Stolen",
     "updated": "2024-07-21 20:16:46.681Z",
     "url": "https://atmos.earth/johann-hari-stolen-focus-concentration-span-attention-economy-climate-action",
-    "slug": "our-attention-spans-are-being-stolen"
+    "slug": "our-attention-spans-are-being-stolen",
+    "topics": [
+      {
+        "label": "Attention",
+        "slug": "attention"
+      },
+      {
+        "label": "Big Tech",
+        "slug": "big-tech"
+      },
+      {
+        "label": "Capitalism",
+        "slug": "capitalism"
+      }
+    ]
   },
   {
     "authors": [
-      "zduyqix34lb10v0",
-      "xepr1p2d9rkea74"
+      {
+        "label": "Kim Stanley Robinson",
+        "slug": "kim-stanley-robinson"
+      },
+      {
+        "label": "Elia Blülle",
+        "slug": "elia-blulle"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -417,7 +688,10 @@
     "created": "2024-07-21 20:13:09.918Z",
     "date": "2023-02-10 12:00:00.000Z",
     "formats": [
-      "0d54tsl3d3vtji1"
+      {
+        "label": "Article",
+        "slug": "article"
+      }
     ],
     "id": "p4eg5vdtb0s27m5",
     "image": null,
@@ -429,12 +703,19 @@
       "key": "de"
     },
     "published": "2023-02-18 12:00:00.000Z",
-    "publisher": "n4lwusigw3zxfw7",
+    "publisher": {
+      "label": "Republik",
+      "slug": "republik"
+    },
     "quote": "Versetzen Sie sich für einen Moment in die nähere Zukunft, sagen wir ins Jahr 2141. Was passiert? Sie schauen zurück, nerven sich über die vergangene Zeit, lachen vielleicht. Sie blicken auf Ihre eigene Gegenwart, so wie Sie heute in einem Museum auf die Viktorianer oder Wilhelm Tell zurückschauen würden. Man fühlt sich dabei überlegen, weil man lebt und die anderen tot sind; weil man Dinge weiss, die die anderen damals nicht wussten; weil sie Fehler begingen, die in Zukunft offensichtlich sind. Wenn Sie dann wieder aus dem Jahr 2141 in die Gegenwart zurück­kehren, dann werden Sie verstehen, dass auch Sie Teil eines historischen Prozesses sind, an den man sich später erinnern wird und den Sie mit Ihren Handlungen beeinflussen.",
     "quote_author": "Kim Stanley Robinson",
     "reference": "wnmnakvy6bhzo75",
     "reference_link": "",
-    "schemas": "uzq8yloglx50dg2",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
     "tags": [
       "d52o0b6r2qheh80",
       "bxcs54jgb27xdkq"
@@ -442,12 +723,28 @@
     "title": "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
     "updated": "2024-07-21 20:13:09.918Z",
     "url": "https://www.republik.ch/2023/02/10/wie-science-fiction-autor-kim-stanley-robinson-die-zukunft-sieht",
-    "slug": "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise-eine-bessere-welt-erschaffen-konnen"
+    "slug": "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise-eine-bessere-welt-erschaffen-konnen",
+    "topics": [
+      {
+        "label": "Cli-Fi",
+        "slug": "cli-fi"
+      },
+      {
+        "label": "Interview",
+        "slug": "interview"
+      }
+    ]
   },
   {
     "authors": [
-      "r5vzb9qjj5knhdn",
-      "ziij68fmgzt0up0"
+      {
+        "label": "Ed Hawkins",
+        "slug": "ed-hawkins"
+      },
+      {
+        "label": "Sam Matterface",
+        "slug": "sam-matterface"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -456,7 +753,10 @@
     "created": "2024-07-21 20:09:50.719Z",
     "date": "2023-01-28 12:00:00.000Z",
     "formats": [
-      "z4n6gdl8b9ia52u"
+      {
+        "label": "Video",
+        "slug": "video"
+      }
     ],
     "id": "xpoqvlqgux3h18o",
     "image": null,
@@ -468,12 +768,19 @@
       "key": "en"
     },
     "published": "2023-01-31 12:00:00.000Z",
-    "publisher": "kgdjpowkwomdpsh",
+    "publisher": {
+      "label": "Twitter",
+      "slug": "twitter"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "jufoljmg7v2myhs",
+    "schemas": {
+      "label": "TV Episode",
+      "slug": "tv-episode",
+      "key": "TVEpisode"
+    },
     "tags": [
       "pa3elfw03ton9vr",
       "w98y5g1o477uz2a"
@@ -481,12 +788,28 @@
     "title": "Climate change conversations during live commentary",
     "updated": "2024-07-21 20:09:50.719Z",
     "url": "https://twitter.com/ed_hawkins/status/1619456016638427136?s=20",
-    "slug": "climate-change-conversations-during-live-commentary"
+    "slug": "climate-change-conversations-during-live-commentary",
+    "topics": [
+      {
+        "label": "Visualisation",
+        "slug": "visualisation"
+      },
+      {
+        "label": "Popculture",
+        "slug": "popculture"
+      }
+    ]
   },
   {
     "authors": [
-      "df7diwxo82zlyoz",
-      "hqt33cl1tuxzscl"
+      {
+        "label": "Alex Cuadros",
+        "slug": "alex-cuadros"
+      },
+      {
+        "label": "Jonathan Davis",
+        "slug": "jonathan-davis"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -495,7 +818,10 @@
     "created": "2024-07-21 20:05:11.998Z",
     "date": "2023-01-29 12:00:00.000Z",
     "formats": [
-      "2zqsvu4eocmlg7j"
+      {
+        "label": "Podcast",
+        "slug": "podcast"
+      }
     ],
     "id": "y2iu9zo4wpp8q01",
     "image": null,
@@ -507,12 +833,19 @@
       "key": "en"
     },
     "published": "2023-01-30 12:00:00.000Z",
-    "publisher": "24onvg292z1e2h7",
+    "publisher": {
+      "label": "New York Times",
+      "slug": "new-york-times"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "2f2iyy19dqvzq1b",
+    "schemas": {
+      "label": "Podcast episode",
+      "slug": "podcast-episode",
+      "key": "PodcastEpisode"
+    },
     "tags": [
       "qr52u2kyqskxit6",
       "xrpst36djjaxj2f",
@@ -521,12 +854,32 @@
     "title": "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
     "updated": "2024-07-21 20:05:48.122Z",
     "url": "https://www.nytimes.com/2023/01/29/podcasts/the-daily/amazon-rainforest-deforestation.html",
-    "slug": "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+    "slug": "the-sunday-read-has-the-amazon-reached-its-tipping-point",
+    "topics": [
+      {
+        "label": "Tipping point",
+        "slug": "tipping-point"
+      },
+      {
+        "label": "Biodiversity",
+        "slug": "biodiversity"
+      },
+      {
+        "label": "Amazon",
+        "slug": "amazon"
+      }
+    ]
   },
   {
     "authors": [
-      "fmbx8t25jm0dwpe",
-      "kn4xvl6hw8phi7u"
+      {
+        "label": "Jack Weisman",
+        "slug": "jack-weisman"
+      },
+      {
+        "label": "Gabriela Osio Vanden",
+        "slug": "gabriela-osio-vanden"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -535,7 +888,10 @@
     "created": "2024-07-21 19:59:24.231Z",
     "date": "2022-10-19 12:00:00.000Z",
     "formats": [
-      "77mtnn8lukoi4gr"
+      {
+        "label": "Shortfilm",
+        "slug": "shortfilm"
+      }
     ],
     "id": "77vrdbqfpwq2kni",
     "image": null,
@@ -547,12 +903,15 @@
       "key": "en"
     },
     "published": "2023-03-07 12:00:00.000Z",
-    "publisher": "",
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "8y4peqe73b82bbm",
+    "schemas": {
+      "label": "Movie",
+      "slug": "movie",
+      "key": "Movie"
+    },
     "tags": [
       "er049nnd0czun4v",
       "6n11c6com5jm4i4",
@@ -562,13 +921,40 @@
     "title": "Nuisance Bear",
     "updated": "2024-07-21 20:06:07.433Z",
     "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/when-polar-bears-come-to-town",
-    "slug": "nuisance-bear"
+    "slug": "nuisance-bear",
+    "topics": [
+      {
+        "label": "Animals",
+        "slug": "animals"
+      },
+      {
+        "label": "Documentary",
+        "slug": "documentary"
+      },
+      {
+        "label": "Artic",
+        "slug": "artic"
+      },
+      {
+        "label": "Polar bears",
+        "slug": "polar-bears"
+      }
+    ]
   },
   {
     "authors": [
-      "6okb4szl52voskr",
-      "86efssj33zjxjw6",
-      "5eoyeiz3z26e52s"
+      {
+        "label": "Evgenia Arbugaeva",
+        "slug": "evgenia-arbugaeva"
+      },
+      {
+        "label": "Maxim Arbugaev",
+        "slug": "maxim-arbugaev"
+      },
+      {
+        "label": "Maxim Chakilev",
+        "slug": "maxim-chakilev"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -577,7 +963,10 @@
     "created": "2024-07-21 19:53:25.100Z",
     "date": "2022-11-21 12:00:00.000Z",
     "formats": [
-      "77mtnn8lukoi4gr"
+      {
+        "label": "Shortfilm",
+        "slug": "shortfilm"
+      }
     ],
     "id": "x54u2ri7d1l1kh0",
     "image": null,
@@ -589,12 +978,19 @@
       "key": "en"
     },
     "published": "2023-03-06 12:00:00.000Z",
-    "publisher": "fxaeqism8f4buno",
+    "publisher": {
+      "label": "The New Yorker",
+      "slug": "the-new-yorker"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "8y4peqe73b82bbm",
+    "schemas": {
+      "label": "Movie",
+      "slug": "movie",
+      "key": "Movie"
+    },
     "tags": [
       "er049nnd0czun4v",
       "6n11c6com5jm4i4",
@@ -604,11 +1000,32 @@
     "title": "Haulout",
     "updated": "2024-07-21 20:06:23.417Z",
     "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone",
-    "slug": "haulout"
+    "slug": "haulout",
+    "topics": [
+      {
+        "label": "Animals",
+        "slug": "animals"
+      },
+      {
+        "label": "Documentary",
+        "slug": "documentary"
+      },
+      {
+        "label": "Artic",
+        "slug": "artic"
+      },
+      {
+        "label": "Walrus",
+        "slug": "walrus"
+      }
+    ]
   },
   {
     "authors": [
-      "40r81py4qfxoity"
+      {
+        "label": "Birgit Schneider",
+        "slug": "birgit-schneider"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -617,7 +1034,10 @@
     "created": "2024-07-21 19:50:39.910Z",
     "date": "2023-01-25 12:00:00.000Z",
     "formats": [
-      "g4dageb16cku2q3"
+      {
+        "label": "Book",
+        "slug": "book"
+      }
     ],
     "id": "tdzmyhh3znbsxo8",
     "image": null,
@@ -629,12 +1049,19 @@
       "key": "de"
     },
     "published": "2018-07-04 12:00:00.000Z",
-    "publisher": "g2x0l2ekmxez7kg",
+    "publisher": {
+      "label": "Matthes & Seitz Berlin",
+      "slug": "matthes-seitz-berlin"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "33oi46vrz7rx8ka",
+    "schemas": {
+      "label": "Book",
+      "slug": "book",
+      "key": "Book"
+    },
     "tags": [
       "2gixmkmbyhvoalk",
       "pa3elfw03ton9vr"
@@ -642,13 +1069,32 @@
     "title": "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
     "updated": "2024-07-21 20:06:40.813Z",
     "url": "https://www.matthes-seitz-berlin.de/buch/klimabilder.html",
-    "slug": "klimabilder-eine-genealogie-globaler-bildpolitiken-von-klima-und-klimawandel"
+    "slug": "klimabilder-eine-genealogie-globaler-bildpolitiken-von-klima-und-klimawandel",
+    "topics": [
+      {
+        "label": "Theory",
+        "slug": "theory"
+      },
+      {
+        "label": "Visualisation",
+        "slug": "visualisation"
+      }
+    ]
   },
   {
     "authors": [
-      "gn2onu9lrigwgo7",
-      "ksd0rh9m167n8xf",
-      "5cpzfo5nb2x1bkt"
+      {
+        "label": "Michael Barbaro",
+        "slug": "michael-barbaro"
+      },
+      {
+        "label": "Catrin Einhorn",
+        "slug": "catrin-einhorn"
+      },
+      {
+        "label": "Katharine Hayhoe",
+        "slug": "katharine-hayhoe"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -657,7 +1103,10 @@
     "created": "2024-07-20 10:27:24.682Z",
     "date": "2023-01-06 12:00:00.000Z",
     "formats": [
-      "2zqsvu4eocmlg7j"
+      {
+        "label": "Podcast",
+        "slug": "podcast"
+      }
     ],
     "id": "ze49xideou30wmw",
     "image": null,
@@ -669,23 +1118,39 @@
       "key": "en"
     },
     "published": "2023-01-24 12:00:00.000Z",
-    "publisher": "24onvg292z1e2h7",
+    "publisher": {
+      "label": "New York Times",
+      "slug": "new-york-times"
+    },
     "quote": "Climate change presents a near-term threat to the future of human civilization. The biodiversity crisis presents a longer term threat to the viability of the human species.",
     "quote_author": "Katharine Hayhoe",
     "reference": "",
     "reference_link": "",
-    "schemas": "2f2iyy19dqvzq1b",
+    "schemas": {
+      "label": "Podcast episode",
+      "slug": "podcast-episode",
+      "key": "PodcastEpisode"
+    },
     "tags": [
       "xrpst36djjaxj2f"
     ],
     "title": "Consider the Burying Beetle. (Or Else.)",
     "updated": "2024-07-21 19:50:58.870Z",
     "url": "https://www.nytimes.com/2023/01/06/podcasts/the-daily/biodiversity-cop15-montreal.html",
-    "slug": "consider-the-burying-beetle-or-else"
+    "slug": "consider-the-burying-beetle-or-else",
+    "topics": [
+      {
+        "label": "Biodiversity",
+        "slug": "biodiversity"
+      }
+    ]
   },
   {
     "authors": [
-      "vrnms0j2hqz96v3"
+      {
+        "label": "Marius Michusch",
+        "slug": "marius-michusch"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -694,7 +1159,10 @@
     "created": "2024-07-20 10:23:43.948Z",
     "date": "2023-01-04 12:00:00.000Z",
     "formats": [
-      "083vuiauoti4xno"
+      {
+        "label": "Photograph",
+        "slug": "photograph"
+      }
     ],
     "id": "9qfq6dn8b3tjw0k",
     "image": {
@@ -710,12 +1178,19 @@
       "key": "de"
     },
     "published": "2023-01-23 12:00:00.000Z",
-    "publisher": "kgdjpowkwomdpsh",
+    "publisher": {
+      "label": "Twitter",
+      "slug": "twitter"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "szyprkkgbf613rs",
+    "schemas": {
+      "label": "Photograph",
+      "slug": "photograph",
+      "key": "Photograph"
+    },
     "tags": [
       "uibq39vbkpnuibt",
       "szgsdkhgi47pu4u",
@@ -724,13 +1199,36 @@
     "title": "Bagger 288 in Lützerath",
     "updated": "2024-07-21 22:52:51.546Z",
     "url": "https://twitter.com/marius_mich/status/1610708837463474183",
-    "slug": "bagger-288-in-lutzerath"
+    "slug": "bagger-288-in-lutzerath",
+    "topics": [
+      {
+        "label": "Protest",
+        "slug": "protest"
+      },
+      {
+        "label": "Activism",
+        "slug": "activism"
+      },
+      {
+        "label": "Coal",
+        "slug": "coal"
+      }
+    ]
   },
   {
     "authors": [
-      "26qwu238ws9ury5",
-      "zlg4rsp7ofrnlpi",
-      "8mz83zwy0vxy41q"
+      {
+        "label": "Carolin Emcke",
+        "slug": "carolin-emcke"
+      },
+      {
+        "label": "Stefan Rahmstorf",
+        "slug": "stefan-rahmstorf"
+      },
+      {
+        "label": "Kira Vinke",
+        "slug": "kira-vinke"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -739,7 +1237,10 @@
     "created": "2024-07-20 10:20:37.142Z",
     "date": "2022-12-18 12:00:00.000Z",
     "formats": [
-      "hbmu2ij7og7saed"
+      {
+        "label": "Talk",
+        "slug": "talk"
+      }
     ],
     "id": "zqo6lkqydw2rgpv",
     "image": null,
@@ -751,12 +1252,19 @@
       "key": "de"
     },
     "published": "2023-01-22 12:00:00.000Z",
-    "publisher": "kkj1lfiuycp8496",
+    "publisher": {
+      "label": "YouTube.com",
+      "slug": "you-tube-com"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "9cnsdbgwcxhg1p0",
+    "schemas": {
+      "label": "Conversation",
+      "slug": "conversation",
+      "key": "Conversation"
+    },
     "tags": [
       "2s6mm5qu1ja837o",
       "h4zh134ouuiosbo",
@@ -765,11 +1273,28 @@
     "title": "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
     "updated": "2024-07-20 10:20:37.142Z",
     "url": "https://youtu.be/KW-J6QqQarQ",
-    "slug": "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien-mussen-durfen"
+    "slug": "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien-mussen-durfen",
+    "topics": [
+      {
+        "label": "Models",
+        "slug": "models"
+      },
+      {
+        "label": "Science",
+        "slug": "science"
+      },
+      {
+        "label": "Policy",
+        "slug": "policy"
+      }
+    ]
   },
   {
     "authors": [
-      "vjwh6kkq8oiac8a"
+      {
+        "label": "Elektrizitätswerke Schönau",
+        "slug": "elektrizitatswerke-schonau"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -778,7 +1303,10 @@
     "created": "2024-07-20 10:16:25.501Z",
     "date": "",
     "formats": [
-      "pmnih8jyctsnsnz"
+      {
+        "label": "Website",
+        "slug": "website"
+      }
     ],
     "id": "8d0d222q1a7fmmc",
     "image": null,
@@ -790,12 +1318,15 @@
       "key": "de"
     },
     "published": "2023-01-21 12:00:00.000Z",
-    "publisher": "",
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "pw28grmijbur6tx",
+    "schemas": {
+      "label": "Guide",
+      "slug": "guide",
+      "key": "Guide"
+    },
     "tags": [
       "h4zh134ouuiosbo",
       "lzx69t0trqshvt1"
@@ -803,13 +1334,32 @@
     "title": "100 gute Gründe gegen Atomkraft",
     "updated": "2024-07-20 10:17:46.172Z",
     "url": "https://www.100-gute-gruende.de/gruende/",
-    "slug": "100-gute-grunde-gegen-atomkraft"
+    "slug": "100-gute-grunde-gegen-atomkraft",
+    "topics": [
+      {
+        "label": "Science",
+        "slug": "science"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      }
+    ]
   },
   {
     "authors": [
-      "eny88azr40009cq",
-      "6dqyhvwxu1vuvam",
-      "2vmocfh3ewv9kx1"
+      {
+        "label": "Jennifer Baichwal",
+        "slug": "jennifer-baichwal"
+      },
+      {
+        "label": "Edward Burtynsky",
+        "slug": "edward-burtynsky"
+      },
+      {
+        "label": "Nicholas de Pencier",
+        "slug": "nicholas-de-pencier"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -818,7 +1368,10 @@
     "created": "2024-07-20 10:14:25.242Z",
     "date": "2019-09-29 12:00:00.000Z",
     "formats": [
-      "uv5e3h2wrmrfn5c"
+      {
+        "label": "Movie",
+        "slug": "movie"
+      }
     ],
     "id": "xarbrf46tusa1my",
     "image": null,
@@ -830,24 +1383,43 @@
       "key": "en"
     },
     "published": "2023-01-21 12:00:00.000Z",
-    "publisher": "5fjd3iag9gd5rrt",
+    "publisher": {
+      "label": "TheAnthropocene.org",
+      "slug": "the-anthropocene-org"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "8y4peqe73b82bbm",
+    "schemas": {
+      "label": "Movie",
+      "slug": "movie",
+      "key": "Movie"
+    },
     "tags": [
       "6n11c6com5jm4i4"
     ],
     "title": "Anthropocene: The Human Epoch",
     "updated": "2024-07-20 10:14:25.242Z",
     "url": "https://theanthropocene.org/film/",
-    "slug": "anthropocene-the-human-epoch"
+    "slug": "anthropocene-the-human-epoch",
+    "topics": [
+      {
+        "label": "Documentary",
+        "slug": "documentary"
+      }
+    ]
   },
   {
     "authors": [
-      "ln40amdpqycuh74",
-      "rv9hzxumcvqiinc"
+      {
+        "label": "Noah Gallagher Shannon",
+        "slug": "noah-gallagher-shannon"
+      },
+      {
+        "label": "James Patrick Cronin",
+        "slug": "james-patrick-cronin"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -856,7 +1428,10 @@
     "created": "2024-07-20 10:10:32.823Z",
     "date": "2022-11-20 12:00:00.000Z",
     "formats": [
-      "2zqsvu4eocmlg7j"
+      {
+        "label": "Podcast",
+        "slug": "podcast"
+      }
     ],
     "id": "4nyyc46752yo3js",
     "image": null,
@@ -868,12 +1443,19 @@
       "key": "en"
     },
     "published": "2023-01-21 12:00:00.000Z",
-    "publisher": "24onvg292z1e2h7",
+    "publisher": {
+      "label": "New York Times",
+      "slug": "new-york-times"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "2f2iyy19dqvzq1b",
+    "schemas": {
+      "label": "Podcast episode",
+      "slug": "podcast-episode",
+      "key": "PodcastEpisode"
+    },
     "tags": [
       "991yaahmkskmr6t",
       "lzx69t0trqshvt1",
@@ -882,14 +1464,40 @@
     "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
     "updated": "2024-07-20 10:10:32.823Z",
     "url": "https://www.nytimes.com/2022/11/20/podcasts/the-daily/uruguay-sustainable-living.html",
-    "slug": "the-sunday-read-what-does-sustainable-living-look-like-maybe-like-uruguay"
+    "slug": "the-sunday-read-what-does-sustainable-living-look-like-maybe-like-uruguay",
+    "topics": [
+      {
+        "label": "Society",
+        "slug": "society"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      },
+      {
+        "label": "Hope",
+        "slug": "hope"
+      }
+    ]
   },
   {
     "authors": [
-      "gcyd71h971paqre",
-      "oqi2u92u17ynppw",
-      "vm1kgmto3ifxr0q",
-      "5wlu3ojn1mfjh1b"
+      {
+        "label": "Francis Tseng",
+        "slug": "francis-tseng"
+      },
+      {
+        "label": "Son La Pham",
+        "slug": "son-la-pham"
+      },
+      {
+        "label": "Drew Pendergrass",
+        "slug": "drew-pendergrass"
+      },
+      {
+        "label": "Troy Vettese",
+        "slug": "troy-vettese"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -898,7 +1506,10 @@
     "created": "2024-07-20 10:07:24.982Z",
     "date": "2022-05-07 12:00:00.000Z",
     "formats": [
-      "vpajdhhs4wh4x54"
+      {
+        "label": "Game",
+        "slug": "game"
+      }
     ],
     "id": "qb4ztd0p2l62cld",
     "image": null,
@@ -910,12 +1521,19 @@
       "key": "en"
     },
     "published": "2023-01-21 12:00:00.000Z",
-    "publisher": "p0mi77lan734u6t",
+    "publisher": {
+      "label": "Half.Earth",
+      "slug": "half-earth"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "4aqsy7tnhkm2kzo",
     "reference_link": "",
-    "schemas": "l7mnah3fte6ho82",
+    "schemas": {
+      "label": "Video game",
+      "slug": "video-game",
+      "key": "VideoGame"
+    },
     "tags": [
       "xvy0yzm7zdmm0bt",
       "lzx69t0trqshvt1",
@@ -924,11 +1542,28 @@
     "title": "Half Earth Socialism Game",
     "updated": "2024-07-20 10:07:24.982Z",
     "url": "https://play.half.earth/",
-    "slug": "half-earth-socialism-game"
+    "slug": "half-earth-socialism-game",
+    "topics": [
+      {
+        "label": "Technology",
+        "slug": "technology"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      },
+      {
+        "label": "Policy",
+        "slug": "policy"
+      }
+    ]
   },
   {
     "authors": [
-      "z6e3q1sqxy4gz2b"
+      {
+        "label": "Rebecca Solnit",
+        "slug": "rebecca-solnit"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -939,7 +1574,10 @@
     "created": "2024-07-20 10:02:27.016Z",
     "date": "2022-10-19 12:00:00.000Z",
     "formats": [
-      "0d54tsl3d3vtji1"
+      {
+        "label": "Article",
+        "slug": "article"
+      }
     ],
     "id": "iiyhzpnw1m773dr",
     "image": null,
@@ -951,24 +1589,43 @@
       "key": "en"
     },
     "published": "2024-01-17 12:00:00.000Z",
-    "publisher": "q8jowq98sdj18w3",
+    "publisher": {
+      "label": "The New Stateman",
+      "slug": "the-new-stateman"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
-    "schemas": "uzq8yloglx50dg2",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
     "tags": [
       "ptpbk4nicqrykya"
     ],
     "title": "Why climate despair is a luxury",
     "updated": "2024-07-20 10:02:27.016Z",
     "url": "https://www.newstatesman.com/environment/2022/10/rebecca-solnit-climate-despair-luxury",
-    "slug": "why-climate-despair-is-a-luxury"
+    "slug": "why-climate-despair-is-a-luxury",
+    "topics": [
+      {
+        "label": "Hope",
+        "slug": "hope"
+      }
+    ]
   },
   {
     "authors": [
-      "dyxbdpzj92tjspu",
-      "a91l40xf7vz555r"
+      {
+        "label": "Arwen E Nicholson",
+        "slug": "arwen-e-nicholson"
+      },
+      {
+        "label": "Raphaëlle D Haywood",
+        "slug": "raphaelle-d-haywood"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -977,7 +1634,10 @@
     "created": "2024-07-20 10:00:07.900Z",
     "date": "2023-01-16 12:00:00.000Z",
     "formats": [
-      "0d54tsl3d3vtji1"
+      {
+        "label": "Article",
+        "slug": "article"
+      }
     ],
     "id": "bo1t775idhwlqwx",
     "image": null,
@@ -989,21 +1649,32 @@
       "key": "en"
     },
     "published": "2023-01-16 12:00:00.000Z",
-    "publisher": "92uhdr3e4lb7ovo",
+    "publisher": {
+      "label": "Aeon",
+      "slug": "aeon"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "j24crh4wdpu19se",
     "reference_link": "https://news.ycombinator.com/item?id=34399811",
-    "schemas": "uzq8yloglx50dg2",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
     "tags": [],
     "title": "There’s no planet B",
     "updated": "2024-07-20 10:00:07.900Z",
     "url": "https://aeon.co/essays/we-will-never-be-able-to-live-on-another-planet-heres-why",
-    "slug": "theres-no-planet-b"
+    "slug": "theres-no-planet-b",
+    "topics": []
   },
   {
     "authors": [
-      "z6e3q1sqxy4gz2b"
+      {
+        "label": "Rebecca Solnit",
+        "slug": "rebecca-solnit"
+      }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -1012,7 +1683,10 @@
     "created": "2024-07-20 09:39:47.524Z",
     "date": "2023-01-16 12:00:00.000Z",
     "formats": [
-      "0d54tsl3d3vtji1"
+      {
+        "label": "Article",
+        "slug": "article"
+      }
     ],
     "id": "6i61wlod7qvnykj",
     "image": null,
@@ -1024,18 +1698,31 @@
       "key": "de"
     },
     "published": "2023-01-17 16:24:00.000Z",
-    "publisher": "n4lwusigw3zxfw7",
+    "publisher": {
+      "label": "Republik",
+      "slug": "republik"
+    },
     "quote": "",
     "quote_author": "",
     "reference": "wnmnakvy6bhzo75",
     "reference_link": "https://twitter.com/elia_bluelle/status/1615267119318372352",
-    "schemas": "udy6ohlqekf40k1",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
     "tags": [
       "ptpbk4nicqrykya"
     ],
     "title": "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
     "updated": "2024-07-20 09:56:12.364Z",
     "url": "https://www.republik.ch/2023/01/16/wir-haben-kein-recht-vor-der-klimakrise-zu-kapitulieren",
-    "slug": "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren"
+    "slug": "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren",
+    "topics": [
+      {
+        "label": "Hope",
+        "slug": "hope"
+      }
+    ]
   }
 ]

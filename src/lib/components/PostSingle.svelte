@@ -10,7 +10,7 @@
 <article
 	class="mt-12 mb-16 grid grid-cols-3 border-b-2 border-slate-700 pb-16 dark:border-neutral-700 md:mb-24 md:pb-24"
 	itemscope
-	itemtype={`https://schema.org/${schemas}`}
+	itemtype={`https://schema.org/${schemas.key}`}
 	id={slug}
 	role={isSingle ? '' : 'listitem'}
 	lang={language.key}
@@ -22,7 +22,7 @@
 				class="col-span-3 pb-2 text-xs font-semibold uppercase tracking-wider text-accent"
 				lang="en-GB"
 			>
-				{formats}
+				{formats.at(0).label}
 			</span>
 			{#if isFavorite}
 				<Favorite />
@@ -38,17 +38,17 @@
 		</a>
 	</header>
 	<main class="col-span-3 my-6 border-y border-slate-200 py-6 dark:border-neutral-700">
-		{#if post.image}
+		{#if image}
 			<figure>
 				<img
 					style="width: 300px; height: auto;"
-					src={post.image.url}
-					width={post.image.width}
-					height={post.image.height}
-					alt={post.title}
+					src={image.url}
+					width={image.width}
+					height={image.height}
+					alt={title}
 				/>
-				{#if post.image.caption}
-					<figcaption>{post.image.caption}</figcaption>
+				{#if image.caption}
+					<figcaption>{image.caption}</figcaption>
 				{/if}
 			</figure>
 		{/if}
