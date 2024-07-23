@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-cloudflare';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -16,7 +16,7 @@ const config = {
 			$config: 'src/config.ts',
 			$posts: 'src/data/posts.json',
 			$types: 'src/types',
-			$utils: 'src/lib/utils',
+			$utils: 'src/lib/utils'
 		},
 		version: {
 			name: process.env.npm_package_version
