@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Favorite from '$lib/Icons/Favorite.svelte';
+	import Favorite from '$lib/icons/Favorite.svelte';
 	import { type Post } from '$types/pocketbase';
 
 	const { post, isSingle = false }: { post: Post; isSingle: boolean } = $props();
