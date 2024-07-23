@@ -57,5 +57,5 @@
 <div class="mx-auto max-w-3xl px-6 pt-20">
 	<Header />
 	{@render children()}
-	<Footer />
+	<Footer buildDateTime={data.buildDateTime} />
 </div>

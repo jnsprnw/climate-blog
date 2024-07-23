@@ -1,12 +1,13 @@
-<script>
-	// import { getContext } from 'svelte';
-	// const updated_time = getContext('updated_time');
-	// import { formatDate } from '$lib/utils.js';
+<script lang="ts">
+	import { formatDate, formatDateFull } from '$utils/format';
+	const { buildDateTime }: { buildDateTime: Date } = $props();
 </script>
 
 <footer class="grid grid-cols-2 mb-12 text-sm">
-	<time datetime={new Date().toISOString()}>Updated {new Date()}</time>
-	<a class="text-sm text-right hover:text-accent" href="https://jonasparnow.com" rel="me"
-		>jonasparnow.com</a
-	>
+	<time title={formatDateFull(buildDateTime)} datetime={buildDateTime.toISOString()}>
+		Updated {formatDate(buildDateTime)}
+	</time>
+	<a class="text-sm text-right hover:text-accent" href="https://jonasparnow.com" rel="me">
+		jonasparnow.com
+	</a>
 </footer>
