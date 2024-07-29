@@ -51,18 +51,21 @@
 			</span>
 		</a>
 	</header>
-	<main class="col-span-3 my-6 border-y border-slate-200 py-6 dark:border-neutral-700">
+	<main class="col-span-3 my-6 border-y border-slate-200 py-6 flex flex-col gap-y-4">
 		{#if image}
-			<figure>
+			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				<img
-					style="width: 300px; height: auto;"
+					class="w-full h-auto"
 					src={image.url}
 					width={image.width}
 					height={image.height}
 					alt={title}
+					itemprop="contentUrl"
 				/>
 				{#if image.caption}
-					<figcaption>{image.caption}</figcaption>
+					<figcaption itemprop="author" class="text-xs place-self-end text-neutral-400">
+						{image.caption}
+					</figcaption>
 				{/if}
 			</figure>
 		{/if}

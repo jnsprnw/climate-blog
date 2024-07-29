@@ -25,7 +25,7 @@ async function getData() {
 	const posts = await getPosts();
 	const entries = await Promise.all(
 		posts.map(async (post) => {
-			const image = post.image ? await getImageDetails(post.image, post.caption) : null;
+			const image = post.image ? await getImageDetails(post.image, post.image_caption) : null;
 			return {
 				...post,
 				slug: slugify(post.title),
