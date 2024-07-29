@@ -1,6 +1,6 @@
 import posts from '$posts';
 
-const POSTS_PER_PAGE = 5;
+const POSTS_PER_PAGE = 20;
 
 export function getCurrentPosts(
 	page: string | number,

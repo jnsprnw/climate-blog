@@ -62,7 +62,8 @@
         "label": "Capitalism",
         "slug": "capitalism"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -132,7 +133,8 @@
         "label": "Attention",
         "slug": "attention"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -202,7 +204,8 @@
         "label": "Society",
         "slug": "society"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -258,7 +261,8 @@
         "label": "Hope",
         "slug": "hope"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -332,7 +336,8 @@
         "label": "Art",
         "slug": "art"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -402,7 +407,8 @@
         "label": "Biodiversity",
         "slug": "biodiversity"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -467,7 +473,8 @@
         "label": "Science",
         "slug": "science"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [],
@@ -528,7 +535,8 @@
         "label": "Popculture",
         "slug": "popculture"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -594,7 +602,8 @@
         "label": "Activism",
         "slug": "activism"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -668,7 +677,8 @@
         "label": "Capitalism",
         "slug": "capitalism"
       }
-    ]
+    ],
+    "quote_content": "If we did go back to sleeping as much as we need to, as much as we did a century ago, then that would cause a huge recession as people would consume an hour less every day."
   },
   {
     "authors": [
@@ -733,7 +743,8 @@
         "label": "Interview",
         "slug": "interview"
       }
-    ]
+    ],
+    "quote_content": "Versetzen Sie sich für einen Moment in die nähere Zukunft, sagen wir ins Jahr 2141. Was passiert? Sie schauen zurück, nerven sich über die vergangene Zeit, lachen vielleicht. Sie blicken auf Ihre eigene Gegenwart, so wie Sie heute in einem Museum auf die Viktorianer oder Wilhelm Tell zurückschauen würden. Man fühlt sich dabei überlegen, weil man lebt und die anderen tot sind; weil man Dinge weiss, die die anderen damals nicht wussten; weil sie Fehler begingen, die in Zukunft offensichtlich sind. Wenn Sie dann wieder aus dem Jahr 2141 in die Gegenwart zurück­kehren, dann werden Sie verstehen, dass auch Sie Teil eines historischen Prozesses sind, an den man sich später erinnern wird und den Sie mit Ihren Handlungen beeinflussen."
   },
   {
     "authors": [
@@ -798,7 +809,8 @@
         "label": "Popculture",
         "slug": "popculture"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -868,7 +880,8 @@
         "label": "Amazon",
         "slug": "amazon"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -939,7 +952,8 @@
         "label": "Polar bears",
         "slug": "polar-bears"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1018,7 +1032,8 @@
         "label": "Walrus",
         "slug": "walrus"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1079,7 +1094,8 @@
         "label": "Visualisation",
         "slug": "visualisation"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1143,7 +1159,8 @@
         "label": "Biodiversity",
         "slug": "biodiversity"
       }
-    ]
+    ],
+    "quote_content": "Climate change presents a near-term threat to the future of human civilization. The biodiversity crisis presents a longer term threat to the viability of the human species."
   },
   {
     "authors": [
@@ -1213,7 +1230,8 @@
         "label": "Coal",
         "slug": "coal"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1287,7 +1305,8 @@
         "label": "Policy",
         "slug": "policy"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1344,7 +1363,8 @@
         "label": "Politics",
         "slug": "politics"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1408,7 +1428,8 @@
         "label": "Documentary",
         "slug": "documentary"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1478,7 +1499,8 @@
         "label": "Hope",
         "slug": "hope"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1556,7 +1578,8 @@
         "label": "Policy",
         "slug": "policy"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1614,7 +1637,8 @@
         "label": "Hope",
         "slug": "hope"
       }
-    ]
+    ],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1667,7 +1691,8 @@
     "updated": "2024-07-20 10:00:07.900Z",
     "url": "https://aeon.co/essays/we-will-never-be-able-to-live-on-another-planet-heres-why",
     "slug": "theres-no-planet-b",
-    "topics": []
+    "topics": [],
+    "quote_content": ""
   },
   {
     "authors": [
@@ -1723,6 +1748,7 @@
         "label": "Hope",
         "slug": "hope"
       }
-    ]
+    ],
+    "quote_content": ""
   }
 ]

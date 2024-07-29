@@ -2,9 +2,20 @@
 	import Favorite from '$lib/icons/Favorite.svelte';
 	import { type Post } from '$types/pocketbase';
 
-	const { post, isSingle = false }: { post: Post; isSingle: boolean } = $props();
+	const { post, isSingle = false }: { post: Post; isSingle?: boolean } = $props();
 
-	const { title, image, language, slug, schemas, formats, isFavorite, content } = post;
+	const {
+		title,
+		image,
+		language,
+		slug,
+		schemas,
+		formats,
+		isFavorite,
+		content,
+		quote_content,
+		quote_author
+	} = post;
 </script>
 
 <article
@@ -51,6 +62,14 @@
 					<figcaption>{image.caption}</figcaption>
 				{/if}
 			</figure>
+		{/if}
+		{#if quote_content}
+			<blockquote>
+				<p>“{quote_content}”</p>
+				{#if quote_author}
+					<cite>— {quote_author}</cite>
+				{/if}
+			</blockquote>
 		{/if}
 		{#if content}
 			<div itemprop="description">

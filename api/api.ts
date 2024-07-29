@@ -35,7 +35,9 @@ async function getData() {
 				formats: post.formats.map((key: string) => formats.get(key)),
 				authors: post.authors.map((key: string) => authors.get(key)),
 				topics: post.tags.map((key: string) => topics.get(key)),
-				image
+				image,
+				quote_content: post.quote,
+				quote_author: post.quote_author
 			};
 		})
 	);
