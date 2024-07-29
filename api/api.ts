@@ -29,7 +29,7 @@ async function getData() {
 			const image = post.image ? await getImageDetails(post.image, post.image_caption) : null;
 			return {
 				...post,
-				slug: truncate(slugify(post.title), { length: 60, separator: '-' }),
+				slug: truncate(slugify(post.title), { length: 60, separator: '-' }), // We shorten the slug to make shorter urls
 				language: languages.get(post.language),
 				schemas: schemas.get(post.schemas),
 				publisher: publishers.get(post.publisher),
