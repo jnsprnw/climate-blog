@@ -9,6 +9,7 @@ import {
 } from './pocketbase';
 import { writeFile, slugify } from './utils';
 import { getImageDetails } from './cloudinary';
+import { truncate } from 'lodash-es';
 
 async function getData() {
 	const authors = await getAuthors();
@@ -28,7 +29,7 @@ async function getData() {
 			const image = post.image ? await getImageDetails(post.image, post.image_caption) : null;
 			return {
 				...post,
-				slug: slugify(post.title),
+				slug: truncate(slugify(post.title), { length: 60, separator: '-' }),
 				language: languages.get(post.language),
 				schemas: schemas.get(post.schemas),
 				publisher: publishers.get(post.publisher),
