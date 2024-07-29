@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Favorite from '$lib/icons/Favorite.svelte';
+	import Link from '$lib/icons/Link.svelte';
 	import Authors from '$lib/components/Authors.svelte';
+	import { formatDate } from '$utils/format';
 	import { type Post } from '$types/pocketbase';
 
 	const { post, isSingle = false }: { post: Post; isSingle?: boolean } = $props();
@@ -16,7 +18,10 @@
 		quote_content,
 		schemas,
 		slug,
-		title
+		title,
+		published,
+		publisher,
+		url
 	} = post;
 </script>
 
@@ -91,4 +96,16 @@
 			</div>
 		{/if}
 	</main>
+	<footer class="flex leading-none justify-between w-full col-span-3">
+		<time class="text-neutral-400 text-center text-sm" datetime={published}
+			>{formatDate(new Date(published))}</time
+		>
+		<a
+			class="flex items-center underline decoration-accent font-semibold text-right text-sm hover:text-accent"
+			href={url}
+		>
+			<span itemprop="publisher">{publisher?.label}</span>
+			<Link />
+		</a>
+	</footer>
 </article>

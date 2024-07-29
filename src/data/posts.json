@@ -70,6 +70,65 @@
   {
     "authors": [
       {
+        "label": "Rebecca Solnit",
+        "slug": "rebecca-solnit"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [
+      "6i61wlod7qvnykj"
+    ],
+    "content": "<p>Those facing flood and fire can&rsquo;t afford to lose hope. Neither should we.<!-- notionvc: 995853c8-e82e-448f-87ff-f50ab75b0d70 --></p>",
+    "created": "2024-07-20 10:02:27.016Z",
+    "date": "2022-10-19 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Article",
+        "slug": "article"
+      }
+    ],
+    "id": "iiyhzpnw1m773dr",
+    "image": null,
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2024-01-17 12:00:00.000Z",
+    "publisher": {
+      "label": "The New Stateman",
+      "slug": "the-new-stateman"
+    },
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
+    "tags": [
+      "ptpbk4nicqrykya"
+    ],
+    "title": "Why climate despair is a luxury",
+    "updated": "2024-07-20 10:02:27.016Z",
+    "url": "https://www.newstatesman.com/environment/2022/10/rebecca-solnit-climate-despair-luxury",
+    "slug": "why-climate-despair-is-a-luxury",
+    "topics": [
+      {
+        "label": "Hope",
+        "slug": "hope"
+      }
+    ],
+    "quote_content": ""
+  },
+  {
+    "authors": [
+      {
         "label": "John McNamee",
         "slug": "john-mc-namee"
       }
@@ -350,27 +409,27 @@
   {
     "authors": [
       {
-        "label": "Adam Gopnik",
-        "slug": "adam-gopnik"
+        "label": "Jack Weisman",
+        "slug": "jack-weisman"
       },
       {
-        "label": "Johan Eklöf",
-        "slug": "johan-eklof"
+        "label": "Gabriela Osio Vanden",
+        "slug": "gabriela-osio-vanden"
       }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
     "connection": [],
-    "content": "<p>Light pollution is an often overlooked environmental problem. In his &ldquo;<a href=\"https://www.penguin.co.uk/books/447865/the-darkness-manifesto-by-eklof-johan/9781847927156\">The Darkness Manifesto</a>&rdquo;, the Swedish ecologist Johan Ekl&ouml;f describes the various problems the lid-up night sky has for animals and plants. But also the effects of screens and other light sources for humans.</p>",
-    "created": "2024-07-22 09:58:48.334Z",
-    "date": "2023-02-20 12:00:00.000Z",
+    "content": "<p><a tabindex=\"0\" href=\"https://en.m.wikipedia.org/wiki/Churchill,_Manitoba\" rel=\"noopener noreferrer\" data-token-index=\"0\">Churchill</a> is a town in northern Canada that is famous for migrating polar bears. The <a tabindex=\"0\" href=\"https://www.nuisancebearfilm.com/\" rel=\"noopener noreferrer\" data-token-index=\"2\">shortfilm</a> (14&rsquo;, 2022) documents clash between human infrastructure and animal, but also the tourism resulting from the spectacle. It leaves you with the question who the nuisance is.<!-- notionvc: d12f71e4-9e2e-46e7-a2fe-1b65d38c8a2b --></p>\r\n<p>The film is produced by <a tabindex=\"0\" href=\"https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone\" rel=\"noopener noreferrer\" data-token-index=\"1\">The New Yorker</a> and is available on <a tabindex=\"0\" href=\"https://www.youtube.com/watch?v=kUdvgsgwvDY\" rel=\"noopener noreferrer\" data-token-index=\"3\">YouTube</a>.<!-- notionvc: 1ac3548a-0aa6-4def-842a-242a5b85a3df --></p>",
+    "created": "2024-07-21 19:59:24.231Z",
+    "date": "2022-10-19 12:00:00.000Z",
     "formats": [
       {
-        "label": "Book",
-        "slug": "book"
+        "label": "Shortfilm",
+        "slug": "shortfilm"
       }
     ],
-    "id": "q0ie38eb47i57vz",
+    "id": "77vrdbqfpwq2kni",
     "image": null,
     "image_caption": "",
     "isFavorite": false,
@@ -379,7 +438,83 @@
       "slug": "english",
       "key": "en"
     },
-    "published": "2023-03-04 12:00:00.000Z",
+    "published": "2023-03-07 12:00:00.000Z",
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Movie",
+      "slug": "movie",
+      "key": "Movie"
+    },
+    "tags": [
+      "er049nnd0czun4v",
+      "6n11c6com5jm4i4",
+      "bujyj04u8lcqxxv",
+      "ym7yhl90oq509sh"
+    ],
+    "title": "Nuisance Bear",
+    "updated": "2024-07-21 20:06:07.433Z",
+    "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/when-polar-bears-come-to-town",
+    "slug": "nuisance-bear",
+    "topics": [
+      {
+        "label": "Animals",
+        "slug": "animals"
+      },
+      {
+        "label": "Documentary",
+        "slug": "documentary"
+      },
+      {
+        "label": "Artic",
+        "slug": "artic"
+      },
+      {
+        "label": "Polar bears",
+        "slug": "polar-bears"
+      }
+    ],
+    "quote_content": ""
+  },
+  {
+    "authors": [
+      {
+        "label": "Evgenia Arbugaeva",
+        "slug": "evgenia-arbugaeva"
+      },
+      {
+        "label": "Maxim Arbugaev",
+        "slug": "maxim-arbugaev"
+      },
+      {
+        "label": "Maxim Chakilev",
+        "slug": "maxim-chakilev"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>The shortfilm (2022, 25&prime;) documents walrus haulouts &ndash; large gatherings of walruses seeking refuge on shore when their search for remaining sea ice forces them to swim much farther and farther distances.<!-- notionvc: 69b696e2-a3c7-47a3-be2c-f6d875c02464 --></p>\r\n<p>The marine biologist Maxim Chakilev records these dramatic gatherings in Cape Serdtse-Kamen, Russia. Living together with the scientist in a small, wooden hut surrounded by thousands of walruses, the film team captures the intense atmosphere and suffering of the animals. And the helplessness of Maxim.<!-- notionvc: 51963c58-c895-43f6-80ed-9c6c456fe91d --></p>\r\n<p>The film is produced by The New Yorker (which provide <a tabindex=\"0\" href=\"https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone\" rel=\"noopener noreferrer\" data-token-index=\"1\">valuable background information on the film</a>), is shortlisted for the 2023 Oscars and premiered 2022 at <a tabindex=\"0\" href=\"https://www.berlinale.de/en/2022/programme/202205576.html\" rel=\"noopener noreferrer\" data-token-index=\"3\">Berlinale</a>. It is currently disabled on <a tabindex=\"0\" href=\"https://www.youtube.com/watch?v=8mKBZ9dy5fQ\" rel=\"noopener noreferrer\" data-token-index=\"5\">YouTube</a>, which might be due to the Oscar nomination, but is still available at <a tabindex=\"0\" href=\"https://news.yahoo.com/video/haulout-melting-sea-ice-pushes-110000333.html?guccounter=1\" rel=\"noopener noreferrer\" data-token-index=\"7\">Yahoo</a>.<!-- notionvc: 2ec81bd5-1b4a-44db-9ad2-9abcb536b988 --></p>",
+    "created": "2024-07-21 19:53:25.100Z",
+    "date": "2022-11-21 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Shortfilm",
+        "slug": "shortfilm"
+      }
+    ],
+    "id": "x54u2ri7d1l1kh0",
+    "image": null,
+    "image_caption": "",
+    "isFavorite": true,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2023-03-06 12:00:00.000Z",
     "publisher": {
       "label": "The New Yorker",
       "slug": "the-new-yorker"
@@ -389,31 +524,36 @@
     "reference": "",
     "reference_link": "",
     "schemas": {
-      "label": "Article",
-      "slug": "article",
-      "key": "Article"
+      "label": "Movie",
+      "slug": "movie",
+      "key": "Movie"
     },
     "tags": [
-      "zbvrnn8292uibq6",
       "er049nnd0czun4v",
-      "xrpst36djjaxj2f"
+      "6n11c6com5jm4i4",
+      "bujyj04u8lcqxxv",
+      "uin44kevoc69bwo"
     ],
-    "title": "Is Artificial Light Poisoning the Planet?",
-    "updated": "2024-07-22 09:58:48.334Z",
-    "url": "https://www.newyorker.com/magazine/2023/02/27/darkness-manifesto-book-johan-eklof",
-    "slug": "is-artificial-light-poisoning-the-planet",
+    "title": "Haulout",
+    "updated": "2024-07-21 20:06:23.417Z",
+    "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone",
+    "slug": "haulout",
     "topics": [
-      {
-        "label": "Light pollution",
-        "slug": "light-pollution"
-      },
       {
         "label": "Animals",
         "slug": "animals"
       },
       {
-        "label": "Biodiversity",
-        "slug": "biodiversity"
+        "label": "Documentary",
+        "slug": "documentary"
+      },
+      {
+        "label": "Artic",
+        "slug": "artic"
+      },
+      {
+        "label": "Walrus",
+        "slug": "walrus"
       }
     ],
     "quote_content": ""
@@ -485,20 +625,29 @@
     "quote_content": ""
   },
   {
-    "authors": [],
+    "authors": [
+      {
+        "label": "Adam Gopnik",
+        "slug": "adam-gopnik"
+      },
+      {
+        "label": "Johan Eklöf",
+        "slug": "johan-eklof"
+      }
+    ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
     "connection": [],
-    "content": "<p><a href=\"https://store.steampowered.com/app/1593030/Terra_Nil/\">Terra Nil</a> is an intricate environmental strategy game about transforming a barren wasteland into a thriving, balanced ecosystem. Bring life back to a lifeless world by purifying soil, cleaning oceans, planting trees, and reintroducing wildlife, then leave without a trace.</p>",
-    "created": "2024-07-21 20:50:52.497Z",
-    "date": "",
+    "content": "<p>Light pollution is an often overlooked environmental problem. In his &ldquo;<a href=\"https://www.penguin.co.uk/books/447865/the-darkness-manifesto-by-eklof-johan/9781847927156\">The Darkness Manifesto</a>&rdquo;, the Swedish ecologist Johan Ekl&ouml;f describes the various problems the lid-up night sky has for animals and plants. But also the effects of screens and other light sources for humans.</p>",
+    "created": "2024-07-22 09:58:48.334Z",
+    "date": "2023-02-20 12:00:00.000Z",
     "formats": [
       {
-        "label": "Game",
-        "slug": "game"
+        "label": "Book",
+        "slug": "book"
       }
     ],
-    "id": "p0btg4p99039lql",
+    "id": "q0ie38eb47i57vz",
     "image": null,
     "image_caption": "",
     "isFavorite": false,
@@ -507,41 +656,41 @@
       "slug": "english",
       "key": "en"
     },
-    "published": "",
+    "published": "2023-03-04 12:00:00.000Z",
     "publisher": {
-      "label": "YouTube.com",
-      "slug": "you-tube-com"
+      "label": "The New Yorker",
+      "slug": "the-new-yorker"
     },
     "quote": "",
     "quote_author": "",
-    "reference": "a2cl8omtsh59odr",
+    "reference": "",
     "reference_link": "",
     "schemas": {
-      "label": "Game",
-      "slug": "game",
-      "key": "Game"
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
     },
     "tags": [
-      "xvy0yzm7zdmm0bt",
-      "y28jya5ewiwlz41",
-      "w98y5g1o477uz2a"
+      "zbvrnn8292uibq6",
+      "er049nnd0czun4v",
+      "xrpst36djjaxj2f"
     ],
-    "title": "Terra Nil",
-    "updated": "2024-07-22 09:50:15.761Z",
-    "url": "https://www.youtube.com/watch?v=wpX9MsuUmow",
-    "slug": "terra-nil",
+    "title": "Is Artificial Light Poisoning the Planet?",
+    "updated": "2024-07-22 09:58:48.334Z",
+    "url": "https://www.newyorker.com/magazine/2023/02/27/darkness-manifesto-book-johan-eklof",
+    "slug": "is-artificial-light-poisoning-the-planet",
     "topics": [
       {
-        "label": "Technology",
-        "slug": "technology"
+        "label": "Light pollution",
+        "slug": "light-pollution"
       },
       {
-        "label": "Solar punk",
-        "slug": "solar-punk"
+        "label": "Animals",
+        "slug": "animals"
       },
       {
-        "label": "Popculture",
-        "slug": "popculture"
+        "label": "Biodiversity",
+        "slug": "biodiversity"
       }
     ],
     "quote_content": ""
@@ -894,220 +1043,6 @@
   {
     "authors": [
       {
-        "label": "Jack Weisman",
-        "slug": "jack-weisman"
-      },
-      {
-        "label": "Gabriela Osio Vanden",
-        "slug": "gabriela-osio-vanden"
-      }
-    ],
-    "collectionId": "ihpvff9pojwzslu",
-    "collectionName": "posts",
-    "connection": [],
-    "content": "<p><a tabindex=\"0\" href=\"https://en.m.wikipedia.org/wiki/Churchill,_Manitoba\" rel=\"noopener noreferrer\" data-token-index=\"0\">Churchill</a> is a town in northern Canada that is famous for migrating polar bears. The <a tabindex=\"0\" href=\"https://www.nuisancebearfilm.com/\" rel=\"noopener noreferrer\" data-token-index=\"2\">shortfilm</a> (14&rsquo;, 2022) documents clash between human infrastructure and animal, but also the tourism resulting from the spectacle. It leaves you with the question who the nuisance is.<!-- notionvc: d12f71e4-9e2e-46e7-a2fe-1b65d38c8a2b --></p>\r\n<p>The film is produced by <a tabindex=\"0\" href=\"https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone\" rel=\"noopener noreferrer\" data-token-index=\"1\">The New Yorker</a> and is available on <a tabindex=\"0\" href=\"https://www.youtube.com/watch?v=kUdvgsgwvDY\" rel=\"noopener noreferrer\" data-token-index=\"3\">YouTube</a>.<!-- notionvc: 1ac3548a-0aa6-4def-842a-242a5b85a3df --></p>",
-    "created": "2024-07-21 19:59:24.231Z",
-    "date": "2022-10-19 12:00:00.000Z",
-    "formats": [
-      {
-        "label": "Shortfilm",
-        "slug": "shortfilm"
-      }
-    ],
-    "id": "77vrdbqfpwq2kni",
-    "image": null,
-    "image_caption": "",
-    "isFavorite": false,
-    "language": {
-      "label": "English",
-      "slug": "english",
-      "key": "en"
-    },
-    "published": "2023-03-07 12:00:00.000Z",
-    "quote": "",
-    "quote_author": "",
-    "reference": "",
-    "reference_link": "",
-    "schemas": {
-      "label": "Movie",
-      "slug": "movie",
-      "key": "Movie"
-    },
-    "tags": [
-      "er049nnd0czun4v",
-      "6n11c6com5jm4i4",
-      "bujyj04u8lcqxxv",
-      "ym7yhl90oq509sh"
-    ],
-    "title": "Nuisance Bear",
-    "updated": "2024-07-21 20:06:07.433Z",
-    "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/when-polar-bears-come-to-town",
-    "slug": "nuisance-bear",
-    "topics": [
-      {
-        "label": "Animals",
-        "slug": "animals"
-      },
-      {
-        "label": "Documentary",
-        "slug": "documentary"
-      },
-      {
-        "label": "Artic",
-        "slug": "artic"
-      },
-      {
-        "label": "Polar bears",
-        "slug": "polar-bears"
-      }
-    ],
-    "quote_content": ""
-  },
-  {
-    "authors": [
-      {
-        "label": "Evgenia Arbugaeva",
-        "slug": "evgenia-arbugaeva"
-      },
-      {
-        "label": "Maxim Arbugaev",
-        "slug": "maxim-arbugaev"
-      },
-      {
-        "label": "Maxim Chakilev",
-        "slug": "maxim-chakilev"
-      }
-    ],
-    "collectionId": "ihpvff9pojwzslu",
-    "collectionName": "posts",
-    "connection": [],
-    "content": "<p>The shortfilm (2022, 25&prime;) documents walrus haulouts &ndash; large gatherings of walruses seeking refuge on shore when their search for remaining sea ice forces them to swim much farther and farther distances.<!-- notionvc: 69b696e2-a3c7-47a3-be2c-f6d875c02464 --></p>\r\n<p>The marine biologist Maxim Chakilev records these dramatic gatherings in Cape Serdtse-Kamen, Russia. Living together with the scientist in a small, wooden hut surrounded by thousands of walruses, the film team captures the intense atmosphere and suffering of the animals. And the helplessness of Maxim.<!-- notionvc: 51963c58-c895-43f6-80ed-9c6c456fe91d --></p>\r\n<p>The film is produced by The New Yorker (which provide <a tabindex=\"0\" href=\"https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone\" rel=\"noopener noreferrer\" data-token-index=\"1\">valuable background information on the film</a>), is shortlisted for the 2023 Oscars and premiered 2022 at <a tabindex=\"0\" href=\"https://www.berlinale.de/en/2022/programme/202205576.html\" rel=\"noopener noreferrer\" data-token-index=\"3\">Berlinale</a>. It is currently disabled on <a tabindex=\"0\" href=\"https://www.youtube.com/watch?v=8mKBZ9dy5fQ\" rel=\"noopener noreferrer\" data-token-index=\"5\">YouTube</a>, which might be due to the Oscar nomination, but is still available at <a tabindex=\"0\" href=\"https://news.yahoo.com/video/haulout-melting-sea-ice-pushes-110000333.html?guccounter=1\" rel=\"noopener noreferrer\" data-token-index=\"7\">Yahoo</a>.<!-- notionvc: 2ec81bd5-1b4a-44db-9ad2-9abcb536b988 --></p>",
-    "created": "2024-07-21 19:53:25.100Z",
-    "date": "2022-11-21 12:00:00.000Z",
-    "formats": [
-      {
-        "label": "Shortfilm",
-        "slug": "shortfilm"
-      }
-    ],
-    "id": "x54u2ri7d1l1kh0",
-    "image": null,
-    "image_caption": "",
-    "isFavorite": true,
-    "language": {
-      "label": "English",
-      "slug": "english",
-      "key": "en"
-    },
-    "published": "2023-03-06 12:00:00.000Z",
-    "publisher": {
-      "label": "The New Yorker",
-      "slug": "the-new-yorker"
-    },
-    "quote": "",
-    "quote_author": "",
-    "reference": "",
-    "reference_link": "",
-    "schemas": {
-      "label": "Movie",
-      "slug": "movie",
-      "key": "Movie"
-    },
-    "tags": [
-      "er049nnd0czun4v",
-      "6n11c6com5jm4i4",
-      "bujyj04u8lcqxxv",
-      "uin44kevoc69bwo"
-    ],
-    "title": "Haulout",
-    "updated": "2024-07-21 20:06:23.417Z",
-    "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone",
-    "slug": "haulout",
-    "topics": [
-      {
-        "label": "Animals",
-        "slug": "animals"
-      },
-      {
-        "label": "Documentary",
-        "slug": "documentary"
-      },
-      {
-        "label": "Artic",
-        "slug": "artic"
-      },
-      {
-        "label": "Walrus",
-        "slug": "walrus"
-      }
-    ],
-    "quote_content": ""
-  },
-  {
-    "authors": [
-      {
-        "label": "Birgit Schneider",
-        "slug": "birgit-schneider"
-      }
-    ],
-    "collectionId": "ihpvff9pojwzslu",
-    "collectionName": "posts",
-    "connection": [],
-    "content": "<p>Unsere Vorstellungen von Klima und Klimawandel stammen aus Bildern &ndash; Bildern, mit denen Wissenschaften ihre Erkenntnisse sichtbar machen. Diese Bilder m&uuml;ssen gedeutet und kritisiert werden, um ihre Aussagekraft und Intentionen offenzulegen.<!-- notionvc: 084b5b02-be94-4f6b-836e-965ad397b35c --></p>",
-    "created": "2024-07-21 19:50:39.910Z",
-    "date": "2023-01-25 12:00:00.000Z",
-    "formats": [
-      {
-        "label": "Book",
-        "slug": "book"
-      }
-    ],
-    "id": "tdzmyhh3znbsxo8",
-    "image": null,
-    "image_caption": "",
-    "isFavorite": false,
-    "language": {
-      "label": "German",
-      "slug": "german",
-      "key": "de"
-    },
-    "published": "2018-07-04 12:00:00.000Z",
-    "publisher": {
-      "label": "Matthes & Seitz Berlin",
-      "slug": "matthes-seitz-berlin"
-    },
-    "quote": "",
-    "quote_author": "",
-    "reference": "",
-    "reference_link": "",
-    "schemas": {
-      "label": "Book",
-      "slug": "book",
-      "key": "Book"
-    },
-    "tags": [
-      "2gixmkmbyhvoalk",
-      "pa3elfw03ton9vr"
-    ],
-    "title": "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
-    "updated": "2024-07-21 20:06:40.813Z",
-    "url": "https://www.matthes-seitz-berlin.de/buch/klimabilder.html",
-    "slug": "klimabilder-eine-genealogie-globaler-bildpolitiken-von-klima-und-klimawandel",
-    "topics": [
-      {
-        "label": "Theory",
-        "slug": "theory"
-      },
-      {
-        "label": "Visualisation",
-        "slug": "visualisation"
-      }
-    ],
-    "quote_content": ""
-  },
-  {
-    "authors": [
-      {
         "label": "Michael Barbaro",
         "slug": "michael-barbaro"
       },
@@ -1321,200 +1256,6 @@
   {
     "authors": [
       {
-        "label": "Elektrizitätswerke Schönau",
-        "slug": "elektrizitatswerke-schonau"
-      }
-    ],
-    "collectionId": "ihpvff9pojwzslu",
-    "collectionName": "posts",
-    "connection": [],
-    "content": "<p>Alle Gr&uuml;nde von #1 bis #100 auf einer Seite oder &ndash; der &Uuml;bersicht halber &ndash; sortiert in sieben farbig markierten Kategorien angezeigt.<!-- notionvc: 53a96cc0-bf5c-4c4e-8405-3e72c1f499e8 --></p>",
-    "created": "2024-07-20 10:16:25.501Z",
-    "date": "",
-    "formats": [
-      {
-        "label": "Website",
-        "slug": "website"
-      }
-    ],
-    "id": "8d0d222q1a7fmmc",
-    "image": null,
-    "image_caption": "",
-    "isFavorite": false,
-    "language": {
-      "label": "German",
-      "slug": "german",
-      "key": "de"
-    },
-    "published": "2023-01-21 12:00:00.000Z",
-    "quote": "",
-    "quote_author": "",
-    "reference": "",
-    "reference_link": "",
-    "schemas": {
-      "label": "Guide",
-      "slug": "guide",
-      "key": "Guide"
-    },
-    "tags": [
-      "h4zh134ouuiosbo",
-      "lzx69t0trqshvt1"
-    ],
-    "title": "100 gute Gründe gegen Atomkraft",
-    "updated": "2024-07-20 10:17:46.172Z",
-    "url": "https://www.100-gute-gruende.de/gruende/",
-    "slug": "100-gute-grunde-gegen-atomkraft",
-    "topics": [
-      {
-        "label": "Science",
-        "slug": "science"
-      },
-      {
-        "label": "Politics",
-        "slug": "politics"
-      }
-    ],
-    "quote_content": ""
-  },
-  {
-    "authors": [
-      {
-        "label": "Jennifer Baichwal",
-        "slug": "jennifer-baichwal"
-      },
-      {
-        "label": "Edward Burtynsky",
-        "slug": "edward-burtynsky"
-      },
-      {
-        "label": "Nicholas de Pencier",
-        "slug": "nicholas-de-pencier"
-      }
-    ],
-    "collectionId": "ihpvff9pojwzslu",
-    "collectionName": "posts",
-    "connection": [],
-    "content": "<p>Filmmakers travel to six continents and 20 countries to document the impact humans have made on the planet.<!-- notionvc: d5c43c9f-049d-487f-a455-4ff5bbf23a1e --></p>",
-    "created": "2024-07-20 10:14:25.242Z",
-    "date": "2019-09-29 12:00:00.000Z",
-    "formats": [
-      {
-        "label": "Movie",
-        "slug": "movie"
-      }
-    ],
-    "id": "xarbrf46tusa1my",
-    "image": null,
-    "image_caption": "",
-    "isFavorite": true,
-    "language": {
-      "label": "English",
-      "slug": "english",
-      "key": "en"
-    },
-    "published": "2023-01-21 12:00:00.000Z",
-    "publisher": {
-      "label": "TheAnthropocene.org",
-      "slug": "the-anthropocene-org"
-    },
-    "quote": "",
-    "quote_author": "",
-    "reference": "",
-    "reference_link": "",
-    "schemas": {
-      "label": "Movie",
-      "slug": "movie",
-      "key": "Movie"
-    },
-    "tags": [
-      "6n11c6com5jm4i4"
-    ],
-    "title": "Anthropocene: The Human Epoch",
-    "updated": "2024-07-20 10:14:25.242Z",
-    "url": "https://theanthropocene.org/film/",
-    "slug": "anthropocene-the-human-epoch",
-    "topics": [
-      {
-        "label": "Documentary",
-        "slug": "documentary"
-      }
-    ],
-    "quote_content": ""
-  },
-  {
-    "authors": [
-      {
-        "label": "Noah Gallagher Shannon",
-        "slug": "noah-gallagher-shannon"
-      },
-      {
-        "label": "James Patrick Cronin",
-        "slug": "james-patrick-cronin"
-      }
-    ],
-    "collectionId": "ihpvff9pojwzslu",
-    "collectionName": "posts",
-    "connection": [],
-    "content": "<p>No greater challenge faces humanity than reducing emissions without backsliding into preindustrial poverty. One tiny country is leading the way.<!-- notionvc: 729bacd4-0317-458e-9dd6-af12836dceea --></p>",
-    "created": "2024-07-20 10:10:32.823Z",
-    "date": "2022-11-20 12:00:00.000Z",
-    "formats": [
-      {
-        "label": "Podcast",
-        "slug": "podcast"
-      }
-    ],
-    "id": "4nyyc46752yo3js",
-    "image": null,
-    "image_caption": "",
-    "isFavorite": false,
-    "language": {
-      "label": "English",
-      "slug": "english",
-      "key": "en"
-    },
-    "published": "2023-01-21 12:00:00.000Z",
-    "publisher": {
-      "label": "New York Times",
-      "slug": "new-york-times"
-    },
-    "quote": "",
-    "quote_author": "",
-    "reference": "",
-    "reference_link": "",
-    "schemas": {
-      "label": "Podcast episode",
-      "slug": "podcast-episode",
-      "key": "PodcastEpisode"
-    },
-    "tags": [
-      "991yaahmkskmr6t",
-      "lzx69t0trqshvt1",
-      "ptpbk4nicqrykya"
-    ],
-    "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-    "updated": "2024-07-20 10:10:32.823Z",
-    "url": "https://www.nytimes.com/2022/11/20/podcasts/the-daily/uruguay-sustainable-living.html",
-    "slug": "the-sunday-read-what-does-sustainable-living-look-like-maybe-like-uruguay",
-    "topics": [
-      {
-        "label": "Society",
-        "slug": "society"
-      },
-      {
-        "label": "Politics",
-        "slug": "politics"
-      },
-      {
-        "label": "Hope",
-        "slug": "hope"
-      }
-    ],
-    "quote_content": ""
-  },
-  {
-    "authors": [
-      {
         "label": "Francis Tseng",
         "slug": "francis-tseng"
       },
@@ -1594,25 +1335,27 @@
   {
     "authors": [
       {
-        "label": "Rebecca Solnit",
-        "slug": "rebecca-solnit"
+        "label": "Noah Gallagher Shannon",
+        "slug": "noah-gallagher-shannon"
+      },
+      {
+        "label": "James Patrick Cronin",
+        "slug": "james-patrick-cronin"
       }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
-    "connection": [
-      "6i61wlod7qvnykj"
-    ],
-    "content": "<p>Those facing flood and fire can&rsquo;t afford to lose hope. Neither should we.<!-- notionvc: 995853c8-e82e-448f-87ff-f50ab75b0d70 --></p>",
-    "created": "2024-07-20 10:02:27.016Z",
-    "date": "2022-10-19 12:00:00.000Z",
+    "connection": [],
+    "content": "<p>No greater challenge faces humanity than reducing emissions without backsliding into preindustrial poverty. One tiny country is leading the way.<!-- notionvc: 729bacd4-0317-458e-9dd6-af12836dceea --></p>",
+    "created": "2024-07-20 10:10:32.823Z",
+    "date": "2022-11-20 12:00:00.000Z",
     "formats": [
       {
-        "label": "Article",
-        "slug": "article"
+        "label": "Podcast",
+        "slug": "podcast"
       }
     ],
-    "id": "iiyhzpnw1m773dr",
+    "id": "4nyyc46752yo3js",
     "image": null,
     "image_caption": "",
     "isFavorite": false,
@@ -1621,15 +1364,205 @@
       "slug": "english",
       "key": "en"
     },
-    "published": "2024-01-17 12:00:00.000Z",
+    "published": "2023-01-21 12:00:00.000Z",
     "publisher": {
-      "label": "The New Stateman",
-      "slug": "the-new-stateman"
+      "label": "New York Times",
+      "slug": "new-york-times"
     },
     "quote": "",
     "quote_author": "",
     "reference": "",
     "reference_link": "",
+    "schemas": {
+      "label": "Podcast episode",
+      "slug": "podcast-episode",
+      "key": "PodcastEpisode"
+    },
+    "tags": [
+      "991yaahmkskmr6t",
+      "lzx69t0trqshvt1",
+      "ptpbk4nicqrykya"
+    ],
+    "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+    "updated": "2024-07-20 10:10:32.823Z",
+    "url": "https://www.nytimes.com/2022/11/20/podcasts/the-daily/uruguay-sustainable-living.html",
+    "slug": "the-sunday-read-what-does-sustainable-living-look-like-maybe-like-uruguay",
+    "topics": [
+      {
+        "label": "Society",
+        "slug": "society"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      },
+      {
+        "label": "Hope",
+        "slug": "hope"
+      }
+    ],
+    "quote_content": ""
+  },
+  {
+    "authors": [
+      {
+        "label": "Jennifer Baichwal",
+        "slug": "jennifer-baichwal"
+      },
+      {
+        "label": "Edward Burtynsky",
+        "slug": "edward-burtynsky"
+      },
+      {
+        "label": "Nicholas de Pencier",
+        "slug": "nicholas-de-pencier"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>Filmmakers travel to six continents and 20 countries to document the impact humans have made on the planet.<!-- notionvc: d5c43c9f-049d-487f-a455-4ff5bbf23a1e --></p>",
+    "created": "2024-07-20 10:14:25.242Z",
+    "date": "2019-09-29 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Movie",
+        "slug": "movie"
+      }
+    ],
+    "id": "xarbrf46tusa1my",
+    "image": null,
+    "image_caption": "",
+    "isFavorite": true,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2023-01-21 12:00:00.000Z",
+    "publisher": {
+      "label": "TheAnthropocene.org",
+      "slug": "the-anthropocene-org"
+    },
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Movie",
+      "slug": "movie",
+      "key": "Movie"
+    },
+    "tags": [
+      "6n11c6com5jm4i4"
+    ],
+    "title": "Anthropocene: The Human Epoch",
+    "updated": "2024-07-20 10:14:25.242Z",
+    "url": "https://theanthropocene.org/film/",
+    "slug": "anthropocene-the-human-epoch",
+    "topics": [
+      {
+        "label": "Documentary",
+        "slug": "documentary"
+      }
+    ],
+    "quote_content": ""
+  },
+  {
+    "authors": [
+      {
+        "label": "Elektrizitätswerke Schönau",
+        "slug": "elektrizitatswerke-schonau"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>Alle Gr&uuml;nde von #1 bis #100 auf einer Seite oder &ndash; der &Uuml;bersicht halber &ndash; sortiert in sieben farbig markierten Kategorien angezeigt.<!-- notionvc: 53a96cc0-bf5c-4c4e-8405-3e72c1f499e8 --></p>",
+    "created": "2024-07-20 10:16:25.501Z",
+    "date": "",
+    "formats": [
+      {
+        "label": "Website",
+        "slug": "website"
+      }
+    ],
+    "id": "8d0d222q1a7fmmc",
+    "image": null,
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "German",
+      "slug": "german",
+      "key": "de"
+    },
+    "published": "2023-01-21 12:00:00.000Z",
+    "quote": "",
+    "quote_author": "",
+    "reference": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Guide",
+      "slug": "guide",
+      "key": "Guide"
+    },
+    "tags": [
+      "h4zh134ouuiosbo",
+      "lzx69t0trqshvt1"
+    ],
+    "title": "100 gute Gründe gegen Atomkraft",
+    "updated": "2024-07-20 10:17:46.172Z",
+    "url": "https://www.100-gute-gruende.de/gruende/",
+    "slug": "100-gute-grunde-gegen-atomkraft",
+    "topics": [
+      {
+        "label": "Science",
+        "slug": "science"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      }
+    ],
+    "quote_content": ""
+  },
+  {
+    "authors": [
+      {
+        "label": "Rebecca Solnit",
+        "slug": "rebecca-solnit"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>Menschen, die gegen Flut und Feuer k&auml;mpfen, k&ouml;nnen es sich nicht leisten, die Hoffnung zu verlieren. Warum also sollten wir das tun?<!-- notionvc: 8e04290c-2892-443a-9bb8-ed10467cb909 --></p>",
+    "created": "2024-07-20 09:39:47.524Z",
+    "date": "2023-01-16 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Article",
+        "slug": "article"
+      }
+    ],
+    "id": "6i61wlod7qvnykj",
+    "image": null,
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "German",
+      "slug": "german",
+      "key": "de"
+    },
+    "published": "2023-01-17 16:24:00.000Z",
+    "publisher": {
+      "label": "Republik",
+      "slug": "republik"
+    },
+    "quote": "",
+    "quote_author": "",
+    "reference": "wnmnakvy6bhzo75",
+    "reference_link": "https://twitter.com/elia_bluelle/status/1615267119318372352",
     "schemas": {
       "label": "Article",
       "slug": "article",
@@ -1638,10 +1571,10 @@
     "tags": [
       "ptpbk4nicqrykya"
     ],
-    "title": "Why climate despair is a luxury",
-    "updated": "2024-07-20 10:02:27.016Z",
-    "url": "https://www.newstatesman.com/environment/2022/10/rebecca-solnit-climate-despair-luxury",
-    "slug": "why-climate-despair-is-a-luxury",
+    "title": "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
+    "updated": "2024-07-20 09:56:12.364Z",
+    "url": "https://www.republik.ch/2023/01/16/wir-haben-kein-recht-vor-der-klimakrise-zu-kapitulieren",
+    "slug": "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren",
     "topics": [
       {
         "label": "Hope",
@@ -1707,23 +1640,23 @@
   {
     "authors": [
       {
-        "label": "Rebecca Solnit",
-        "slug": "rebecca-solnit"
+        "label": "Birgit Schneider",
+        "slug": "birgit-schneider"
       }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
     "connection": [],
-    "content": "<p>Menschen, die gegen Flut und Feuer k&auml;mpfen, k&ouml;nnen es sich nicht leisten, die Hoffnung zu verlieren. Warum also sollten wir das tun?<!-- notionvc: 8e04290c-2892-443a-9bb8-ed10467cb909 --></p>",
-    "created": "2024-07-20 09:39:47.524Z",
-    "date": "2023-01-16 12:00:00.000Z",
+    "content": "<p>Unsere Vorstellungen von Klima und Klimawandel stammen aus Bildern &ndash; Bildern, mit denen Wissenschaften ihre Erkenntnisse sichtbar machen. Diese Bilder m&uuml;ssen gedeutet und kritisiert werden, um ihre Aussagekraft und Intentionen offenzulegen.<!-- notionvc: 084b5b02-be94-4f6b-836e-965ad397b35c --></p>",
+    "created": "2024-07-21 19:50:39.910Z",
+    "date": "2023-01-25 12:00:00.000Z",
     "formats": [
       {
-        "label": "Article",
-        "slug": "article"
+        "label": "Book",
+        "slug": "book"
       }
     ],
-    "id": "6i61wlod7qvnykj",
+    "id": "tdzmyhh3znbsxo8",
     "image": null,
     "image_caption": "",
     "isFavorite": false,
@@ -1732,31 +1665,36 @@
       "slug": "german",
       "key": "de"
     },
-    "published": "2023-01-17 16:24:00.000Z",
+    "published": "2018-07-04 12:00:00.000Z",
     "publisher": {
-      "label": "Republik",
-      "slug": "republik"
+      "label": "Matthes & Seitz Berlin",
+      "slug": "matthes-seitz-berlin"
     },
     "quote": "",
     "quote_author": "",
-    "reference": "wnmnakvy6bhzo75",
-    "reference_link": "https://twitter.com/elia_bluelle/status/1615267119318372352",
+    "reference": "",
+    "reference_link": "",
     "schemas": {
-      "label": "Article",
-      "slug": "article",
-      "key": "Article"
+      "label": "Book",
+      "slug": "book",
+      "key": "Book"
     },
     "tags": [
-      "ptpbk4nicqrykya"
+      "2gixmkmbyhvoalk",
+      "pa3elfw03ton9vr"
     ],
-    "title": "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
-    "updated": "2024-07-20 09:56:12.364Z",
-    "url": "https://www.republik.ch/2023/01/16/wir-haben-kein-recht-vor-der-klimakrise-zu-kapitulieren",
-    "slug": "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren",
+    "title": "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+    "updated": "2024-07-21 20:06:40.813Z",
+    "url": "https://www.matthes-seitz-berlin.de/buch/klimabilder.html",
+    "slug": "klimabilder-eine-genealogie-globaler-bildpolitiken-von-klima-und-klimawandel",
     "topics": [
       {
-        "label": "Hope",
-        "slug": "hope"
+        "label": "Theory",
+        "slug": "theory"
+      },
+      {
+        "label": "Visualisation",
+        "slug": "visualisation"
       }
     ],
     "quote_content": ""

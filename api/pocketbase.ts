@@ -10,7 +10,10 @@ export async function getCollection(collection: string) {
 }
 
 export async function getPosts() {
-	return await getCollection('posts');
+	return await client.collection('posts').getFullList({
+		sort: '-published',
+		filter: 'published!=""'
+	});
 }
 
 export async function getCollectionMap(
