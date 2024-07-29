@@ -10,6 +10,14 @@ function insertQuote(post) {
 	}
 }
 
+function insertImage(post) {
+	if (post.image?.url_rss) {
+		return `<media:content xmlns:media="http://search.yahoo.com/mrss/" url="${post.image.url_rss}" medium="image" type="image/jpeg" />`;
+	} else {
+		return '';
+	}
+}
+
 export async function GET({ params }) {
 	const { lang, favorite } = params;
 	const isFavorite = checkFavorite(favorite);
@@ -22,6 +30,7 @@ export async function GET({ params }) {
        <link>${getAbsoluteURL(post.slug)}</link>
        <guid isPermaLink="false">${post.id}</guid>
        <pubDate>${new Date(post.created).toUTCString()}</pubDate>
+       ${insertImage(post)}
        <description><![CDATA[${[insertQuote(post), post.content].filter(Boolean).join('<br />')}]]></description>
      </item>
      `.trim();

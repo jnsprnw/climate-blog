@@ -8,11 +8,19 @@ cloudinary.config({
 
 export async function getImageDetails(id: string, caption: string) {
 	const url = cloudinary.url(id, { quality: 'auto', fetch_format: 'auto' });
+	const url_rss = cloudinary.url(id, {
+		quality: 'auto',
+		fetch_format: 'auto',
+		height: 400,
+		width: 400,
+		crop: 'fit'
+	});
 	const { width, height } = await cloudinary.api.resource(id);
 	return {
 		url,
 		width,
 		height,
-		caption
+		caption,
+		url_rss
 	};
 }
