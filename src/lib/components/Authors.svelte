@@ -1,13 +1,12 @@
 <script lang="ts">
-	export let authors;
-	export let lang = 'en';
+	const { authors, lang = 'en' }: { authors: string[]; lang: string } = $props();
 
-	$: lang_literals = lang === 'en' ? undefined : 'en';
-	$: lang_authors = lang === 'en' ? undefined : lang;
+	const lang_literals = $derived(lang === 'en' ? undefined : 'en');
+	const lang_authors = $derived(lang === 'en' ? undefined : lang);
 
-	const parts = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' }).formatToParts(
-		authors
-	);
+	const formatter = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
+
+	const parts = $derived(formatter.formatToParts(authors));
 </script>
 
 <span lang={lang_literals}>By</span>
