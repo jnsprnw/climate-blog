@@ -1,20 +1,22 @@
 <script lang="ts">
 	import Favorite from '$lib/icons/Favorite.svelte';
+	import Authors from '$lib/components/Authors.svelte';
 	import { type Post } from '$types/pocketbase';
 
 	const { post, isSingle = false }: { post: Post; isSingle?: boolean } = $props();
 
 	const {
-		title,
-		image,
-		language,
-		slug,
-		schemas,
-		formats,
-		isFavorite,
+		authors,
 		content,
+		formats,
+		image,
+		isFavorite,
+		language,
+		quote_author,
 		quote_content,
-		quote_author
+		schemas,
+		slug,
+		title
 	} = post;
 </script>
 
@@ -47,7 +49,7 @@
 				{title}
 			</h1>
 			<span class="text-sm">
-				<!--<Authors authors={authors.map((author) => author.label)} lang={language.key} />-->
+				<Authors authors={authors.map((author) => author.label)} lang={language.key} />
 			</span>
 		</a>
 	</header>
