@@ -24,7 +24,6 @@
 	itemtype={`https://schema.org/${schemas.key}`}
 	id={slug}
 	role={isSingle ? '' : 'listitem'}
-	lang={language.key}
 >
 	<meta itemprop="inLanguage" content={language.key} />
 	<header class="col-span-3">
@@ -40,7 +39,11 @@
 			{/if}
 		</div>
 		<a href={`/${slug}`} class="transition-colors hover:text-accent" itemprop="url">
-			<h1 class="mb-2 text-3xl leading-tight md:text-4xl lg:text-5xl" itemprop="name">
+			<h1
+				class="mb-2 text-3xl leading-tight md:text-4xl lg:text-5xl"
+				itemprop="name"
+				lang={language.key}
+			>
 				{title}
 			</h1>
 			<span class="text-sm">
@@ -64,12 +67,18 @@
 			</figure>
 		{/if}
 		{#if quote_content}
-			<blockquote>
-				<p>“{quote_content}”</p>
+			<figure class="flex gap-y-2 flex-col" itemscope itemtype="https://schema.org/Quotation">
+				<blockquote class="italic font-serif text-xl" lang={language.key}>
+					{#if language.key === 'de'}„{quote_content}“{:else}“{quote_content}”{/if}
+				</blockquote>
 				{#if quote_author}
-					<cite>— {quote_author}</cite>
+					<figcaption class="place-self-end">
+						— <span itemprop="author" itemscope itemtype="https://schema.org/Person"
+							>{quote_author}<span></span></span
+						>
+					</figcaption>
 				{/if}
-			</blockquote>
+			</figure>
 		{/if}
 		{#if content}
 			<div itemprop="description">

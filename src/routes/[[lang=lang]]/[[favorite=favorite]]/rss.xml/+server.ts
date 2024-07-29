@@ -1,6 +1,15 @@
 import { getCurrentPosts } from '$utils/posts';
 import { getAbsoluteURL, checkFavorite, generateFeedURL } from '$utils/url';
 
+function insertQuote(post) {
+	if (post.quote_content) {
+		const author = post.quote_author ? `<figcaption>${post.quote_author}</figcaption>` : '';
+		return `<figure><blockquote lang="${post.language.key}">${post.quote_content}</blockquote>${author}</figure>`;
+	} else {
+		return null;
+	}
+}
+
 export async function GET({ params }) {
 	const { lang, favorite } = params;
 	const isFavorite = checkFavorite(favorite);
@@ -13,7 +22,7 @@ export async function GET({ params }) {
        <link>${getAbsoluteURL(post.slug)}</link>
        <guid isPermaLink="false">${post.id}</guid>
        <pubDate>${new Date(post.created).toUTCString()}</pubDate>
-       <description><![CDATA[${post.content}]]></description>
+       <description><![CDATA[${[insertQuote(post), post.content].filter(Boolean).join('<br />')}]]></description>
      </item>
      `.trim();
 	});
