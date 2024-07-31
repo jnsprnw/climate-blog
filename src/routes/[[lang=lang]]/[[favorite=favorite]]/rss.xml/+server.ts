@@ -1,5 +1,6 @@
 import { getCurrentPosts } from '$utils/posts';
 import { getAbsoluteURL, checkFavorite, generateFeedURL } from '$utils/url';
+import { SITE_TITLE, SITE_DESCRIPTION } from '$config';
 
 function insertQuote(post) {
 	if (post.quote_content) {
@@ -39,10 +40,10 @@ export async function GET({ params }) {
 	const xml = `
    	<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
        <channel>
-         <title>TODO (${lang}, ${isFavorite})</title>
+         <title>${SITE_TITLE}</title>
          <link>${getAbsoluteURL()}</link>
          <atom:link href="${generateFeedURL(lang, isFavorite)}" rel="self" type="application/rss+xml"/>
-         <description>TODO</description>
+         <description>${SITE_DESCRIPTION}</description>
          ${items.join('')}
        </channel>
      </rss>
