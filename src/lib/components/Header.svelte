@@ -3,7 +3,6 @@
 </script>
 
 <header class="mb-16 border-b-2 border-slate-900 pb-16 dark:border-neutral-700">
-	<span class="mb-2 text-xs font-semibold uppercase text-accent">Beta version</span>
 	<a href="/"
 		><h1 class="text-4xl font-semibold leading-9">Artefacts of a<br /> Burning World</h1></a
 	>
