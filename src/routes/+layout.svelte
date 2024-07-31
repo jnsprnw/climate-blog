@@ -34,18 +34,12 @@
 	<meta name="twitter:image" content={getAbsoluteURL('apple-touch-icon.png')} />
 	<meta name="twitter:image:alt" content="Green circle on a white background." />
 
-	{#each [['en', 'English'], ['de', 'German']] as [lang, label]}
-		<link
-			rel="alternate"
-			type="application/rss+xml"
-			href={getAbsoluteURL(`${lang}/rss.xml`)}
-			title="Posts ({label})"
-		/>
+	{#each ['en', 'de'] as lang}
+		<link rel="alternate" type="application/rss+xml" href={getAbsoluteURL(`${lang}/rss.xml`)} />
 		<link
 			rel="alternate"
 			type="application/rss+xml"
 			href={getAbsoluteURL(`${lang}/favorites/rss.xml`)}
-			title="Favorite posts ({label})"
 		/>
 	{/each}
 
