@@ -7,20 +7,34 @@ cloudinary.config({
 });
 
 export async function getImageDetails(id: string, caption: string) {
-	const url = cloudinary.url(id, { quality: 'auto', fetch_format: 'auto' });
+	const { width, height } = await cloudinary.api.resource(id);
+
+	const transformation = { quality: 'auto', fetch_format: 'auto' };
+
+	const url = cloudinary.url(id, transformation);
+
 	const url_rss = cloudinary.url(id, {
-		quality: 'auto',
-		fetch_format: 'auto',
+		...transformation,
 		height: 400,
 		width: 400,
 		crop: 'fit'
 	});
-	const { width, height } = await cloudinary.api.resource(id);
+
+	const sizes = [300, 600, 900, 1200, 1500, 1800, 2100, width].filter((size) => size <= width);
+
 	return {
 		url,
 		width,
 		height,
 		caption,
-		url_rss
+		url_rss,
+		sizes: sizes.map((size) => [
+			size,
+			cloudinary.url(id, {
+				...transformation,
+				width: size,
+				crop: 'scale'
+			})
+		])
 	};
 }

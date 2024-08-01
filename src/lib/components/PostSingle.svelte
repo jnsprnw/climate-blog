@@ -62,12 +62,15 @@
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				<img
-					class="w-full h-auto"
-					src={image.url}
-					width={image.width}
-					height={image.height}
-					alt={title}
 					itemprop="contentUrl"
+					style={`aspect-ratio: ${image.width} / ${image.height};`}
+					class="w-full bg-gray-50 text-xs text-gray-400"
+					src={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
+					alt={title}
+					srcset={image.sizes.map(([px, url]) => `${url} ${px}w`).join(',')}
+					sizes="(max-width: 48rem) 100vw, 48rem"
+					loading="lazy"
+					decoding="async"
 				/>
 				{#if image.caption}
 					<figcaption itemprop="author" class="text-xs place-self-end text-neutral-400">

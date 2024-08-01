@@ -24,7 +24,41 @@
       "width": 3800,
       "height": 2560,
       "caption": "Photo by John McGrall. Courtesy the artist and Leslie Tonkonow Artworks + Projects.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+        ],
+        [
+          1800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+        ],
+        [
+          2100,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+        ],
+        [
+          3800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_3800/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+        ]
+      ]
     },
     "image_caption": "Photo by John McGrall. Courtesy the artist and Leslie Tonkonow Artworks + Projects.",
     "isFavorite": false,
@@ -151,7 +185,33 @@
       "width": 1500,
       "height": 1500,
       "caption": "John McNamee",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/A27686_ktpm2t?_a=BAMAGSFC0"
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/A27686_ktpm2t?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/A27686_ktpm2t?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/A27686_ktpm2t?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/A27686_ktpm2t?_a=BAMAGSFC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/A27686_ktpm2t?_a=BAMAGSFC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAGSFC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAGSFC0"
+        ]
+      ]
     },
     "image_caption": "John McNamee",
     "isFavorite": false,
@@ -224,7 +284,25 @@
       "width": 1152,
       "height": 2048,
       "caption": "Nick Newman",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+        ],
+        [
+          1152,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1152/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+        ]
+      ]
     },
     "image_caption": "Nick Newman",
     "isFavorite": false,
@@ -358,7 +436,29 @@
       "width": 1282,
       "height": 962,
       "caption": "Andreas Jakwerth/Leopold Museum, Wien/dpa",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+        ],
+        [
+          1282,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1282/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+        ]
+      ]
     },
     "image_caption": "Andreas Jakwerth/Leopold Museum, Wien/dpa",
     "isFavorite": false,
@@ -1130,7 +1230,41 @@
       "width": 4096,
       "height": 2731,
       "caption": "Marius Michusch",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+        ],
+        [
+          1800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+        ],
+        [
+          2100,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+        ],
+        [
+          4096,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_4096/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+        ]
+      ]
     },
     "image_caption": "Marius Michusch",
     "isFavorite": false,
