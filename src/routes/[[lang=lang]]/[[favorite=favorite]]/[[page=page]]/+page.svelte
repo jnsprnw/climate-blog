@@ -6,12 +6,11 @@
 	type Props = {
 		posts: Post[];
 		posts_count: number;
+		page_current: number;
 	};
 
 	const { data }: { data: Props } = $props();
-
-	// const pages = $derived(getPages(data.posts_total, 5, data.page));
 </script>
 
 <PostList posts={data.posts} />
-<Pagination currentIndex={'0'} posts_count={data.posts_count} />
+<Pagination currentIndex={data.page_current} posts_count={data.posts_count} />

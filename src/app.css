@@ -35,3 +35,7 @@
 p a {
 	@apply underline decoration-accent hover:text-accent transition-colors;
 }
+
+.link {
+	@apply underline decoration-slate-300 hover:text-accent transition-colors;
+}

@@ -7,7 +7,5 @@
 	<time title={formatDateFull(buildDateTime)} datetime={buildDateTime.toISOString()}>
 		Updated {formatDate(buildDateTime)}
 	</time>
-	<a class="text-sm text-right hover:text-accent" href="https://jonasparnow.com" rel="me">
-		jonasparnow.com
-	</a>
+	<a class="text-sm text-right link" href="https://jonasparnow.com" rel="me"> jonasparnow.com </a>
 </footer>

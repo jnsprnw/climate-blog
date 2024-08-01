@@ -1,18 +1,34 @@
 <script lang="ts">
-	import { getPageList } from '$utils/posts';
+	import { getPagination } from '$utils/posts';
+	import { getAbsoluteURL } from '$utils/url';
 	type Props = {
-		currentIndex: string;
+		currentIndex: number;
 		posts_count: number;
 	};
 
 	const { currentIndex, posts_count }: Props = $props();
+	const { count, list, prev, next } = $derived(getPagination(posts_count, currentIndex));
 </script>
 
-{currentIndex}
-{posts_count}
+<svelte:head>
+	<link rel="first" href={getAbsoluteURL()} />
+	<link rel="last" href={getAbsoluteURL(String(count))} />
+	{#if prev}
+		<link rel="prev" href={getAbsoluteURL(String(prev))} />
+	{/if}
+	{#if next}
+		<link rel="next" href={getAbsoluteURL(String(next))} />
+	{/if}
+</svelte:head>
 
-<nav class="flex justify-center text-sm pb-16">
-	{#each getPageList(posts_count, currentIndex) as { label, path, isCurrent }}{#if isCurrent}<span
-				class="text-gray-400 px-2">{label}</span
-			>{:else}<a class="px-2 hover:text-accent" href="/{path}">{label}</a>{/if}{/each}
+<nav class="flex justify-center text-sm gap-x-3">
+	{#each list as { label, path, isCurrent, isPrev, isNext }}
+		{#if isCurrent}
+			<a href="/{path}" class="text-slate-400 p-2" aria-current="page">{label}</a>
+		{:else}
+			<a class="link p-2" href="/{path}" rel={isPrev ? 'prev' : isNext ? 'next' : undefined}
+				>{label}</a
+			>
+		{/if}
+	{/each}
 </nav>

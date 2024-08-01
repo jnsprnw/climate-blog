@@ -4,9 +4,11 @@ import { checkFavorite } from '$utils/url';
 export async function load({ params }) {
 	const { lang, favorite, page } = params;
 	const isFavorite = checkFavorite(favorite);
+	const page_current = parseInt(page ?? 1);
 	return {
-		posts: getCurrentPosts(page, isFavorite, lang),
-		posts_count: getPostsCount()
+		posts: getCurrentPosts(page_current, isFavorite, lang),
+		posts_count: getPostsCount(),
+		page_current: page_current
 	};
 }
 
