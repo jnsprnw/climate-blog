@@ -15,9 +15,17 @@ export async function getImageDetails(id: string, caption: string) {
 
 	const url_rss = cloudinary.url(id, {
 		...transformation,
-		height: 400,
 		width: 400,
+		height: 400,
 		crop: 'fit'
+	});
+
+	const url_preview = cloudinary.url(id, {
+		...transformation,
+		width: 1200,
+		height: 630,
+		crop: 'fill',
+		gravity: 'auto'
 	});
 
 	const sizes = [300, 600, 900, 1200, 1500, 1800, 2100, width].filter((size) => size <= width);
@@ -28,6 +36,7 @@ export async function getImageDetails(id: string, caption: string) {
 		height,
 		caption,
 		url_rss,
+		url_preview,
 		sizes: sizes.map((size) => [
 			size,
 			cloudinary.url(id, {

@@ -8,7 +8,8 @@ export async function load({ params }) {
 	return {
 		posts: getCurrentPosts(page_current, isFavorite, lang),
 		posts_count: getPostsCount(),
-		page_current: page_current
+		page_current: page_current,
+		path: [lang, isFavorite ? 'favorite' : undefined, page].filter(Boolean).join('/')
 	};
 }
 
