@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { TITLE, DESCRIPTION } from '$config';
+	import { SITE_TITLE, SITE_DESCRIPTION } from '$config';
 	import { getAbsoluteURL } from '$utils/url';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -12,25 +12,25 @@
 </script>
 
 <svelte:head>
-	<title>{TITLE}</title>
-	<meta name="description" content={DESCRIPTION} />
+	<title>{SITE_TITLE}</title>
+	<meta name="description" content={SITE_DESCRIPTION} />
 
 	<meta name="robots" content="index, follow, noimageindex" />
 
 	<meta property="og:type" content="website" />
 	<meta property="og:image" content={getAbsoluteURL('apple-touch-icon.png')} />
 	<meta property="og:image:alt" content="Green circle on a white background." />
-	<meta property="og:description" content={DESCRIPTION} />
-	<meta property="og:site_name" content={TITLE} />
+	<meta property="og:description" content={SITE_DESCRIPTION} />
+	<meta property="og:site_name" content={SITE_TITLE} />
 	<meta property="og:locale" content="en_GB" />
 
-	<meta itemprop="name" content={TITLE} />
-	<meta itemprop="description" content={DESCRIPTION} />
+	<meta itemprop="name" content={SITE_TITLE} />
+	<meta itemprop="description" content={SITE_DESCRIPTION} />
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:creator" content="@zeto" />
-	<meta name="twitter:title" content={TITLE} />
-	<meta name="twitter:description" content={DESCRIPTION} />
+	<meta name="twitter:title" content={SITE_TITLE} />
+	<meta name="twitter:description" content={SITE_DESCRIPTION} />
 	<meta name="twitter:image" content={getAbsoluteURL('apple-touch-icon.png')} />
 	<meta name="twitter:image:alt" content="Green circle on a white background." />
 
