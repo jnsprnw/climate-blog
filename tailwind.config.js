@@ -4,7 +4,7 @@ export default {
 	theme: {
 		fontFamily: {
 			sans: ['Untitled Sans', 'Helvetica Neue', 'Helvetica', 'sans-serif'],
-			serif: ['Times New Roman', 'serif']
+			serif: ['Charter', 'Georgia', 'Times New Roman', 'serif']
 		},
 		extend: {
 			colors: {
