@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { version } from '$app/environment';
 	import { SITE_TITLE, SITE_DESCRIPTION } from '$config';
 	import { getAbsoluteURL } from '$utils/url';
 	import Header from '$lib/components/Header.svelte';
@@ -51,10 +52,13 @@
 	<link rel="alternate" type="application/rss+xml" href={getAbsoluteURL('rss.xml')} title="RSS" />
 
 	<link rel="me" href="https://climatejustice.social/@jonas" />
+
+	<meta name="version" content={version} />
+	<meta name="build" content={data.buildDateTime.toISOString()} />
 </svelte:head>
 
 <div class="mx-auto max-w-3xl px-3 pt-20 flex flex-col gap-y-12">
 	<Header />
 	{@render children()}
-	<Footer buildDateTime={data.buildDateTime} />
+	<Footer buildDateTime={data.buildDateTime} {version} />
 </div>
