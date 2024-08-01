@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { formatDate, formatDateFull } from '$utils/format';
-	const { buildDateTime }: { buildDateTime: Date } = $props();
+	import { getAbsoluteURL } from '$utils/url';
+	const { buildDateTime, version }: { buildDateTime: Date; version: string } = $props();
 </script>
 
-<footer class="grid grid-cols-2 mb-12 text-sm mt-16 border-t-2 border-slate-900 pt-16">
+<footer class="flex justify-between mb-12 text-sm mt-16 border-t-2 border-slate-900 pt-16">
 	<time title={formatDateFull(buildDateTime)} datetime={buildDateTime.toISOString()}>
 		Updated {formatDate(buildDateTime)}
 	</time>
-	<a class="text-sm text-right link" href="https://jonasparnow.com" rel="me"> jonasparnow.com </a>
+	<span>Version {version}</span>
+	<a class="link" href={getAbsoluteURL('about')}>About</a>
 </footer>
