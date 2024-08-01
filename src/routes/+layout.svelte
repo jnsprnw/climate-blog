@@ -41,7 +41,7 @@
 	<link rel="me" href="https://climatejustice.social/@jonas" />
 </svelte:head>
 
-<div class="mx-auto max-w-3xl px-6 pt-20">
+<div class="mx-auto max-w-3xl px-3 pt-20 flex flex-col gap-y-12">
 	<Header />
 	{@render children()}
 	<Footer buildDateTime={data.buildDateTime} />

@@ -9,13 +9,15 @@
 	const parts = $derived(formatter.formatToParts(authors));
 </script>
 
-<span lang={lang_literals}>By</span>
-{#each parts as { type, value }}
-	{#if type === 'literal'}
-		<span lang={lang_literals}>{value}</span>
-	{:else}
-		<span itemscope itemtype="https://schema.org/Person" lang={lang_authors}>
-			<span itemprop="name">{value}</span>
-		</span>
-	{/if}
-{/each}
+<div class="leading-tight">
+	<span lang={lang_literals}>By</span>
+	{#each parts as { type, value }}
+		{#if type === 'literal'}
+			<span lang={lang_literals}>{value}</span>
+		{:else}
+			<span itemscope itemtype="https://schema.org/Person" lang={lang_authors}>
+				<span itemprop="name">{value}</span>
+			</span>
+		{/if}
+	{/each}
+</div>

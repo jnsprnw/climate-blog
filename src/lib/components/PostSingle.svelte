@@ -26,7 +26,7 @@
 </script>
 
 <article
-	class="mt-12 mb-16 grid grid-cols-3 border-b-2 border-slate-700 pb-16 dark:border-neutral-700 md:mb-24 md:pb-24"
+	class="grid grid-cols-3"
 	itemscope
 	itemtype={`https://schema.org/${schemas.key}`}
 	id={slug}
@@ -47,7 +47,7 @@
 		</div>
 		<a href={`/${slug}`} class="transition-colors hover:text-accent" itemprop="url">
 			<h1
-				class="mb-2 text-3xl leading-tight md:text-4xl lg:text-5xl"
+				class="mb-2 text-3xl leading-tight md:text-4xl lg:text-5xl text-balance"
 				itemprop="name"
 				lang={language.key}
 			>

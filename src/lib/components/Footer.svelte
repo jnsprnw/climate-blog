@@ -3,7 +3,7 @@
 	const { buildDateTime }: { buildDateTime: Date } = $props();
 </script>
 
-<footer class="grid grid-cols-2 mb-12 text-sm">
+<footer class="grid grid-cols-2 mb-12 text-sm mt-16 border-t-2 border-slate-900 pt-16">
 	<time title={formatDateFull(buildDateTime)} datetime={buildDateTime.toISOString()}>
 		Updated {formatDate(buildDateTime)}
 	</time>

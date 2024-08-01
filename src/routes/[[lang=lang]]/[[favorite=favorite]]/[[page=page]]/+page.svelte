@@ -12,5 +12,7 @@
 	const { data }: { data: Props } = $props();
 </script>
 
-<PostList posts={data.posts} />
-<Pagination currentIndex={data.page_current} posts_count={data.posts_count} />
+<main class="flex flex-col gap-y-24">
+	<PostList posts={data.posts} />
+	<Pagination currentIndex={data.page_current} posts_count={data.posts_count} />
+</main>
