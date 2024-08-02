@@ -5,7 +5,8 @@ import {
 	getPosts,
 	getSchemas,
 	getTopics,
-	getPublishers
+	getPublishers,
+	getReferences
 } from './pocketbase';
 import { writeFile, slugify } from './utils';
 import { getImageDetails } from './cloudinary';
@@ -22,6 +23,7 @@ async function getData() {
 	// console.log({ topics });
 	const schemas = await getSchemas();
 	const publishers = await getPublishers();
+	const references = await getReferences();
 
 	const posts = await getPosts();
 	const entries = await Promise.all(
@@ -33,6 +35,7 @@ async function getData() {
 				language: languages.get(post.language),
 				schemas: schemas.get(post.schemas),
 				publisher: publishers.get(post.publisher),
+				reference: references.get(post.reference),
 				formats: post.formats.map((key: string) => formats.get(key)),
 				authors: post.authors.map((key: string) => authors.get(key)),
 				topics: post.tags.map((key: string) => topics.get(key)),

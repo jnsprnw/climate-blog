@@ -99,16 +99,23 @@
 			</div>
 		{/if}
 	</main>
-	<footer class="flex leading-none justify-between w-full col-span-3">
-		<time class="text-neutral-400 text-center text-sm" datetime={published}
+	<footer class="grid grid-cols-3 leading-none justify-between w-full col-span-3 text-sm">
+		<time class="text-neutral-400 text-left" datetime={published}
 			>{formatDate(new Date(published))}</time
 		>
-		<a
-			class="flex items-center underline decoration-accent font-semibold text-right text-sm hover:text-accent"
-			href={url}
-		>
-			<span itemprop="publisher">{publisher?.label}</span>
-			<Link />
-		</a>
+		{#if post.reference?.label}
+			<span class="text-center"
+				>Via <a class="link" href={post.reference_link}>{post.reference.label}</a></span
+			>
+		{/if}
+		<span class="text-right col-start-3">
+			<a
+				class="inline-flex items-center underline decoration-accent font-semibold hover:text-accent"
+				href={url}
+			>
+				<span itemprop="publisher">{publisher?.label}</span>
+				<Link />
+			</a>
+		</span>
 	</footer>
 </article>

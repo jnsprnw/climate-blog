@@ -75,7 +75,10 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "qohs4d16nhhjn1x",
+    "reference": {
+      "label": "Neue Nationalgalerie",
+      "slug": "neue-nationalgalerie"
+    },
     "reference_link": "https://www.smb.museum/museen-einrichtungen/neue-nationalgalerie/ausstellungen/detail/zerreissprobe-kunst-zwischen-politik-und-gesellschaft/",
     "schemas": {
       "label": "Visual artwork",
@@ -139,7 +142,6 @@
     },
     "quote": "Those facing flood and fire can’t afford to lose hope. Neither should we.",
     "quote_author": "Rebecca Solnit",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -229,7 +231,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Visual artwork",
@@ -321,7 +322,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Photograph",
@@ -388,7 +388,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -478,7 +477,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Visual artwork",
@@ -545,7 +543,6 @@
     "published": "2023-03-07 12:00:00.000Z",
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Movie",
@@ -625,7 +622,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Movie",
@@ -701,7 +697,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -767,7 +762,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -834,7 +828,10 @@
     "published": "2023-02-24 12:00:00.000Z",
     "quote": "",
     "quote_author": "",
-    "reference": "niqd6igfxo7zbdj",
+    "reference": {
+      "label": "Julian Oliver",
+      "slug": "julian-oliver"
+    },
     "reference_link": "https://mastodon.social/@JulianOliver/109912227272939613",
     "schemas": {
       "label": "Web site",
@@ -909,7 +906,10 @@
     },
     "quote": "If we did go back to sleeping as much as we need to, as much as we did a century ago, then that would cause a huge recession as people would consume an hour less every day.",
     "quote_author": "Dr. Charles Czeisler",
-    "reference": "yzo15os7g51t9b3",
+    "reference": {
+      "label": "Dense Discorvery",
+      "slug": "dense-discorvery"
+    },
     "reference_link": "https://www.densediscovery.com/issues/226",
     "schemas": {
       "label": "Article",
@@ -980,7 +980,10 @@
     },
     "quote": "Versetzen Sie sich für einen Moment in die nähere Zukunft, sagen wir ins Jahr 2141. Was passiert? Sie schauen zurück, nerven sich über die vergangene Zeit, lachen vielleicht. Sie blicken auf Ihre eigene Gegenwart, so wie Sie heute in einem Museum auf die Viktorianer oder Wilhelm Tell zurückschauen würden. Man fühlt sich dabei überlegen, weil man lebt und die anderen tot sind; weil man Dinge weiss, die die anderen damals nicht wussten; weil sie Fehler begingen, die in Zukunft offensichtlich sind. Wenn Sie dann wieder aus dem Jahr 2141 in die Gegenwart zurück­kehren, dann werden Sie verstehen, dass auch Sie Teil eines historischen Prozesses sind, an den man sich später erinnern wird und den Sie mit Ihren Handlungen beeinflussen.",
     "quote_author": "Kim Stanley Robinson",
-    "reference": "wnmnakvy6bhzo75",
+    "reference": {
+      "label": "David Bauer",
+      "slug": "david-bauer"
+    },
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -1046,7 +1049,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "TV Episode",
@@ -1112,7 +1114,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast episode",
@@ -1187,7 +1188,6 @@
     },
     "quote": "Climate change presents a near-term threat to the future of human civilization. The biodiversity crisis presents a longer term threat to the viability of the human species.",
     "quote_author": "Katharine Hayhoe",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast episode",
@@ -1285,7 +1285,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Photograph",
@@ -1360,7 +1359,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Conversation",
@@ -1439,7 +1437,10 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "4aqsy7tnhkm2kzo",
+    "reference": {
+      "label": "Kim",
+      "slug": "kim"
+    },
     "reference_link": "",
     "schemas": {
       "label": "Video game",
@@ -1510,7 +1511,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast episode",
@@ -1585,7 +1585,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Movie",
@@ -1638,7 +1637,6 @@
     "published": "2023-01-21 12:00:00.000Z",
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Guide",
@@ -1700,7 +1698,10 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "wnmnakvy6bhzo75",
+    "reference": {
+      "label": "David Bauer",
+      "slug": "david-bauer"
+    },
     "reference_link": "https://twitter.com/elia_bluelle/status/1615267119318372352",
     "schemas": {
       "label": "Article",
@@ -1761,7 +1762,10 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "j24crh4wdpu19se",
+    "reference": {
+      "label": "Hackernews",
+      "slug": "hackernews"
+    },
     "reference_link": "https://news.ycombinator.com/item?id=34399811",
     "schemas": {
       "label": "Article",
@@ -1811,7 +1815,6 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference": "",
     "reference_link": "",
     "schemas": {
       "label": "Book",
