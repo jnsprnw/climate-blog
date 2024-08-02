@@ -1,5 +1,7 @@
 import posts from '$posts';
 import { POSTS_PER_PAGE } from '$config';
+import type { Post } from '$types/pocketbase';
+import { maxBy } from 'lodash-es';
 
 export function getPostsCount() {
 	return posts.length;
@@ -64,4 +66,8 @@ export function getPagination(posts_total: number, currentIndex: number) {
 		next: pages_count < next ? undefined : next,
 		prev: prev < 0 ? undefined : prev
 	};
+}
+
+export function getLastMod(arr: Post[]) {
+	return maxBy(arr, (d) => new Date(d.updated)).updated;
 }

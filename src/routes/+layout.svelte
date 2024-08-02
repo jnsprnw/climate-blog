@@ -18,6 +18,7 @@
 	const title = $derived($page.data?.post?.title ?? SITE_TITLE);
 	const type = $derived($page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL($page.data?.path));
+	const lastModified = $derived($page.data?.post?.updated ?? $page.data?.lastMod);
 </script>
 
 <svelte:head>
@@ -35,6 +36,9 @@
 	<meta property="og:site_name" content={SITE_TITLE} />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="article:author" content="Jonas Parnow" />
+	{#if lastModified}
+		<meta property="og:updated_time" content={new Date(lastModified).toISOString()} />
+	{/if}
 
 	<meta itemprop="name" content={SITE_TITLE} />
 	<meta itemprop="description" content={SITE_DESCRIPTION} />
