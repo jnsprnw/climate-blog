@@ -9,4 +9,4 @@
 	const { data }: { data: Props } = $props();
 </script>
 
-<PostSingle post={data.post} />
+<PostSingle post={data.post} isSingle={true} />

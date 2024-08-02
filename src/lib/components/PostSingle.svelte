@@ -26,7 +26,7 @@
 </script>
 
 <article
-	class="grid grid-cols-3"
+	class="grid grid-cols-3 gap-y-6"
 	itemscope
 	itemtype={`https://schema.org/${schemas.key}`}
 	id={slug}
@@ -58,7 +58,7 @@
 			</span>
 		</a>
 	</header>
-	<main class="col-span-3 my-6 border-y border-slate-200 py-6 flex flex-col gap-y-4">
+	<main class="col-span-3 border-y border-slate-200 py-6 flex flex-col gap-y-4">
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				<img
@@ -118,4 +118,14 @@
 			</a>
 		</span>
 	</footer>
+	{#if isSingle}
+		<aside class="text-sm col-span-3 mt-12">
+			<p>
+				This post was published <time datetime={post.published}
+					>{formatDate(new Date(post.published))}</time
+				>
+				and last updated <time datetime={post.updated}>{formatDate(new Date(post.updated))}</time>.
+			</p>
+		</aside>
+	{/if}
 </article>
