@@ -113,7 +113,7 @@
 				class="inline-flex items-center underline decoration-accent font-semibold hover:text-accent"
 				href={url}
 			>
-				<span itemprop="publisher">{publisher?.label}</span>
+				<span itemprop="publisher">{publisher?.label ?? 'Visit'}</span>
 				<Link />
 			</a>
 		</span>
