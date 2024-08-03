@@ -64,7 +64,7 @@
 			</span>
 		</a>
 	</header>
-	<main class="col-span-3 border-y border-slate-200 py-6 flex flex-col gap-y-4">
+	<main class="col-span-3 border-y border-slate-200 py-6 flex flex-col gap-y-8">
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				<img
