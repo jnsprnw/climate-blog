@@ -120,10 +120,10 @@
 		{/if}
 		<span class="text-right">
 			<a
-				class="inline-flex items-center underline decoration-accent font-semibold hover:text-accent"
+				class="max-w-full inline-flex items-center underline decoration-accent font-semibold hover:text-accent"
 				href={url}
 			>
-				<span itemprop="publisher">{publisher?.label ?? 'Visit'}</span>
+				<span class="truncate" itemprop="publisher">{publisher?.label ?? 'Visit'}</span>
 				<Link />
 			</a>
 		</span>

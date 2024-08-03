@@ -61,7 +61,9 @@
 	<meta name="build" content={data.buildDateTime.toISOString()} />
 </svelte:head>
 
-<div class="mx-auto max-w-3xl px-3 pt-20 flex flex-col gap-y-12">
+<div
+	class="mx-auto max-w-3xl px-3 pt-6 sm:pt-16 md:pt-20 flex flex-col gap-y-6 sm:gap-y-10 md:gap-y-12"
+>
 	<Header />
 	{@render children()}
 	<Footer buildDateTime={data.buildDateTime} {version} />
