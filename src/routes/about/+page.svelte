@@ -23,26 +23,26 @@
 </p>
 <section>
 	<p>If you want to follow the blog, you can do that through RSS feeds:</p>
-	<ul class="grid grid-cols-[auto_1fr] gap-x-2 gap-y-2 my-4">
-		<li class="grid grid-cols-subgrid col-span-2">
+	<ul class="grid sm:grid-cols-[auto_1fr] gap-x-2 gap-y-2 my-4">
+		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>Regular feed</span>
 			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
 				{getAbsoluteURL('rss.xml')}
 			</code>
 		</li>
-		<li class="grid grid-cols-subgrid col-span-2">
+		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>Engish posts feed</span>
 			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
 				{getAbsoluteURL('en/rss.xml')}
 			</code>
 		</li>
-		<li class="grid grid-cols-subgrid col-span-2">
+		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>German posts feed</span>
 			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
 				{getAbsoluteURL('de/rss.xml')}
 			</code>
 		</li>
-		<li class="grid grid-cols-subgrid col-span-2">
+		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>Favorite posts feed</span>
 			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
 				{getAbsoluteURL('favorite/rss.xml')}
