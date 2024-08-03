@@ -22,10 +22,12 @@
 		published,
 		publisher,
 		url,
-		reference
+		reference,
+		related
 	} = post;
 	const hasReference = $derived(typeof reference !== 'undefined');
-	$inspect(reference);
+
+	const formatterList = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
 </script>
 
 <article
@@ -126,13 +128,65 @@
 		</span>
 	</footer>
 	{#if isSingle}
-		<aside class="text-sm col-span-3 mt-12">
+		<aside class="text-sm col-span-3 my-12">
 			<p>
 				This post was published <time datetime={post.published}
 					>{formatDate(new Date(post.published))}</time
 				>
 				and last updated <time datetime={post.updated}>{formatDate(new Date(post.updated))}</time>.
 			</p>
+			<p>Topics: {formatterList.format(post.topics.map(({ label }) => label))}</p>
 		</aside>
+		<div class="col-span-3 text-base grid gap-y-4">
+			<h2 class="font-semibold">Related posts</h2>
+			{#if related.tags}
+				<div>
+					<h4 class="text-sm text-neutral-400">Same topics</h4>
+					<ul class="flex gap-y-1 flex-col">
+						{#each related.tags as [title, slug]}
+							<li>
+								<a class="link" href={`/tag/${slug}`}>{title}</a>
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+			{#if related.authors.length}
+				<div>
+					<h4 class="text-sm text-neutral-400">Same authors</h4>
+					<ul class="flex gap-y-1 flex-col">
+						{#each related.authors as [title, slug]}
+							<li>
+								<a class="link" href={`/tag/${slug}`}>{title}</a>
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+			{#if related.formats.length}
+				<div>
+					<h4 class="text-sm text-neutral-400">Same formats</h4>
+					<ul class="flex gap-y-1 flex-col">
+						{#each related.formats as [title, slug]}
+							<li>
+								<a class="link" href={`/tag/${slug}`}>{title}</a>
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+			{#if related.publisher.length}
+				<div>
+					<h4 class="text-sm text-neutral-400">Same publisher</h4>
+					<ul>
+						{#each related.publisher as [title, slug]}
+							<li>
+								<a class="link" href={`/tag/${slug}`}>{title}</a>
+							</li>
+						{/each}
+					</ul>
+				</div>
+			{/if}
+		</div>
 	{/if}
 </article>
