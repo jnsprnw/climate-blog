@@ -83,6 +83,10 @@
       "authors": [],
       "tags": [
         [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
           "Diablo IV advertising with wildfire smoke",
           "diablo-iv-advertising-with-wildfire-smoke"
         ],
@@ -97,6 +101,158 @@
         [
           "100 gute Gründe gegen Atomkraft",
           "100-gute-grunde-gegen-atomkraft"
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "Emily Bernstein",
+        "slug": "emily-bernstein"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "",
+    "created": "2024-08-03 22:19:39.699Z",
+    "date": "2020-01-29 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Comic",
+        "slug": "comic"
+      }
+    ],
+    "id": "w65hqi7pfc2o71v",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0",
+      "width": 1280,
+      "height": 1517,
+      "caption": "Emily Bernstein",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+        ],
+        [
+          1280,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1280/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+        ]
+      ]
+    },
+    "image_caption": "Emily Bernstein",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2024-08-04 00:19:00.000Z",
+    "publisher": {
+      "label": "The New Yorker",
+      "slug": "the-new-yorker"
+    },
+    "quote": "",
+    "quote_author": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Visual artwork",
+      "slug": "visual-artwork",
+      "key": "VisualArtwork"
+    },
+    "tags": [
+      "w98y5g1o477uz2a",
+      "w3agiq4xxjerj14",
+      "991yaahmkskmr6t"
+    ],
+    "title": "Quick—tell us who you’re wearing!",
+    "updated": "2024-08-03 22:19:39.699Z",
+    "url": "https://www.newyorker.com/cartoon/a23821",
+    "slug": "quick-tell-us-who-youre-wearing",
+    "topics": [
+      {
+        "label": "Popculture",
+        "slug": "popculture"
+      },
+      {
+        "label": "Attention",
+        "slug": "attention"
+      },
+      {
+        "label": "Society",
+        "slug": "society"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [
+        [
+          "“Looks like Congress might finally do something about TikTok.”",
+          "looks-like-congress-might-finally-do-something-about-tik-tok"
+        ],
+        [
+          "Nuisance Bear",
+          "nuisance-bear"
+        ],
+        [
+          "Haulout",
+          "haulout"
+        ],
+        [
+          "Is Artificial Light Poisoning the Planet?",
+          "is-artificial-light-poisoning-the-planet"
+        ]
+      ],
+      "formats": [
+        [
+          "“Looks like Congress might finally do something about TikTok.”",
+          "looks-like-congress-might-finally-do-something-about-tik-tok"
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
+        ],
+        [
+          "“Looks like Congress might finally do something about TikTok.”",
+          "looks-like-congress-might-finally-do-something-about-tik-tok"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-advertising-with-wildfire-smoke"
+        ],
+        [
+          "Schiefe Bilder als Klimaprotest",
+          "schiefe-bilder-als-klimaprotest"
+        ],
+        [
+          "Our Attention Spans Are Being Stolen",
+          "our-attention-spans-are-being-stolen"
+        ],
+        [
+          "Climate change conversations during live commentary",
+          "climate-change-conversations-during-live-commentary"
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "the-sunday-read-what-does-sustainable-living-look-like..."
         ]
       ]
     }
@@ -574,6 +730,10 @@
     "related": {
       "publisher": [
         [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
           "Nuisance Bear",
           "nuisance-bear"
         ],
@@ -586,9 +746,18 @@
           "is-artificial-light-poisoning-the-planet"
         ]
       ],
-      "formats": [],
+      "formats": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ]
+      ],
       "authors": [],
       "tags": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
         [
           "Diablo IV advertising with wildfire smoke",
           "diablo-iv-advertising-with-wildfire-smoke"
@@ -724,6 +893,10 @@
         [
           "Fall of Civilizations",
           "fall-of-civilizations"
+        ],
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
         ],
         [
           "“Looks like Congress might finally do something about TikTok.”",
@@ -953,6 +1126,10 @@
       "authors": [],
       "tags": [
         [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
           "The Oldest Living Things in the World",
           "the-oldest-living-things-in-the-world"
         ],
@@ -1059,6 +1236,10 @@
     "quote_content": "",
     "related": {
       "publisher": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
         [
           "“Looks like Congress might finally do something about TikTok.”",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
@@ -1175,6 +1356,10 @@
     "quote_content": "",
     "related": {
       "publisher": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
         [
           "“Looks like Congress might finally do something about TikTok.”",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
@@ -1362,6 +1547,10 @@
     "quote_content": "",
     "related": {
       "publisher": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
         [
           "“Looks like Congress might finally do something about TikTok.”",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
@@ -1612,6 +1801,10 @@
       "authors": [],
       "tags": [
         [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
           "Agnes Denes: Wheatfield – A Confrontation",
           "agnes-denes-wheatfield-a-confrontation"
         ],
@@ -1801,6 +1994,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
         [
           "“Looks like Congress might finally do something about TikTok.”",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
@@ -2457,6 +2654,10 @@
         [
           "Fall of Civilizations",
           "fall-of-civilizations"
+        ],
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
         ],
         [
           "Why climate despair is a luxury",
