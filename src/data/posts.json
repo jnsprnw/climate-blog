@@ -2,6 +2,142 @@
   {
     "authors": [
       {
+        "label": "Rachel Sussman",
+        "slug": "rachel-sussman"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>Since 2004, Brooklyn-based artist Rachel Sussman has explored harsh climates from Antarctica to the Mojave Desert to photograph the <a href=\"https://www.rachelsussman.com/oltw\">world&rsquo;s oldest living organisms</a>. This includes <a href=\"https://en.m.wikipedia.org/wiki/Pando_(tree)\">Pando</a>, an aspen colony in Utah with a root system around 80,000 years old, and the <a href=\"https://en.m.wikipedia.org/wiki/Yareta\">Llareta</a> plants in South America, which grow 1.5 cm annually and live for over 3,000 years. Despite their longevity, such ecosystems face threats from climate change and human activity.</p>\r\n<p>Her photographs are meditations on &ldquo;deep time&rdquo; &ndash; <a href=\"https://www.southbankcentre.co.uk/blog/articles/rachel-sussman-deep-time-oldest-living-things-world\">timescales that are outside of our human, physiological experience of time</a> &ndash; and often show the <a href=\"https://www.ted.com/talks/rachel_sussman_the_world_s_oldest_living_things\">most versatile adaptation to the harsh climate conditions</a> these organism are living in.</p>",
+    "created": "2024-08-03 20:47:37.300Z",
+    "date": "2014-04-01 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Book",
+        "slug": "book"
+      },
+      {
+        "label": "Photograph",
+        "slug": "photograph"
+      }
+    ],
+    "id": "oz9q1u5t31pt8lm",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0",
+      "width": 1000,
+      "height": 792,
+      "caption": "Spruce Gran Picea #0909 – 11A07 (9,550 years old; Fulufjället, Sweden)",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0"
+        ],
+        [
+          1000,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1000/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0"
+        ]
+      ]
+    },
+    "image_caption": "Spruce Gran Picea #0909 – 11A07 (9,550 years old; Fulufjället, Sweden)",
+    "isFavorite": true,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2024-08-03 22:48:00.000Z",
+    "publisher": {
+      "label": "The University of Chicago Press",
+      "slug": "the-university-of-chicago-press"
+    },
+    "quote": "It is imperative to the health of the planet, to the longevity of humans as a species, that we connect with timescales that are longer than our own.",
+    "quote_author": "Rachel Sussman",
+    "reference_link": "",
+    "schemas": {
+      "label": "Book",
+      "slug": "book",
+      "key": "Book"
+    },
+    "tags": [
+      "e7g701bpr9rpyf7",
+      "zw9695whw1znbob",
+      "b7nv3puch2sf78d",
+      "tns3grcobmgn8zw"
+    ],
+    "title": "The Oldest Living Things in the World",
+    "updated": "2024-08-03 20:49:49.327Z",
+    "url": "https://press.uchicago.edu/ucp/books/book/chicago/O/bo16364599.html",
+    "slug": "the-oldest-living-things-in-the-world",
+    "topics": [
+      {
+        "label": "Art",
+        "slug": "art"
+      },
+      {
+        "label": "Deep time",
+        "slug": "deep-time"
+      },
+      {
+        "label": "Nature",
+        "slug": "nature"
+      },
+      {
+        "label": "Non-human",
+        "slug": "non-human"
+      }
+    ],
+    "quote_content": "It is imperative to the health of the planet, to the longevity of humans as a species, that we connect with timescales that are longer than our own.",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-advertising-with-wildfire-smoke"
+        ],
+        [
+          "Is Artificial Light Poisoning the Planet?",
+          "is-artificial-light-poisoning-the-planet"
+        ],
+        [
+          "Bagger 288 in Lützerath",
+          "bagger-288-in-lutzerath"
+        ],
+        [
+          "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+          "klimabilder-eine-genealogie-globaler-bildpolitiken-von..."
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "Agnes Denes: Wheatfield – A Confrontation",
+          "agnes-denes-wheatfield-a-confrontation"
+        ],
+        [
+          "Schiefe Bilder als Klimaprotest",
+          "schiefe-bilder-als-klimaprotest"
+        ],
+        [
+          "Permillion",
+          "permillion"
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
         "label": "Agnes Denes",
         "slug": "agnes-denes"
       }
@@ -109,6 +245,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
         [
           "Schiefe Bilder als Klimaprotest",
           "schiefe-bilder-als-klimaprotest"
@@ -469,6 +609,10 @@
       ],
       "formats": [
         [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
+        [
           "Bagger 288 in Lützerath",
           "bagger-288-in-lutzerath"
         ]
@@ -702,6 +846,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
         [
           "Agnes Denes: Wheatfield – A Confrontation",
           "agnes-denes-wheatfield-a-confrontation"
@@ -1123,6 +1271,10 @@
       ],
       "formats": [
         [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
+        [
           "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
           "klimabilder-eine-genealogie-globaler-bildpolitiken-von..."
         ]
@@ -1231,6 +1383,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
         [
           "Agnes Denes: Wheatfield – A Confrontation",
           "agnes-denes-wheatfield-a-confrontation"
@@ -1876,6 +2032,10 @@
         ]
       ],
       "formats": [
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
         [
           "Diablo IV advertising with wildfire smoke",
           "diablo-iv-advertising-with-wildfire-smoke"
@@ -2628,6 +2788,10 @@
     "related": {
       "publisher": [],
       "formats": [
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
         [
           "Is Artificial Light Poisoning the Planet?",
           "is-artificial-light-poisoning-the-planet"
