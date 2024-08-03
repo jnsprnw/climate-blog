@@ -21,8 +21,11 @@
 		title,
 		published,
 		publisher,
-		url
+		url,
+		reference
 	} = post;
+	const hasReference = $derived(typeof reference !== 'undefined');
+	$inspect(reference);
 </script>
 
 <article
@@ -99,16 +102,20 @@
 			</div>
 		{/if}
 	</main>
-	<footer class="grid grid-cols-3 leading-none justify-between w-full col-span-3 text-sm">
+	<footer
+		class="grid leading-none justify-between w-full col-span-3 gap-x-2 text-sm"
+		class:grid-cols-2={!hasReference}
+		class:grid-cols-3={hasReference}
+	>
 		<time class="text-neutral-400 text-left" datetime={published}
-			>{formatDate(new Date(published))}</time
+			>{formatDate(new Date(published), true)}</time
 		>
-		{#if post.reference?.label}
+		{#if hasReference}
 			<span class="text-center"
 				>Via <a class="link" href={post.reference_link}>{post.reference.label}</a></span
 			>
 		{/if}
-		<span class="text-right col-start-3">
+		<span class="text-right">
 			<a
 				class="inline-flex items-center underline decoration-accent font-semibold hover:text-accent"
 				href={url}
