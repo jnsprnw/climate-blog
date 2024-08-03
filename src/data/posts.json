@@ -2,112 +2,6 @@
   {
     "authors": [
       {
-        "label": "Paul Cooper",
-        "slug": "paul-cooper"
-      }
-    ],
-    "collectionId": "ihpvff9pojwzslu",
-    "collectionName": "posts",
-    "connection": [],
-    "content": "<p>Throughout history, civilisations have fallen and sometimes almost disappeared altogether. <a href=\"https://www.paulmmcooper.com/\">Paul Cooper</a> tells <a href=\"https://fallofcivilizationspodcast.com/\">their stories</a>, but always in relation to our own time: how similar was the <a href=\"https://pca.st/2W95\">Bronze Age&rsquo;s</a> dependence on the eponymous metal to today&rsquo;s dependence on oil?&nbsp;Could the <a href=\"https://pca.st/gq17\">Vikings&rsquo; refusal to adapt in Greenland</a> be similar to today's inactivity? And how could the <a href=\"https://pca.st/77rpr8tu\">Sumerian&rsquo;s change in diet</a> be a role model for us today?</p>\r\n<p>As well as being interesting, the podcast is excellently produced &ndash; often with multiple narrators and music from the time of the story. In <a href=\"https://www.abc.net.au/listen/programs/bigideas/fall-of-civilisations/103927526\">this interview</a>, Cooper talks about his &ldquo;catalogue of the worst leaders&rdquo;, which is also available as a <a href=\"https://fallofcivilizationspodcast.com/fall-of-civilizations-the-book/\">book</a>.</p>",
-    "created": "2024-08-03 21:29:26.844Z",
-    "date": "2019-01-21 12:00:00.000Z",
-    "formats": [
-      {
-        "label": "Podcast",
-        "slug": "podcast"
-      }
-    ],
-    "id": "ehh709otgp5zvb3",
-    "image": null,
-    "image_caption": "",
-    "isFavorite": false,
-    "language": {
-      "label": "English",
-      "slug": "english",
-      "key": "en"
-    },
-    "published": "2024-08-04 23:29:00.000Z",
-    "publisher": {
-      "label": "FallOfCivilizationsPodcast.com",
-      "slug": "fall-of-civilizations-podcast-com"
-    },
-    "quote": "",
-    "quote_author": "",
-    "reference_link": "",
-    "schemas": {
-      "label": "Podcast series",
-      "slug": "podcast-series",
-      "key": "PodcastSeries"
-    },
-    "tags": [
-      "991yaahmkskmr6t",
-      "lzx69t0trqshvt1",
-      "dyz3bu2ijo8oe0h"
-    ],
-    "title": "Fall of Civilizations",
-    "updated": "2024-08-03 21:38:40.484Z",
-    "url": "https://fallofcivilizationspodcast.com/",
-    "slug": "fall-of-civilizations",
-    "topics": [
-      {
-        "label": "Society",
-        "slug": "society"
-      },
-      {
-        "label": "Politics",
-        "slug": "politics"
-      },
-      {
-        "label": "History",
-        "slug": "history"
-      }
-    ],
-    "quote_content": "",
-    "related": {
-      "publisher": [],
-      "formats": [
-        [
-          "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
-        ],
-        [
-          "Consider the Burying Beetle. (Or Else.)",
-          "consider-the-burying-beetle-or-else"
-        ],
-        [
-          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
-        ]
-      ],
-      "authors": [],
-      "tags": [
-        [
-          "Quick—tell us who you’re wearing!",
-          "quick-tell-us-who-youre-wearing"
-        ],
-        [
-          "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
-        ],
-        [
-          "Half Earth Socialism Game",
-          "half-earth-socialism-game"
-        ],
-        [
-          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
-        ],
-        [
-          "100 gute Gründe gegen Atomkraft",
-          "100-gute-grunde-gegen-atomkraft"
-        ]
-      ]
-    }
-  },
-  {
-    "authors": [
-      {
         "label": "Emily Bernstein",
         "slug": "emily-bernstein"
       }
@@ -253,6 +147,112 @@
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
           "the-sunday-read-what-does-sustainable-living-look-like..."
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "Paul Cooper",
+        "slug": "paul-cooper"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>Throughout history, civilisations have fallen and sometimes almost disappeared altogether. <a href=\"https://www.paulmmcooper.com/\">Paul Cooper</a> tells <a href=\"https://fallofcivilizationspodcast.com/\">their stories</a>, but always in relation to our own time: how similar was the <a href=\"https://pca.st/2W95\">Bronze Age&rsquo;s</a> dependence on the eponymous metal to today&rsquo;s dependence on oil?&nbsp;Could the <a href=\"https://pca.st/gq17\">Vikings&rsquo; refusal to adapt in Greenland</a> be similar to today's inactivity? And how could the <a href=\"https://pca.st/77rpr8tu\">Sumerian&rsquo;s change in diet</a> be a role model for us today?</p>\r\n<p>As well as being interesting, the podcast is excellently produced &ndash; often with multiple narrators and music from the time of the story. In <a href=\"https://www.abc.net.au/listen/programs/bigideas/fall-of-civilisations/103927526\">this interview</a>, Cooper talks about his &ldquo;catalogue of the worst leaders&rdquo;, which is also available as a <a href=\"https://fallofcivilizationspodcast.com/fall-of-civilizations-the-book/\">book</a>.</p>",
+    "created": "2024-08-03 21:29:26.844Z",
+    "date": "2019-01-21 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Podcast",
+        "slug": "podcast"
+      }
+    ],
+    "id": "ehh709otgp5zvb3",
+    "image": null,
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2024-08-03 23:29:00.000Z",
+    "publisher": {
+      "label": "FallOfCivilizationsPodcast.com",
+      "slug": "fall-of-civilizations-podcast-com"
+    },
+    "quote": "",
+    "quote_author": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Podcast series",
+      "slug": "podcast-series",
+      "key": "PodcastSeries"
+    },
+    "tags": [
+      "991yaahmkskmr6t",
+      "lzx69t0trqshvt1",
+      "dyz3bu2ijo8oe0h"
+    ],
+    "title": "Fall of Civilizations",
+    "updated": "2024-08-03 22:21:49.350Z",
+    "url": "https://fallofcivilizationspodcast.com/",
+    "slug": "fall-of-civilizations",
+    "topics": [
+      {
+        "label": "Society",
+        "slug": "society"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      },
+      {
+        "label": "History",
+        "slug": "history"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
+          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+        ],
+        [
+          "Consider the Burying Beetle. (Or Else.)",
+          "consider-the-burying-beetle-or-else"
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "the-sunday-read-what-does-sustainable-living-look-like..."
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-advertising-with-wildfire-smoke"
+        ],
+        [
+          "Half Earth Socialism Game",
+          "half-earth-socialism-game"
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "the-sunday-read-what-does-sustainable-living-look-like..."
+        ],
+        [
+          "100 gute Gründe gegen Atomkraft",
+          "100-gute-grunde-gegen-atomkraft"
         ]
       ]
     }
@@ -891,12 +891,12 @@
       "authors": [],
       "tags": [
         [
-          "Fall of Civilizations",
-          "fall-of-civilizations"
-        ],
-        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
         ],
         [
           "“Looks like Congress might finally do something about TikTok.”",
@@ -2652,12 +2652,12 @@
       "authors": [],
       "tags": [
         [
-          "Fall of Civilizations",
-          "fall-of-civilizations"
-        ],
-        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
         ],
         [
           "Why climate despair is a luxury",
