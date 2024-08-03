@@ -4,6 +4,7 @@
 	import Authors from '$lib/components/Authors.svelte';
 	import { formatDate } from '$utils/format';
 	import { type Post } from '$types/pocketbase';
+	import { getAbsoluteURL } from '$utils/url';
 
 	const { post, isSingle = false }: { post: Post; isSingle?: boolean } = $props();
 
@@ -145,7 +146,7 @@
 					<ul class="flex gap-y-1 flex-col">
 						{#each related.tags as [title, slug]}
 							<li>
-								<a class="link" href={`/tag/${slug}`}>{title}</a>
+								<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
 							</li>
 						{/each}
 					</ul>
@@ -157,7 +158,7 @@
 					<ul class="flex gap-y-1 flex-col">
 						{#each related.authors as [title, slug]}
 							<li>
-								<a class="link" href={`/tag/${slug}`}>{title}</a>
+								<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
 							</li>
 						{/each}
 					</ul>
@@ -169,7 +170,7 @@
 					<ul class="flex gap-y-1 flex-col">
 						{#each related.formats as [title, slug]}
 							<li>
-								<a class="link" href={`/tag/${slug}`}>{title}</a>
+								<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
 							</li>
 						{/each}
 					</ul>
@@ -181,7 +182,7 @@
 					<ul>
 						{#each related.publisher as [title, slug]}
 							<li>
-								<a class="link" href={`/tag/${slug}`}>{title}</a>
+								<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
 							</li>
 						{/each}
 					</ul>
