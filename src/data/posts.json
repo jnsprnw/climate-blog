@@ -2,6 +2,171 @@
   {
     "authors": [
       {
+        "label": "IPCC",
+        "slug": "ipcc"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>One of the most striking and instructive graphs in the IPCC's <a href=\"https://www.ipcc.ch/assessment-report/ar6/\">Sixth Assessment Report</a>: It lists the potential contribution to net emissions reductions by 2030 for different migration options in sectors such as energy, AFOLU (Agriculture, Forestry and Other Land Uses), buildings, transport and industry. In addition to the width of the bars, it also shows colour ranges for the cost of the reduction potential of the options.</p>\r\n<p>The areas with the highest potential contributions are solar and wind energy, halting deforestation, better agriculture, strengthening ecosystems and hydrogen in industry.</p>\r\n<p>Wind and solar energy are cheap up to 2 GtCO₂-eq per year, while the often-promised carbon capture is expensive from the outset and has very little potential.</p>\r\n<p>The graphic is part of the <a href=\"https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf\">Summary for Policymakers in &ldquo;Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change&rdquo;</a>.</p>",
+    "created": "2024-08-04 22:38:02.805Z",
+    "date": "2022-04-04 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Image",
+        "slug": "image"
+      }
+    ],
+    "id": "j9uez6n86a1gnoz",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0",
+      "width": 2016,
+      "height": 2612,
+      "caption": "IPCC, 2022: Summary for Policymakers – Figure SPM.7",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+        ],
+        [
+          1800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+        ],
+        [
+          2016,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2016/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+        ]
+      ]
+    },
+    "image_caption": "IPCC, 2022: Summary for Policymakers – Figure SPM.7",
+    "isFavorite": true,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2024-08-05 00:37:00.000Z",
+    "quote": "",
+    "quote_author": "",
+    "reference": {
+      "label": "Stefan Rahmstorf",
+      "slug": "stefan-rahmstorf"
+    },
+    "reference_link": "https://x.com/rahmstorf/status/1511264152542715904",
+    "schemas": {
+      "label": "Thesis",
+      "slug": "thesis",
+      "key": "Thesis"
+    },
+    "tags": [
+      "pa3elfw03ton9vr",
+      "h4zh134ouuiosbo",
+      "543fknvjv8enf64",
+      "991yaahmkskmr6t",
+      "lzx69t0trqshvt1",
+      "xvy0yzm7zdmm0bt"
+    ],
+    "title": "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+    "updated": "2024-08-04 22:38:02.805Z",
+    "url": "https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7/",
+    "slug": "overview-of-mitigation-options-and-their-estimated-ranges...",
+    "topics": [
+      {
+        "label": "Visualisation",
+        "slug": "visualisation"
+      },
+      {
+        "label": "Science",
+        "slug": "science"
+      },
+      {
+        "label": "Policy",
+        "slug": "policy"
+      },
+      {
+        "label": "Society",
+        "slug": "society"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      },
+      {
+        "label": "Technology",
+        "slug": "technology"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [],
+      "formats": [],
+      "authors": [],
+      "tags": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-advertising-with-wildfire-smoke"
+        ],
+        [
+          "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
+          "who-rules-earth-wild-mammals-far-outweighed-by-humans-and..."
+        ],
+        [
+          "Climate change conversations during live commentary",
+          "climate-change-conversations-during-live-commentary"
+        ],
+        [
+          "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+          "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien..."
+        ],
+        [
+          "Half Earth Socialism Game",
+          "half-earth-socialism-game"
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "the-sunday-read-what-does-sustainable-living-look-like..."
+        ],
+        [
+          "100 gute Gründe gegen Atomkraft",
+          "100-gute-grunde-gegen-atomkraft"
+        ],
+        [
+          "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+          "klimabilder-eine-genealogie-globaler-bildpolitiken-von..."
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
         "label": "Emily Bernstein",
         "slug": "emily-bernstein"
       }
@@ -96,7 +261,7 @@
     "related": {
       "publisher": [
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ],
         [
@@ -114,18 +279,22 @@
       ],
       "formats": [
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ]
       ],
       "authors": [],
       "tags": [
         [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
+        [
           "Fall of Civilizations",
           "fall-of-civilizations"
         ],
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ],
         [
@@ -234,6 +403,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
         [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
@@ -379,8 +552,8 @@
       "authors": [],
       "tags": [
         [
-          "Agnes Denes: Wheatfield – A Confrontation",
-          "agnes-denes-wheatfield-a-confrontation"
+          "Wheatfield – A Confrontation",
+          "wheatfield-a-confrontation"
         ],
         [
           "Schiefe Bilder als Klimaprotest",
@@ -483,10 +656,10 @@
       "e7g701bpr9rpyf7",
       "c5ifgkr9e7l91y5"
     ],
-    "title": "Agnes Denes: Wheatfield – A Confrontation",
-    "updated": "2024-08-03 18:53:45.512Z",
+    "title": "Wheatfield – A Confrontation",
+    "updated": "2024-08-04 22:38:31.616Z",
     "url": "http://www.agnesdenesstudio.com/works7.html",
-    "slug": "agnes-denes-wheatfield-a-confrontation",
+    "slug": "wheatfield-a-confrontation",
     "topics": [
       {
         "label": "Art",
@@ -708,8 +881,8 @@
       "w98y5g1o477uz2a",
       "w3agiq4xxjerj14"
     ],
-    "title": "“Looks like Congress might finally do something about TikTok.”",
-    "updated": "2024-07-22 10:16:44.009Z",
+    "title": "Looks like Congress might finally do something about TikTok.",
+    "updated": "2024-08-04 22:38:23.015Z",
     "url": "https://www.newyorker.com/cartoons/daily-cartoon/friday-march-24th-congress-tiktok",
     "slug": "looks-like-congress-might-finally-do-something-about-tik-tok",
     "topics": [
@@ -891,6 +1064,10 @@
       "authors": [],
       "tags": [
         [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
+        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
         ],
@@ -899,7 +1076,7 @@
           "fall-of-civilizations"
         ],
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ],
         [
@@ -1134,11 +1311,11 @@
           "the-oldest-living-things-in-the-world"
         ],
         [
-          "Agnes Denes: Wheatfield – A Confrontation",
-          "agnes-denes-wheatfield-a-confrontation"
+          "Wheatfield – A Confrontation",
+          "wheatfield-a-confrontation"
         ],
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ],
         [
@@ -1241,7 +1418,7 @@
           "quick-tell-us-who-youre-wearing"
         ],
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ],
         [
@@ -1361,7 +1538,7 @@
           "quick-tell-us-who-youre-wearing"
         ],
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ],
         [
@@ -1466,6 +1643,10 @@
       "authors": [],
       "tags": [
         [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
+        [
           "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
           "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien..."
         ],
@@ -1552,7 +1733,7 @@
           "quick-tell-us-who-youre-wearing"
         ],
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ],
         [
@@ -1683,8 +1864,8 @@
           "the-oldest-living-things-in-the-world"
         ],
         [
-          "Agnes Denes: Wheatfield – A Confrontation",
-          "agnes-denes-wheatfield-a-confrontation"
+          "Wheatfield – A Confrontation",
+          "wheatfield-a-confrontation"
         ],
         [
           "Schiefe Bilder als Klimaprotest",
@@ -1805,11 +1986,11 @@
           "quick-tell-us-who-youre-wearing"
         ],
         [
-          "Agnes Denes: Wheatfield – A Confrontation",
-          "agnes-denes-wheatfield-a-confrontation"
+          "Wheatfield – A Confrontation",
+          "wheatfield-a-confrontation"
         ],
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ]
       ]
@@ -1995,11 +2176,15 @@
       "authors": [],
       "tags": [
         [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
+        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
         ],
         [
-          "“Looks like Congress might finally do something about TikTok.”",
+          "Looks like Congress might finally do something about TikTok.",
           "looks-like-congress-might-finally-do-something-about-tik-tok"
         ],
         [
@@ -2444,6 +2629,10 @@
       "authors": [],
       "tags": [
         [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
+        [
           "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
           "who-rules-earth-wild-mammals-far-outweighed-by-humans-and..."
         ],
@@ -2540,6 +2729,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
         [
           "Fall of Civilizations",
           "fall-of-civilizations"
@@ -2651,6 +2844,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
         [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
@@ -2835,6 +3032,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
         [
           "Fall of Civilizations",
           "fall-of-civilizations"
@@ -3130,6 +3331,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
         [
           "Climate change conversations during live commentary",
           "climate-change-conversations-during-live-commentary"
