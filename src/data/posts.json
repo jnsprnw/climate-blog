@@ -2,6 +2,124 @@
   {
     "authors": [
       {
+        "label": "Dillon Marsh",
+        "slug": "dillon-marsh"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>South African photographer Dillon Marsh combines photography with computer-generated images of material extracted from the landscape he portrays. In the series&nbsp;<a href=\"https://www.dillonmarsh.com/for-what-its-worth\">For What It&rsquo;s Worth</a>, the artist visits former <a href=\"https://www.dillonmarsh.com/copper\">copper</a>, <a href=\"https://www.dillonmarsh.com/diamonds\">diamond</a>, <a href=\"https://www.dillonmarsh.com/gold\">gold</a>, and <a href=\"https://www.dillonmarsh.com/platinum-group-metals\">platinum group metal</a> mines that are now scars on the landscape to create salient visualisation of extraction.&nbsp;</p>\r\n<p>The Palabora mine, <a href=\"https://www.instagram.com/p/CZlkLlIowcc\">pictured</a> above, is almost 2 km wide and over 800 m deep. 4.1 million tonnes of copper have been mined here, but this total is dwarfed by the massive hole left behind.</p>",
+    "created": "2024-08-04 23:13:22.962Z",
+    "date": "2014-08-26 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Artwork",
+        "slug": "artwork"
+      }
+    ],
+    "id": "8ti8dk0fvwjc0cp",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0",
+      "width": 1500,
+      "height": 1200,
+      "caption": "",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+        ]
+      ]
+    },
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "published": "2024-08-05 01:13:00.000Z",
+    "publisher": {
+      "label": "Dillon Marsh",
+      "slug": "dillon-marsh"
+    },
+    "quote": "",
+    "quote_author": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Visual artwork",
+      "slug": "visual-artwork",
+      "key": "VisualArtwork"
+    },
+    "tags": [
+      "pa3elfw03ton9vr",
+      "ms83d02xqepoxh8"
+    ],
+    "title": "For What It’s Worth",
+    "updated": "2024-08-04 23:15:13.229Z",
+    "url": "https://www.dillonmarsh.com/for-what-its-worth",
+    "slug": "for-what-its-worth",
+    "topics": [
+      {
+        "label": "Visualisation",
+        "slug": "visualisation"
+      },
+      {
+        "label": "Extraction",
+        "slug": "extraction"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "Schiefe Bilder als Klimaprotest",
+          "schiefe-bilder-als-klimaprotest"
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
+        [
+          "Climate change conversations during live commentary",
+          "climate-change-conversations-during-live-commentary"
+        ],
+        [
+          "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+          "klimabilder-eine-genealogie-globaler-bildpolitiken-von..."
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
         "label": "IPCC",
         "slug": "ipcc"
       }
@@ -125,6 +243,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "For What It’s Worth",
+          "for-what-its-worth"
+        ],
         [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
@@ -1303,7 +1425,12 @@
     "quote_content": "",
     "related": {
       "publisher": [],
-      "formats": [],
+      "formats": [
+        [
+          "For What It’s Worth",
+          "for-what-its-worth"
+        ]
+      ],
       "authors": [],
       "tags": [
         [
@@ -2179,6 +2306,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "For What It’s Worth",
+          "for-what-its-worth"
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
@@ -3335,6 +3466,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "For What It’s Worth",
+          "for-what-its-worth"
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
