@@ -1,5 +1,5 @@
 import posts from '$posts';
-import { POSTS_PER_PAGE } from '$config';
+import { POSTS_PER_PAGE, SITE_DESCRIPTION } from '$config';
 import type { Post } from '$types/pocketbase';
 import { maxBy } from 'lodash-es';
 
@@ -70,4 +70,8 @@ export function getPagination(posts_total: number, currentIndex: number) {
 
 export function getLastMod(arr: Post[]) {
 	return maxBy(arr, (d) => new Date(d.updated)).updated;
+}
+
+export function getPageDescription() {
+	return SITE_DESCRIPTION.replace('%%', String(getPostsCount()));
 }

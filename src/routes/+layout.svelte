@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { version } from '$app/environment';
-	import { SITE_TITLE, SITE_DESCRIPTION } from '$config';
+	import { SITE_TITLE } from '$config';
 	import { getAbsoluteURL } from '$utils/url';
+	import { getPageDescription } from '$utils/posts';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import type { LayoutData } from './$types';
@@ -19,11 +20,12 @@
 	const type = $derived($page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL($page.data?.path));
 	const lastModified = $derived($page.data?.post?.updated ?? $page.data?.lastMod);
+	const description = getPageDescription();
 </script>
 
 <svelte:head>
 	<title>{title}</title>
-	<meta name="description" content={SITE_DESCRIPTION} />
+	<meta name="description" content={description} />
 
 	<meta name="robots" content="index, follow, noimageindex" />
 
@@ -32,7 +34,7 @@
 	<meta property="og:title" content={title} />
 	<meta property="og:image" content={preview} />
 	<meta property="og:image:alt" content="Green circle on a white background." />
-	<meta property="og:description" content={SITE_DESCRIPTION} />
+	<meta property="og:description" content={description} />
 	<meta property="og:site_name" content={SITE_TITLE} />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="article:author" content="Jonas Parnow" />
@@ -41,13 +43,13 @@
 	{/if}
 
 	<meta itemprop="name" content={SITE_TITLE} />
-	<meta itemprop="description" content={SITE_DESCRIPTION} />
+	<meta itemprop="description" content={description} />
 
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:creator" content="@zeto" />
 	<meta name="twitter:url" content={url} />
 	<meta name="twitter:title" content={title} />
-	<meta name="twitter:description" content={SITE_DESCRIPTION} />
+	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={preview} />
 	<meta name="twitter:image:alt" content="Green circle on a white background." />
 
