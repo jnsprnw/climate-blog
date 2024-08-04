@@ -4,25 +4,25 @@
 
 <section>
 	<p>
-		This is a personal blog by <a href="https://jonasparnow.com">Jonas Parnow</a>. It serves as a
-		personal archive of artefacts related to the climate crisis. At best, it also provides others
-		with an imperfectly categorised and chronological perspective.
+		This is a personal blog by <a rel="author" href="https://jonasparnow.com">Jonas Parnow</a>. It
+		serves as a personal archive of artefacts related to the climate crisis. At best, it also
+		provides others with an imperfectly categorised and somewhat chronological perspective.
 	</p>
 </section>
 <p>
 	This blog is built with <a href="https://kit.svelte.dev/">SvelteKit</a> and
 	<a href="https://tailwindcss.com/">Tailwind</a>. Special attention was paid to minimal size,
 	accessibility and web standards. The CMS for this blog is
-	<a href="https://pocketbase.io/">Pocketbase</a> because of its lightness. It running on
+	<a href="https://pocketbase.io/">Pocketbase</a> because of its lightness. It runs on
 	<a href="https://pockethost.io/">Pockethost.io</a>. The page itself is hosted on
 	<a href="https://www.cloudflare.com/">Cloudflare Pages</a>.
 </p>
 <p>
-	The website is set in <a href="https://klim.co.nz/retail-fonts/untitled-sans/">Untitled Sans</a>
+	The site is set in <a href="https://klim.co.nz/retail-fonts/untitled-sans/">Untitled Sans</a>
 	and <a href="https://practicaltypography.com/charter.html">Charter</a>.
 </p>
 <section>
-	<p>If you want to follow the blog, you can do that through RSS feeds:</p>
+	<p>If you want to follow the blog, you can do so via RSS feeds:</p>
 	<ul class="grid sm:grid-cols-[auto_1fr] gap-x-2 gap-y-2 my-4">
 		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>Regular feed</span>
