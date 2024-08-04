@@ -45,6 +45,10 @@ p a {
 	@apply underline decoration-accent hover:text-accent transition-colors;
 }
 
+p + p {
+	@apply mt-2;
+}
+
 .link {
 	@apply underline decoration-slate-300 hover:text-accent transition-colors;
 }
