@@ -86,7 +86,10 @@
 					alt={image.alt ?? title}
 				/>
 				{#if image.caption}
-					<figcaption itemprop="author" class="text-xs place-self-end text-mute">
+					<figcaption
+						itemprop="author"
+						class="text-xs place-self-end text-mute contrast-more:text-black"
+					>
 						{image.caption}
 					</figcaption>
 				{/if}
@@ -117,7 +120,7 @@
 		class:grid-cols-2={!hasReference}
 		class:grid-cols-3={hasReference}
 	>
-		<time class="text-mute text-left" datetime={post.published}
+		<time class="text-mute text-left contrast-more:text-black" datetime={post.published}
 			>{formatDate(new Date(post.published), true)}</time
 		>
 		{#if hasReference}
@@ -163,7 +166,7 @@
 			<h2 class="font-semibold" id="related-artefacts">Related artefacts</h2>
 			{#if related.tags}
 				<dl class="flex gap-y-1 flex-col">
-					<dt class="text-sm text-mute">Same topics</dt>
+					<dt class="text-sm text-mute contrast-more:text-black">Same topics</dt>
 					{#each related.tags as [title, slug]}
 						<dd>
 							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
@@ -173,7 +176,7 @@
 			{/if}
 			{#if related.authors.length}
 				<dl class="flex gap-y-1 flex-col">
-					<h4 class="text-sm text-mute">Same authors</h4>
+					<h4 class="text-sm text-mute contrast-more:text-black">Same authors</h4>
 					{#each related.authors as [title, slug]}
 						<dd>
 							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
@@ -183,7 +186,7 @@
 			{/if}
 			{#if related.formats.length}
 				<dl class="flex gap-y-1 flex-col">
-					<dt class="text-sm text-mute">Same formats</dt>
+					<dt class="text-sm text-mute contrast-more:text-black">Same formats</dt>
 					{#each related.formats as [title, slug]}
 						<dd>
 							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
@@ -193,7 +196,7 @@
 			{/if}
 			{#if related.publisher.length}
 				<dl class="flex gap-y-1 flex-col">
-					<dt class="text-sm text-mute">Same publisher</dt>
+					<dt class="text-sm text-mute contrast-more:text-black">Same publisher</dt>
 					{#each related.publisher as [title, slug]}
 						<dd>
 							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
