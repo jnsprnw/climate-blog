@@ -8,7 +8,11 @@
 	import { getAbsoluteURL } from '$utils/url';
 	import { isSameDay, checkValidDate } from '$utils/date';
 
-	const { post, isSingle = false }: { post: Post; isSingle?: boolean } = $props();
+	const {
+		post,
+		isSingle = false,
+		isFirst = false
+	}: { post: Post; isSingle?: boolean; isFirst?: boolean } = $props();
 
 	const {
 		authors,
@@ -77,7 +81,7 @@
 					src={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
 					srcset={image.sizes.map(([px, url]) => `${url} ${px}w`).join(',')}
 					sizes="(max-width: 48rem) 100vw, 48rem"
-					loading="lazy"
+					loading={isFirst ? 'eager' : 'lazy'}
 					decoding="async"
 					alt={image.alt ?? title}
 				/>

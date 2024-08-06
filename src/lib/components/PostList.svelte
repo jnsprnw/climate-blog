@@ -6,6 +6,6 @@
 </script>
 
 {#each posts as post, i (post.id)}
-	<PostSingle {post} />
+	<PostSingle {post} isFirst={i === 0} />
 	{#if i !== posts.length - 1}<hr class="h-0.5 bg-accent border-0" />{/if}
 {/each}
