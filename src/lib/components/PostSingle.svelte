@@ -64,7 +64,7 @@
 			</span>
 		</a>
 	</header>
-	<main class="col-span-3 border-y border-slate-200 py-6 flex flex-col gap-y-8">
+	<main class="col-span-3 border-y border-border py-6 flex flex-col gap-y-8">
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				<img
@@ -79,7 +79,7 @@
 					decoding="async"
 				/>
 				{#if image.caption}
-					<figcaption itemprop="author" class="text-xs place-self-end text-neutral-400">
+					<figcaption itemprop="author" class="text-xs place-self-end text-mute">
 						{image.caption}
 					</figcaption>
 				{/if}
@@ -106,11 +106,11 @@
 		{/if}
 	</main>
 	<footer
-		class="grid leading-none justify-between w-full col-span-3 gap-x-2 text-sm"
+		class="grid leading-tight justify-between w-full col-span-3 gap-x-2 text-sm"
 		class:grid-cols-2={!hasReference}
 		class:grid-cols-3={hasReference}
 	>
-		<time class="text-neutral-400 text-left" datetime={published}
+		<time class="text-mute text-left" datetime={published}
 			>{formatDate(new Date(published), true)}</time
 		>
 		{#if hasReference}
@@ -142,7 +142,7 @@
 			<h2 class="font-semibold">Related posts</h2>
 			{#if related.tags}
 				<div>
-					<h4 class="text-sm text-neutral-400">Same topics</h4>
+					<h4 class="text-sm text-mute">Same topics</h4>
 					<ul class="flex gap-y-1 flex-col">
 						{#each related.tags as [title, slug]}
 							<li>
@@ -154,7 +154,7 @@
 			{/if}
 			{#if related.authors.length}
 				<div>
-					<h4 class="text-sm text-neutral-400">Same authors</h4>
+					<h4 class="text-sm text-mute">Same authors</h4>
 					<ul class="flex gap-y-1 flex-col">
 						{#each related.authors as [title, slug]}
 							<li>
@@ -166,7 +166,7 @@
 			{/if}
 			{#if related.formats.length}
 				<div>
-					<h4 class="text-sm text-neutral-400">Same formats</h4>
+					<h4 class="text-sm text-mute">Same formats</h4>
 					<ul class="flex gap-y-1 flex-col">
 						{#each related.formats as [title, slug]}
 							<li>
@@ -178,7 +178,7 @@
 			{/if}
 			{#if related.publisher.length}
 				<div>
-					<h4 class="text-sm text-neutral-400">Same publisher</h4>
+					<h4 class="text-sm text-mute">Same publisher</h4>
 					<ul>
 						{#each related.publisher as [title, slug]}
 							<li>

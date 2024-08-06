@@ -24,7 +24,7 @@
 <nav class="flex justify-center text-sm gap-x-3">
 	{#each list as { label, path, isCurrent, isPrev, isNext }}
 		{#if isCurrent}
-			<a href="/{path}" class="text-slate-400 p-2" aria-current="page">{label}</a>
+			<a href="/{path}" class="text-mute p-2" aria-current="page">{label}</a>
 		{:else}
 			<a class="link p-2" href="/{path}" rel={isPrev ? 'prev' : isNext ? 'next' : undefined}
 				>{label}</a

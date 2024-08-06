@@ -8,7 +8,10 @@ export default {
 		},
 		extend: {
 			colors: {
-				accent: '#38b000'
+				accent: '#41AE3C',
+				border: '#d4d4d4',
+				mute: '#a3a3a3',
+				dark: '#171717'
 			}
 		}
 	},
