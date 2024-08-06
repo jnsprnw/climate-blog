@@ -158,52 +158,44 @@
 		<div class="col-span-3 text-base grid gap-y-4">
 			<h2 class="font-semibold" id="related-artefacts">Related artefacts</h2>
 			{#if related.tags}
-				<div>
-					<h4 class="text-sm text-mute">Same topics</h4>
-					<ul class="flex gap-y-1 flex-col">
-						{#each related.tags as [title, slug]}
-							<li>
-								<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
-							</li>
-						{/each}
-					</ul>
-				</div>
+				<dl class="flex gap-y-1 flex-col">
+					<dt class="text-sm text-mute">Same topics</dt>
+					{#each related.tags as [title, slug]}
+						<dd>
+							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
+						</dd>
+					{/each}
+				</dl>
 			{/if}
 			{#if related.authors.length}
-				<div>
+				<dl class="flex gap-y-1 flex-col">
 					<h4 class="text-sm text-mute">Same authors</h4>
-					<ul class="flex gap-y-1 flex-col">
-						{#each related.authors as [title, slug]}
-							<li>
-								<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
-							</li>
-						{/each}
-					</ul>
-				</div>
+					{#each related.authors as [title, slug]}
+						<dd>
+							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
+						</dd>
+					{/each}
+				</dl>
 			{/if}
 			{#if related.formats.length}
-				<div>
-					<h4 class="text-sm text-mute">Same formats</h4>
-					<ul class="flex gap-y-1 flex-col">
-						{#each related.formats as [title, slug]}
-							<li>
-								<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
-							</li>
-						{/each}
-					</ul>
-				</div>
+				<dl class="flex gap-y-1 flex-col">
+					<dt class="text-sm text-mute">Same formats</dt>
+					{#each related.formats as [title, slug]}
+						<dd>
+							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
+						</dd>
+					{/each}
+				</dl>
 			{/if}
 			{#if related.publisher.length}
-				<div>
-					<h4 class="text-sm text-mute">Same publisher</h4>
-					<ul>
-						{#each related.publisher as [title, slug]}
-							<li>
-								<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
-							</li>
-						{/each}
-					</ul>
-				</div>
+				<dl class="flex gap-y-1 flex-col">
+					<dt class="text-sm text-mute">Same publisher</dt>
+					{#each related.publisher as [title, slug]}
+						<dd>
+							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
+						</dd>
+					{/each}
+				</dl>
 			{/if}
 		</div>
 	{/if}
