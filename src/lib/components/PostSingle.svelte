@@ -2,11 +2,11 @@
 	import Favorite from '$lib/icons/Favorite.svelte';
 	import Link from '$lib/icons/Link.svelte';
 	import Authors from '$lib/components/Authors.svelte';
-	import Date from '$lib/components/Date.svelte';
+	import DateTag from '$lib/components/Date.svelte';
 	import { formatDate } from '$utils/format';
 	import { type Post } from '$types/pocketbase';
 	import { getAbsoluteURL } from '$utils/url';
-	import { isSameDay } from '$utils/date';
+	import { isSameDay, checkValidDate } from '$utils/date';
 
 	const { post, isSingle = false }: { post: Post; isSingle?: boolean } = $props();
 
@@ -22,7 +22,6 @@
 		schemas,
 		slug,
 		title,
-		published,
 		publisher,
 		url,
 		reference,
@@ -114,8 +113,8 @@
 		class:grid-cols-2={!hasReference}
 		class:grid-cols-3={hasReference}
 	>
-		<time class="text-mute text-left" datetime={published}
-			>{formatDate(new Date(published), true)}</time
+		<time class="text-mute text-left" datetime={post.published}
+			>{formatDate(new Date(post.published), true)}</time
 		>
 		{#if hasReference}
 			<span class="text-center"
@@ -136,12 +135,11 @@
 		<aside class="text-sm col-span-3 my-12 flex flex-col gap-y-4">
 			<section>
 				<p>
-					This post was published <Date
-						date={post.published}
-					/>{#if !isSameDay(post.published, post.updated)}
-						and last updated <Date date={post.updated} />{/if}.{#if post.date}
+					This post was published <DateTag date={post.published} />
+					{#if !isSameDay(post.published, post.updated)}
+						and last updated <DateTag date={post.updated} />{/if}. {#if checkValidDate(post.date)}
 						The referenced artefact was (probably) published on
-						<Date date={post.date} />{/if}.
+						<DateTag date={post.date} />{/if}.
 				</p>
 			</section>
 			{#if post.topics.length}
