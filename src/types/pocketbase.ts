@@ -16,4 +16,11 @@ export type Post = {
 		slug: string;
 		label: string;
 	};
+	created: string;
+	published: string;
+	isFavorite: boolean;
+	image_alt: string;
+	image_caption: string;
+	tags: string[];
+	url: string;
 };
