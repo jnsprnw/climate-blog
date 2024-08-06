@@ -81,7 +81,7 @@
 					src={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
 					srcset={image.sizes.map(([px, url]) => `${url} ${px}w`).join(',')}
 					sizes="(max-width: 48rem) 100vw, 48rem"
-					loading={isFirst ? 'eager' : 'lazy'}
+					loading={isFirst || isSingle ? 'eager' : 'lazy'}
 					decoding="async"
 					alt={image.alt ?? title}
 				/>
