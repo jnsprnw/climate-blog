@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { formatDate, formatDateFull } from '$lib/utils/date';
+	import { formatDate, formatDateFull } from '$utils/format';
 
 	const { date }: { date: string } = $props();
 	const obj = $derived(new Date(date));
