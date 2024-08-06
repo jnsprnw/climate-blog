@@ -5,6 +5,7 @@
 	import { formatDate } from '$utils/format';
 	import { type Post } from '$types/pocketbase';
 	import { getAbsoluteURL } from '$utils/url';
+	import { isSameDay } from '$utils/date';
 
 	const { post, isSingle = false }: { post: Post; isSingle?: boolean } = $props();
 
@@ -44,6 +45,7 @@
 			<span
 				class="col-span-3 pb-2 text-xs font-semibold uppercase tracking-wider text-accent"
 				lang="en-GB"
+				id="formats"
 			>
 				{formats.at(0).label}
 			</span>
@@ -56,10 +58,11 @@
 				class="mb-2 text-3xl leading-tight md:text-4xl lg:text-5xl text-balance"
 				itemprop="name"
 				lang={language.key}
+				id="title"
 			>
 				{title}
 			</h1>
-			<span class="text-sm">
+			<span class="text-sm" id="authors">
 				<Authors authors={authors.map((author) => author.label)} lang={language.key} />
 			</span>
 		</a>
@@ -129,17 +132,33 @@
 		</span>
 	</footer>
 	{#if isSingle}
-		<aside class="text-sm col-span-3 my-12">
-			<p>
-				This post was published <time datetime={post.published}
-					>{formatDate(new Date(post.published))}</time
-				>
-				and last updated <time datetime={post.updated}>{formatDate(new Date(post.updated))}</time>.
-			</p>
-			<p>Topics: {formatterList.format(post.topics.map(({ label }) => label))}</p>
+		<aside class="text-sm col-span-3 my-12 flex flex-col gap-y-4">
+			<section>
+				<p>
+					This post was published <time datetime={post.published}
+						>{formatDate(new Date(post.published))}</time
+					>{#if !isSameDay(post.published, post.updated)}
+						and last updated <time datetime={post.updated}
+							>{formatDate(new Date(post.updated))}</time
+						>{/if}. The referenced artefact was (probably) published on
+					<time datetime={post.date}>{formatDate(new Date(post.date))}</time>.
+				</p>
+			</section>
+			{#if post.topics.length}
+				<section>
+					<h2 class="font-semibold" id="topics">Topic{post.topics.length === 1 ? '' : 's'}</h2>
+					<p>{formatterList.format(post.topics.map(({ label }) => label))}</p>
+				</section>
+			{/if}
+			{#if post.formats.length}
+				<section>
+					<h2 class="font-semibold" id="formats">Format{post.formats.length === 1 ? '' : 's'}</h2>
+					<p>{formatterList.format(post.formats.map(({ label }) => label))}</p>
+				</section>
+			{/if}
 		</aside>
 		<div class="col-span-3 text-base grid gap-y-4">
-			<h2 class="font-semibold">Related posts</h2>
+			<h2 class="font-semibold" id="related-artefacts">Related artefacts</h2>
 			{#if related.tags}
 				<div>
 					<h4 class="text-sm text-mute">Same topics</h4>
