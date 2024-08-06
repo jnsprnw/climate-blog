@@ -2,6 +2,7 @@
 	import Favorite from '$lib/icons/Favorite.svelte';
 	import Link from '$lib/icons/Link.svelte';
 	import Authors from '$lib/components/Authors.svelte';
+	import Date from '$lib/components/Date.svelte';
 	import { formatDate } from '$utils/format';
 	import { type Post } from '$types/pocketbase';
 	import { getAbsoluteURL } from '$utils/url';
@@ -135,13 +136,12 @@
 		<aside class="text-sm col-span-3 my-12 flex flex-col gap-y-4">
 			<section>
 				<p>
-					This post was published <time datetime={post.published}
-						>{formatDate(new Date(post.published))}</time
-					>{#if !isSameDay(post.published, post.updated)}
-						and last updated <time datetime={post.updated}
-							>{formatDate(new Date(post.updated))}</time
-						>{/if}. The referenced artefact was (probably) published on
-					<time datetime={post.date}>{formatDate(new Date(post.date))}</time>.
+					This post was published <Date
+						date={post.published}
+					/>{#if !isSameDay(post.published, post.updated)}
+						and last updated <Date date={post.updated} />{/if}.{#if post.date}
+						The referenced artefact was (probably) published on
+						<Date date={post.date} />{/if}.
 				</p>
 			</section>
 			{#if post.topics.length}
