@@ -69,7 +69,10 @@ export function getPagination(posts_total: number, currentIndex: number) {
 }
 
 export function getLastMod(arr: Post[]) {
-	return maxBy(arr, (d) => new Date(d.updated)).updated;
+	if (Array.isArray(arr) && typeof arr !== 'undefined' && arr.length > 0) {
+		return maxBy(arr, (d) => new Date(d.updated)).updated;
+	}
+	return undefined;
 }
 
 export function getPageDescription() {
