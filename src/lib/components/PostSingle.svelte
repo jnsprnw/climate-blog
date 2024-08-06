@@ -75,11 +75,11 @@
 					style={`aspect-ratio: ${image.width} / ${image.height};`}
 					class="w-full bg-gray-50 text-xs text-gray-400"
 					src={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
-					alt={title}
 					srcset={image.sizes.map(([px, url]) => `${url} ${px}w`).join(',')}
 					sizes="(max-width: 48rem) 100vw, 48rem"
 					loading="lazy"
 					decoding="async"
+					alt={image.alt ?? title}
 				/>
 				{#if image.caption}
 					<figcaption itemprop="author" class="text-xs place-self-end text-mute">

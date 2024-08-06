@@ -16,6 +16,9 @@
 	const preview = $derived(
 		$page.data?.post?.image?.url_preview ?? getAbsoluteURL('apple-touch-icon.png')
 	);
+	const preview_alt = $derived(
+		$page.data?.post?.image_alt ?? 'Green circle on a white background.'
+	);
 	const title = $derived($page.data?.post?.title ?? SITE_TITLE);
 	const type = $derived($page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL($page.data?.path));
@@ -33,7 +36,7 @@
 	<meta property="og:type" content={type} />
 	<meta property="og:title" content={title} />
 	<meta property="og:image" content={preview} />
-	<meta property="og:image:alt" content="Green circle on a white background." />
+	<meta property="og:image:alt" content={preview_alt} />
 	<meta property="og:description" content={description} />
 	<meta property="og:site_name" content={SITE_TITLE} />
 	<meta property="og:locale" content="en_GB" />
@@ -51,7 +54,7 @@
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
 	<meta name="twitter:image" content={preview} />
-	<meta name="twitter:image:alt" content="Green circle on a white background." />
+	<meta name="twitter:image:alt" content={preview_alt} />
 
 	<link rel="canonical" href={url} />
 
