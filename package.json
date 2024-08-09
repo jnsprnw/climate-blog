@@ -1,6 +1,6 @@
 {
 	"name": "climate-blog-sveltekit-2024",
-	"version": "0.2.1",
+	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",

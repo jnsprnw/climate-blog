@@ -15,7 +15,7 @@
 	accessibility and web standards. The CMS for this blog is
 	<a href="https://pocketbase.io/">Pocketbase</a> because of its lightness. It runs on
 	<a href="https://pockethost.io/">Pockethost.io</a>. The page itself is hosted on
-	<a href="https://www.cloudflare.com/">Cloudflare Pages</a>.
+	<a href="https://www.cloudflare.com/">Cloudflare Pages</a>. You can find the source code on <a href="https://github.com/jnsprnw/climate-blog">GitHub</a>.
 </p>
 <p>
 	The site is set in <a href="https://klim.co.nz/retail-fonts/untitled-sans/">Untitled Sans</a>
