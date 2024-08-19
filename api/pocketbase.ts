@@ -2,6 +2,7 @@ import PocketBase from 'pocketbase';
 import { createMap } from './utils';
 
 const client = new PocketBase(Bun.env.POCKETBASE_URL);
+client.autoCancellation(false);
 
 export async function getCollection(collection: string) {
 	return await client.collection(collection).getFullList({
