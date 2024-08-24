@@ -18,13 +18,13 @@ export function createBlogPostingSchema(post: Post): BlogPosting {
 		'@type': 'BlogPosting',
 		headline: post.title,
 		url: getAbsoluteURL(`/${post.slug}`),
-		// "description": "Write once, read everywhere",
+		// "description": "Write once, read everywhere", // TODO: Add description
 		author: {
 			'@type': 'Person',
 			name: 'Jonas Parnow',
 			url: 'https://jonasparnow.com/about'
 		},
-		// "image": "https://csvbase.com/blog-static/excel.png",
+		// "image": "https://csvbase.com/blog-static/excel.png", // TODO: Add image
 		datePublished: post.published,
 		dateCreated: post.created,
 		dateModified: post.updated
