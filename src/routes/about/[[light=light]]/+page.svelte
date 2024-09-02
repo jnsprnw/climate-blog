@@ -77,7 +77,7 @@
 			<a class="link" href={getAbsoluteURL('/en/favorite')}>Favorite English posts feed</a>
 		</li>
 		<li>
-			<a class="link" href={getAbsoluteURL('?light')}>Regular feed without images shown</a>
+			<a class="link" href={getAbsoluteURL('/', true)}>Regular feed without images shown</a>
 		</li>
 	</ul>
 </section>
