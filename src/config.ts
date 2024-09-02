@@ -4,3 +4,4 @@ export const SITE_DESCRIPTION =
 export const SITE_AUTHOR = 'Jonas Parnow';
 export const SITE_URL = 'https://climate.jonasparnow.com/';
 export const POSTS_PER_PAGE = 10;
+export const KEY_LIGHTMODE = 'light';

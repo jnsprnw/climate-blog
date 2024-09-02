@@ -8,10 +8,13 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import type { LayoutData } from './$types';
 	import type { Snippet } from 'svelte';
+	import { setContext } from 'svelte';
 
 	const { data, children }: { data: LayoutData; children: Snippet } = $props();
 
 	import '../app.css';
+
+	const isLightMode: boolean = data.isLightMode ?? false;
 
 	const preview = $derived(
 		$page.data?.post?.image?.url_preview ?? getAbsoluteURL('apple-touch-icon.png')
@@ -22,8 +25,11 @@
 	const title = $derived($page.data?.post?.title ?? SITE_TITLE);
 	const type = $derived($page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL($page.data?.path));
+	const urlLightMode = $derived(getAbsoluteURL($page.data?.path, isLightMode));
 	const lastModified = $derived($page.data?.post?.updated ?? $page.data?.lastMod);
 	const description = getPageDescription();
+
+	setContext('isLightMode', isLightMode);
 </script>
 
 <svelte:head>
@@ -59,6 +65,7 @@
 	<link rel="canonical" href={url} />
 
 	<link rel="alternate" type="application/rss+xml" href={getAbsoluteURL('rss.xml')} title="RSS" />
+	<link rel="alternate" href={urlLightMode} title="Light mode" />
 
 	<link rel="me" href="https://climatejustice.social/@jonas" />
 

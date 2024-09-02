@@ -1,7 +1,10 @@
 <script lang="ts">
 	import { formatDate, formatDateFull } from '$utils/format';
 	import { getAbsoluteURL } from '$utils/url';
+	import { getContext } from 'svelte';
 	const { buildDateTime, version }: { buildDateTime: Date; version: string } = $props();
+
+	const isLightMode = getContext('isLightMode');
 </script>
 
 <footer
@@ -11,5 +14,5 @@
 		Updated {formatDate(buildDateTime, true)}
 	</time>
 	<span>Version {version}</span>
-	<a class="link" href={getAbsoluteURL('about')}>About</a>
+	<a class="link" href={getAbsoluteURL('about', isLightMode)}>About</a>
 </footer>

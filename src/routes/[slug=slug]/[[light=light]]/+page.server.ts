@@ -1,13 +1,11 @@
 import { getPostBySlug } from '$utils/posts';
 
-export async function load({ params, url }) {
+export async function load({ params }) {
 	const { slug } = params;
-	const lightMode = url.searchParams.has('light');
 	return {
 		post: getPostBySlug(slug),
 		type: 'article',
-		path: slug,
-		lightMode
+		path: slug
 	};
 }
 

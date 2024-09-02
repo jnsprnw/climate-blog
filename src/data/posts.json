@@ -2,6 +2,151 @@
   {
     "authors": [
       {
+        "label": "Michael Barbaro",
+        "slug": "michael-barbaro"
+      },
+      {
+        "label": "Emily Badger",
+        "slug": "emily-badger"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p><a href=\"https://www.nytimes.com/2024/08/16/podcasts/the-daily/air-conditioning-climate-warming.html?\">T<span class=\"--r text-interaction-word-at-cursor-anchor\">his</span> episode of The Daily</a> looks at how air conditioning has become both our answer to a warming planet and a major obstacle to actually tackling it. When <a href=\"https://en.m.wikipedia.org/wiki/Willis_Carrier\">Willis Carrier</a> invented the first version of air conditioning in 1902 (to control the moisture content of printed documents), it suddenly made places like <a href=\"https://weatherspark.com/y/2228/Average-Weather-in-Las-Vegas-Nevada-United-States-Year-Round\">Las Vegas</a>, <a href=\"https://weatherspark.com/y/8813/Average-Weather-in-Dallas-Texas-United-States-Year-Round\">Dallas</a> and <a href=\"https://weatherspark.com/y/9247/Average-Weather-in-Houston-Texas-United-States-Year-Round\">Houston</a>, which had previously been almost uninhabitable, attractive places to live&nbsp;(often requiring an additional <a href=\"https://www.nytimes.com/2023/09/01/podcasts/the-daily/water-supply-arizona.html\">artificial water supply</a>). Because energy was cheap, buildings could be inefficient: glass instead of stone, air conditioning instead of windows, and less clever architectural features like <a href=\"https://www.youtube.com/watch?v=uhbDfi7Ee7k\">window awnings</a>. <span class=\"--l --r lmt__write_highlight_sentence py-[3px] sentence_highlight\">Many people now live in these \"greenhouses\", which are not only very vulnerable to power outages, but also contribute to 30 per cent of greenhouse gases in the United States.</span></p>",
+    "created": "2024-08-20 07:44:41.164Z",
+    "date": "2024-08-16 06:00:00.000Z",
+    "formats": [
+      {
+        "label": "Podcast",
+        "slug": "podcast"
+      }
+    ],
+    "id": "9srq3oajktuaq4k",
+    "image": null,
+    "image_alt": "",
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [],
+    "published": "2024-08-20 09:44:00.000Z",
+    "publisher": {
+      "label": "New York Times",
+      "slug": "new-york-times"
+    },
+    "quote": "Air conditioning has lulled us into thinking that we’re not impacted by how hot it is outside. But it’s also maybe lulled us into thinking like, I’m not the one who needs to particularly change my behavior in any way.",
+    "quote_author": "Emily Badger",
+    "reference_link": "",
+    "schemas": {
+      "label": "Podcast episode",
+      "slug": "podcast-episode",
+      "key": "PodcastEpisode"
+    },
+    "slug": "how-air-conditioning-conquered-america",
+    "tags": [
+      "543fknvjv8enf64",
+      "991yaahmkskmr6t",
+      "8fqd2yfima6y6t7",
+      "6a5m5edyi57f99n"
+    ],
+    "title": "How Air-Conditioning Conquered America",
+    "updated": "2024-09-02 11:12:22.624Z",
+    "url": "https://www.nytimes.com/2024/08/16/podcasts/the-daily/air-conditioning-climate-warming.html?",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "Policy",
+        "slug": "policy"
+      },
+      {
+        "label": "Society",
+        "slug": "society"
+      },
+      {
+        "label": "Technology",
+        "slug": "technology"
+      },
+      {
+        "label": "Infrastructure",
+        "slug": "infrastructure"
+      }
+    ],
+    "quote_content": "Air conditioning has lulled us into thinking that we’re not impacted by how hot it is outside. But it’s also maybe lulled us into thinking like, I’m not the one who needs to particularly change my behavior in any way.",
+    "related": {
+      "publisher": [
+        [
+          "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
+          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+        ],
+        [
+          "Consider the Burying Beetle. (Or Else.)",
+          "consider-the-burying-beetle-or-else"
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "the-sunday-read-what-does-sustainable-living-look-like..."
+        ]
+      ],
+      "formats": [
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
+        ],
+        [
+          "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
+          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+        ],
+        [
+          "Consider the Burying Beetle. (Or Else.)",
+          "consider-the-burying-beetle-or-else"
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "the-sunday-read-what-does-sustainable-living-look-like..."
+        ]
+      ],
+      "authors": [
+        [
+          "Consider the Burying Beetle. (Or Else.)",
+          "consider-the-burying-beetle-or-else"
+        ]
+      ],
+      "tags": [
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-advertising-with-wildfire-smoke"
+        ],
+        [
+          "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+          "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien..."
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "the-sunday-read-what-does-sustainable-living-look-like..."
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
         "label": "Dillon Marsh",
         "slug": "dillon-marsh"
       }
@@ -61,6 +206,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2024-08-05 01:13:00.000Z",
     "publisher": {
       "label": "Dillon Marsh",
@@ -74,6 +220,7 @@
       "slug": "visual-artwork",
       "key": "VisualArtwork"
     },
+    "slug": "for-what-its-worth",
     "tags": [
       "pa3elfw03ton9vr",
       "ms83d02xqepoxh8"
@@ -81,7 +228,8 @@
     "title": "For What It’s Worth",
     "updated": "2024-08-06 10:29:09.323Z",
     "url": "https://www.dillonmarsh.com/for-what-its-worth",
-    "slug": "for-what-its-worth",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Visualisation",
@@ -184,6 +332,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2024-08-05 00:37:00.000Z",
     "publisher": {
       "label": "IPCC",
@@ -201,6 +350,7 @@
       "slug": "thesis",
       "key": "Thesis"
     },
+    "slug": "overview-of-mitigation-options-and-their-estimated-ranges...",
     "tags": [
       "pa3elfw03ton9vr",
       "h4zh134ouuiosbo",
@@ -212,7 +362,8 @@
     "title": "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
     "updated": "2024-08-06 10:30:10.070Z",
     "url": "https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7/",
-    "slug": "overview-of-mitigation-options-and-their-estimated-ranges...",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Visualisation",
@@ -245,6 +396,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "For What It’s Worth",
           "for-what-its-worth"
@@ -350,6 +505,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2024-08-04 00:19:00.000Z",
     "publisher": {
       "label": "The New Yorker",
@@ -363,6 +519,7 @@
       "slug": "visual-artwork",
       "key": "VisualArtwork"
     },
+    "slug": "quick-tell-us-who-youre-wearing",
     "tags": [
       "w98y5g1o477uz2a",
       "w3agiq4xxjerj14",
@@ -371,7 +528,8 @@
     "title": "Quick—tell us who you’re wearing!",
     "updated": "2024-08-06 10:32:04.858Z",
     "url": "https://www.newyorker.com/cartoon/a23821",
-    "slug": "quick-tell-us-who-youre-wearing",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Popculture",
@@ -414,6 +572,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
@@ -478,6 +640,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2024-08-03 23:29:00.000Z",
     "publisher": {
       "label": "FallOfCivilizationsPodcast.com",
@@ -491,6 +654,7 @@
       "slug": "podcast-series",
       "key": "PodcastSeries"
     },
+    "slug": "fall-of-civilizations",
     "tags": [
       "991yaahmkskmr6t",
       "lzx69t0trqshvt1",
@@ -499,7 +663,8 @@
     "title": "Fall of Civilizations",
     "updated": "2024-08-04 21:40:54.745Z",
     "url": "https://fallofcivilizationspodcast.com/",
-    "slug": "fall-of-civilizations",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Society",
@@ -519,6 +684,10 @@
       "publisher": [],
       "formats": [
         [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
+        [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
           "the-sunday-read-has-the-amazon-reached-its-tipping-point"
         ],
@@ -533,6 +702,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
@@ -618,6 +791,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2024-08-03 22:48:00.000Z",
     "publisher": {
       "label": "The University of Chicago Press",
@@ -631,6 +805,7 @@
       "slug": "book",
       "key": "Book"
     },
+    "slug": "the-oldest-living-things-in-the-world",
     "tags": [
       "e7g701bpr9rpyf7",
       "zw9695whw1znbob",
@@ -640,7 +815,8 @@
     "title": "The Oldest Living Things in the World",
     "updated": "2024-08-06 10:33:09.659Z",
     "url": "https://press.uchicago.edu/ucp/books/book/chicago/O/bo16364599.html",
-    "slug": "the-oldest-living-things-in-the-world",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Art",
@@ -767,6 +943,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2024-07-20 12:00:00.000Z",
     "publisher": {
       "label": "Agnes Denes",
@@ -784,6 +961,7 @@
       "slug": "visual-artwork",
       "key": "VisualArtwork"
     },
+    "slug": "wheatfield-a-confrontation",
     "tags": [
       "e7g701bpr9rpyf7",
       "c5ifgkr9e7l91y5"
@@ -791,7 +969,8 @@
     "title": "Wheatfield – A Confrontation",
     "updated": "2024-08-06 10:34:00.039Z",
     "url": "http://www.agnesdenesstudio.com/works7.html",
-    "slug": "wheatfield-a-confrontation",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Art",
@@ -858,6 +1037,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2024-01-17 12:00:00.000Z",
     "publisher": {
       "label": "The New Stateman",
@@ -871,13 +1051,15 @@
       "slug": "article",
       "key": "Article"
     },
+    "slug": "why-climate-despair-is-a-luxury",
     "tags": [
       "ptpbk4nicqrykya"
     ],
     "title": "Why climate despair is a luxury",
     "updated": "2024-07-29 19:59:26.926Z",
     "url": "https://www.newstatesman.com/environment/2022/10/rebecca-solnit-climate-despair-luxury",
-    "slug": "why-climate-despair-is-a-luxury",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Hope",
@@ -997,6 +1179,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-09-02 12:00:00.000Z",
     "publisher": {
       "label": "The New Yorker",
@@ -1010,6 +1193,7 @@
       "slug": "visual-artwork",
       "key": "VisualArtwork"
     },
+    "slug": "looks-like-congress-might-finally-do-something-about-tik-tok",
     "tags": [
       "amcy42c38zhh1z1",
       "w98y5g1o477uz2a",
@@ -1018,7 +1202,8 @@
     "title": "Looks like Congress might finally do something about TikTok.",
     "updated": "2024-08-06 10:35:29.176Z",
     "url": "https://www.newyorker.com/cartoons/daily-cartoon/friday-march-24th-congress-tiktok",
-    "slug": "looks-like-congress-might-finally-do-something-about-tik-tok",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Satire",
@@ -1138,6 +1323,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-06-08 12:00:00.000Z",
     "publisher": {
       "label": "Twitter",
@@ -1151,6 +1337,7 @@
       "slug": "photograph",
       "key": "Photograph"
     },
+    "slug": "diablo-iv-advertising-with-wildfire-smoke",
     "tags": [
       "w98y5g1o477uz2a",
       "fvwjbq5laixe87e",
@@ -1159,7 +1346,8 @@
     "title": "Diablo IV advertising with wildfire smoke",
     "updated": "2024-08-06 10:37:16.420Z",
     "url": "https://twitter.com/Nick_Newman/status/1666510464631595010/photo/1",
-    "slug": "diablo-iv-advertising-with-wildfire-smoke",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Popculture",
@@ -1198,6 +1386,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
@@ -1258,6 +1450,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-03-28 12:00:00.000Z",
     "publisher": {
       "label": "Washington Post",
@@ -1271,13 +1464,15 @@
       "slug": "article",
       "key": "Article"
     },
+    "slug": "what-if-climate-change-meant-not-doom-but-abundance",
     "tags": [
       "ptpbk4nicqrykya"
     ],
     "title": "What if climate change meant not doom — but abundance?",
     "updated": "2024-07-22 10:09:20.196Z",
     "url": "https://www.washingtonpost.com/opinions/2023/03/15/rebecca-solnit-climate-change-wealth-abundance/",
-    "slug": "what-if-climate-change-meant-not-doom-but-abundance",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Hope",
@@ -1397,6 +1592,7 @@
       "slug": "german",
       "key": "de"
     },
+    "locations": [],
     "published": "2023-03-23 12:00:00.000Z",
     "publisher": {
       "label": "Weltkunst",
@@ -1410,6 +1606,7 @@
       "slug": "visual-artwork",
       "key": "VisualArtwork"
     },
+    "slug": "schiefe-bilder-als-klimaprotest",
     "tags": [
       "uibq39vbkpnuibt",
       "w98y5g1o477uz2a",
@@ -1418,7 +1615,8 @@
     "title": "Schiefe Bilder als Klimaprotest",
     "updated": "2024-08-06 10:37:58.954Z",
     "url": "https://www.weltkunst.de/kunstwissen/2023/03/leopold-museum-klima-schieflage",
-    "slug": "schiefe-bilder-als-klimaprotest",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Protest",
@@ -1493,7 +1691,7 @@
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
     "connection": [],
-    "content": "<p><a tabindex=\"0\" href=\"https://en.m.wikipedia.org/wiki/Churchill,_Manitoba\" rel=\"noopener noreferrer\" data-token-index=\"0\">Churchill</a> is a town in northern Canada that is famous for migrating polar bears. The <a tabindex=\"0\" href=\"https://www.nuisancebearfilm.com/\" rel=\"noopener noreferrer\" data-token-index=\"2\">shortfilm</a> (14&rsquo;, 2022) documents clash between human infrastructure and animal, but also the tourism resulting from the spectacle. It leaves you with the question who the nuisance is.<!-- notionvc: d12f71e4-9e2e-46e7-a2fe-1b65d38c8a2b --></p>\r\n<p>The film is produced by <a tabindex=\"0\" href=\"https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone\" rel=\"noopener noreferrer\" data-token-index=\"1\">The New Yorker</a> and is available on <a tabindex=\"0\" href=\"https://www.youtube.com/watch?v=kUdvgsgwvDY\" rel=\"noopener noreferrer\" data-token-index=\"3\">YouTube</a>.<!-- notionvc: 1ac3548a-0aa6-4def-842a-242a5b85a3df --></p>",
+    "content": "<p><a tabindex=\"0\" href=\"https://en.m.wikipedia.org/wiki/Churchill,_Manitoba\" rel=\"noopener noreferrer\" data-token-index=\"0\">Churchill</a> is a town in northern Canada that is famous for migrating polar bears. The <a tabindex=\"0\" href=\"https://www.nuisancebearfilm.com/\" rel=\"noopener noreferrer\" data-token-index=\"2\">shortfilm</a> (14&rsquo;, 2022) documents clash between human infrastructure and animal, but also the tourism resulting from the spectacle. It leaves you with the question who the nuisance is.<!-- notionvc: d12f71e4-9e2e-46e7-a2fe-1b65d38c8a2b --></p>\r\n<p>The film is produced by <a tabindex=\"0\" href=\"https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone\" rel=\"noopener noreferrer\" data-token-index=\"1\">The New Yorker</a> and is available on <a href=\"https://vimeo.com/781627907\">Vimeo</a> and <a tabindex=\"0\" href=\"https://www.youtube.com/watch?v=kUdvgsgwvDY\" rel=\"noopener noreferrer\" data-token-index=\"3\">YouTube</a>.<!-- notionvc: 1ac3548a-0aa6-4def-842a-242a5b85a3df --></p>",
     "created": "2024-07-21 19:59:24.231Z",
     "date": "2022-10-19 12:00:00.000Z",
     "formats": [
@@ -1512,6 +1710,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-03-07 12:00:00.000Z",
     "publisher": {
       "label": "The New Yorker",
@@ -1525,6 +1724,7 @@
       "slug": "movie",
       "key": "Movie"
     },
+    "slug": "nuisance-bear",
     "tags": [
       "er049nnd0czun4v",
       "6n11c6com5jm4i4",
@@ -1532,9 +1732,10 @@
       "ym7yhl90oq509sh"
     ],
     "title": "Nuisance Bear",
-    "updated": "2024-08-03 18:54:45.682Z",
+    "updated": "2024-08-27 14:44:06.520Z",
     "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/when-polar-bears-come-to-town",
-    "slug": "nuisance-bear",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Animals",
@@ -1633,6 +1834,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-03-06 12:00:00.000Z",
     "publisher": {
       "label": "The New Yorker",
@@ -1646,6 +1848,7 @@
       "slug": "movie",
       "key": "Movie"
     },
+    "slug": "haulout",
     "tags": [
       "er049nnd0czun4v",
       "6n11c6com5jm4i4",
@@ -1655,7 +1858,8 @@
     "title": "Haulout",
     "updated": "2024-07-21 20:06:23.417Z",
     "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone",
-    "slug": "haulout",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Animals",
@@ -1750,6 +1954,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-03-04 12:00:00.000Z",
     "publisher": {
       "label": "Nature",
@@ -1763,6 +1968,7 @@
       "slug": "article",
       "key": "Article"
     },
+    "slug": "who-rules-earth-wild-mammals-far-outweighed-by-humans-and...",
     "tags": [
       "r1tph6cj1wvyj2y",
       "h4zh134ouuiosbo"
@@ -1770,7 +1976,8 @@
     "title": "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
     "updated": "2024-07-22 09:50:02.358Z",
     "url": "https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals",
-    "slug": "who-rules-earth-wild-mammals-far-outweighed-by-humans-and...",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Biomass",
@@ -1835,6 +2042,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-03-04 12:00:00.000Z",
     "publisher": {
       "label": "The New Yorker",
@@ -1848,6 +2056,7 @@
       "slug": "article",
       "key": "Article"
     },
+    "slug": "is-artificial-light-poisoning-the-planet",
     "tags": [
       "zbvrnn8292uibq6",
       "er049nnd0czun4v",
@@ -1856,7 +2065,8 @@
     "title": "Is Artificial Light Poisoning the Planet?",
     "updated": "2024-07-22 09:58:48.334Z",
     "url": "https://www.newyorker.com/magazine/2023/02/27/darkness-manifesto-book-johan-eklof",
-    "slug": "is-artificial-light-poisoning-the-planet",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Light pollution",
@@ -1936,7 +2146,7 @@
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
     "connection": [],
-    "content": "<p>It might not look like much but it's probably the most defining number of our time, one that will shape this century and many beyond it. It is the amount, in parts-per-million, of carbon dioxide in our planet's atmosphere.</p>",
+    "content": "<p>It might not look like much but it's probably the most defining number of our time, one that will shape this century and many beyond it. It is the amount, in parts-per-million, of <a href=\"https://en.m.wikipedia.org/wiki/Carbon_dioxide_in_Earth%27s_atmosphere\">carbon dioxide in our planet's atmosphere</a>. This <a href=\"https://julianoliver.com/projects/permillion/\">project</a> by <a href=\"https://julianoliver.com/\">Julian Oliver</a> and <a href=\"http://www.yugo.at/\">Gardan Savičić</a> displays this number on your smartphone.</p>",
     "created": "2024-07-21 20:48:14.866Z",
     "date": "2023-02-23 12:00:00.000Z",
     "formats": [
@@ -1946,7 +2156,40 @@
       }
     ],
     "id": "w04hcgjoetgitsv",
-    "image": null,
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0",
+      "width": 1762,
+      "height": 1177,
+      "caption": "",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+        ],
+        [
+          1762,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1762/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+        ]
+      ]
+    },
     "image_alt": "",
     "image_caption": "",
     "isFavorite": true,
@@ -1955,6 +2198,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-02-24 12:00:00.000Z",
     "publisher": {
       "label": "permillion.live",
@@ -1972,15 +2216,17 @@
       "slug": "web-site",
       "key": "WebSite"
     },
+    "slug": "permillion",
     "tags": [
       "uibq39vbkpnuibt",
       "e7g701bpr9rpyf7",
       "szgsdkhgi47pu4u"
     ],
     "title": "Permillion",
-    "updated": "2024-08-03 18:54:21.807Z",
+    "updated": "2024-09-02 11:19:40.020Z",
     "url": "https://permillion.live/",
-    "slug": "permillion",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Protest",
@@ -2062,6 +2308,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-02-22 12:00:00.000Z",
     "publisher": {
       "label": "Atmos.Earth",
@@ -2079,6 +2326,7 @@
       "slug": "article",
       "key": "Article"
     },
+    "slug": "our-attention-spans-are-being-stolen",
     "tags": [
       "w3agiq4xxjerj14",
       "lei1ymcyrz3jd1u",
@@ -2087,7 +2335,8 @@
     "title": "Our Attention Spans Are Being Stolen",
     "updated": "2024-07-21 20:16:46.681Z",
     "url": "https://atmos.earth/johann-hari-stolen-focus-concentration-span-attention-economy-climate-action",
-    "slug": "our-attention-spans-are-being-stolen",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Attention",
@@ -2177,6 +2426,7 @@
       "slug": "german",
       "key": "de"
     },
+    "locations": [],
     "published": "2023-02-18 12:00:00.000Z",
     "publisher": {
       "label": "Republik",
@@ -2194,6 +2444,7 @@
       "slug": "article",
       "key": "Article"
     },
+    "slug": "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise...",
     "tags": [
       "d52o0b6r2qheh80",
       "bxcs54jgb27xdkq"
@@ -2201,7 +2452,8 @@
     "title": "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
     "updated": "2024-07-21 20:13:09.918Z",
     "url": "https://www.republik.ch/2023/02/10/wie-science-fiction-autor-kim-stanley-robinson-die-zukunft-sieht",
-    "slug": "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise...",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Cli-Fi",
@@ -2279,6 +2531,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-01-31 12:00:00.000Z",
     "publisher": {
       "label": "Twitter",
@@ -2292,14 +2545,16 @@
       "slug": "tv-episode",
       "key": "TVEpisode"
     },
+    "slug": "climate-change-conversations-during-live-commentary",
     "tags": [
       "pa3elfw03ton9vr",
       "w98y5g1o477uz2a"
     ],
     "title": "Climate change conversations during live commentary",
-    "updated": "2024-07-21 20:09:50.719Z",
+    "updated": "2024-09-02 11:11:46.839Z",
     "url": "https://twitter.com/ed_hawkins/status/1619456016638427136?s=20",
-    "slug": "climate-change-conversations-during-live-commentary",
+    "video": "uodvujif2g6v8mxvzb3w",
+    "video_caption": "",
     "topics": [
       {
         "label": "Visualisation",
@@ -2389,6 +2644,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-01-30 12:00:00.000Z",
     "publisher": {
       "label": "New York Times",
@@ -2402,6 +2658,7 @@
       "slug": "podcast-episode",
       "key": "PodcastEpisode"
     },
+    "slug": "the-sunday-read-has-the-amazon-reached-its-tipping-point",
     "tags": [
       "qr52u2kyqskxit6",
       "xrpst36djjaxj2f",
@@ -2410,7 +2667,8 @@
     "title": "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
     "updated": "2024-07-21 20:05:48.122Z",
     "url": "https://www.nytimes.com/2023/01/29/podcasts/the-daily/amazon-rainforest-deforestation.html",
-    "slug": "the-sunday-read-has-the-amazon-reached-its-tipping-point",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Tipping point",
@@ -2429,6 +2687,10 @@
     "related": {
       "publisher": [
         [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
+        [
           "Consider the Burying Beetle. (Or Else.)",
           "consider-the-burying-beetle-or-else"
         ],
@@ -2438,6 +2700,10 @@
         ]
       ],
       "formats": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "Fall of Civilizations",
           "fall-of-civilizations"
@@ -2501,6 +2767,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-01-24 12:00:00.000Z",
     "publisher": {
       "label": "New York Times",
@@ -2514,13 +2781,15 @@
       "slug": "podcast-episode",
       "key": "PodcastEpisode"
     },
+    "slug": "consider-the-burying-beetle-or-else",
     "tags": [
       "xrpst36djjaxj2f"
     ],
     "title": "Consider the Burying Beetle. (Or Else.)",
     "updated": "2024-07-21 19:50:58.870Z",
     "url": "https://www.nytimes.com/2023/01/06/podcasts/the-daily/biodiversity-cop15-montreal.html",
-    "slug": "consider-the-burying-beetle-or-else",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Biodiversity",
@@ -2531,6 +2800,10 @@
     "related": {
       "publisher": [
         [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
+        [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
           "the-sunday-read-has-the-amazon-reached-its-tipping-point"
         ],
@@ -2540,6 +2813,10 @@
         ]
       ],
       "formats": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "Fall of Civilizations",
           "fall-of-civilizations"
@@ -2553,7 +2830,12 @@
           "the-sunday-read-what-does-sustainable-living-look-like..."
         ]
       ],
-      "authors": [],
+      "authors": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ]
+      ],
       "tags": [
         [
           "Is Artificial Light Poisoning the Planet?",
@@ -2636,6 +2918,7 @@
       "slug": "german",
       "key": "de"
     },
+    "locations": [],
     "published": "2023-01-23 12:00:00.000Z",
     "publisher": {
       "label": "Twitter",
@@ -2649,6 +2932,7 @@
       "slug": "photograph",
       "key": "Photograph"
     },
+    "slug": "bagger-288-in-lutzerath",
     "tags": [
       "uibq39vbkpnuibt",
       "szgsdkhgi47pu4u",
@@ -2657,7 +2941,8 @@
     "title": "Bagger 288 in Lützerath",
     "updated": "2024-08-06 10:39:32.942Z",
     "url": "https://twitter.com/marius_mich/status/1610708837463474183",
-    "slug": "bagger-288-in-lutzerath",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Protest",
@@ -2744,6 +3029,7 @@
       "slug": "german",
       "key": "de"
     },
+    "locations": [],
     "published": "2023-01-22 12:00:00.000Z",
     "publisher": {
       "label": "YouTube.com",
@@ -2757,6 +3043,7 @@
       "slug": "conversation",
       "key": "Conversation"
     },
+    "slug": "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien...",
     "tags": [
       "2s6mm5qu1ja837o",
       "h4zh134ouuiosbo",
@@ -2765,7 +3052,8 @@
     "title": "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
     "updated": "2024-07-20 10:20:37.142Z",
     "url": "https://youtu.be/KW-J6QqQarQ",
-    "slug": "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien...",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Models",
@@ -2786,6 +3074,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
@@ -2842,6 +3134,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-01-21 12:00:00.000Z",
     "publisher": {
       "label": "Half.Earth",
@@ -2859,6 +3152,7 @@
       "slug": "video-game",
       "key": "VideoGame"
     },
+    "slug": "half-earth-socialism-game",
     "tags": [
       "xvy0yzm7zdmm0bt",
       "lzx69t0trqshvt1",
@@ -2867,7 +3161,8 @@
     "title": "Half Earth Socialism Game",
     "updated": "2024-07-20 10:07:24.982Z",
     "url": "https://play.half.earth/",
-    "slug": "half-earth-socialism-game",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Technology",
@@ -2940,6 +3235,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-01-21 12:00:00.000Z",
     "publisher": {
       "label": "New York Times",
@@ -2953,6 +3249,7 @@
       "slug": "podcast-episode",
       "key": "PodcastEpisode"
     },
+    "slug": "the-sunday-read-what-does-sustainable-living-look-like...",
     "tags": [
       "991yaahmkskmr6t",
       "lzx69t0trqshvt1",
@@ -2961,7 +3258,8 @@
     "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
     "updated": "2024-07-20 10:10:32.823Z",
     "url": "https://www.nytimes.com/2022/11/20/podcasts/the-daily/uruguay-sustainable-living.html",
-    "slug": "the-sunday-read-what-does-sustainable-living-look-like...",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Society",
@@ -2980,6 +3278,10 @@
     "related": {
       "publisher": [
         [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
+        [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
           "the-sunday-read-has-the-amazon-reached-its-tipping-point"
         ],
@@ -2989,6 +3291,10 @@
         ]
       ],
       "formats": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "Fall of Civilizations",
           "fall-of-civilizations"
@@ -3004,6 +3310,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
@@ -3080,6 +3390,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-01-21 12:00:00.000Z",
     "publisher": {
       "label": "TheAnthropocene.org",
@@ -3093,13 +3404,15 @@
       "slug": "movie",
       "key": "Movie"
     },
+    "slug": "anthropocene-the-human-epoch",
     "tags": [
       "6n11c6com5jm4i4"
     ],
     "title": "Anthropocene: The Human Epoch",
     "updated": "2024-07-20 10:14:25.242Z",
     "url": "https://theanthropocene.org/film/",
-    "slug": "anthropocene-the-human-epoch",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Documentary",
@@ -3152,6 +3465,7 @@
       "slug": "german",
       "key": "de"
     },
+    "locations": [],
     "published": "2023-01-21 12:00:00.000Z",
     "publisher": {
       "label": "100-gute-gruende.de",
@@ -3165,6 +3479,7 @@
       "slug": "guide",
       "key": "Guide"
     },
+    "slug": "100-gute-grunde-gegen-atomkraft",
     "tags": [
       "h4zh134ouuiosbo",
       "lzx69t0trqshvt1"
@@ -3172,7 +3487,8 @@
     "title": "100 gute Gründe gegen Atomkraft",
     "updated": "2024-08-03 18:55:04.177Z",
     "url": "https://www.100-gute-gruende.de/gruende/",
-    "slug": "100-gute-grunde-gegen-atomkraft",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Science",
@@ -3250,6 +3566,7 @@
       "slug": "german",
       "key": "de"
     },
+    "locations": [],
     "published": "2023-01-17 16:24:00.000Z",
     "publisher": {
       "label": "Republik",
@@ -3267,13 +3584,15 @@
       "slug": "article",
       "key": "Article"
     },
+    "slug": "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren",
     "tags": [
       "ptpbk4nicqrykya"
     ],
     "title": "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
     "updated": "2024-07-20 09:56:12.364Z",
     "url": "https://www.republik.ch/2023/01/16/wir-haben-kein-recht-vor-der-klimakrise-zu-kapitulieren",
-    "slug": "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Hope",
@@ -3369,6 +3688,7 @@
       "slug": "english",
       "key": "en"
     },
+    "locations": [],
     "published": "2023-01-16 12:00:00.000Z",
     "publisher": {
       "label": "Aeon",
@@ -3386,11 +3706,13 @@
       "slug": "article",
       "key": "Article"
     },
+    "slug": "theres-no-planet-b",
     "tags": [],
     "title": "There’s no planet B",
     "updated": "2024-07-20 10:00:07.900Z",
     "url": "https://aeon.co/essays/we-will-never-be-able-to-live-on-another-planet-heres-why",
-    "slug": "theres-no-planet-b",
+    "video": "",
+    "video_caption": "",
     "topics": [],
     "quote_content": "",
     "related": {
@@ -3450,6 +3772,7 @@
       "slug": "german",
       "key": "de"
     },
+    "locations": [],
     "published": "2018-07-04 12:00:00.000Z",
     "publisher": {
       "label": "Matthes & Seitz Berlin",
@@ -3463,6 +3786,7 @@
       "slug": "book",
       "key": "Book"
     },
+    "slug": "klimabilder-eine-genealogie-globaler-bildpolitiken-von...",
     "tags": [
       "2gixmkmbyhvoalk",
       "pa3elfw03ton9vr"
@@ -3470,7 +3794,8 @@
     "title": "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
     "updated": "2024-07-21 20:06:40.813Z",
     "url": "https://www.matthes-seitz-berlin.de/buch/klimabilder.html",
-    "slug": "klimabilder-eine-genealogie-globaler-bildpolitiken-von...",
+    "video": "",
+    "video_caption": "",
     "topics": [
       {
         "label": "Theory",

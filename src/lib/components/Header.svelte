@@ -1,9 +1,13 @@
 <script>
 	import { getPageDescription } from '$utils/posts';
+	import { getContext } from 'svelte';
+	import { getAbsoluteURL } from '$utils/url';
+
+	const isLightMode = getContext('isLightMode');
 </script>
 
 <header class="mb-8 pb-8 sm:mb-12 md:mb-16 border-b-2 border-dark sm:pb-12 md:pb-16">
-	<a href="/" class="hover:text-accent text-dark transition-colors">
+	<a href={getAbsoluteURL('/', isLightMode)} class="hover:text-accent text-dark transition-colors">
 		<h1 class="text-3xl leading-none md:text-4xl font-semibold md:leading-9">
 			Artefacts of a<br /> Burning World
 		</h1>

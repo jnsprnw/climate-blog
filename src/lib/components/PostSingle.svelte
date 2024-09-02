@@ -7,13 +7,15 @@
 	import { type Post } from '$types/pocketbase';
 	import { getAbsoluteURL } from '$utils/url';
 	import { isSameDay, checkValidDate } from '$utils/date';
+	import { getContext } from 'svelte';
+
+	const isLightMode = getContext('isLightMode');
 
 	const {
 		post,
 		isSingle = false,
-		isFirst = false,
-		lightMode = false
-	}: { post: Post; isSingle?: boolean; isFirst?: boolean; lightMode?: boolean } = $props();
+		isFirst = false
+	}: { post: Post; isSingle?: boolean; isFirst?: boolean } = $props();
 
 	const {
 		authors,
@@ -59,7 +61,8 @@
 			{/if}
 		</div>
 		<a
-			href={`/${slug}${lightMode ? '?light' : ''}`}
+			title={slug}
+			href={getAbsoluteURL(slug, isLightMode)}
 			class="transition-colors hover:text-accent"
 			itemprop="url"
 		>
@@ -79,11 +82,11 @@
 	<main class="col-span-3 border-y border-border py-6 flex flex-col gap-y-8">
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
-				{#if lightMode}
+				{#if isLightMode}
 					<div class="flex flex-col gap-y-1 items-center border border-border py-6 px-4">
 						<span>You are browsing in light mode, where images are disabled.</span>
 						<a class="link" href={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
-							>Click to view the image</a
+							>Click to open the image</a
 						>
 					</div>
 				{:else}
@@ -183,7 +186,7 @@
 					<dt class="text-sm text-mute contrast-more:text-black">Same topics</dt>
 					{#each related.tags as [title, slug]}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isLightMode)}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
@@ -193,7 +196,7 @@
 					<h4 class="text-sm text-mute contrast-more:text-black">Same authors</h4>
 					{#each related.authors as [title, slug]}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isLightMode)}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
@@ -203,7 +206,7 @@
 					<dt class="text-sm text-mute contrast-more:text-black">Same formats</dt>
 					{#each related.formats as [title, slug]}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isLightMode)}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
@@ -213,7 +216,7 @@
 					<dt class="text-sm text-mute contrast-more:text-black">Same publisher</dt>
 					{#each related.publisher as [title, slug]}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isLightMode)}>{title}</a>
 						</dd>
 					{/each}
 				</dl>

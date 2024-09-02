@@ -7,6 +7,10 @@ export function getPostsCount() {
 	return posts.length;
 }
 
+export function checkPostSlug(slug: string) {
+	return posts.some((post) => post.slug === slug);
+}
+
 export function getCurrentPosts(
 	page_number: number,
 	isFavorite: boolean = false,

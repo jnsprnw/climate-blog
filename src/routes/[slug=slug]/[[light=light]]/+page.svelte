@@ -5,7 +5,6 @@
 
 	type Props = {
 		post: Post;
-		lightMode?: boolean;
 	};
 
 	const { data }: { data: Props } = $props();
@@ -15,4 +14,4 @@
 	{@html serializeSchema(createBlogPostingSchema(data.post))}
 </svelte:head>
 
-<PostSingle lightMode={data.lightMode} post={data.post} isSingle={true} />
+<PostSingle post={data.post} isSingle={true} />
