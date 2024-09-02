@@ -15,13 +15,15 @@
 	accessibility and web standards. The CMS for this blog is
 	<a href="https://pocketbase.io/">Pocketbase</a> because of its lightness. It runs on
 	<a href="https://pockethost.io/">Pockethost.io</a>. The page itself is hosted on
-	<a href="https://www.cloudflare.com/">Cloudflare Pages</a>. You can find the source code on <a href="https://github.com/jnsprnw/climate-blog">GitHub</a>.
+	<a href="https://www.cloudflare.com/">Cloudflare Pages</a>. You can find the source code on
+	<a href="https://github.com/jnsprnw/climate-blog">GitHub</a>.
 </p>
 <p>
 	The site is set in <a href="https://klim.co.nz/retail-fonts/untitled-sans/">Untitled Sans</a>
 	and <a href="https://practicaltypography.com/charter.html">Charter</a>.
 </p>
 <section>
+	<h2 class="font-semibold mb-4">RSS feed of the collection</h2>
 	<p>If you want to follow the blog, you can do so via RSS feeds:</p>
 	<ul class="grid sm:grid-cols-[auto_1fr] gap-x-2 gap-y-2 my-4">
 		<li class="grid grid-cols-subgrid sm:col-span-2">
@@ -47,6 +49,35 @@
 			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
 				{getAbsoluteURL('favorite/rss.xml')}
 			</code>
+		</li>
+		<li class="grid grid-cols-subgrid sm:col-span-2">
+			<span>Favorite English posts feed</span>
+			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
+				{getAbsoluteURL('en/favorite/rss.xml')}
+			</code>
+		</li>
+	</ul>
+</section>
+<section>
+	<h2 class="font-semibold mb-4">Links to the collection</h2>
+	<ul class="grid gap-y-2 my-4">
+		<li>
+			<a class="link" href={getAbsoluteURL('/')}>Regular feed</a>
+		</li>
+		<li>
+			<a class="link" href={getAbsoluteURL('/en')}>English feed</a>
+		</li>
+		<li>
+			<a class="link" href={getAbsoluteURL('/de')}>German feed</a>
+		</li>
+		<li>
+			<a class="link" href={getAbsoluteURL('/favorite')}>Favorite posts feed</a>
+		</li>
+		<li>
+			<a class="link" href={getAbsoluteURL('/en/favorite')}>Favorite English posts feed</a>
+		</li>
+		<li>
+			<a class="link" href={getAbsoluteURL('?light')}>Regular feed without images shown</a>
 		</li>
 	</ul>
 </section>

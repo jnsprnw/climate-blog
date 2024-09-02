@@ -11,8 +11,9 @@
 	const {
 		post,
 		isSingle = false,
-		isFirst = false
-	}: { post: Post; isSingle?: boolean; isFirst?: boolean } = $props();
+		isFirst = false,
+		lightMode = false
+	}: { post: Post; isSingle?: boolean; isFirst?: boolean; lightMode?: boolean } = $props();
 
 	const {
 		authors,
@@ -57,7 +58,11 @@
 				<Favorite />
 			{/if}
 		</div>
-		<a href={`/${slug}`} class="transition-colors hover:text-accent" itemprop="url">
+		<a
+			href={`/${slug}${lightMode ? '?light' : ''}`}
+			class="transition-colors hover:text-accent"
+			itemprop="url"
+		>
 			<h1
 				class="mb-2 text-3xl leading-tight md:text-4xl lg:text-5xl text-balance"
 				itemprop="name"
@@ -74,17 +79,26 @@
 	<main class="col-span-3 border-y border-border py-6 flex flex-col gap-y-8">
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
-				<img
-					itemprop="contentUrl"
-					style={`aspect-ratio: ${image.width} / ${image.height};`}
-					class="w-full bg-gray-50 text-xs text-gray-400"
-					src={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
-					srcset={image.sizes.map(([px, url]) => `${url} ${px}w`).join(',')}
-					sizes="(max-width: 48rem) 100vw, 48rem"
-					loading={isFirst || isSingle ? 'eager' : 'lazy'}
-					decoding="async"
-					alt={image.alt ?? title}
-				/>
+				{#if lightMode}
+					<div class="flex flex-col gap-y-1 items-center border border-border py-6 px-4">
+						<span>You are browsing in light mode, where images are disabled.</span>
+						<a class="link" href={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
+							>Click to view the image</a
+						>
+					</div>
+				{:else}
+					<img
+						itemprop="contentUrl"
+						style={`aspect-ratio: ${image.width} / ${image.height};`}
+						class="w-full bg-gray-50 text-xs text-gray-400"
+						src={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
+						srcset={image.sizes.map(([px, url]) => `${url} ${px}w`).join(',')}
+						sizes="(max-width: 48rem) 100vw, 48rem"
+						loading={isFirst || isSingle ? 'eager' : 'lazy'}
+						decoding="async"
+						alt={image.alt ?? title}
+					/>
+				{/if}
 				{#if image.caption}
 					<figcaption
 						itemprop="author"
