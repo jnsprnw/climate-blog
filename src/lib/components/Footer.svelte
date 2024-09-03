@@ -2,7 +2,11 @@
 	import { formatDate, formatDateFull } from '$utils/format';
 	import { getAbsoluteURL } from '$utils/url';
 	import { getContext } from 'svelte';
-	const { buildDateTime, version }: { buildDateTime: Date; version: string } = $props();
+	const {
+		buildDateTime,
+		version,
+		currentPath
+	}: { buildDateTime: Date; version: string; currentPath: string } = $props();
 
 	const isLightMode = getContext('isLightMode');
 </script>
@@ -13,6 +17,11 @@
 	<time title={formatDateFull(buildDateTime)} datetime={buildDateTime.toISOString()}>
 		Updated {formatDate(buildDateTime, true)}
 	</time>
-	<span>Version {version}</span>
+	{#if isLightMode}
+		<a href={getAbsoluteURL(currentPath, false)} class="link">Non-light mode</a>
+	{:else}
+		<a href={getAbsoluteURL(currentPath, true)} class="link">Light mode</a>
+	{/if}
+	<span>v {version}</span>
 	<a class="link" href={getAbsoluteURL('about', isLightMode)}>About</a>
 </footer>

@@ -22,13 +22,14 @@
 	const preview_alt = $derived(
 		$page.data?.post?.image_alt ?? 'Green circle on a white background.'
 	);
+	const path = $derived($page.data?.path);
 	const title = $derived($page.data?.post?.title ?? SITE_TITLE);
 	const type = $derived($page.data?.type ?? 'website');
-	const url = $derived(getAbsoluteURL($page.data?.path));
-	const urlLightMode = $derived(getAbsoluteURL($page.data?.path, isLightMode));
+	const url = $derived(getAbsoluteURL(path));
+	const urlLightMode = $derived(getAbsoluteURL(path, isLightMode));
 	const lastModified = $derived($page.data?.post?.updated ?? $page.data?.lastMod);
 	const description = getPageDescription();
-
+	console.log('here here');
 	setContext('isLightMode', isLightMode);
 </script>
 
@@ -65,7 +66,11 @@
 	<link rel="canonical" href={url} />
 
 	<link rel="alternate" type="application/rss+xml" href={getAbsoluteURL('rss.xml')} title="RSS" />
-	<link rel="alternate" href={urlLightMode} title="Light mode" />
+	{#if isLightMode}
+		<link rel="alternate" href={urlLightMode} title="Light mode" />
+	{:else}
+		<link rel="alternate" href={url} title="Non-light mode" />
+	{/if}
 
 	<link rel="me" href="https://climatejustice.social/@jonas" />
 
@@ -78,5 +83,5 @@
 >
 	<Header />
 	{@render children()}
-	<Footer buildDateTime={data.buildDateTime} {version} />
+	<Footer buildDateTime={data.buildDateTime} {version} currentPath={path} />
 </div>

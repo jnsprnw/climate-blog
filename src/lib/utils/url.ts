@@ -6,7 +6,6 @@ export function getAbsoluteURLWithLightMode(path: string = ''): string {
 }
 
 export function getAbsoluteURL(path: string = '', isLightMode: boolean = false): string {
-	console.log(path, isLightMode);
 	return new URL(
 		(path + (isLightMode ? '/light' : '')).replace('//', '/'),
 		dev ? 'http://localhost:5173' : PUBLIC_PAGE_URL
