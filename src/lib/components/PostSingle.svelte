@@ -8,6 +8,7 @@
 	import { getAbsoluteURL } from '$utils/url';
 	import { isSameDay, checkValidDate } from '$utils/date';
 	import { getContext } from 'svelte';
+	import ConditionalLink from '$lib/components/ConditionalLink.svelte';
 
 	const isLightMode = getContext('isLightMode');
 
@@ -60,12 +61,7 @@
 				<Favorite />
 			{/if}
 		</div>
-		<a
-			title={slug}
-			href={getAbsoluteURL(slug, isLightMode)}
-			class="transition-colors hover:text-accent"
-			itemprop="url"
-		>
+		<ConditionalLink {slug} {isSingle}>
 			<h1
 				class="mb-2 text-3xl leading-tight md:text-4xl lg:text-5xl text-balance"
 				itemprop="name"
@@ -77,7 +73,7 @@
 			<span class="text-sm" id="authors">
 				<Authors authors={authors.map((author) => author.label)} lang={language.key} />
 			</span>
-		</a>
+		</ConditionalLink>
 	</header>
 	<main class="col-span-3 border-y border-border py-6 flex flex-col gap-y-8">
 		{#if image}
