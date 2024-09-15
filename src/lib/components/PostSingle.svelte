@@ -70,9 +70,11 @@
 			>
 				{title}
 			</h1>
-			<span class="text-sm" id="authors">
-				<Authors authors={authors.map((author) => author.label)} lang={language.key} />
-			</span>
+			{#if authors.length}
+				<span class="text-sm" id="authors">
+					<Authors authors={authors.map((author) => author.label)} lang={language.key} />
+				</span>
+			{/if}
 		</ConditionalLink>
 	</header>
 	<main class="col-span-3 border-y border-border py-6 flex flex-col gap-y-8">
