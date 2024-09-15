@@ -29,7 +29,6 @@
 	const urlLightMode = $derived(getAbsoluteURL(path, isLightMode));
 	const lastModified = $derived($page.data?.post?.updated ?? $page.data?.lastMod);
 	const description = getPageDescription();
-	console.log('here here');
 	setContext('isLightMode', isLightMode);
 </script>
 
