@@ -82,7 +82,7 @@
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				{#if isLightMode}
 					<div class="flex flex-col gap-y-1 items-center border border-border py-6 px-4">
-						<span>You are browsing in light mode, where images are disabled.</span>
+						<span>You are browsing in data-saving mode, where images are disabled.</span>
 						<a class="link" href={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
 							>Click to open the image</a
 						>
