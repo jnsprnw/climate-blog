@@ -1,5 +1,114 @@
 [
   {
+    "authors": [],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "",
+    "created": "2024-09-11 19:48:46.653Z",
+    "date": "2024-09-08 03:11:00.000Z",
+    "formats": [
+      {
+        "label": "Photograph",
+        "slug": "photograph"
+      }
+    ],
+    "id": "ej1918u87zw17mw",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0",
+      "width": 1170,
+      "height": 1614,
+      "caption": "",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0"
+        ],
+        [
+          1170,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1170/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0"
+        ]
+      ]
+    },
+    "image_alt": "A woman sitting on a balcony that is destroyed by a typhoon.",
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [],
+    "published": "2024-09-11 21:48:00.000Z",
+    "quote": "",
+    "quote_author": "",
+    "reference": {
+      "label": "China in Pictures",
+      "slug": "china-in-pictures"
+    },
+    "reference_link": "https://x.com/tongbingxue/status/1832587517520179544",
+    "schemas": {
+      "label": "Photograph",
+      "slug": "photograph",
+      "key": "Photograph"
+    },
+    "slug": "aftermath-of-typhoon-yagi-in-haikou-china",
+    "tags": [
+      "6a5m5edyi57f99n",
+      "dqaqy8twjie2txl"
+    ],
+    "title": "Aftermath of Typhoon Yagi in Haikou, China",
+    "updated": "2024-09-11 19:48:46.653Z",
+    "url": "https://x.com/tongbingxue/status/1832587517520179544",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "Infrastructure",
+        "slug": "infrastructure"
+      },
+      {
+        "label": "Typhoon",
+        "slug": "typhoon"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-advertising-with-wildfire-smoke"
+        ],
+        [
+          "Bagger 288 in Lützerath",
+          "bagger-288-in-lutzerath"
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ]
+      ]
+    }
+  },
+  {
     "authors": [
       {
         "label": "Michael Barbaro",
@@ -117,6 +226,10 @@
         ]
       ],
       "tags": [
+        [
+          "Aftermath of Typhoon Yagi in Haikou, China",
+          "aftermath-of-typhoon-yagi-in-haikou-china"
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
@@ -840,6 +953,10 @@
       "publisher": [],
       "formats": [
         [
+          "Aftermath of Typhoon Yagi in Haikou, China",
+          "aftermath-of-typhoon-yagi-in-haikou-china"
+        ],
+        [
           "Diablo IV advertising with wildfire smoke",
           "diablo-iv-advertising-with-wildfire-smoke"
         ],
@@ -1375,6 +1492,10 @@
         ]
       ],
       "formats": [
+        [
+          "Aftermath of Typhoon Yagi in Haikou, China",
+          "aftermath-of-typhoon-yagi-in-haikou-china"
+        ],
         [
           "The Oldest Living Things in the World",
           "the-oldest-living-things-in-the-world"
@@ -2970,6 +3091,10 @@
         ]
       ],
       "formats": [
+        [
+          "Aftermath of Typhoon Yagi in Haikou, China",
+          "aftermath-of-typhoon-yagi-in-haikou-china"
+        ],
         [
           "The Oldest Living Things in the World",
           "the-oldest-living-things-in-the-world"
