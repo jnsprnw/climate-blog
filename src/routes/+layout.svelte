@@ -67,9 +67,9 @@
 
 	<link rel="alternate" type="application/rss+xml" href={getAbsoluteURL('rss.xml')} title="RSS" />
 	{#if isLightMode}
-		<link rel="alternate" href={urlLightMode} title="Light mode" />
+		<link rel="alternate" href={urlLightMode} title="Hide images" />
 	{:else}
-		<link rel="alternate" href={url} title="Non-light mode" />
+		<link rel="alternate" href={url} title="Display images" />
 	{/if}
 
 	<link rel="me" href="https://climatejustice.social/@jonas" />
