@@ -24,18 +24,20 @@
 	{/if}
 </svelte:head>
 
-<nav class="flex justify-center text-sm gap-x-3">
-	{#each list as { label, path, isCurrent, isPrev, isNext }}
-		{#if isCurrent}
-			<a href={getAbsoluteURL(path, isLightMode)} class="text-mute p-2" aria-current="page"
-				>{label}</a
-			>
-		{:else}
-			<a
-				class="link p-2"
-				href={getAbsoluteURL(path, isLightMode)}
-				rel={isPrev ? 'prev' : isNext ? 'next' : undefined}>{label}</a
-			>
-		{/if}
-	{/each}
-</nav>
+{#if count > 1}
+	<nav class="flex justify-center text-sm gap-x-3">
+		{#each list as { label, path, isCurrent, isPrev, isNext }}
+			{#if isCurrent}
+				<a href={getAbsoluteURL(path, isLightMode)} class="text-mute p-2" aria-current="page"
+					>{label}</a
+				>
+			{:else}
+				<a
+					class="link p-2"
+					href={getAbsoluteURL(path, isLightMode)}
+					rel={isPrev ? 'prev' : isNext ? 'next' : undefined}>{label}</a
+				>
+			{/if}
+		{/each}
+	</nav>
+{/if}
