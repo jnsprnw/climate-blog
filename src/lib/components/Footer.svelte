@@ -18,9 +18,9 @@
 		Updated {formatDate(buildDateTime, true)}
 	</time>
 	{#if isLightMode}
-		<a href={getAbsoluteURL(currentPath, false)} class="link">Non-light mode</a>
+		<a href={getAbsoluteURL(currentPath, false)} class="link">Display images</a>
 	{:else}
-		<a href={getAbsoluteURL(currentPath, true)} class="link">Light mode</a>
+		<a href={getAbsoluteURL(currentPath, true)} class="link">Hide images</a>
 	{/if}
 	<span>v {version}</span>
 	<a class="link" href={getAbsoluteURL('about', isLightMode)}>About</a>
