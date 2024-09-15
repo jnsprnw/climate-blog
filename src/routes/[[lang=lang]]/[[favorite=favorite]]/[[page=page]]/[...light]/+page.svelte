@@ -14,5 +14,5 @@
 
 <main class="flex flex-col gap-y-12 sm:gap-y-18 md:gap-y-24">
 	<PostList posts={data.posts} />
-	<Pagination currentIndex={data.page_current} posts_count={data.posts_count} />
+	<Pagination currentIndex={data.page_current} posts_count={data.posts.length} />
 </main>

@@ -2,7 +2,6 @@ import { getCurrentPosts, getPostsCount, getLastMod } from '$utils/posts';
 import { checkFavorite } from '$utils/url';
 
 export async function load({ params }) {
-	console.log('page page');
 	const { lang, favorite, page } = params;
 	const isFavorite = checkFavorite(favorite);
 	const page_current = parseInt(page ?? 1);
