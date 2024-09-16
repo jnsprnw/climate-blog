@@ -82,5 +82,5 @@
 >
 	<Header />
 	{@render children()}
-	<Footer buildDateTime={data.buildDateTime} {version} currentPath={path} />
+	<Footer buildDateTime={data.buildDateTime} {version} currentPath={path} {isLightMode} />
 </div>

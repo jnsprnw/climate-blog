@@ -18,6 +18,7 @@ export type Post = {
 	};
 	created: string;
 	published: string;
+	updated: string;
 	isFavorite: boolean;
 	image_alt: string;
 	image_caption: string;

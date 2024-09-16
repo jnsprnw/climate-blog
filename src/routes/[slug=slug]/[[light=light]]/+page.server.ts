@@ -1,4 +1,5 @@
-import { getPostBySlug } from '$utils/posts';
+import { getPostBySlug, getAllSlugs } from '$utils/posts';
+import { getEntriesList } from '$utils/url';
 
 export async function load({ params }) {
 	const { slug } = params;
@@ -7,6 +8,11 @@ export async function load({ params }) {
 		type: 'article',
 		path: slug
 	};
+}
+
+/** @type {import('./$types').EntryGenerator} */
+export function entries() {
+	return getEntriesList(getAllSlugs().map((slug) => ({ slug })));
 }
 
 export const prerender = true;

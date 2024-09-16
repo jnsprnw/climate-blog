@@ -1,5 +1,5 @@
-import { getCurrentPosts, getPostsCount, getLastMod } from '$utils/posts';
-import { checkFavorite } from '$utils/url';
+import { getCurrentPosts, getPostsCount, getLastMod, getPaginationEntries } from '$utils/posts';
+import { checkFavorite, getEntriesList } from '$utils/url';
 
 export async function load({ params }) {
 	const { lang, favorite, page } = params;
@@ -14,6 +14,11 @@ export async function load({ params }) {
 		path: [lang, isFavorite ? 'favorite' : undefined, page].filter(Boolean).join('/'),
 		lastMod
 	};
+}
+
+/** @type {import('./$types').EntryGenerator} */
+export function entries() {
+	return getEntriesList(getPaginationEntries());
 }
 
 export const prerender = true;

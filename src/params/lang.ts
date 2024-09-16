@@ -1,4 +1,6 @@
+import { LANGUAGES } from '$config';
+
 /** @type {import('@sveltejs/kit').ParamMatcher} */
 export function match(param) {
-	return ['de', 'en'].includes(param);
+	return LANGUAGES.includes(param);
 }

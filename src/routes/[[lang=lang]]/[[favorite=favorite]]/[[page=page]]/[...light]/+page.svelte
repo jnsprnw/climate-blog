@@ -13,6 +13,12 @@
 </script>
 
 <main class="flex flex-col gap-y-12 sm:gap-y-18 md:gap-y-24">
-	<PostList posts={data.posts} />
-	<Pagination currentIndex={data.page_current} posts_count={data.posts.length} />
+	{#if data.posts.length}
+		<PostList posts={data.posts} />
+		<Pagination currentIndex={data.page_current} posts_count={data.posts.length} />
+	{:else}
+		<p class="text-center font-semibold">
+			There are currently no posts present for this combination of filter.
+		</p>
+	{/if}
 </main>
