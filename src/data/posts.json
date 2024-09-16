@@ -1,5 +1,76 @@
 [
   {
+    "authors": [
+      {
+        "label": "Bill McKibben",
+        "slug": "bill-mc-kibben"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p><a href=\"https://billmckibben.com/bio.html\">Bill McKibben</a>, author of the <a href=\"https://en.m.wikipedia.org/wiki/The_End_of_Nature\">The End of Nature</a> (the book which is regarded as the first book on global warming written for a general audience), uses the newsletter &ldquo;<a href=\"https://billmckibben.substack.com/\">The Crucial Years</a>&rdquo; to directly talk about &ldquo;Working on Winning the Climate Fight&rdquo;</p>",
+    "created": "2024-09-11 20:17:50.172Z",
+    "date": "",
+    "formats": [
+      {
+        "label": "Newsletter",
+        "slug": "newsletter"
+      }
+    ],
+    "id": "jelfy1cle323wii",
+    "image": null,
+    "image_alt": "",
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [],
+    "published": "2024-09-11 22:06:00.000Z",
+    "publisher": {
+      "label": "Substack",
+      "slug": "substack"
+    },
+    "quote": "",
+    "quote_author": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
+    "slug": "the-crucial-years",
+    "tags": [
+      "249emal5w88fzb3",
+      "54y3pat633pmi3z"
+    ],
+    "title": "The Crucial Years",
+    "updated": "2024-09-11 20:17:50.172Z",
+    "url": "https://billmckibben.substack.com/",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "News",
+        "slug": "news"
+      },
+      {
+        "label": "Education",
+        "slug": "education"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [],
+      "formats": [],
+      "authors": [],
+      "tags": []
+    }
+  },
+  {
     "authors": [],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
@@ -15,28 +86,28 @@
     ],
     "id": "ej1918u87zw17mw",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0",
       "width": 1170,
       "height": 1614,
       "caption": "",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0"
         ],
         [
           1170,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1170/iqgcpndtaxf4bin08sgy?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1170/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -278,36 +349,36 @@
     ],
     "id": "8ti8dk0fvwjc0cp",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0",
       "width": 1500,
       "height": 1200,
       "caption": "Dillon Marsh – Palabora Mine – 4.1 million tonnes of copper",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -400,40 +471,40 @@
     ],
     "id": "j9uez6n86a1gnoz",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0",
       "width": 2016,
       "height": 2612,
       "caption": "IPCC, 2022: Summary for Policymakers – Figure SPM.7",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
         ],
         [
           2016,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2016/ehbqyr7rnxtux6nxmfkb?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2016/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -581,32 +652,32 @@
     ],
     "id": "w65hqi7pfc2o71v",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0",
       "width": 1280,
       "height": 1517,
       "caption": "Emily Bernstein",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
         ],
         [
           1280,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1280/snzh55myl3p4hkz8nghh?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1280/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -871,28 +942,28 @@
     ],
     "id": "oz9q1u5t31pt8lm",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0",
       "width": 1000,
       "height": 792,
       "caption": "Spruce Gran Picea #0909 – 11A07 (9,550 years old; Fulufjället, Sweden)",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0"
         ],
         [
           1000,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1000/ol9jyc8ipdf4ijm5clhz?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1000/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -1011,44 +1082,44 @@
     ],
     "id": "9qe2hqoo20eghb9",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0",
       "width": 3800,
       "height": 2560,
       "caption": "Photo by John McGrall. Courtesy the artist and Leslie Tonkonow Artworks + Projects.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
         ],
         [
           2100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
         ],
         [
           3800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_3800/hpeaamtnef3nc7kwqwgw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_3800/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -1255,36 +1326,36 @@
     ],
     "id": "g25dz6jyfp0at9p",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/A27686_ktpm2t?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/A27686_ktpm2t?_a=BAMAH2FC0",
       "width": 1500,
       "height": 1500,
       "caption": "John McNamee",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/A27686_ktpm2t?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/A27686_ktpm2t?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/A27686_ktpm2t?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/A27686_ktpm2t?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/A27686_ktpm2t?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/A27686_ktpm2t?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/A27686_ktpm2t?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/A27686_ktpm2t?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/A27686_ktpm2t?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/A27686_ktpm2t?_a=BAMAH2FC0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/A27686_ktpm2t?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/A27686_ktpm2t?_a=BAMAH2FC0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAH2FC0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -1407,28 +1478,28 @@
     ],
     "id": "re9uatc7cbmd38v",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0",
       "width": 1152,
       "height": 2048,
       "caption": "Nick Newman",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0"
         ],
         [
           1152,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1152/FyCibgvWIAMzFcL_y25iri?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1152/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -1676,32 +1747,32 @@
     ],
     "id": "u2htqw65423ztjc",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0",
       "width": 1282,
       "height": 962,
       "caption": "Andreas Jakwerth/Leopold Museum, Wien/dpa",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
         ],
         [
           1282,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1282/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1282/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -2278,36 +2349,36 @@
     ],
     "id": "w04hcgjoetgitsv",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0",
       "width": 1762,
       "height": 1177,
       "caption": "",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
         ],
         [
           1762,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1762/s370in4b5hzg8pluvkrw?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1762/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
         ]
       ]
     },
@@ -2990,44 +3061,44 @@
     ],
     "id": "9qfq6dn8b3tjw0k",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0",
       "width": 4096,
       "height": 2731,
       "caption": "Marius Michusch",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
         ],
         [
           2100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
         ],
         [
           4096,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_4096/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAGSFC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_4096/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
         ]
       ]
     },
