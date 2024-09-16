@@ -103,16 +103,15 @@ export function getPageDescription() {
 }
 
 export function getPaginationPages() {
-	console.log('here');
 	return [undefined, ...LANGUAGES].flatMap((lang) =>
 		[true, false].flatMap((favorite) => {
 			const posts = getPostsForFilter(favorite, lang);
 			const page_count = getPageCountForPosts(posts.length);
-			return range(1, page_count + 1).map((count) => {
+			return range(0, page_count + 1).map((count) => {
 				const page_posts = getCurrentPosts(count, favorite, lang);
 				const lastMod = getLastMod(page_posts);
 				return {
-					page: String(count),
+					page: count > 0 ? String(count) : undefined,
 					// page_count,
 					// count: posts.length,
 					favorite: favorite ? KEY_FAVORITE : undefined,
@@ -126,7 +125,7 @@ export function getPaginationPages() {
 
 export function getPaginationEntries() {
 	return getPaginationPages().map(({ page, lang, favorite }) => ({
-		page,
+		...(page && { page }),
 		...(lang && { lang }),
 		...(favorite && { favorite })
 	}));
