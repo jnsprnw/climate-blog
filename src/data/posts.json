@@ -2,6 +2,407 @@
   {
     "authors": [
       {
+        "label": "Robin Wall Kimmerer",
+        "slug": "robin-wall-kimmerer"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p><a href=\"https://www.robinwallkimmerer.com/\">Kimmerer</a> argues that &ldquo;the most profound act of linguistic imperialism was the replacement of a language of animacy with one of objectification of nature, which renders the beloved land as lifeless object, the forest as board feet of timber.&rdquo; Her main point of argument is the use of <em>it</em> in the English language for &bdquo;being[s] of the living earth&rdquo;. Derived from the <a href=\"https://en.m.wikipedia.org/wiki/Potawatomi\">Potawatomi</a> &ldquo;<em>Aakibmaadiziiwin</em>&rdquo; (a being of the earth), she suggests the pronoun <em>ki</em>. She believes that words matter, and that a more inclusive pronoun could unlock a new (and ancient) way of thinking that puts human exceptionalism aside and brings us closer to the &ldquo;commonwealth of life.&rdquo; Kimmerer acknowledges that Russian&nbsp; &ndash; and German too &ndash; does &rdquo;embrac[e] animacy in its structure&rdquo; (by not using it pronouns for animals), but still argues for our reflection on language because it &ldquo;reveals unconscious cultural assumptions and exerts some influence over patterns of thought.&rdquo;</p>",
+    "created": "2024-10-03 20:15:52.953Z",
+    "date": "2024-06-12 18:11:27.000Z",
+    "formats": [
+      {
+        "label": "Article",
+        "slug": "article"
+      }
+    ],
+    "id": "brfvzrl3rxffa1t",
+    "image": null,
+    "image_alt": "",
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [],
+    "published": "2024-10-03 22:15:00.000Z",
+    "publisher": {
+      "label": "Orion magazine",
+      "slug": "orion-magazine"
+    },
+    "quote": "Maybe now, in this time when the myth of human exceptionalism has proven illusory, we will listen to intelligences other than our own, to kin.",
+    "quote_author": "Robin Wall Kimmerer",
+    "reference_link": "",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
+    "slug": "speaking-of-nature",
+    "tags": [],
+    "title": "Speaking of Nature",
+    "updated": "2024-10-03 20:15:52.953Z",
+    "url": "https://orionmagazine.org/article/speaking-of-nature/",
+    "video": "",
+    "video_caption": "",
+    "topics": [],
+    "quote_content": "Maybe now, in this time when the myth of human exceptionalism has proven illusory, we will listen to intelligences other than our own, to kin.",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
+        [
+          "Why climate despair is a luxury",
+          "why-climate-despair-is-a-luxury"
+        ],
+        [
+          "What if climate change meant not doom — but abundance?",
+          "what-if-climate-change-meant-not-doom-but-abundance"
+        ],
+        [
+          "Our Attention Spans Are Being Stolen",
+          "our-attention-spans-are-being-stolen"
+        ],
+        [
+          "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
+          "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise..."
+        ],
+        [
+          "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
+          "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren"
+        ],
+        [
+          "There’s no planet B",
+          "theres-no-planet-b"
+        ]
+      ],
+      "authors": [],
+      "tags": []
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "Sarah Kaplan",
+        "slug": "sarah-kaplan"
+      },
+      {
+        "label": "Simon Ducroquet",
+        "slug": "simon-ducroquet"
+      },
+      {
+        "label": "Emily J. Judd",
+        "slug": "emily-j-judd"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>Utilising 150,000 data points from climate proxies, including fossils and statistical methods such as data assimilation, a team of scientists led by Emily J. Judd has produced the <a href=\"https://www.science.org/doi/10.1126/science.adk3705\">most rigorous reconstruction of Earth&lsquo;s past temperatures</a> to date. The timeline illustrates the historical temperature fluctuations and the correlation between rapid changes in temperature and mass extinctions. The previous higher temperatures may be <a href=\"https://x.com/i/bookmarks?post_id=1837531502512611425\">misinterpreted as evidence against the current climate debate</a>; however, they demonstrate that humans evolved in an icehouse climate. The unprecedented change in temperature also raises concerns, as it indicates that the average temperature could reach 17 &deg;C, which has not been seen for 5 million years.</p>",
+    "created": "2024-10-03 18:07:01.731Z",
+    "date": "2024-09-19 18:01:00.000Z",
+    "formats": [
+      {
+        "label": "Article",
+        "slug": "article"
+      }
+    ],
+    "id": "5i6llxiifqr287p",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0",
+      "width": 5100,
+      "height": 1582,
+      "caption": "The Washington Post",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+        ],
+        [
+          1800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+        ],
+        [
+          2100,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+        ],
+        [
+          5100,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_5100/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+        ]
+      ]
+    },
+    "image_alt": "Screenshot of a graph of Earth’s climate over the last 485 million years",
+    "image_caption": "The Washington Post",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [],
+    "published": "2024-10-03 20:06:00.000Z",
+    "publisher": {
+      "label": "Washington Post",
+      "slug": "washington-post"
+    },
+    "quote": "As long as one or two organisms survive, there will always be life. I’m not concerned about that. My concern is what human life looks like. What it means to survive.",
+    "quote_author": "Emily J. Judd",
+    "reference_link": "",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
+    "slug": "scientists-have-captured-earths-climate-over-the-last-485...",
+    "tags": [
+      "2s6mm5qu1ja837o",
+      "h4zh134ouuiosbo",
+      "dyz3bu2ijo8oe0h",
+      "n6rcutj1e861m96",
+      "pa3elfw03ton9vr"
+    ],
+    "title": "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+    "updated": "2024-10-03 18:08:57.667Z",
+    "url": "https://www.washingtonpost.com/climate-environment/2024/09/19/earth-temperature-global-warming-planet/",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "Models",
+        "slug": "models"
+      },
+      {
+        "label": "Science",
+        "slug": "science"
+      },
+      {
+        "label": "History",
+        "slug": "history"
+      },
+      {
+        "label": "Temperature",
+        "slug": "temperature"
+      },
+      {
+        "label": "Visualisation",
+        "slug": "visualisation"
+      }
+    ],
+    "quote_content": "As long as one or two organisms survive, there will always be life. I’m not concerned about that. My concern is what human life looks like. What it means to survive.",
+    "related": {
+      "publisher": [
+        [
+          "What if climate change meant not doom — but abundance?",
+          "what-if-climate-change-meant-not-doom-but-abundance"
+        ]
+      ],
+      "formats": [
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Why climate despair is a luxury",
+          "why-climate-despair-is-a-luxury"
+        ],
+        [
+          "What if climate change meant not doom — but abundance?",
+          "what-if-climate-change-meant-not-doom-but-abundance"
+        ],
+        [
+          "Our Attention Spans Are Being Stolen",
+          "our-attention-spans-are-being-stolen"
+        ],
+        [
+          "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
+          "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise..."
+        ],
+        [
+          "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
+          "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren"
+        ],
+        [
+          "There’s no planet B",
+          "theres-no-planet-b"
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "For What It’s Worth",
+          "for-what-its-worth"
+        ],
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "overview-of-mitigation-options-and-their-estimated-ranges..."
+        ],
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
+        ],
+        [
+          "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
+          "who-rules-earth-wild-mammals-far-outweighed-by-humans-and..."
+        ],
+        [
+          "Climate change conversations during live commentary",
+          "climate-change-conversations-during-live-commentary"
+        ],
+        [
+          "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+          "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien..."
+        ],
+        [
+          "100 gute Gründe gegen Atomkraft",
+          "100-gute-grunde-gegen-atomkraft"
+        ],
+        [
+          "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+          "klimabilder-eine-genealogie-globaler-bildpolitiken-von..."
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "PJ Vogt",
+        "slug": "pj-vogt"
+      },
+      {
+        "label": "Annie Lowrey",
+        "slug": "annie-lowrey"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "connection": [],
+    "content": "<p>What does more harm: Killing animals (or being vegetarian) or abusing animals (or being vegan)? Along two articles, PJ Vogt and the author of the articles, <a href=\"https://en.m.wikipedia.org/wiki/Annie_Lowrey\">Annie Lowrey</a>, <a href=\"https://pjvogt.substack.com/p/can-i-microdose-veganism\">discuss our irrational relationship with animal rights</a>.</p>\r\n<p>The <a href=\"https://www.theatlantic.com/ideas/archive/2018/11/yellville-turkey-trot/576184/\">first story</a> is about the <a href=\"https://encyclopediaofarkansas.net/entries/turkey-trot-festival-3818/\">Turkey Trot festival</a> in <a href=\"https://en.m.wikipedia.org/wiki/Yellville,_Arkansas\">Yellville, Arkansas</a>, where the annual tradition of dropping about 10 turkeys from a plane has drawn national criticism. But what is more brutal: Dropping birds that cannot fly from a plane, or the 45 million turkeys killed in the US every year (and mostly from the surrounding area).</p>\r\n<p>The <a href=\"https://www.theatlantic.com/ideas/archive/2024/04/alexandre-farms-treatment-of-animals/677980/\">second article</a> looks at the systemic issues that lead to animal suffering. Because organic certification rules (in the US) prohibit the use of antibiotics, cow 13039 suffered from &ldquo;<a href=\"https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures/ocular-neoplasia-in-cattle\">eye cancer</a>&rdquo; and was not treated properly. This raises the question of whether to prioritise the health of consumers (who want to avoid milk contaminated with antibiotics) or animal welfare.</p>",
+    "created": "2024-09-17 06:16:57.643Z",
+    "date": "2024-09-06 12:00:00.000Z",
+    "formats": [
+      {
+        "label": "Podcast",
+        "slug": "podcast"
+      }
+    ],
+    "id": "3ksqthbqcas74bl",
+    "image": null,
+    "image_alt": "",
+    "image_caption": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [
+      "l095l9sbe31i137"
+    ],
+    "published": "2024-09-17 17:17:00.000Z",
+    "publisher": {
+      "label": "Search Engine",
+      "slug": "search-engine"
+    },
+    "quote": "",
+    "quote_author": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Podcast episode",
+      "slug": "podcast-episode",
+      "key": "PodcastEpisode"
+    },
+    "slug": "can-i-microdose-veganism",
+    "tags": [
+      "er049nnd0czun4v",
+      "vhbpz88blofwb8b"
+    ],
+    "title": "Can I microdose veganism?",
+    "updated": "2024-09-17 15:17:42.720Z",
+    "url": "https://pjvogt.substack.com/p/can-i-microdose-veganism",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "Animals",
+        "slug": "animals"
+      },
+      {
+        "label": "Veganism",
+        "slug": "veganism"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "How Air-Conditioning Conquered America",
+          "how-air-conditioning-conquered-america"
+        ],
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
+        ],
+        [
+          "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
+          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+        ],
+        [
+          "Consider the Burying Beetle. (Or Else.)",
+          "consider-the-burying-beetle-or-else"
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "the-sunday-read-what-does-sustainable-living-look-like..."
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "Nuisance Bear",
+          "nuisance-bear"
+        ],
+        [
+          "Haulout",
+          "haulout"
+        ],
+        [
+          "Is Artificial Light Poisoning the Planet?",
+          "is-artificial-light-poisoning-the-planet"
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
         "label": "Bill McKibben",
         "slug": "bill-mc-kibben"
       }
@@ -274,6 +675,10 @@
       ],
       "formats": [
         [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
+        [
           "Fall of Civilizations",
           "fall-of-civilizations"
         ],
@@ -436,6 +841,10 @@
       "authors": [],
       "tags": [
         [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
+        [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
         ],
@@ -580,6 +989,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
         [
           "How Air-Conditioning Conquered America",
           "how-air-conditioning-conquered-america"
@@ -868,6 +1281,10 @@
       "publisher": [],
       "formats": [
         [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
+        [
           "How Air-Conditioning Conquered America",
           "how-air-conditioning-conquered-america"
         ],
@@ -886,6 +1303,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
         [
           "How Air-Conditioning Conquered America",
           "how-air-conditioning-conquered-america"
@@ -1258,6 +1679,14 @@
     "related": {
       "publisher": [],
       "formats": [
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
         [
           "What if climate change meant not doom — but abundance?",
           "what-if-climate-change-meant-not-doom-but-abundance"
@@ -1673,8 +2102,21 @@
     ],
     "quote_content": "",
     "related": {
-      "publisher": [],
+      "publisher": [
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ]
+      ],
       "formats": [
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
         [
           "Why climate despair is a luxury",
           "why-climate-despair-is-a-luxury"
@@ -1975,6 +2417,10 @@
       "authors": [],
       "tags": [
         [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
+        [
           "Haulout",
           "haulout"
         ],
@@ -2099,6 +2545,10 @@
       "authors": [],
       "tags": [
         [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
+        [
           "Nuisance Bear",
           "nuisance-bear"
         ],
@@ -2186,6 +2636,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
@@ -2305,6 +2759,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
         [
           "Nuisance Bear",
           "nuisance-bear"
@@ -2548,6 +3006,14 @@
       "publisher": [],
       "formats": [
         [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
+        [
           "Why climate despair is a luxury",
           "why-climate-despair-is-a-luxury"
         ],
@@ -2666,6 +3132,14 @@
       ],
       "formats": [
         [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
+        [
           "Why climate despair is a luxury",
           "why-climate-despair-is-a-luxury"
         ],
@@ -2772,6 +3246,10 @@
       "formats": [],
       "authors": [],
       "tags": [
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
         [
           "For What It’s Worth",
           "for-what-its-worth"
@@ -2893,6 +3371,10 @@
       ],
       "formats": [
         [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
+        [
           "How Air-Conditioning Conquered America",
           "how-air-conditioning-conquered-america"
         ],
@@ -3005,6 +3487,10 @@
         ]
       ],
       "formats": [
+        [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
         [
           "How Air-Conditioning Conquered America",
           "how-air-conditioning-conquered-america"
@@ -3271,6 +3757,10 @@
       "authors": [],
       "tags": [
         [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
+        [
           "How Air-Conditioning Conquered America",
           "how-air-conditioning-conquered-america"
         ],
@@ -3487,6 +3977,10 @@
         ]
       ],
       "formats": [
+        [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
         [
           "How Air-Conditioning Conquered America",
           "how-air-conditioning-conquered-america"
@@ -3707,6 +4201,10 @@
       "authors": [],
       "tags": [
         [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
+        [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "overview-of-mitigation-options-and-their-estimated-ranges..."
         ],
@@ -3804,6 +4302,14 @@
         ]
       ],
       "formats": [
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
         [
           "Why climate despair is a luxury",
           "why-climate-despair-is-a-luxury"
@@ -3915,6 +4421,14 @@
       "publisher": [],
       "formats": [
         [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
+        [
           "Why climate despair is a luxury",
           "why-climate-despair-is-a-luxury"
         ],
@@ -4017,6 +4531,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "scientists-have-captured-earths-climate-over-the-last-485..."
+        ],
         [
           "For What It’s Worth",
           "for-what-its-worth"
