@@ -1,4 +1,4 @@
-import { getCurrentPosts } from '$utils/posts';
+import { getCurrentPosts, getPostsForFilter } from '$utils/posts';
 import { getAbsoluteURL, checkFavorite, generateFeedURL } from '$utils/url';
 import { SITE_TITLE, SITE_DESCRIPTION } from '$config';
 
@@ -22,7 +22,8 @@ function insertImage(post) {
 export async function GET({ params }) {
 	const { lang, favorite } = params;
 	const isFavorite = checkFavorite(favorite);
-	const posts = getCurrentPosts(1, isFavorite, lang);
+	const posts_filtered = getPostsForFilter(isFavorite, lang);
+	const posts = getCurrentPosts(1, posts_filtered);
 
 	const items = posts.map((post) => {
 		return `
