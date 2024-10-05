@@ -45,7 +45,8 @@
 			class:text-mute={currentIndex === KEY_ALL_POSTS}
 			class:link={currentIndex !== KEY_ALL_POSTS}
 			aria-current={currentIndex === KEY_ALL_POSTS ? 'page' : undefined}
-			href={getAbsoluteURL(KEY_ALL_POSTS, isLightMode)}>View all posts on a single page</a
+			href={getAbsoluteURL(KEY_ALL_POSTS, isLightMode)}
+			>View all {posts_total} posts on a single page</a
 		>
 	</nav>
 {/if}
