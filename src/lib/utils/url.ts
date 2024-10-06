@@ -1,22 +1,22 @@
 import { dev } from '$app/environment';
 import { PUBLIC_PAGE_URL } from '$env/static/public';
-import { KEY_LIGHTMODE } from '$config';
+import { KEY_MODE_LIGHT } from '$config';
 
 export function getAbsoluteURLWithLightMode(path: string = ''): string {
 	return getAbsoluteURL(path, true);
 }
 
-export function getAbsoluteURL(path: string = '', isLightMode: boolean = false): string {
-	return getURL(path, isLightMode).toString();
+export function getAbsoluteURL(path: string = '', isModeLight: boolean = false): string {
+	return getURL(path, isModeLight).toString();
 }
 
-export function getRelativeURL(path: string = '', isLightMode: boolean = false): string {
-	return getURL(path, isLightMode).pathname;
+export function getRelativeURL(path: string = '', isModeLight: boolean = false): string {
+	return getURL(path, isModeLight).pathname;
 }
 
-function getURL(path: string = '', isLightMode: boolean = false): URL {
+function getURL(path: string = '', isModeLight: boolean = false): URL {
 	return new URL(
-		(path + (isLightMode ? '/light' : '')).replace('//', '/'),
+		(path + (isModeLight ? '/light' : '')).replace('//', '/'),
 		dev ? 'http://localhost:5173' : PUBLIC_PAGE_URL
 	);
 }
@@ -36,6 +36,6 @@ export function generateFeedURL(lang: string, isFavorite: boolean): string {
 export function getEntriesList(arr) {
 	return arr.flatMap((entry) => [
 		Object.assign({}, entry, { light: '' }),
-		Object.assign({}, entry, { light: KEY_LIGHTMODE })
+		Object.assign({}, entry, { light: KEY_MODE_LIGHT })
 	]);
 }

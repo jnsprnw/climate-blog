@@ -11,17 +11,17 @@
 
 	const { currentIndex, posts_total }: Props = $props();
 	const { count, list, prev, next } = $derived(getPagination(posts_total, currentIndex));
-	const isLightMode = getContext('isLightMode');
+	const isModeLight = getContext('isModeLight');
 </script>
 
 <svelte:head>
-	<link rel="first" href={getAbsoluteURL('', isLightMode)} />
-	<link rel="last" href={getAbsoluteURL(String(count), isLightMode)} />
+	<link rel="first" href={getAbsoluteURL('', isModeLight)} />
+	<link rel="last" href={getAbsoluteURL(String(count), isModeLight)} />
 	{#if prev}
-		<link rel="prev" href={getAbsoluteURL(String(prev), isLightMode)} />
+		<link rel="prev" href={getAbsoluteURL(String(prev), isModeLight)} />
 	{/if}
 	{#if next}
-		<link rel="next" href={getAbsoluteURL(String(next), isLightMode)} />
+		<link rel="next" href={getAbsoluteURL(String(next), isModeLight)} />
 	{/if}
 </svelte:head>
 
@@ -29,13 +29,13 @@
 	<nav class="flex flex-wrap justify-center text-sm gap-x-3">
 		{#each list as { label, path, isCurrent, isPrev, isNext }}
 			{#if isCurrent}
-				<a href={getAbsoluteURL(path, isLightMode)} class="text-mute p-2" aria-current="page"
+				<a href={getAbsoluteURL(path, isModeLight)} class="text-mute p-2" aria-current="page"
 					>{label}</a
 				>
 			{:else}
 				<a
 					class="link p-2"
-					href={getAbsoluteURL(path, isLightMode)}
+					href={getAbsoluteURL(path, isModeLight)}
 					rel={isPrev ? 'prev' : isNext ? 'next' : undefined}>{label}</a
 				>
 			{/if}
@@ -45,7 +45,7 @@
 			class:text-mute={currentIndex === KEY_ALL_POSTS}
 			class:link={currentIndex !== KEY_ALL_POSTS}
 			aria-current={currentIndex === KEY_ALL_POSTS ? 'page' : undefined}
-			href={getAbsoluteURL(KEY_ALL_POSTS, isLightMode)}
+			href={getAbsoluteURL(KEY_ALL_POSTS, isModeLight)}
 			>View all {posts_total} posts on a single page</a
 		>
 	</nav>

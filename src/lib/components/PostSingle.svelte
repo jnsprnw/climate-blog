@@ -10,7 +10,7 @@
 	import { getContext } from 'svelte';
 	import ConditionalLink from '$lib/components/ConditionalLink.svelte';
 
-	const isLightMode = getContext('isLightMode');
+	const isModeLight = getContext('isModeLight');
 
 	const {
 		post,
@@ -80,7 +80,7 @@
 	<main class="col-span-3 border-y border-border py-6 flex flex-col gap-y-8">
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
-				{#if isLightMode}
+				{#if isModeLight}
 					<div class="flex flex-col gap-y-1 items-center border border-border py-6 px-4">
 						<span>You are browsing in data-saving mode, where images are disabled.</span>
 						<a class="link" href={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
@@ -184,7 +184,7 @@
 					<dt class="text-sm text-mute contrast-more:text-black">Same topics</dt>
 					{#each related.tags as [title, slug]}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug, isLightMode)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
@@ -194,7 +194,7 @@
 					<h4 class="text-sm text-mute contrast-more:text-black">Same authors</h4>
 					{#each related.authors as [title, slug]}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug, isLightMode)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
@@ -204,7 +204,7 @@
 					<dt class="text-sm text-mute contrast-more:text-black">Same formats</dt>
 					{#each related.formats as [title, slug]}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug, isLightMode)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
@@ -214,7 +214,7 @@
 					<dt class="text-sm text-mute contrast-more:text-black">Same publisher</dt>
 					{#each related.publisher as [title, slug]}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug, isLightMode)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
 						</dd>
 					{/each}
 				</dl>

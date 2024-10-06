@@ -1,11 +1,13 @@
 import { dev } from '$app/environment';
-import { KEY_LIGHTMODE } from '$config';
+import { KEY_MODE_LIGHT, KEY_MODE_PLAIN } from '$config';
 
 export async function load({ params }) {
-	const isLightMode = params.light === KEY_LIGHTMODE;
+	const isModeLight = params.light === KEY_MODE_LIGHT;
+	const isModePlain = params.plain === KEY_MODE_PLAIN;
 	return {
 		buildDateTime: new Date(),
-		isLightMode
+		isModeLight,
+		isModePlain
 	};
 }
 

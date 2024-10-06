@@ -14,7 +14,8 @@
 
 	import '../app.css';
 
-	const isLightMode: boolean = data.isLightMode ?? false;
+	const isModeLight: boolean = data.isModeLight ?? false;
+	const isModePlain: boolean = data.isModePlain ?? false;
 
 	const preview = $derived(
 		$page.data?.post?.image?.url_preview ?? getAbsoluteURL('apple-touch-icon.png')
@@ -26,10 +27,10 @@
 	const title = $derived($page.data?.post?.title ?? SITE_TITLE);
 	const type = $derived($page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL(path));
-	const urlLightMode = $derived(getAbsoluteURL(path, isLightMode));
+	const urlLightMode = $derived(getAbsoluteURL(path, isModeLight));
 	const lastModified = $derived($page.data?.post?.updated ?? $page.data?.lastMod);
 	const description = getPageDescription();
-	setContext('isLightMode', isLightMode);
+	setContext('isModeLight', isModeLight);
 </script>
 
 <svelte:head>
@@ -65,7 +66,7 @@
 	<link rel="canonical" href={url} />
 
 	<link rel="alternate" type="application/rss+xml" href={getAbsoluteURL('rss.xml')} title="RSS" />
-	{#if isLightMode}
+	{#if isModeLight}
 		<link rel="alternate" href={urlLightMode} title="Hide images" />
 	{:else}
 		<link rel="alternate" href={url} title="Display images" />
@@ -80,7 +81,11 @@
 <div
 	class="mx-auto max-w-3xl px-3 pt-6 sm:pt-16 md:pt-20 flex flex-col gap-y-6 sm:gap-y-10 md:gap-y-12"
 >
-	<Header />
+	{#if !isModePlain}
+		<Header />
+	{/if}
 	{@render children()}
-	<Footer buildDateTime={data.buildDateTime} {version} currentPath={path} {isLightMode} />
+	{#if !isModePlain}
+		<Footer buildDateTime={data.buildDateTime} {version} currentPath={path} {isModeLight} />
+	{/if}
 </div>

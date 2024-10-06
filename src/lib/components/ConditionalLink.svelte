@@ -8,7 +8,7 @@
 		isSingle = false
 	}: { slug: string; isSingle: boolean; children: Snippet } = $props();
 
-	const isLightMode = getContext('isLightMode');
+	const isModeLight = getContext('isModeLight');
 </script>
 
 {#if isSingle}
@@ -16,7 +16,7 @@
 {:else}
 	<a
 		title={slug}
-		href={getAbsoluteURL(slug, isLightMode)}
+		href={getAbsoluteURL(slug, isModeLight)}
 		class="transition-colors hover:text-accent"
 		itemprop="url"
 	>
