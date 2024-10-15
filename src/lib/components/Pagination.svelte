@@ -35,6 +35,7 @@
 			{:else}
 				<a
 					class="link p-2"
+					class:link-preload={isNext}
 					href={getAbsoluteURL(path, isModeLight)}
 					rel={isPrev ? 'prev' : isNext ? 'next' : undefined}>{label}</a
 				>

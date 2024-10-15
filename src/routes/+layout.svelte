@@ -76,6 +76,17 @@
 
 	<meta name="version" content={version} />
 	<meta name="build" content={data.buildDateTime.toISOString()} />
+
+	<script type="speculationrules">
+    {
+      "prerender": [{
+        "eagerness": "immediate",
+        "where": {
+          "selector_matches": ".link-preload",
+        }
+      }]
+    }
+	</script>
 </svelte:head>
 
 <div
