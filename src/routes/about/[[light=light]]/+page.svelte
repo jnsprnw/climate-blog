@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { getAbsoluteURL } from '$utils/url';
 	import { KEY_ALL_POSTS } from '$config';
+	import URL from './URL.svelte';
 </script>
 
 <section>
@@ -30,33 +31,23 @@
 	<ul class="grid sm:grid-cols-[auto_1fr] gap-x-2 gap-y-2 my-4">
 		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>Regular feed</span>
-			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
-				{getAbsoluteURL('rss.xml')}
-			</code>
+			<URL url="rss.xml" />
 		</li>
 		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>Engish posts feed</span>
-			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
-				{getAbsoluteURL('en/rss.xml')}
-			</code>
+			<URL url="en/rss.xml" />
 		</li>
 		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>German posts feed</span>
-			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
-				{getAbsoluteURL('de/rss.xml')}
-			</code>
+			<URL url="de/rss.xml" />
 		</li>
 		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>Favorite posts feed</span>
-			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
-				{getAbsoluteURL('favorite/rss.xml')}
-			</code>
+			<URL url="favorite/rss.xml" />
 		</li>
 		<li class="grid grid-cols-subgrid sm:col-span-2">
 			<span>Favorite English posts feed</span>
-			<code class="text-xs bg-slate-50 rounded-sm p-1 place-self-start">
-				{getAbsoluteURL('en/favorite/rss.xml')}
-			</code>
+			<URL url="en/favorite/rss.xml" />
 		</li>
 	</ul>
 </section>
