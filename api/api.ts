@@ -43,20 +43,28 @@ async function getData() {
 	const references = await getReferences();
 
 	let posts = await getPosts();
-	posts = posts.map((post) => ({
-		...post,
-		slug:
-			post.slug ??
-			truncate(slugify(post.title_short ?? post.title), {
-				length: 60,
-				separator: '-'
-			}) // We shorten the slug to make shorter urls
-	}));
+	posts = posts.map((post) => {
+		const has_predefined_slug = Boolean(post.slug.length);
+		if (!post.title_short.length) {
+			delete post.title_short;
+		}
+		return {
+			...post,
+			slug: has_predefined_slug
+				? post.slug
+				: truncate(slugify(post.title_short ?? post.title), {
+						length: 60,
+						separator: '-'
+					}) // We shorten the slug to make shorter urls
+		};
+	});
 	const entries = await Promise.all(
 		posts.map(async (post) => {
 			const image = post.image
 				? await getImageDetails(post.image, post.image_caption, post.image_alt)
 				: null;
+			delete post.image_caption;
+			delete post.image_alt;
 			return {
 				...post,
 				language: languages.get(post.language),
