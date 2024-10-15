@@ -24,7 +24,7 @@
 		$page.data?.post?.image_alt ?? 'Green circle on a white background.'
 	);
 	const path = $derived($page.data?.path);
-	const title = $derived($page.data?.post?.title ?? SITE_TITLE);
+	const title = $derived($page.data?.post?.title_short ?? $page.data?.post?.title ?? SITE_TITLE);
 	const type = $derived($page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL(path));
 	const urlLightMode = $derived(getAbsoluteURL(path, isModeLight));

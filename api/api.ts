@@ -45,7 +45,12 @@ async function getData() {
 	let posts = await getPosts();
 	posts = posts.map((post) => ({
 		...post,
-		slug: truncate(slugify(post.title), { length: 60, separator: '-' }) // We shorten the slug to make shorter urls
+		slug:
+			post.slug ??
+			truncate(slugify(post.title_short ?? post.title), {
+				length: 60,
+				separator: '-'
+			}) // We shorten the slug to make shorter urls
 	}));
 	const entries = await Promise.all(
 		posts.map(async (post) => {
