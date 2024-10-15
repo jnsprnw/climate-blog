@@ -6,8 +6,11 @@ cloudinary.config({
 	api_secret: Bun.env.CLOUDINARY_SECRET
 });
 
-export async function getImageDetails(id: string, caption: string) {
+export async function getImageDetails(id: string, caption: string, alt: string) {
 	const { width, height } = await cloudinary.api.resource(id);
+
+	// const info = await cloudinary.api.resource(id);
+	// console.log(info);
 
 	const transformation = { quality: 'auto', fetch_format: 'auto' };
 
@@ -35,6 +38,7 @@ export async function getImageDetails(id: string, caption: string) {
 		width,
 		height,
 		caption,
+		alt,
 		url_rss,
 		url_preview,
 		sizes: sizes.map((size) => [

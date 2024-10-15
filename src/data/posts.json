@@ -22,7 +22,7 @@
     "image": null,
     "image_alt": "",
     "image_caption": "",
-    "isFavorite": false,
+    "isFavorite": true,
     "language": {
       "label": "English",
       "slug": "english",
@@ -36,20 +36,52 @@
     },
     "quote": "Maybe now, in this time when the myth of human exceptionalism has proven illusory, we will listen to intelligences other than our own, to kin.",
     "quote_author": "Robin Wall Kimmerer",
-    "reference_link": "",
+    "reference": {
+      "label": "Dense Discorvery",
+      "slug": "dense-discorvery"
+    },
+    "reference_link": "https://www.densediscovery.com/issues/292",
     "schemas": {
       "label": "Article",
       "slug": "article",
       "key": "Article"
     },
     "slug": "speaking-of-nature",
-    "tags": [],
+    "tags": [
+      "b7nv3puch2sf78d",
+      "er049nnd0czun4v",
+      "tns3grcobmgn8zw",
+      "a8qtmy0h2l9r2ee",
+      "7x9m6pwe4bljqpi"
+    ],
     "title": "Speaking of Nature",
-    "updated": "2024-10-03 20:15:52.953Z",
+    "title_short": "",
+    "updated": "2024-10-04 19:52:17.013Z",
     "url": "https://orionmagazine.org/article/speaking-of-nature/",
     "video": "",
     "video_caption": "",
-    "topics": [],
+    "topics": [
+      {
+        "label": "Nature",
+        "slug": "nature"
+      },
+      {
+        "label": "Animals",
+        "slug": "animals"
+      },
+      {
+        "label": "Non-human",
+        "slug": "non-human"
+      },
+      {
+        "label": "Human exceptionalism",
+        "slug": "human-exceptionalism"
+      },
+      {
+        "label": "Language",
+        "slug": "language"
+      }
+    ],
     "quote_content": "Maybe now, in this time when the myth of human exceptionalism has proven illusory, we will listen to intelligences other than our own, to kin.",
     "related": {
       "publisher": [],
@@ -84,7 +116,28 @@
         ]
       ],
       "authors": [],
-      "tags": []
+      "tags": [
+        [
+          "Can I microdose veganism?",
+          "can-i-microdose-veganism"
+        ],
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
+        [
+          "Nuisance Bear",
+          "nuisance-bear"
+        ],
+        [
+          "Haulout",
+          "haulout"
+        ],
+        [
+          "Is Artificial Light Poisoning the Planet?",
+          "is-artificial-light-poisoning-the-planet"
+        ]
+      ]
     }
   },
   {
@@ -116,44 +169,45 @@
     ],
     "id": "5i6llxiifqr287p",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0",
       "width": 5100,
       "height": 1582,
       "caption": "The Washington Post",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0",
+      "alt": "Screenshot of a graph of Earth’s climate over the last 485 million years",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
         ],
         [
           2100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
         ],
         [
           5100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_5100/jjhpfqrjumx3zcrsnym9?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_5100/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -188,7 +242,8 @@
       "pa3elfw03ton9vr"
     ],
     "title": "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
-    "updated": "2024-10-03 18:08:57.667Z",
+    "title_short": "Earth’s climate over the last 485 million years",
+    "updated": "2024-10-15 13:57:35.280Z",
     "url": "https://www.washingtonpost.com/climate-environment/2024/09/19/earth-temperature-global-warming-planet/",
     "video": "",
     "video_caption": "",
@@ -344,7 +399,8 @@
       "vhbpz88blofwb8b"
     ],
     "title": "Can I microdose veganism?",
-    "updated": "2024-09-17 15:17:42.720Z",
+    "title_short": "",
+    "updated": "2024-10-04 19:52:34.251Z",
     "url": "https://pjvogt.substack.com/p/can-i-microdose-veganism",
     "video": "",
     "video_caption": "",
@@ -385,6 +441,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
         [
           "Nuisance Bear",
           "nuisance-bear"
@@ -437,7 +497,11 @@
     },
     "quote": "",
     "quote_author": "",
-    "reference_link": "",
+    "reference": {
+      "label": "Dense Discorvery",
+      "slug": "dense-discorvery"
+    },
+    "reference_link": "https://www.densediscovery.com/issues/304",
     "schemas": {
       "label": "Article",
       "slug": "article",
@@ -449,7 +513,8 @@
       "54y3pat633pmi3z"
     ],
     "title": "The Crucial Years",
-    "updated": "2024-09-11 20:17:50.172Z",
+    "title_short": "",
+    "updated": "2024-10-04 19:52:45.257Z",
     "url": "https://billmckibben.substack.com/",
     "video": "",
     "video_caption": "",
@@ -487,28 +552,29 @@
     ],
     "id": "ej1918u87zw17mw",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0",
       "width": 1170,
       "height": 1614,
       "caption": "",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0",
+      "alt": "A woman sitting on a balcony that is destroyed by a typhoon.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0"
         ],
         [
           1170,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1170/iqgcpndtaxf4bin08sgy?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1170/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -540,7 +606,8 @@
       "dqaqy8twjie2txl"
     ],
     "title": "Aftermath of Typhoon Yagi in Haikou, China",
-    "updated": "2024-09-11 19:48:46.653Z",
+    "title_short": "Typhoon Yagi",
+    "updated": "2024-10-15 13:58:36.433Z",
     "url": "https://x.com/tongbingxue/status/1832587517520179544",
     "video": "",
     "video_caption": "",
@@ -635,6 +702,7 @@
       "6a5m5edyi57f99n"
     ],
     "title": "How Air-Conditioning Conquered America",
+    "title_short": "",
     "updated": "2024-09-02 11:12:22.624Z",
     "url": "https://www.nytimes.com/2024/08/16/podcasts/the-daily/air-conditioning-climate-warming.html?",
     "video": "",
@@ -754,36 +822,37 @@
     ],
     "id": "8ti8dk0fvwjc0cp",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0",
       "width": 1500,
       "height": 1200,
       "caption": "Dillon Marsh – Palabora Mine – 4.1 million tonnes of copper",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0",
+      "alt": "Photograph of the Palabora mine  with computer-generated sphere that shows the amount of copper",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -815,6 +884,7 @@
       "ms83d02xqepoxh8"
     ],
     "title": "For What It’s Worth",
+    "title_short": "",
     "updated": "2024-08-06 10:29:09.323Z",
     "url": "https://www.dillonmarsh.com/for-what-its-worth",
     "video": "",
@@ -880,40 +950,41 @@
     ],
     "id": "j9uez6n86a1gnoz",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0",
       "width": 2016,
       "height": 2612,
       "caption": "IPCC, 2022: Summary for Policymakers – Figure SPM.7",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0",
+      "alt": "Bar chart with a list of mitigation options. Each bar is coloured according to its cost.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
         ],
         [
           2016,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2016/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2016/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -953,7 +1024,8 @@
       "xvy0yzm7zdmm0bt"
     ],
     "title": "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
-    "updated": "2024-08-06 10:30:10.070Z",
+    "title_short": "Mitigation options and their costs and potentials",
+    "updated": "2024-10-15 13:59:28.649Z",
     "url": "https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7/",
     "video": "",
     "video_caption": "",
@@ -1065,32 +1137,33 @@
     ],
     "id": "w65hqi7pfc2o71v",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0",
       "width": 1280,
       "height": 1517,
       "caption": "Emily Bernstein",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0",
+      "alt": "Comic of two people are interviewing a third person with a burning city and a meteoroid coming towards earth in the background.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
         ],
         [
           1280,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1280/snzh55myl3p4hkz8nghh?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1280/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -1123,6 +1196,7 @@
       "991yaahmkskmr6t"
     ],
     "title": "Quick—tell us who you’re wearing!",
+    "title_short": "",
     "updated": "2024-08-06 10:32:04.858Z",
     "url": "https://www.newyorker.com/cartoon/a23821",
     "video": "",
@@ -1258,6 +1332,7 @@
       "dyz3bu2ijo8oe0h"
     ],
     "title": "Fall of Civilizations",
+    "title_short": "",
     "updated": "2024-08-04 21:40:54.745Z",
     "url": "https://fallofcivilizationspodcast.com/",
     "video": "",
@@ -1363,28 +1438,29 @@
     ],
     "id": "oz9q1u5t31pt8lm",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0",
       "width": 1000,
       "height": 792,
       "caption": "Spruce Gran Picea #0909 – 11A07 (9,550 years old; Fulufjället, Sweden)",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0",
+      "alt": "Photograph of a solitary tree standing on a rocky ground.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0"
         ],
         [
           1000,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1000/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1000/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -1418,6 +1494,7 @@
       "tns3grcobmgn8zw"
     ],
     "title": "The Oldest Living Things in the World",
+    "title_short": "",
     "updated": "2024-08-06 10:33:09.659Z",
     "url": "https://press.uchicago.edu/ucp/books/book/chicago/O/bo16364599.html",
     "video": "",
@@ -1468,6 +1545,10 @@
       "authors": [],
       "tags": [
         [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
           "Wheatfield – A Confrontation",
           "wheatfield-a-confrontation"
         ],
@@ -1503,44 +1584,45 @@
     ],
     "id": "9qe2hqoo20eghb9",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0",
       "width": 3800,
       "height": 2560,
       "caption": "Photo by John McGrall. Courtesy the artist and Leslie Tonkonow Artworks + Projects.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0",
+      "alt": "Photograph of Agnes Denes standing inside a wheat field with sky scrapers in the background.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
         ],
         [
           2100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
         ],
         [
           3800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_3800/hpeaamtnef3nc7kwqwgw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_3800/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -1576,6 +1658,7 @@
       "c5ifgkr9e7l91y5"
     ],
     "title": "Wheatfield – A Confrontation",
+    "title_short": "",
     "updated": "2024-08-06 10:34:00.039Z",
     "url": "http://www.agnesdenesstudio.com/works7.html",
     "video": "",
@@ -1665,6 +1748,7 @@
       "ptpbk4nicqrykya"
     ],
     "title": "Why climate despair is a luxury",
+    "title_short": "",
     "updated": "2024-07-29 19:59:26.926Z",
     "url": "https://www.newstatesman.com/environment/2022/10/rebecca-solnit-climate-despair-luxury",
     "video": "",
@@ -1755,36 +1839,37 @@
     ],
     "id": "g25dz6jyfp0at9p",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/A27686_ktpm2t?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/A27686_ktpm2t?_a=BAMAH2Ju0",
       "width": 1500,
       "height": 1500,
       "caption": "John McNamee",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/A27686_ktpm2t?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/A27686_ktpm2t?_a=BAMAH2FC0",
+      "alt": "Comic of two people sitting on the roof a small house with water surrounding the house and reaching up to the roof. One person is looking at their phone.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/A27686_ktpm2t?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/A27686_ktpm2t?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/A27686_ktpm2t?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/A27686_ktpm2t?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/A27686_ktpm2t?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/A27686_ktpm2t?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/A27686_ktpm2t?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/A27686_ktpm2t?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/A27686_ktpm2t?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/A27686_ktpm2t?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -1817,6 +1902,7 @@
       "w3agiq4xxjerj14"
     ],
     "title": "Looks like Congress might finally do something about TikTok.",
+    "title_short": "",
     "updated": "2024-08-06 10:35:29.176Z",
     "url": "https://www.newyorker.com/cartoons/daily-cartoon/friday-march-24th-congress-tiktok",
     "video": "",
@@ -1907,28 +1993,29 @@
     ],
     "id": "re9uatc7cbmd38v",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0",
       "width": 1152,
       "height": 2048,
       "caption": "Nick Newman",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0",
+      "alt": "Photograph of an orange sky with a billboard that pictures a devil-like creature and the logo of Diable IV and the statement “Welcome to Hell, New York”.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0"
         ],
         [
           1152,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1152/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1152/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -1961,6 +2048,7 @@
       "991yaahmkskmr6t"
     ],
     "title": "Diablo IV advertising with wildfire smoke",
+    "title_short": "",
     "updated": "2024-08-06 10:37:16.420Z",
     "url": "https://twitter.com/Nick_Newman/status/1666510464631595010/photo/1",
     "video": "",
@@ -2090,6 +2178,7 @@
       "ptpbk4nicqrykya"
     ],
     "title": "What if climate change meant not doom — but abundance?",
+    "title_short": "",
     "updated": "2024-07-22 10:09:20.196Z",
     "url": "https://www.washingtonpost.com/opinions/2023/03/15/rebecca-solnit-climate-change-wealth-abundance/",
     "video": "",
@@ -2189,32 +2278,33 @@
     ],
     "id": "u2htqw65423ztjc",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0",
       "width": 1282,
       "height": 962,
       "caption": "Andreas Jakwerth/Leopold Museum, Wien/dpa",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0",
+      "alt": "Zwei Menschen stehen vor einem schräg aufgehängtem Bild.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
         ],
         [
           1282,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1282/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1282/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -2247,6 +2337,7 @@
       "e7g701bpr9rpyf7"
     ],
     "title": "Schiefe Bilder als Klimaprotest",
+    "title_short": "",
     "updated": "2024-08-06 10:37:58.954Z",
     "url": "https://www.weltkunst.de/kunstwissen/2023/03/leopold-museum-klima-schieflage",
     "video": "",
@@ -2366,6 +2457,7 @@
       "ym7yhl90oq509sh"
     ],
     "title": "Nuisance Bear",
+    "title_short": "",
     "updated": "2024-08-27 14:44:06.520Z",
     "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/when-polar-bears-come-to-town",
     "video": "",
@@ -2416,6 +2508,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
         [
           "Can I microdose veganism?",
           "can-i-microdose-veganism"
@@ -2494,6 +2590,7 @@
       "uin44kevoc69bwo"
     ],
     "title": "Haulout",
+    "title_short": "",
     "updated": "2024-07-21 20:06:23.417Z",
     "url": "https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone",
     "video": "",
@@ -2544,6 +2641,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
         [
           "Can I microdose veganism?",
           "can-i-microdose-veganism"
@@ -2616,6 +2717,7 @@
       "h4zh134ouuiosbo"
     ],
     "title": "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
+    "title_short": "",
     "updated": "2024-07-22 09:50:02.358Z",
     "url": "https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals",
     "video": "",
@@ -2709,6 +2811,7 @@
       "xrpst36djjaxj2f"
     ],
     "title": "Is Artificial Light Poisoning the Planet?",
+    "title_short": "",
     "updated": "2024-07-22 09:58:48.334Z",
     "url": "https://www.newyorker.com/magazine/2023/02/27/darkness-manifesto-book-johan-eklof",
     "video": "",
@@ -2760,6 +2863,10 @@
       "authors": [],
       "tags": [
         [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
           "Can I microdose veganism?",
           "can-i-microdose-veganism"
         ],
@@ -2807,36 +2914,37 @@
     ],
     "id": "w04hcgjoetgitsv",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0",
       "width": 1762,
       "height": 1177,
       "caption": "",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0",
+      "alt": "",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
         ],
         [
           1762,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1762/s370in4b5hzg8pluvkrw?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1762/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -2873,6 +2981,7 @@
       "szgsdkhgi47pu4u"
     ],
     "title": "Permillion",
+    "title_short": "",
     "updated": "2024-09-02 11:19:40.020Z",
     "url": "https://permillion.live/",
     "video": "",
@@ -2983,6 +3092,7 @@
       "c5ifgkr9e7l91y5"
     ],
     "title": "Our Attention Spans Are Being Stolen",
+    "title_short": "",
     "updated": "2024-07-21 20:16:46.681Z",
     "url": "https://atmos.earth/johann-hari-stolen-focus-concentration-span-attention-economy-climate-action",
     "video": "",
@@ -3108,6 +3218,7 @@
       "bxcs54jgb27xdkq"
     ],
     "title": "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
+    "title_short": "",
     "updated": "2024-07-21 20:13:09.918Z",
     "url": "https://www.republik.ch/2023/02/10/wie-science-fiction-autor-kim-stanley-robinson-die-zukunft-sieht",
     "video": "",
@@ -3217,6 +3328,7 @@
       "w98y5g1o477uz2a"
     ],
     "title": "Climate change conversations during live commentary",
+    "title_short": "",
     "updated": "2024-09-02 11:11:46.839Z",
     "url": "https://twitter.com/ed_hawkins/status/1619456016638427136?s=20",
     "video": "uodvujif2g6v8mxvzb3w",
@@ -3335,6 +3447,7 @@
       "ujtu9f6i6jfmi47"
     ],
     "title": "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
+    "title_short": "",
     "updated": "2024-07-21 20:05:48.122Z",
     "url": "https://www.nytimes.com/2023/01/29/podcasts/the-daily/amazon-rainforest-deforestation.html",
     "video": "",
@@ -3460,6 +3573,7 @@
       "xrpst36djjaxj2f"
     ],
     "title": "Consider the Burying Beetle. (Or Else.)",
+    "title_short": "",
     "updated": "2024-07-21 19:50:58.870Z",
     "url": "https://www.nytimes.com/2023/01/06/podcasts/the-daily/biodiversity-cop15-montreal.html",
     "video": "",
@@ -3547,44 +3661,45 @@
     ],
     "id": "9qfq6dn8b3tjw0k",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0",
       "width": 4096,
       "height": 2731,
       "caption": "Marius Michusch",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0",
+      "alt": "Photograph of three people with police armour standing in front of a partly visible bucket-wheel excavator.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
         ],
         [
           2100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
         ],
         [
           4096,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_4096/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2FC0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_4096/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
         ]
       ]
     },
@@ -3617,6 +3732,7 @@
       "0eiwce9y5tzc4ih"
     ],
     "title": "Bagger 288 in Lützerath",
+    "title_short": "",
     "updated": "2024-08-06 10:39:32.942Z",
     "url": "https://twitter.com/marius_mich/status/1610708837463474183",
     "video": "",
@@ -3732,6 +3848,7 @@
       "543fknvjv8enf64"
     ],
     "title": "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+    "title_short": "",
     "updated": "2024-07-20 10:20:37.142Z",
     "url": "https://youtu.be/KW-J6QqQarQ",
     "video": "",
@@ -3845,6 +3962,7 @@
       "bgan5wbkss1tqa5"
     ],
     "title": "Half Earth Socialism Game",
+    "title_short": "",
     "updated": "2024-07-20 10:07:24.982Z",
     "url": "https://play.half.earth/",
     "video": "",
@@ -3942,6 +4060,7 @@
       "ptpbk4nicqrykya"
     ],
     "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+    "title_short": "",
     "updated": "2024-07-20 10:10:32.823Z",
     "url": "https://www.nytimes.com/2022/11/20/podcasts/the-daily/uruguay-sustainable-living.html",
     "video": "",
@@ -4099,6 +4218,7 @@
       "6n11c6com5jm4i4"
     ],
     "title": "Anthropocene: The Human Epoch",
+    "title_short": "",
     "updated": "2024-07-20 10:14:25.242Z",
     "url": "https://theanthropocene.org/film/",
     "video": "",
@@ -4175,6 +4295,7 @@
       "lzx69t0trqshvt1"
     ],
     "title": "100 gute Gründe gegen Atomkraft",
+    "title_short": "",
     "updated": "2024-08-03 18:55:04.177Z",
     "url": "https://www.100-gute-gruende.de/gruende/",
     "video": "",
@@ -4283,6 +4404,7 @@
       "ptpbk4nicqrykya"
     ],
     "title": "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
+    "title_short": "",
     "updated": "2024-07-20 09:56:12.364Z",
     "url": "https://www.republik.ch/2023/01/16/wir-haben-kein-recht-vor-der-klimakrise-zu-kapitulieren",
     "video": "",
@@ -4411,6 +4533,7 @@
     "slug": "theres-no-planet-b",
     "tags": [],
     "title": "There’s no planet B",
+    "title_short": "",
     "updated": "2024-07-20 10:00:07.900Z",
     "url": "https://aeon.co/essays/we-will-never-be-able-to-live-on-another-planet-heres-why",
     "video": "",
@@ -4502,6 +4625,7 @@
       "pa3elfw03ton9vr"
     ],
     "title": "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+    "title_short": "",
     "updated": "2024-07-21 20:06:40.813Z",
     "url": "https://www.matthes-seitz-berlin.de/buch/klimabilder.html",
     "video": "",

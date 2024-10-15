@@ -23,6 +23,7 @@
 		content,
 		formats,
 		image,
+		image_alt,
 		isFavorite,
 		language,
 		quote_author,
@@ -81,8 +82,15 @@
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				{#if isModeLight}
-					<div class="flex flex-col gap-y-1 items-center border border-border py-6 px-4">
-						<span>You are browsing in data-saving mode, where images are disabled.</span>
+					<div
+						class="flex flex-col gap-y-6 items-center border border-border rounded-sm bg-gray-50 py-6 px-4"
+					>
+						<span class="text-gray-500 text-center text-balance"
+							>You are browsing in data-saving mode, where images are disabled.</span
+						>
+						{#if image.alt}
+							<span class="text-center text-balance">{image.alt}</span>
+						{/if}
 						<a class="link" href={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
 							>Click to open the image</a
 						>
@@ -97,7 +105,7 @@
 						sizes="(max-width: 48rem) 100vw, 48rem"
 						loading={isFirst || isSingle ? 'eager' : 'lazy'}
 						decoding="async"
-						alt={image.alt ?? title}
+						alt={image.alt}
 					/>
 				{/if}
 				{#if image.caption}

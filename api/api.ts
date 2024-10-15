@@ -49,7 +49,9 @@ async function getData() {
 	}));
 	const entries = await Promise.all(
 		posts.map(async (post) => {
-			const image = post.image ? await getImageDetails(post.image, post.image_caption) : null;
+			const image = post.image
+				? await getImageDetails(post.image, post.image_caption, post.image_alt)
+				: null;
 			return {
 				...post,
 				language: languages.get(post.language),
