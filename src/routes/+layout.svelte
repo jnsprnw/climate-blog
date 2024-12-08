@@ -40,6 +40,10 @@
 
 	<meta name="robots" content="index, follow, noimageindex" />
 
+	{#if $page.data?.preconnectImage}
+		<link rel="dns-prefetch" href="https://res.cloudinary.com" />
+	{/if}
+
 	<meta property="og:url" content={url} />
 	<meta property="og:type" content={type} />
 	<meta property="og:title" content={title} />
