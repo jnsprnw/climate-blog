@@ -16,7 +16,12 @@
 	const isFiltered = $derived(typeof data.filter === 'string');
 </script>
 
-<main class="flex flex-col gap-y-12 sm:gap-y-18 md:gap-y-24" class:-mt-24={isFiltered}>
+<main
+	class="flex flex-col gap-y-12 sm:gap-y-18 md:gap-y-24"
+	class:-mt-12={isFiltered}
+	class:sm:-mt-16={isFiltered}
+	class:md:-mt-24={isFiltered}
+>
 	{#if isFiltered}
 		<span class="text-sm">{data.filter}</span>
 	{/if}
