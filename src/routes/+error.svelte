@@ -16,6 +16,8 @@
 			</h1>
 		{/if}
 	{:else}
-		<h1>Something went wrong</h1>
+		<h1 class="mb-4 text-3xl leading-tight md:text-4xl lg:text-5xl text-balance" itemprop="name">
+			Something went wrong
+		</h1>
 	{/if}
 </div>
