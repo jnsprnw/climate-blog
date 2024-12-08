@@ -17,7 +17,6 @@
 	{@render children()}
 {:else}
 	<a
-		title={slug}
 		href={getAbsoluteURL(slug, isModeLight)}
 		class="transition-colors hover:text-accent"
 		itemprop="url"
