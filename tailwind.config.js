@@ -8,9 +8,9 @@ export default {
 		},
 		extend: {
 			colors: {
-				accent: '#41AE3C',
+				accent: '#32852E',
 				border: '#d4d4d4',
-				mute: '#a3a3a3',
+				mute: '#757575',
 				dark: '#171717'
 			}
 		}
