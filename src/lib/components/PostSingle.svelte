@@ -47,7 +47,6 @@
 	itemscope
 	itemtype={`https://schema.org/${schemas.key}`}
 	id={slug}
-	role={isSingle ? '' : 'listitem'}
 >
 	<meta itemprop="inLanguage" content={language.key} />
 	<header class="col-span-3">
