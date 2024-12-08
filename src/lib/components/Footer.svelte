@@ -1,13 +1,15 @@
 <script lang="ts">
 	import { formatDate, formatDateFull } from '$utils/format';
 	import { getAbsoluteURL, getRelativeURL } from '$utils/url';
+	import type { IsModeLight } from '$types/types';
 
 	const {
 		buildDateTime,
 		version,
 		currentPath,
 		isModeLight
-	}: { buildDateTime: Date; version: string; currentPath: string; isModeLight: boolean } = $props();
+	}: { buildDateTime: Date; version: string; currentPath: string; isModeLight: IsModeLight } =
+		$props();
 </script>
 
 <footer

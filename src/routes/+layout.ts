@@ -1,8 +1,9 @@
 import { dev } from '$app/environment';
 import { KEY_MODE_LIGHT, KEY_MODE_PLAIN } from '$config';
+import type { IsModeLight } from '$types/types';
 
 export async function load({ params }) {
-	const isModeLight = params.light === KEY_MODE_LIGHT;
+	const isModeLight: IsModeLight = params.light === KEY_MODE_LIGHT;
 	const isModePlain = params.plain === KEY_MODE_PLAIN;
 	return {
 		buildDateTime: new Date(),

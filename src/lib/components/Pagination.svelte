@@ -3,6 +3,7 @@
 	import { getAbsoluteURL } from '$utils/url';
 	import { getContext } from 'svelte';
 	import { KEY_ALL_POSTS } from '$config';
+	import type { IsModeLight } from '$types/types';
 
 	type Props = {
 		currentIndex: number | string;
@@ -11,7 +12,7 @@
 
 	const { currentIndex, posts_total }: Props = $props();
 	const { count, list, prev, next } = $derived(getPagination(posts_total, currentIndex));
-	const isModeLight = getContext('isModeLight');
+	const isModeLight = getContext<IsModeLight>('isModeLight');
 </script>
 
 <svelte:head>
@@ -29,9 +30,9 @@
 	<nav class="flex flex-wrap justify-center text-sm gap-x-3">
 		{#each list as { label, path, isCurrent, isPrev, isNext }}
 			{#if isCurrent}
-				<a href={getAbsoluteURL(path, isModeLight)} class="text-mute p-2" aria-current="page"
-					>{label}</a
-				>
+				<a href={getAbsoluteURL(path, isModeLight)} class="text-mute p-2" aria-current="page">
+					{label}
+				</a>
 			{:else}
 				<a
 					class="link p-2"
@@ -47,7 +48,8 @@
 			class:link={currentIndex !== KEY_ALL_POSTS}
 			aria-current={currentIndex === KEY_ALL_POSTS ? 'page' : undefined}
 			href={getAbsoluteURL(KEY_ALL_POSTS, isModeLight)}
-			>View all {posts_total} posts on a single page</a
 		>
+			View all {posts_total} posts on a single page
+		</a>
 	</nav>
 {/if}

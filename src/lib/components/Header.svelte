@@ -1,9 +1,10 @@
-<script>
+<script lang="ts">
 	import { getPageDescription } from '$utils/posts';
 	import { getContext } from 'svelte';
 	import { getAbsoluteURL } from '$utils/url';
+	import type { IsModeLight } from '$types/types';
 
-	const isModeLight = getContext('isModeLight');
+	const isModeLight = getContext<IsModeLight>('isModeLight');
 </script>
 
 <header class="mb-8 pb-8 sm:mb-12 md:mb-16 border-b-2 border-dark sm:pb-12 md:pb-16">

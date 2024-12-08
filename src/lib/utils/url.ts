@@ -1,20 +1,21 @@
 import { dev } from '$app/environment';
 import { PUBLIC_PAGE_URL } from '$env/static/public';
 import { KEY_MODE_LIGHT } from '$config';
+import type { IsModeLight } from '$types/types';
 
 export function getAbsoluteURLWithLightMode(path: string = ''): string {
 	return getAbsoluteURL(path, true);
 }
 
-export function getAbsoluteURL(path: string = '', isModeLight: boolean = false): string {
+export function getAbsoluteURL(path: string = '', isModeLight: IsModeLight = false): string {
 	return getURL(path, isModeLight).toString();
 }
 
-export function getRelativeURL(path: string = '', isModeLight: boolean = false): string {
+export function getRelativeURL(path: string = '', isModeLight: IsModeLight = false): string {
 	return getURL(path, isModeLight).pathname;
 }
 
-function getURL(path: string = '', isModeLight: boolean = false): URL {
+function getURL(path: string = '', isModeLight: IsModeLight = false): URL {
 	return new URL(
 		(path + (isModeLight ? '/light' : '')).replace('//', '/'),
 		dev ? 'http://localhost:5173' : PUBLIC_PAGE_URL
