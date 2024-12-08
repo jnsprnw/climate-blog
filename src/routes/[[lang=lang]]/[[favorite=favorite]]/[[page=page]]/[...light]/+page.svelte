@@ -8,6 +8,7 @@
 		posts_total: number;
 		page_current: number;
 		filter: string;
+		preconnectImage: boolean;
 	};
 
 	const { data }: { data: Props } = $props();
