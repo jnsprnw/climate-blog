@@ -1,7 +1,7 @@
 import { dev } from '$app/environment';
 import { PUBLIC_PAGE_URL } from '$env/static/public';
-import { KEY_MODE_LIGHT } from '$config';
-import type { IsModeLight } from '$types/types';
+import { KEY_MODE_LIGHT, STR_FAVORITE, KEY_MODE_PLAIN } from '$config';
+import type { IsModeLight } from '$types/ui';
 
 export function getAbsoluteURLWithLightMode(path: string = ''): string {
 	return getAbsoluteURL(path, true);
@@ -22,21 +22,25 @@ function getURL(path: string = '', isModeLight: IsModeLight = false): URL {
 	);
 }
 
-const FAVORITE_STR = 'favorite';
-
 export function checkFavorite(favorite: string): boolean {
-	return favorite === FAVORITE_STR;
+	return favorite === STR_FAVORITE;
 }
 
 export function generateFeedURL(lang: string, isFavorite: boolean): string {
 	return getAbsoluteURL(
-		[lang, isFavorite ? FAVORITE_STR : null, 'rss.xml'].filter(Boolean).join('/')
+		[lang, isFavorite ? STR_FAVORITE : null, 'rss.xml'].filter(Boolean).join('/')
 	);
 }
 
 export function getEntriesList(arr) {
-	return arr.flatMap((entry) => [
-		Object.assign({}, entry, { light: '' }),
-		Object.assign({}, entry, { light: KEY_MODE_LIGHT })
-	]);
+	return [true, false].flatMap((light) => {
+		return [true, false].flatMap((plain) => {
+			return arr.flatMap((entry) =>
+				Object.assign({}, entry, {
+					[KEY_MODE_LIGHT]: light ? KEY_MODE_LIGHT : '',
+					[KEY_MODE_PLAIN]: plain ? KEY_MODE_PLAIN : ''
+				})
+			);
+		});
+	});
 }
