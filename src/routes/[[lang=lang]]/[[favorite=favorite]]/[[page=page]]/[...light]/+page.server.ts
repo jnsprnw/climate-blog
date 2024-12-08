@@ -1,4 +1,11 @@
-import { getCurrentPosts, getLastMod, getPaginationEntries, getPostsForFilter } from '$utils/posts';
+import {
+	getCurrentPosts,
+	getLastMod,
+	getPaginationEntries,
+	getPostsForFilter,
+	getCurrentPath,
+	getCurrentFilter
+} from '$utils/posts';
 import { checkFavorite, getEntriesList } from '$utils/url';
 import { KEY_ALL_POSTS } from '$config';
 
@@ -13,8 +20,9 @@ export async function load({ params }) {
 		posts: posts_current,
 		posts_total: posts_filtered.length,
 		page_current,
-		path: [lang, isFavorite ? 'favorite' : undefined, page].filter(Boolean).join('/'),
-		lastMod
+		path: getCurrentPath(lang, isFavorite, page),
+		lastMod,
+		filter: getCurrentFilter(lang, isFavorite, page_current, posts_filtered.length)
 	};
 }
 

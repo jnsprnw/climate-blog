@@ -7,12 +7,18 @@
 		posts: Post[];
 		posts_total: number;
 		page_current: number;
+		filter: string;
 	};
 
 	const { data }: { data: Props } = $props();
+
+	const isFiltered = $derived(typeof data.filter === 'string');
 </script>
 
-<main class="flex flex-col gap-y-12 sm:gap-y-18 md:gap-y-24">
+<main class="flex flex-col gap-y-12 sm:gap-y-18 md:gap-y-24" class:-mt-24={isFiltered}>
+	{#if isFiltered}
+		<span class="text-sm">{data.filter}</span>
+	{/if}
 	{#if data.posts.length}
 		<PostList posts={data.posts} />
 		<Pagination currentIndex={data.page_current} posts_total={data.posts_total} />

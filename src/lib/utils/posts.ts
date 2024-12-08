@@ -8,6 +8,7 @@ import {
 	KEY_ALL_POSTS
 } from '$config';
 import type { Post } from '$types/pocketbase';
+import type { Lang } from '$types/ui';
 import { maxBy, range } from 'lodash-es';
 
 export function getPostsCount() {
@@ -136,4 +137,43 @@ export function getPaginationEntries() {
 		...(lang && { lang }),
 		...(favorite && { favorite })
 	}));
+}
+
+export function getCurrentPath(lang: Lang, isFavorite: boolean, page: number): string {
+	return [lang, isFavorite ? 'favorite' : undefined, page].filter(Boolean).join('/');
+}
+
+export function getPostsIndicesFromPageNumber(
+	page_current: number | typeof KEY_ALL_POSTS,
+	number_total_posts: number
+): string {
+	if (page_current === KEY_ALL_POSTS) {
+		return 'all';
+	}
+	const start = (page_current - 1) * POSTS_PER_PAGE + 1;
+	const end = Math.min(start + POSTS_PER_PAGE, number_total_posts);
+	return [start, end].join('–');
+}
+
+export function getLanguageName(lang: Lang): string {
+	switch (lang) {
+		case 'en':
+			return 'English';
+		case 'de':
+			return 'German';
+		default:
+			return '';
+	}
+}
+
+export function getCurrentFilter(
+	lang: Lang,
+	isFavorite: boolean,
+	page_current: number | typeof KEY_ALL_POSTS,
+	number_total_posts: number
+) {
+	if (number_total_posts === 0) {
+		return null;
+	}
+	return `You are viewing ${getPostsIndicesFromPageNumber(page_current, number_total_posts)} of ${isFavorite ? 'my favourite' : ''} ${number_total_posts} ${getLanguageName(lang)} post${number_total_posts === 1 ? '' : 's'}.`;
 }
