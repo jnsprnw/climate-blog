@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { formatDate, formatDateFull } from '$utils/format';
 	import { getAbsoluteURL, getRelativeURL } from '$utils/url';
-	import type { IsModeLight } from '$types/types';
+	import type { IsModeLight } from '$types/ui';
 
 	const {
 		buildDateTime,

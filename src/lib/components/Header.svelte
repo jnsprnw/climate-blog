@@ -2,7 +2,7 @@
 	import { getPageDescription } from '$utils/posts';
 	import { getContext } from 'svelte';
 	import { getAbsoluteURL } from '$utils/url';
-	import type { IsModeLight } from '$types/types';
+	import type { IsModeLight } from '$types/ui';
 
 	const isModeLight = getContext<IsModeLight>('isModeLight');
 </script>

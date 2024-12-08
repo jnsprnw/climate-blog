@@ -2,7 +2,7 @@
 	import { getContext } from 'svelte';
 	import { getAbsoluteURL } from '$utils/url';
 	import type { Snippet } from 'svelte';
-	import type { IsModeLight } from '$types/types';
+	import type { IsModeLight } from '$types/ui';
 
 	const {
 		slug,

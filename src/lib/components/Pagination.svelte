@@ -3,7 +3,7 @@
 	import { getAbsoluteURL } from '$utils/url';
 	import { getContext } from 'svelte';
 	import { KEY_ALL_POSTS } from '$config';
-	import type { IsModeLight } from '$types/types';
+	import type { IsModeLight } from '$types/ui';
 
 	type Props = {
 		currentIndex: number | string;

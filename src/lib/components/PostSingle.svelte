@@ -9,7 +9,7 @@
 	import { isSameDay, checkValidDate } from '$utils/date';
 	import { getContext } from 'svelte';
 	import ConditionalLink from '$lib/components/ConditionalLink.svelte';
-	import type { IsModeLight } from '$types/types';
+	import type { IsModeLight } from '$types/ui';
 
 	const isModeLight = getContext<IsModeLight>('isModeLight');
 
