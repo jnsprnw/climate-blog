@@ -72,11 +72,15 @@
 			>
 				{title}
 			</h1>
-			{#if authors.length}
-				<span class="text-sm" id="authors">
+
+			<span class="text-sm leading-tight">
+				<span>By</span>
+				{#if authors.length}
 					<Authors authors={authors.map((author) => author.label)} lang={language.key} />
-				</span>
-			{/if}
+				{:else}
+					unknown author
+				{/if}
+			</span>
 		</ConditionalLink>
 	</header>
 	<main class="col-span-3 border-y border-border py-6 flex flex-col gap-y-8">
@@ -152,15 +156,16 @@
 				>Via <a class="link" href={post.reference_link}>{post.reference.label}</a></span
 			>
 		{/if}
-		<span class="text-right">
-			<a
-				class="max-w-full inline-flex items-center underline decoration-accent font-semibold hover:text-accent"
-				href={url}
-			>
-				<span class="truncate" itemprop="publisher">{publisher?.label ?? 'Visit'}</span>
-				<Link />
-			</a>
-		</span>
+
+		<a
+			class="max-w-full place-self-end inline-flex items-center underline decoration-accent font-semibold hover:text-accent"
+			href={url}
+		>
+			<span class="truncate" itemprop={publisher?.label ? 'publisher' : undefined}>
+				{publisher?.label ?? 'Visit external page'}
+			</span>
+			<Link />
+		</a>
 	</footer>
 	{#if isSingle}
 		<aside class="text-sm col-span-3 my-12 flex flex-col gap-y-4">
