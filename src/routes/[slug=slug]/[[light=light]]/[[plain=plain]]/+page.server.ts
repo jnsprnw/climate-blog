@@ -2,6 +2,7 @@ import { error } from '@sveltejs/kit';
 import { getPostBySlug, getAllSlugs, hasImage } from '$utils/posts';
 import { getEntriesList } from '$utils/url';
 
+/** @type {import('./$types').PageLoad} */
 export async function load({ params }) {
 	const { slug } = params;
 	const post = getPostBySlug(slug);

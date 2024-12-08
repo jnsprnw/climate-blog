@@ -10,6 +10,7 @@ import {
 import { checkFavorite, getEntriesList } from '$utils/url';
 import { KEY_ALL_POSTS } from '$config';
 
+/** @type {import('./$types').PageLoad} */
 export async function load({ params }) {
 	const { lang, favorite, page } = params;
 	const isFavorite = checkFavorite(favorite);
