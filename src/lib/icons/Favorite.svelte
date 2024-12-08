@@ -9,7 +9,6 @@
 	fill="none"
 	stroke-linecap="round"
 	stroke-linejoin="round"
-	title="Favorite"
 >
 	<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 	<path d="M3 12h18" />
