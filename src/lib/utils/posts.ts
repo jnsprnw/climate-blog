@@ -4,7 +4,7 @@ import {
 	SITE_DESCRIPTION,
 	STRING_PLACEHOLDER,
 	LANGUAGES,
-	KEY_FAVORITE,
+	STR_FAVORITE,
 	KEY_ALL_POSTS,
 	KEY_MODE_LIGHT,
 	STR_FAVORITE
@@ -125,7 +125,7 @@ export function getPaginationPages() {
 									: undefined,
 						// page_count,
 						// count: posts.length,
-						favorite: favorite ? KEY_FAVORITE : undefined,
+						favorite: favorite ? STR_FAVORITE : undefined,
 						lang,
 						lastMod,
 						light: isModeLight ? KEY_MODE_LIGHT : ''

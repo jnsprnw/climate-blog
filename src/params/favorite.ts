@@ -1,4 +1,4 @@
-import { KEY_FAVORITE } from '$config';
+import { STR_FAVORITE } from '$config';
 
 /** @type {import('@sveltejs/kit').ParamMatcher} */
 export function match(param) {

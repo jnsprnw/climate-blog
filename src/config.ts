@@ -7,6 +7,6 @@ export const SITE_URL = 'https://climate.jonasparnow.com/';
 export const POSTS_PER_PAGE = 10;
 export const KEY_MODE_LIGHT = 'light';
 export const KEY_MODE_PLAIN = 'plain';
-export const KEY_FAVORITE = 'favorite';
+export const STR_FAVORITE = 'favorite';
 export const KEY_ALL_POSTS = 'all';
 export const LANGUAGES = ['en', 'de'];
