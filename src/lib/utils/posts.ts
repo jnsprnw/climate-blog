@@ -176,7 +176,10 @@ export function getCurrentFilter(
 	page_current: number | typeof KEY_ALL_POSTS,
 	number_total_posts: number
 ) {
-	if (number_total_posts === 0) {
+	if (
+		number_total_posts === 0 ||
+		(typeof page_current === 'number' && (page_current - 1) * POSTS_PER_PAGE > number_total_posts)
+	) {
 		return null;
 	}
 	return `You are viewing ${getPostsIndicesFromPageNumber(page_current, number_total_posts)} of ${isFavorite ? 'my favourite' : ''} ${number_total_posts} ${getLanguageName(lang)} post${number_total_posts === 1 ? '' : 's'}.`;
