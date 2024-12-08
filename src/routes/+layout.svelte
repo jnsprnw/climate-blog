@@ -8,7 +8,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import type { LayoutData } from './$types';
 	import type { Snippet } from 'svelte';
-	import type { IsModeLight } from '$types/types';
+	import type { IsModeLight, IsModePlain } from '$types/types';
 	import { setContext } from 'svelte';
 
 	const { data, children }: { data: LayoutData; children: Snippet } = $props();
@@ -16,7 +16,7 @@
 	import '../app.css';
 
 	const isModeLight: IsModeLight = data.isModeLight ?? false;
-	const isModePlain: boolean = data.isModePlain ?? false;
+	const isModePlain: IsModePlain = data.isModePlain ?? false;
 
 	const preview = $derived(
 		$page.data?.post?.image?.url_preview ?? getAbsoluteURL('apple-touch-icon.png')
