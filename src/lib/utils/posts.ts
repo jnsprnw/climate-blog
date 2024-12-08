@@ -5,7 +5,9 @@ import {
 	STRING_PLACEHOLDER,
 	LANGUAGES,
 	KEY_FAVORITE,
-	KEY_ALL_POSTS
+	KEY_ALL_POSTS,
+	KEY_MODE_LIGHT,
+	STR_FAVORITE
 } from '$config';
 import type { Post } from '$types/pocketbase';
 import type { Lang } from '$types/ui';
@@ -106,26 +108,29 @@ export function getPageDescription() {
 
 export function getPaginationPages() {
 	return [undefined, ...LANGUAGES].flatMap((lang) =>
-		[true, false].flatMap((favorite) => {
-			const posts = getPostsForFilter(favorite, lang);
-			const page_count = getPageCountForPosts(posts.length);
-			return [KEY_ALL_POSTS, ...range(0, page_count + 1)].map((count) => {
-				const posts_filtered = getPostsForFilter(favorite, lang);
-				const page_posts = getCurrentPosts(count, posts_filtered);
-				const lastMod = getLastMod(page_posts);
-				return {
-					page:
-						count === KEY_ALL_POSTS
-							? KEY_ALL_POSTS
-							: typeof count === 'number' && count > 0
-								? String(count)
-								: undefined,
-					// page_count,
-					// count: posts.length,
-					favorite: favorite ? KEY_FAVORITE : undefined,
-					lang,
-					lastMod
-				};
+		[true, false].flatMap((isModeLight) => {
+			return [true, false].flatMap((favorite) => {
+				const posts = getPostsForFilter(favorite, lang);
+				const page_count = getPageCountForPosts(posts.length);
+				return [KEY_ALL_POSTS, ...range(0, page_count + 1)].map((count) => {
+					const posts_filtered = getPostsForFilter(favorite, lang);
+					const page_posts = getCurrentPosts(count, posts_filtered);
+					const lastMod = getLastMod(page_posts);
+					return {
+						page:
+							count === KEY_ALL_POSTS
+								? KEY_ALL_POSTS
+								: typeof count === 'number' && count > 0
+									? String(count)
+									: undefined,
+						// page_count,
+						// count: posts.length,
+						favorite: favorite ? KEY_FAVORITE : undefined,
+						lang,
+						lastMod,
+						light: isModeLight ? KEY_MODE_LIGHT : ''
+					};
+				});
 			});
 		})
 	);
@@ -140,7 +145,7 @@ export function getPaginationEntries() {
 }
 
 export function getCurrentPath(lang: Lang, isFavorite: boolean, page: number): string {
-	return [lang, isFavorite ? 'favorite' : undefined, page].filter(Boolean).join('/');
+	return [lang, isFavorite ? STR_FAVORITE : undefined, page].filter(Boolean).join('/');
 }
 
 export function getPostsIndicesFromPageNumber(
