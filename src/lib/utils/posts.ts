@@ -45,7 +45,7 @@ export function getCurrentPosts(page_number: number | string, posts: Post[]): Po
 	return [];
 }
 
-export function getPostBySlug(slug: string) {
+export function getPostBySlug(slug: string): Post | undefined {
 	return posts.find((post) => post.slug === slug);
 }
 
@@ -176,4 +176,12 @@ export function getCurrentFilter(
 		return null;
 	}
 	return `You are viewing ${getPostsIndicesFromPageNumber(page_current, number_total_posts)} of ${isFavorite ? 'my favourite' : ''} ${number_total_posts} ${getLanguageName(lang)} post${number_total_posts === 1 ? '' : 's'}.`;
+}
+
+export function hasImage(post: Post) {
+	return post.image?.url;
+}
+
+export function hasImages(posts: Post[]) {
+	return posts.some(hasImage);
 }

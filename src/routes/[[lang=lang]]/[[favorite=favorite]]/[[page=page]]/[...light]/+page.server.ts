@@ -4,7 +4,8 @@ import {
 	getPaginationEntries,
 	getPostsForFilter,
 	getCurrentPath,
-	getCurrentFilter
+	getCurrentFilter,
+	hasImages
 } from '$utils/posts';
 import { checkFavorite, getEntriesList } from '$utils/url';
 import { KEY_ALL_POSTS } from '$config';
@@ -16,13 +17,15 @@ export async function load({ params }) {
 	const posts_filtered = getPostsForFilter(isFavorite, lang);
 	const posts_current = getCurrentPosts(page_current, posts_filtered);
 	const lastMod = getLastMod(posts_current);
+	const preconnectImage = hasImages(posts_filtered);
 	return {
 		posts: posts_current,
 		posts_total: posts_filtered.length,
 		page_current,
 		path: getCurrentPath(lang, isFavorite, page),
 		lastMod,
-		filter: getCurrentFilter(lang, isFavorite, page_current, posts_filtered.length)
+		filter: getCurrentFilter(lang, isFavorite, page_current, posts_filtered.length),
+		preconnectImage
 	};
 }
 

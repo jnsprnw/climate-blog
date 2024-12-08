@@ -1,12 +1,23 @@
-import { getPostBySlug, getAllSlugs } from '$utils/posts';
+import { error } from '@sveltejs/kit';
+import { getPostBySlug, getAllSlugs, hasImage } from '$utils/posts';
 import { getEntriesList } from '$utils/url';
 
 export async function load({ params }) {
 	const { slug } = params;
+	const post = getPostBySlug(slug);
+
+	if (!post) {
+		error(404, {
+			message: 'Not found'
+		});
+	}
+
+	const preconnectImage = hasImage(post);
 	return {
-		post: getPostBySlug(slug),
+		post,
 		type: 'article',
-		path: slug
+		path: slug,
+		preconnectImage
 	};
 }
 
