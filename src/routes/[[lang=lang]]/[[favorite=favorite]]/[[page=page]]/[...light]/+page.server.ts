@@ -5,7 +5,8 @@ import {
 	getPostsForFilter,
 	getCurrentPath,
 	getCurrentFilter,
-	hasImages
+	hasImages,
+	getNextPage
 } from '$utils/posts';
 import { checkFavorite, getEntriesList } from '$utils/url';
 import { KEY_ALL_POSTS } from '$config';
@@ -26,7 +27,8 @@ export async function load({ params }) {
 		path: getCurrentPath(lang, isFavorite, page),
 		lastMod,
 		filter: getCurrentFilter(lang, isFavorite, page_current, posts_filtered.length),
-		preconnectImage
+		preconnectImage,
+		nextPage: getNextPage(page_current, posts_filtered.length)
 	};
 }
 

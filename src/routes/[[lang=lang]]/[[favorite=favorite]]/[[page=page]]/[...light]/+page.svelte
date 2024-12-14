@@ -1,7 +1,12 @@
 <script lang="ts">
+	import { getContext } from 'svelte';
 	import PostList from '$lib/components/PostList.svelte';
 	import Pagination from '$lib/components/Pagination.svelte';
-	import { type Post } from '$types/pocketbase';
+	import PageLink from '$lib/components/PageLink.svelte';
+	import type { IsModeLight } from '$types/ui';
+	import type { Post } from '$types/pocketbase';
+
+	const isModeLight = getContext<IsModeLight>('isModeLight');
 
 	type Props = {
 		posts: Post[];
@@ -9,6 +14,7 @@
 		page_current: number;
 		filter: string;
 		preconnectImage: boolean;
+		nextPage: number | undefined;
 	};
 
 	const { data }: { data: Props } = $props();
@@ -23,7 +29,12 @@
 	class:md:-mt-24={isFiltered}
 >
 	{#if isFiltered}
-		<span class="text-sm">{data.filter}</span>
+		<div class="flex justify-between items-start text-sm">
+			<span>{data.filter}</span>
+			{#if data.nextPage}
+				<PageLink path={String(data.nextPage)} isNext={true} {isModeLight} label="Next page" />
+			{/if}
+		</div>
 	{/if}
 	{#if data.posts.length}
 		<PostList posts={data.posts} />

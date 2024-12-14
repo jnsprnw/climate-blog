@@ -62,6 +62,15 @@ function getPageCountForPosts(posts_total: number): number {
 	return Math.ceil(posts_total / POSTS_PER_PAGE);
 }
 
+export function getNextPage(
+	currentIndex: number | typeof KEY_ALL_POSTS,
+	pages_count: number
+): number | undefined {
+	// TODO: Use this function in the getPagination function
+	const next = typeof currentIndex === 'number' ? currentIndex + 1 : undefined;
+	return typeof next === 'number' && getPageCountForPosts(pages_count) < next ? undefined : next;
+}
+
 export function getPagination(posts_total: number, currentIndex: number | string) {
 	const pages_count = getPageCountForPosts(posts_total);
 	const page_list: Page[] = [];
