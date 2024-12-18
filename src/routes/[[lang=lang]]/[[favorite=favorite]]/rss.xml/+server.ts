@@ -1,9 +1,9 @@
 import { getCurrentPosts, getPostsForFilter } from '$utils/posts';
 import { getAbsoluteURL, checkFavorite, generateFeedURL } from '$utils/url';
-import { type Post } from '$types/pocketbase';
+import type { PostsRecord } from '$types/pocketbase-types';
 import { SITE_TITLE, SITE_DESCRIPTION } from '$config';
 
-function insertQuote(post: Post) {
+function insertQuote(post: PostsRecord) {
 	if (post.quote_content) {
 		const author = post.quote_author ? `<figcaption>${post.quote_author}</figcaption>` : '';
 		return `<figure><blockquote lang="${post.language.key}">${post.quote_content}</blockquote>${author}</figure>`;
@@ -12,7 +12,7 @@ function insertQuote(post: Post) {
 	}
 }
 
-function insertImage(post: Post) {
+function insertImage(post: PostsRecord) {
 	if (post.image?.url_rss) {
 		return `<media:content xmlns:media="http://search.yahoo.com/mrss/" url="${post.image.url_rss}" medium="image" type="image/jpeg" />`;
 	} else {

@@ -1,7 +1,8 @@
 import PocketBase from 'pocketbase';
 import { createMap } from './utils';
+import { TypedPocketBase } from '../src/types/pocketbase-types';
 
-const client = new PocketBase(Bun.env.POCKETBASE_URL);
+const client = new PocketBase(Bun.env.POCKETBASE_URL) as TypedPocketBase;
 client.autoCancellation(false);
 
 export async function getCollection(collection: string) {

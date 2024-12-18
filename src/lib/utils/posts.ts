@@ -8,7 +8,7 @@ import {
 	KEY_MODE_LIGHT,
 	STR_FAVORITE
 } from '$config';
-import type { Post } from '$types/pocketbase';
+import type { PostsRecord } from '$types/pocketbase-types';
 import type { Lang } from '$types/ui';
 import { maxBy, range } from 'lodash-es';
 
@@ -24,7 +24,10 @@ export function checkPostSlug(slug: string) {
 	return posts.some((post) => post.slug === slug);
 }
 
-export function getPostsForFilter(isFavorite: boolean = false, lang: string | undefined): Post[] {
+export function getPostsForFilter(
+	isFavorite: boolean = false,
+	lang: string | undefined
+): PostsRecord[] {
 	let data = posts;
 	if (isFavorite) {
 		data = data.filter((post) => post.isFavorite);
@@ -35,7 +38,7 @@ export function getPostsForFilter(isFavorite: boolean = false, lang: string | un
 	return data;
 }
 
-export function getCurrentPosts(page_number: number | string, posts: Post[]): Post[] {
+export function getCurrentPosts(page_number: number | string, posts: PostsRecord[]): PostsRecord[] {
 	if (typeof page_number === 'string' && page_number === KEY_ALL_POSTS) {
 		// Display all posts
 		return posts;
@@ -46,7 +49,7 @@ export function getCurrentPosts(page_number: number | string, posts: Post[]): Po
 	return [];
 }
 
-export function getPostBySlug(slug: string): Post | undefined {
+export function getPostBySlug(slug: string): PostsRecord | undefined {
 	return posts.find((post) => post.slug === slug);
 }
 
@@ -103,7 +106,7 @@ export function getPagination(posts_total: number, currentIndex: number | string
 	};
 }
 
-export function getLastMod(arr: Post[]): string | undefined {
+export function getLastMod(arr: PostsRecord[]): string | undefined {
 	if (Array.isArray(arr) && typeof arr !== 'undefined' && arr.length > 0) {
 		return maxBy(arr, (d) => new Date(d.updated))?.updated ?? undefined;
 	}
@@ -194,10 +197,10 @@ export function getCurrentFilter(
 	return `You are viewing ${getPostsIndicesFromPageNumber(page_current, number_total_posts)} of ${isFavorite ? 'my favourite' : ''} ${number_total_posts} ${getLanguageName(lang)} post${number_total_posts === 1 ? '' : 's'}.`;
 }
 
-export function hasImage(post: Post) {
+export function hasImage(post: PostsRecord) {
 	return post.image?.url;
 }
 
-export function hasImages(posts: Post[]) {
+export function hasImages(posts: PostsRecord[]) {
 	return posts.some(hasImage);
 }

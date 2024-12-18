@@ -11,9 +11,9 @@ import {
 import { writeFile, slugify } from './utils';
 import { getImageDetails } from './cloudinary';
 import { truncate } from 'lodash-es';
-import { type Post } from '$types/pocketbase';
+import type { PostsRecord } from '../src/types/pocketbase-types';
 
-function compare(p1: Post, p2: Post, key: string) {
+function compare(p1: PostsRecord, p2: PostsRecord, key: string) {
 	const e1 = p1[key];
 	const e2 = p2[key];
 	if (Array.isArray(e1)) {
@@ -23,7 +23,7 @@ function compare(p1: Post, p2: Post, key: string) {
 	}
 }
 
-function getRelatedPosts(current_post: Post, all_posts: Post[], key: string) {
+function getRelatedPosts(current_post: PostsRecord, all_posts: PostsRecord[], key: string) {
 	return all_posts
 		.filter((p) => compare(p, current_post, key) && p.id !== current_post.id)
 		.map((p) => [p.title, p.slug]);
@@ -43,7 +43,7 @@ async function getData() {
 	const references = await getReferences();
 
 	let posts = await getPosts();
-	posts = posts.map((post) => {
+	posts = posts.map((post: PostsRecord) => {
 		const has_predefined_slug = Boolean(post.slug.length);
 		if (!post.title_short.length) {
 			delete post.title_short;

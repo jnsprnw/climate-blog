@@ -1,10 +1,10 @@
 <script lang="ts">
 	import PostSingle from '$lib/components/PostSingle.svelte';
-	import { type Post } from '$types/pocketbase';
+	import type { PostsRecord } from '$types/pocketbase-types';
 	import { createBlogPostingSchema, serializeSchema } from '$utils/json-ld';
 
 	type Props = {
-		post: Post;
+		post: PostsRecord;
 	};
 
 	const { data }: { data: Props } = $props();

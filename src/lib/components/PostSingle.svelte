@@ -4,7 +4,7 @@
 	import Authors from '$lib/components/Authors.svelte';
 	import DateTag from '$lib/components/Date.svelte';
 	import { formatDate } from '$utils/format';
-	import { type Post } from '$types/pocketbase';
+	import type { PostsRecord } from '$types/pocketbase-types';
 	import { getAbsoluteURL } from '$utils/url';
 	import { isSameDay, checkValidDate } from '$utils/date';
 	import { getContext } from 'svelte';
@@ -17,7 +17,7 @@
 		post,
 		isSingle = false,
 		isFirst = false
-	}: { post: Post; isSingle?: boolean; isFirst?: boolean } = $props();
+	}: { post: PostsRecord; isSingle?: boolean; isFirst?: boolean } = $props();
 
 	const {
 		authors,

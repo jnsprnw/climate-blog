@@ -1,5 +1,5 @@
 import type { BlogPosting } from 'schema-dts';
-import { type Post } from '$types/pocketbase';
+import type { PostsRecord } from '$types/pocketbase-types';
 import { getAbsoluteURL } from '$utils/url';
 
 export function serializeSchema(schema: BlogPosting) {
@@ -13,7 +13,7 @@ function addContext<BlogPosting>(json: BlogPosting) {
 	};
 }
 
-export function createBlogPostingSchema(post: Post): BlogPosting {
+export function createBlogPostingSchema(post: PostsRecord): BlogPosting {
 	return {
 		'@type': 'BlogPosting',
 		headline: post.title,
