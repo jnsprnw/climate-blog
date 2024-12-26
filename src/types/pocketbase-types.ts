@@ -135,6 +135,7 @@ export type LocationsRecord = {
 
 export type PostsRecord = {
 	authors?: RecordIdString[]
+	comment?: string
 	connection?: RecordIdString[]
 	content?: HTMLString
 	created?: IsoDateString

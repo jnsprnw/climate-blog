@@ -128,6 +128,13 @@
 				{/if}
 			</figure>
 		{/if}
+		{#if post.comment}
+			<div
+				class="flex flex-col gap-y-6 items-center border border-border rounded-sm bg-gray-50 py-6 px-4"
+			>
+				<span class="text-gray-500 text-center text-balance">{post.comment}</span>
+			</div>
+		{/if}
 		{#if quote_content}
 			<figure class="flex gap-y-2 flex-col" itemscope itemtype="https://schema.org/Quotation">
 				<blockquote class="italic font-serif text-xl" lang={language.key}>
