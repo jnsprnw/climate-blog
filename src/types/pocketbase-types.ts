@@ -139,6 +139,7 @@ export type PostsRecord = {
 	content?: HTMLString
 	created?: IsoDateString
 	date?: IsoDateString
+	description?: string
 	formats?: RecordIdString[]
 	id: string
 	image?: string

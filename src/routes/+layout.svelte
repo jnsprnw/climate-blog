@@ -30,7 +30,7 @@
 	const url = $derived(getAbsoluteURL(path));
 	const urlLightMode = $derived(getAbsoluteURL(path, isModeLight));
 	const lastModified = $derived($page.data?.post?.updated ?? $page.data?.lastMod);
-	const description = getPageDescription();
+	const description = $derived($page.data?.post?.description ?? getPageDescription());
 	setContext<IsModeLight>('isModeLight', isModeLight);
 </script>
 
