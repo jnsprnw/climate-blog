@@ -145,6 +145,8 @@ export type PostsRecord = {
 	image?: string
 	image_alt?: string
 	image_caption?: string
+	image_source_label?: string
+	image_source_url?: string
 	isFavorite?: boolean
 	language?: RecordIdString
 	locations?: RecordIdString[]

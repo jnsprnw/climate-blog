@@ -61,7 +61,13 @@ async function getData() {
 	const entries = await Promise.all(
 		posts.map(async (post) => {
 			const image = post.image
-				? await getImageDetails(post.image, post.image_caption, post.image_alt)
+				? await getImageDetails(
+						post.image,
+						post.image_caption,
+						post.image_alt,
+						post.image_source_url,
+						post.image_source_label
+					)
 				: null;
 			delete post.image_caption;
 			delete post.image_alt;

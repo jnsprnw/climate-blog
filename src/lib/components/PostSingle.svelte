@@ -112,12 +112,18 @@
 						alt={image.alt}
 					/>
 				{/if}
-				{#if image.caption}
+				{#if image.caption || (image.source_url && image.source_label)}
 					<figcaption
 						itemprop="author"
 						class="text-xs place-self-end text-mute contrast-more:text-black"
 					>
-						{image.caption}
+						{#if image.caption}
+							{image.caption}{#if image.source_url && image.source_label}
+								{', '}<a class="link" href={image.source_url}>{image.source_label}</a>
+							{:else}
+								{'. '}
+							{/if}
+						{/if}
 					</figcaption>
 				{/if}
 			</figure>
