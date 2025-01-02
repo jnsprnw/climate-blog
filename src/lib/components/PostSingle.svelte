@@ -137,14 +137,17 @@
 		{/if}
 		{#if quote_content}
 			<figure class="flex gap-y-2 flex-col" itemscope itemtype="https://schema.org/Quotation">
-				<blockquote class="italic font-serif text-xl" lang={language.key}>
-					{#if language.key === 'de'}„{quote_content}“{:else}“{quote_content}”{/if}
+				<blockquote class="italic font-serif text-xl flex gap-x-0.5" lang={language.key}>
+					{#if language.key === 'de'}„{:else}“{/if}
+					<span>
+						{quote_content}{#if language.key === 'de'}“{:else}”{/if}
+					</span>
 				</blockquote>
 				{#if quote_author}
 					<figcaption class="place-self-end">
-						— <span itemprop="author" itemscope itemtype="https://schema.org/Person"
-							>{quote_author}<span></span></span
-						>
+						— <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+							{quote_author}
+						</span>
 					</figcaption>
 				{/if}
 			</figure>
