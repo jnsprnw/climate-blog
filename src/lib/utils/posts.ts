@@ -167,7 +167,7 @@ export function getPostsIndicesFromPageNumber(
 		return 'all';
 	}
 	const start = (page_current - 1) * POSTS_PER_PAGE + 1;
-	const end = Math.min(start + POSTS_PER_PAGE, number_total_posts);
+	const end = Math.min(start + POSTS_PER_PAGE - 1, number_total_posts);
 	return [start, end].join('–');
 }
 
