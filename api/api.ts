@@ -83,6 +83,8 @@ async function getData() {
 				image,
 				quote_content: post.quote,
 				quote_author: post.quote_author,
+				quote_source_label: post.quote_source_label,
+				quote_source_url: post.quote_source_url,
 				related: {
 					publisher: getRelatedPosts(post, posts, 'publisher'),
 					formats: getRelatedPosts(post, posts, 'formats'),

@@ -29,6 +29,8 @@
 		language,
 		quote_author,
 		quote_content,
+		quote_source_url,
+		quote_source_label,
 		schemas,
 		slug,
 		title,
@@ -147,7 +149,11 @@
 					<figcaption class="place-self-end">
 						— <span itemprop="author" itemscope itemtype="https://schema.org/Person">
 							{quote_author}
-						</span>
+						</span>{#if quote_source_url && quote_source_label}
+							{', '}<cite class="not-italic">
+								<a class="link" href={quote_source_url}>{quote_source_label}</a>
+							</cite>
+						{/if}
 					</figcaption>
 				{/if}
 			</figure>

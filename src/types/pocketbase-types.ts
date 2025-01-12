@@ -155,6 +155,8 @@ export type PostsRecord = {
 	publisher?: RecordIdString
 	quote?: string
 	quote_author?: string
+	quote_source_label?: string
+	quote_source_url?: string
 	reference?: RecordIdString
 	reference_link?: string
 	schemas?: RecordIdString
