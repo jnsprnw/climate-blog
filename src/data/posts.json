@@ -2,16 +2,1046 @@
   {
     "authors": [
       {
+        "label": "Ethan Swope",
+        "slug": "ethan-swope"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "comment": "",
+    "connection": [],
+    "content": "<p><a href=\"https://www.nytimes.com/2025/01/12/us/californias-worst-wildfires-history.html\">After many years of devastating wildfires</a> in California, the latest blazes hit <a href=\"https://www.nytimes.com/interactive/2025/01/09/us/la-wildfires-damage-photos-map.html\">Altadena and Pacific Palisades in Los Angeles</a>, the first to hit a major city, causing thousands to flee. In the wildfire-prone landscape, <a href=\"https://www.nytimes.com/2025/01/10/opinion/la-fires-los-angeles-wildfires.html\">it was only a matter of time before one reached the city</a>, echoeing @PerthshireMagsce's description in the (<a href=\"https://x.com/PerthshireMags/status/1549522710539210757\">now deleted</a>) 2022 <a href=\"https://x.com/Annie_Wu_22/status/1877137428374266033\">viral tweet</a>. The term <a href=\"https://www.scientificamerican.com/article/we-are-living-in-the-pyrocene-at-our-peril/\">pyrocene</a>, proposed in 2015 to describe an epoch \"<a href=\"https://en.m.wikipedia.org/wiki/Pyrocene\">characterised by the influence of human-caused fire activity on Earth</a>\", is becoming increasingly apt. The widely shared photos by <a href=\"https://www.ethanswope.com\">Ethan Swope</a> (<a href=\"https://www.instagram.com/ethanswopephoto/\">Instagram</a>) show the terrifying scenes of burning landscapes and cityscapes, but at the same time have a beauty that calls into question the <a href=\"https://www.newyorker.com/culture/annals-of-appearances/a-city-on-fire-cant-be-photographed\">adequacy of these photos</a>.</p>",
+    "created": "2025-01-12 13:36:30.315Z",
+    "date": "2024-12-10 19:55:00.000Z",
+    "description": "",
+    "formats": [
+      {
+        "label": "Photograph",
+        "slug": "photograph"
+      }
+    ],
+    "id": "grv420qb3gx16oh",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/nunvynoyz05yxenxqktk?_a=BAMCkGJu0",
+      "width": 2499,
+      "height": 1667,
+      "caption": "Embers swirl as firefighters battle the Franklin Fire in Malibu, Calif., on Tuesday, Dec. 10, 2024.",
+      "alt": "Photos of an American fire engine surrounded by fire. The strong wind blows sparks through the picture, creating bright streaks.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/nunvynoyz05yxenxqktk?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/nunvynoyz05yxenxqktk?_a=BAMCkGJu0",
+      "source_url": "https://www.ethanswope.com/cbd71c6f41-gallery#2",
+      "source_label": "AP Photo/Ethan Swope",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/nunvynoyz05yxenxqktk?_a=BAMCkGJu0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/nunvynoyz05yxenxqktk?_a=BAMCkGJu0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/nunvynoyz05yxenxqktk?_a=BAMCkGJu0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/nunvynoyz05yxenxqktk?_a=BAMCkGJu0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/nunvynoyz05yxenxqktk?_a=BAMCkGJu0"
+        ],
+        [
+          1800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/nunvynoyz05yxenxqktk?_a=BAMCkGJu0"
+        ],
+        [
+          2100,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/nunvynoyz05yxenxqktk?_a=BAMCkGJu0"
+        ],
+        [
+          2499,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2499/nunvynoyz05yxenxqktk?_a=BAMCkGJu0"
+        ]
+      ]
+    },
+    "image_source_label": "AP Photo/Ethan Swope",
+    "image_source_url": "https://www.ethanswope.com/cbd71c6f41-gallery#2",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [
+      "e8wbu41kpcmb2fz"
+    ],
+    "published": "2025-01-12 14:45:00.000Z",
+    "publisher": {
+      "label": "Instagram",
+      "slug": "instagram"
+    },
+    "quote": "Climate change will manifest as a series of disasters viewed through phones with footage that gets closer and closer to where you live until you're the one filming it.",
+    "quote_author": "@PerthshireMagsce",
+    "quote_source_label": "Twitter",
+    "quote_source_url": "https://x.com/PerthshireMags/status/1549522710539210757",
+    "reference_link": "",
+    "schemas": {
+      "label": "Photograph",
+      "slug": "photograph",
+      "key": "Photograph"
+    },
+    "slug": "photographs-pyrocene",
+    "tags": [
+      "p90g3id4k18k4x1",
+      "b7nv3puch2sf78d",
+      "fvwjbq5laixe87e",
+      "38hr40e1d4x15xl"
+    ],
+    "title": "Photographs of the Pyrocene",
+    "title_short": "Photographs of the Pyrocene",
+    "updated": "2025-01-12 19:37:26.342Z",
+    "url": "https://www.instagram.com/p/DDaQxMky-zR/",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "pyrocene",
+        "slug": "pyrocene"
+      },
+      {
+        "label": "Nature",
+        "slug": "nature"
+      },
+      {
+        "label": "Wildfire",
+        "slug": "wildfire"
+      },
+      {
+        "label": "Media",
+        "slug": "media"
+      }
+    ],
+    "quote_content": "Climate change will manifest as a series of disasters viewed through phones with footage that gets closer and closer to where you live until you're the one filming it.",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "Aftermath of Typhoon Yagi in Haikou, China",
+          "typhoon-yagi-in-haikou-china"
+        ],
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-wildfire-smoke"
+        ],
+        [
+          "Bagger 288 in Lützerath",
+          "bagger-288-in-lutzerath"
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ],
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "The Oldest Living Things in the World",
+          "the-oldest-living-things-in-the-world"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-wildfire-smoke"
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "David Vetter",
+        "slug": "david-vetter"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "comment": "",
+    "connection": [],
+    "content": "<p>An often overlooked fact is <a href=\"https://www.forbes.com/sites/davidrvetter/2024/12/30/why-amid-the-horrors-of-war-ukraine-is-fighting-for-nature/\">the disastrous environmental impact of Russia's war on Ukraine</a>. So far it has caused more than 180 million tonnes of CO₂ equivalent emissions. The displacement of more than 6 million Ukrainian citizens has added another 3.3 million tonnes. &nbsp;<br>Ukraine&rsquo;s long agricultural tradition and its famous fertile <a href=\"https://en.m.wikipedia.org/wiki/Chernozem\">Chernozem</a> soil, which feeds people in 100 countries, has also been severely affected by Russian aggression. With the devastation of Ukrainian territory, 30% of which is now covered with deadly mines, the war can be described as <a href=\"https://en.m.wikipedia.org/wiki/Ecocide\">ecocide</a>.</p>",
+    "created": "2025-01-08 20:35:18.692Z",
+    "date": "2024-12-30 09:46:00.000Z",
+    "description": "Russia’s war on Ukraine has had a devastating environmental impact. From the emission of CO₂, to the destruction of agricultural land, to the devastation of the Ukrainian ecosphere.",
+    "formats": [
+      {
+        "label": "Article",
+        "slug": "article"
+      }
+    ],
+    "id": "twfh1k769i3k7e7",
+    "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [
+      "18b75057ocl7dzl"
+    ],
+    "published": "2025-01-08 21:34:00.000Z",
+    "publisher": {
+      "label": "Forbes",
+      "slug": "forbes"
+    },
+    "quote": "",
+    "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
+    "reference": {
+      "label": "Weekly Filet",
+      "slug": "weekly-filet"
+    },
+    "reference_link": "https://newsletter.weeklyfilet.com/",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
+    "slug": "russia-ecocide",
+    "tags": [
+      "4dh07zvua9r2y1b",
+      "yu422d0ygad26ra"
+    ],
+    "title": "The environmental dimension of Russia’s war on Ukraine",
+    "title_short": "Environmental dimension of Russia’s war",
+    "updated": "2025-01-08 20:48:03.767Z",
+    "url": "https://www.forbes.com/sites/davidrvetter/2024/12/30/why-amid-the-horrors-of-war-ukraine-is-fighting-for-nature/",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "ecocide",
+        "slug": "ecocide"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "climate-485-million-years"
+        ],
+        [
+          "Why climate despair is a luxury",
+          "why-climate-despair-is-a-luxury"
+        ],
+        [
+          "What if climate change meant not doom — but abundance?",
+          "what-if-climate-change-meant-not-doom-but-abundance"
+        ],
+        [
+          "Our Attention Spans Are Being Stolen",
+          "attention-spans"
+        ],
+        [
+          "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
+          "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise..."
+        ],
+        [
+          "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
+          "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren"
+        ],
+        [
+          "There’s no planet B",
+          "theres-no-planet-b"
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "Greta Thunberg",
+        "slug": "greta-thunberg"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "comment": "",
+    "connection": [],
+    "content": "<p>The quote is from <a href=\"https://en.m.wikipedia.org/wiki/Greta_Thunberg\">Greta Thunberg</a>, during a <a href=\"https://www.theguardian.com/environment/2019/apr/23/greta-thunberg-full-speech-to-mps-you-did-not-act-in-time\">magnificent speech</a> in the House of Parliament, United Kingdom, in April 2019.</p>",
+    "created": "2025-01-02 20:49:40.495Z",
+    "date": "2019-04-23 12:00:00.000Z",
+    "description": "In April 2019, Greta Thunberg gave a magnificent speed in the House of Parliament, United Kingdom.",
+    "formats": [
+      {
+        "label": "Talk",
+        "slug": "talk"
+      }
+    ],
+    "id": "eej9z60o67yfhjq",
+    "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [
+      "va0q59z93xbavn8"
+    ],
+    "published": "2025-01-02 21:41:00.000Z",
+    "publisher": {
+      "label": "The Guardian",
+      "slug": "the-guardian"
+    },
+    "quote": "Avoiding climate breakdown will require cathedral thinking. We must lay the foundation while we may not know exactly how to build the ceiling.",
+    "quote_author": "Greta Thunberg",
+    "quote_source_label": "",
+    "quote_source_url": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
+    "slug": "greta-thunberg-house-of-parliament",
+    "tags": [
+      "yu422d0ygad26ra",
+      "bgan5wbkss1tqa5",
+      "991yaahmkskmr6t",
+      "szgsdkhgi47pu4u",
+      "uibq39vbkpnuibt"
+    ],
+    "title": "Greta Thunberg at the Houses of Parliament, United Kingdom",
+    "title_short": "Greta Thunberg at the Houses of Parliament",
+    "updated": "2025-01-02 20:49:40.495Z",
+    "url": "https://www.theguardian.com/environment/2019/apr/23/greta-thunberg-full-speech-to-mps-you-did-not-act-in-time",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "Politics",
+        "slug": "politics"
+      },
+      {
+        "label": "Policy",
+        "slug": "policy"
+      },
+      {
+        "label": "Society",
+        "slug": "society"
+      },
+      {
+        "label": "Activism",
+        "slug": "activism"
+      },
+      {
+        "label": "Protest",
+        "slug": "protest"
+      }
+    ],
+    "quote_content": "Avoiding climate breakdown will require cathedral thinking. We must lay the foundation while we may not know exactly how to build the ceiling.",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+          "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien..."
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "How Air-Conditioning Conquered America",
+          "air-conditioning-america"
+        ],
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "mitigation-options-costs-potentials"
+        ],
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Fall of Civilizations",
+          "fall-of-civilizations"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-wildfire-smoke"
+        ],
+        [
+          "Schiefe Bilder als Klimaprotest",
+          "schiefe-bilder"
+        ],
+        [
+          "Permillion",
+          "permillion"
+        ],
+        [
+          "Bagger 288 in Lützerath",
+          "bagger-288-in-lutzerath"
+        ],
+        [
+          "Half Earth Socialism Game",
+          "half-earth-socialism"
+        ],
+        [
+          "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+          "sunday-read-sustainable-uruguay"
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "Jacob Poushter",
+        "slug": "jacob-poushter"
+      },
+      {
+        "label": "Moira Fagan",
+        "slug": "moira-fagan"
+      },
+      {
+        "label": "Sneha Gubbala",
+        "slug": "sneha-gubbala"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "comment": "",
+    "connection": [],
+    "content": "<p>The <a href=\"https://en.m.wikipedia.org/wiki/Pew_Research_Center\">Pew Research Center</a> <a href=\"https://www.pewresearch.org/global/wp-content/uploads/sites/2/2022/08/PG_2022.08.31_Global-Threats_FINAL.pdf\">released a chart</a> (page 9) illustrating the percentage of people who perceive global climate change as a major threat to their country, segmented by political orientation: left, center, and right. This reveals intriguing differences among countries. In nations like South Korea, France, and Italy, climate change is widely regarded as common sense, almost irrespective of political affiliation. Conversely, in the United States, Australia, and Canada, views on this issue are heavily influenced by political orientation. Another noteworthy finding is Israel, which stands out as the only country where neither side of the political spectrum views climate change as a major threat. Additionally, it is unique in that the center demonstrates more concern about climate change than the left and right, whereas in other countries, the perceived threat tends to increase from right to left.</p>\r\n<p>The results can be viewed as part of the broader phenomenon of the <a href=\"https://en.m.wikipedia.org/wiki/Politicization_of_science\">politicization of science</a>. The graphic, also <a href=\"https://en.m.wikipedia.org/wiki/File:20220831_Climate_change_is_a_%22major_threat%22_to_my_country_-_Pew_survey.svg\">available on Wikimedia Commons</a>, has been utilized in <a href=\"https://en.m.wikipedia.org/wiki/File:20220831_Climate_change_is_a_%22major_threat%22_to_my_country_-_Pew_survey.svg#filelinks\">several other Wikipedia articles</a>.</p>\r\n<p><a href=\"https://www.pewresearch.org/global/2022/08/31/climate-change-remains-top-global-threat-across-19-country-survey/\">The study itself</a> also examined numerous other factors such as gender and age, and compared people&rsquo;s views on climate change to the spread of false information, cyberattacks, the global economy, and infectious diseases.</p>",
+    "created": "2025-01-02 17:12:52.714Z",
+    "date": "2022-08-31 12:00:00.000Z",
+    "description": "The Pew Research Center found that views on climate change as a threat vary by political orientation, with notable differences in countries like the US and Australia.",
+    "formats": [
+      {
+        "label": "Study",
+        "slug": "study"
+      }
+    ],
+    "id": "gflp3wpnmes9cx4",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0",
+      "width": 2602,
+      "height": 3158,
+      "caption": "Spring 2022 Global Attitudes Survey. Q10a.",
+      "alt": "Graph showing the percentage of people who say global climate change is a major threat to their country,\r\namong the political left, center and right in U.S., Australia, Canada, Germany, Sweden, Netherlands, Poland, Belgium, Spain, UK, Israel, Italy, France and South Korea.",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0",
+      "source_url": "https://www.pewresearch.org/global/wp-content/uploads/sites/2/2022/08/PG_2022.08.31_Global-Threats_FINAL.pdf",
+      "source_label": "Pew Research Center, “Climate Change Remains Top Global Threat Across 19-Country Survey”",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0"
+        ],
+        [
+          1800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0"
+        ],
+        [
+          2100,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0"
+        ],
+        [
+          2602,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2602/liegegpyuhvyfj5thsjx?_a=BAMCkGJu0"
+        ]
+      ]
+    },
+    "image_source_label": "Pew Research Center, “Climate Change Remains Top Global Threat Across 19-Country Survey”",
+    "image_source_url": "https://www.pewresearch.org/global/wp-content/uploads/sites/2/2022/08/PG_2022.08.31_Global-Threats_FINAL.pdf",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [],
+    "published": "2025-01-02 18:07:00.000Z",
+    "publisher": {
+      "label": "Pew Research Center",
+      "slug": "pew-research-center"
+    },
+    "quote": "",
+    "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
+    "slug": "political-divisions",
+    "tags": [
+      "pa3elfw03ton9vr",
+      "h4zh134ouuiosbo",
+      "w3agiq4xxjerj14",
+      "yu422d0ygad26ra"
+    ],
+    "title": "Political divisions on climate change",
+    "updated": "2025-01-02 17:39:22.286Z",
+    "url": "https://www.pewresearch.org/global/2022/08/31/climate-change-remains-top-global-threat-across-19-country-survey/",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "Visualisation",
+        "slug": "visualisation"
+      },
+      {
+        "label": "Science",
+        "slug": "science"
+      },
+      {
+        "label": "Attention",
+        "slug": "attention"
+      },
+      {
+        "label": "Politics",
+        "slug": "politics"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [],
+      "formats": [
+        [
+          "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
+          "who-rules-earth-wild-mammals-far-outweighed-by-humans-and..."
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "climate-485-million-years"
+        ],
+        [
+          "For What It’s Worth",
+          "for-what-its-worth"
+        ],
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "mitigation-options-costs-potentials"
+        ],
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Looks like Congress might finally do something about TikTok.",
+          "congress-tiktok"
+        ],
+        [
+          "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
+          "who-rules-earth-wild-mammals-far-outweighed-by-humans-and..."
+        ],
+        [
+          "Our Attention Spans Are Being Stolen",
+          "attention-spans"
+        ],
+        [
+          "Climate change conversations during live commentary",
+          "climate-change-conversation-live-commentary"
+        ],
+        [
+          "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+          "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien..."
+        ],
+        [
+          "100 gute Gründe gegen Atomkraft",
+          "100-gute-grunde-gegen-atomkraft"
+        ],
+        [
+          "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+          "klimabilder-eine-genealogie-globaler-bildpolitiken-von..."
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "Elizabeth Kolbert",
+        "slug": "elizabeth-kolbert"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "comment": "",
+    "connection": [],
+    "content": "<p><a href=\"https://en.m.wikipedia.org/wiki/Elizabeth_Kolbert\">Elizabeth Kolbert</a>, author of the 2015 Pulitzer Prize winning &ldquo;<a href=\"https://en.m.wikipedia.org/wiki/The_Sixth_Extinction:_An_Unnatural_History\">The Sixth Extinction</a>&rdquo; and &ldquo;<a href=\"https://www.penguinrandomhouse.com/books/743289/h-is-for-hope-by-elizabeth-kolbert/\">H is for Hope</a>&rdquo;, writes about the devastating effects of climate change on the Greenland ice sheet. The consequences of its melting will be global, ranging from the obvious rise in sea levels to difficult-to-model effects on the <a href=\"https://en.m.wikipedia.org/wiki/Atlantic_meridional_overturning_circulation\">Atlantic Meridional Overturning Circulation (AMOC)</a> (also listen to \"<a href=\"https://www.nytimes.com/audio/app/2024/08/30/25wired-the-hole-in-the-map.html?referringSource=sharing\">The Hole in the Map of the World</a>\" from the September&ndash;October 2024 issue of Wired at New York Times Audio). The <a href=\"https://www.newyorker.com/magazine/2024/10/14/when-the-arctic-melts\">gripping (and long) article</a> tells the story of <a href=\"https://en.m.wikipedia.org/wiki/Eismitte\">Eismitte</a>, explains the mechanism of <a href=\"https://en.m.wikipedia.org/wiki/Climate_change_feedbacks\">feedback loops</a> and <a href=\"https://en.m.wikipedia.org/wiki/Ice_core\">ice cores</a>.</p>",
+    "created": "2024-11-17 21:41:06.679Z",
+    "date": "2024-10-07 12:00:00.000Z",
+    "description": "The New Yorker article by Elizabeth Kolbert is about the devastating effects of climate change on the Greenland ice sheet.",
+    "formats": [
+      {
+        "label": "Article",
+        "slug": "article"
+      }
+    ],
+    "id": "ihsr96art8szht7",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0",
+      "width": 4265,
+      "height": 3415,
+      "caption": " Photographs of the German expedition and overwintering in Greenland in 1930/31",
+      "alt": "Old photograph of an ice-covered landscape with technical instruments and igloos",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wegener_Expedition-1930_13.jpg#mw-jump-to-license",
+      "source_label": "Wikimedia Commons",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0"
+        ],
+        [
+          1800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0"
+        ],
+        [
+          2100,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0"
+        ],
+        [
+          4265,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_4265/k8wxhss4xcouwxhmzqb1?_a=BAMCkGJu0"
+        ]
+      ]
+    },
+    "image_source_label": "Wikimedia Commons",
+    "image_source_url": "https://commons.wikimedia.org/wiki/File:Wegener_Expedition-1930_13.jpg#mw-jump-to-license",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [
+      "tigbb8p7c66yscg"
+    ],
+    "published": "2024-11-17 22:36:00.000Z",
+    "publisher": {
+      "label": "The New Yorker",
+      "slug": "the-new-yorker"
+    },
+    "quote": "When it comes to tipping systems, the future is in our hands until it isn’t.",
+    "quote_author": "Elizabeth Kolbert",
+    "quote_source_label": "",
+    "quote_source_url": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Article",
+      "slug": "article",
+      "key": "Article"
+    },
+    "slug": "the-arctic-melts",
+    "tags": [
+      "qr52u2kyqskxit6",
+      "49e5d426o274xv7",
+      "qejue48ve72inio",
+      "cev9vkexnmtn6os",
+      "h4zh134ouuiosbo"
+    ],
+    "title": "When the Arctic Melts",
+    "updated": "2025-01-02 17:13:15.870Z",
+    "url": "https://www.newyorker.com/magazine/2024/10/14/when-the-arctic-melts",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "Tipping point",
+        "slug": "tipping-point"
+      },
+      {
+        "label": "Ice",
+        "slug": "ice"
+      },
+      {
+        "label": "Greenland",
+        "slug": "greenland"
+      },
+      {
+        "label": "Arctic",
+        "slug": "arctic"
+      },
+      {
+        "label": "Science",
+        "slug": "science"
+      }
+    ],
+    "quote_content": "When it comes to tipping systems, the future is in our hands until it isn’t.",
+    "related": {
+      "publisher": [
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Looks like Congress might finally do something about TikTok.",
+          "congress-tiktok"
+        ],
+        [
+          "Nuisance Bear",
+          "nuisance-bear"
+        ],
+        [
+          "Haulout",
+          "haulout"
+        ],
+        [
+          "Is Artificial Light Poisoning the Planet?",
+          "is-artificial-light-poisoning-the-planet"
+        ]
+      ],
+      "formats": [
+        [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "Speaking of Nature",
+          "speaking-of-nature"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "climate-485-million-years"
+        ],
+        [
+          "Why climate despair is a luxury",
+          "why-climate-despair-is-a-luxury"
+        ],
+        [
+          "What if climate change meant not doom — but abundance?",
+          "what-if-climate-change-meant-not-doom-but-abundance"
+        ],
+        [
+          "Our Attention Spans Are Being Stolen",
+          "attention-spans"
+        ],
+        [
+          "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
+          "ich-wollte-schon-immer-erzahlen-wie-wir-trotz-klimakrise..."
+        ],
+        [
+          "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
+          "wir-haben-kein-recht-vor-der-klima-krise-zu-kapitulieren"
+        ],
+        [
+          "There’s no planet B",
+          "theres-no-planet-b"
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+          "climate-485-million-years"
+        ],
+        [
+          "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+          "mitigation-options-costs-potentials"
+        ],
+        [
+          "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
+          "who-rules-earth-wild-mammals-far-outweighed-by-humans-and..."
+        ],
+        [
+          "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
+          "sunday-read-amazon-tipping-point"
+        ],
+        [
+          "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+          "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien..."
+        ],
+        [
+          "100 gute Gründe gegen Atomkraft",
+          "100-gute-grunde-gegen-atomkraft"
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
+        "label": "Thomas Flight",
+        "slug": "thomas-flight"
+      }
+    ],
+    "collectionId": "ihpvff9pojwzslu",
+    "collectionName": "posts",
+    "comment": "",
+    "connection": [],
+    "content": "<p>Thomas Flight, who usually analyses films on&nbsp;<a href=\"https://www.youtube.com/@ThomasFlight\">his wonderful YouTube channel</a>, lives in Asheville, North Carolina, USA, which was <a href=\"https://en.m.wikipedia.org/wiki/Effects_of_Hurricane_Helene_in_North_Carolina\">hit by Hurricane Helene</a> in late September 2024. In his <a href=\"https://www.youtube.com/watch?v=HYqgHKAqGv8\">most recent video</a>, Flight reflects on the depiction of disasters in social media, news and documentaries. While these images may inform and raise awareness, they all fail to do so adequately.</p>",
+    "created": "2024-11-17 21:07:16.432Z",
+    "date": "2024-11-08 21:13:00.000Z",
+    "description": "",
+    "formats": [
+      {
+        "label": "Video",
+        "slug": "video"
+      }
+    ],
+    "id": "w7xxkwibymyhqus",
+    "image": {
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0",
+      "width": 3840,
+      "height": 2160,
+      "caption": "What does this image mean to you? How does it make you feel? – Thomas Flight",
+      "alt": "Video still of a destroyed wooden church with flooded and uprooted surroundings",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
+      "sizes": [
+        [
+          300,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0"
+        ],
+        [
+          600,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0"
+        ],
+        [
+          900,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0"
+        ],
+        [
+          1200,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0"
+        ],
+        [
+          1500,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0"
+        ],
+        [
+          1800,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0"
+        ],
+        [
+          2100,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0"
+        ],
+        [
+          3840,
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_3840/cbrl0xdcrj1skaopjeas?_a=BAMCkGJu0"
+        ]
+      ]
+    },
+    "image_source_label": "",
+    "image_source_url": "",
+    "isFavorite": false,
+    "language": {
+      "label": "English",
+      "slug": "english",
+      "key": "en"
+    },
+    "locations": [
+      "yd6epbtfz3ko36g"
+    ],
+    "published": "2024-11-17 21:39:00.000Z",
+    "publisher": {
+      "label": "YouTube.com",
+      "slug": "you-tube-com"
+    },
+    "quote": "",
+    "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
+    "reference_link": "",
+    "schemas": {
+      "label": "Movie",
+      "slug": "movie",
+      "key": "Movie"
+    },
+    "slug": "desater-media-fails",
+    "tags": [
+      "w98y5g1o477uz2a",
+      "2gixmkmbyhvoalk",
+      "38hr40e1d4x15xl"
+    ],
+    "title": "How Disaster Media Fails",
+    "updated": "2025-01-02 17:13:25.386Z",
+    "url": "https://www.youtube.com/watch?v=HYqgHKAqGv8",
+    "video": "",
+    "video_caption": "",
+    "topics": [
+      {
+        "label": "Popculture",
+        "slug": "popculture"
+      },
+      {
+        "label": "Theory",
+        "slug": "theory"
+      },
+      {
+        "label": "Media",
+        "slug": "media"
+      }
+    ],
+    "quote_content": "",
+    "related": {
+      "publisher": [
+        [
+          "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+          "streitraum-emanzipation-und-klima-wovon-wir-uns-befreien..."
+        ]
+      ],
+      "formats": [
+        [
+          "Climate change conversations during live commentary",
+          "climate-change-conversation-live-commentary"
+        ]
+      ],
+      "authors": [],
+      "tags": [
+        [
+          "Photographs of the Pyrocene",
+          "photographs-pyrocene"
+        ],
+        [
+          "Quick—tell us who you’re wearing!",
+          "quick-tell-us-who-youre-wearing"
+        ],
+        [
+          "Looks like Congress might finally do something about TikTok.",
+          "congress-tiktok"
+        ],
+        [
+          "Diablo IV advertising with wildfire smoke",
+          "diablo-iv-wildfire-smoke"
+        ],
+        [
+          "Schiefe Bilder als Klimaprotest",
+          "schiefe-bilder"
+        ],
+        [
+          "Climate change conversations during live commentary",
+          "climate-change-conversation-live-commentary"
+        ],
+        [
+          "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+          "klimabilder-eine-genealogie-globaler-bildpolitiken-von..."
+        ]
+      ]
+    }
+  },
+  {
+    "authors": [
+      {
         "label": "Robin Wall Kimmerer",
         "slug": "robin-wall-kimmerer"
       }
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p><a href=\"https://www.robinwallkimmerer.com/\">Kimmerer</a> argues that &ldquo;the most profound act of linguistic imperialism was the replacement of a language of animacy with one of objectification of nature, which renders the beloved land as lifeless object, the forest as board feet of timber.&rdquo; Her main point of argument is the use of <em>it</em> in the English language for &bdquo;being[s] of the living earth&rdquo;. Derived from the <a href=\"https://en.m.wikipedia.org/wiki/Potawatomi\">Potawatomi</a> &ldquo;<em>Aakibmaadiziiwin</em>&rdquo; (a being of the earth), she suggests the pronoun <em>ki</em>. She believes that words matter, and that a more inclusive pronoun could unlock a new (and ancient) way of thinking that puts human exceptionalism aside and brings us closer to the &ldquo;commonwealth of life.&rdquo; Kimmerer acknowledges that Russian&nbsp; &ndash; and German too &ndash; does &rdquo;embrac[e] animacy in its structure&rdquo; (by not using it pronouns for animals), but still argues for our reflection on language because it &ldquo;reveals unconscious cultural assumptions and exerts some influence over patterns of thought.&rdquo;</p>",
     "created": "2024-10-03 20:15:52.953Z",
     "date": "2024-06-12 18:11:27.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Article",
@@ -20,6 +1050,8 @@
     ],
     "id": "brfvzrl3rxffa1t",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": true,
     "language": {
       "label": "English",
@@ -34,6 +1066,8 @@
     },
     "quote": "Maybe now, in this time when the myth of human exceptionalism has proven illusory, we will listen to intelligences other than our own, to kin.",
     "quote_author": "Robin Wall Kimmerer",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "Dense Discorvery",
       "slug": "dense-discorvery"
@@ -84,6 +1118,14 @@
       "publisher": [],
       "formats": [
         [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
         ],
@@ -97,7 +1139,7 @@
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
@@ -114,6 +1156,10 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Photographs of the Pyrocene",
+          "photographs-pyrocene"
+        ],
         [
           "Can I microdose veganism?",
           "microdose-veganism"
@@ -154,10 +1200,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Utilising 150,000 data points from climate proxies, including fossils and statistical methods such as data assimilation, a team of scientists led by Emily J. Judd has produced the <a href=\"https://www.science.org/doi/10.1126/science.adk3705\">most rigorous reconstruction of Earth&lsquo;s past temperatures</a> to date. The timeline illustrates the historical temperature fluctuations and the correlation between rapid changes in temperature and mass extinctions. The previous higher temperatures may be <a href=\"https://x.com/i/bookmarks?post_id=1837531502512611425\">misinterpreted as evidence against the current climate debate</a>; however, they demonstrate that humans evolved in an icehouse climate. The unprecedented change in temperature also raises concerns, as it indicates that the average temperature could reach 17 &deg;C, which has not been seen for 5 million years.</p>",
     "created": "2024-10-03 18:07:01.731Z",
     "date": "2024-09-19 18:01:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Article",
@@ -166,48 +1214,52 @@
     ],
     "id": "5i6llxiifqr287p",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0",
       "width": 5100,
       "height": 1582,
       "caption": "The Washington Post",
       "alt": "Screenshot of a graph of Earth’s climate over the last 485 million years",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0"
         ],
         [
           2100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0"
         ],
         [
           5100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_5100/jjhpfqrjumx3zcrsnym9?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_5100/jjhpfqrjumx3zcrsnym9?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -222,6 +1274,8 @@
     },
     "quote": "As long as one or two organisms survive, there will always be life. I’m not concerned about that. My concern is what human life looks like. What it means to survive.",
     "quote_author": "Emily J. Judd",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -274,6 +1328,14 @@
       ],
       "formats": [
         [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Speaking of Nature",
           "speaking-of-nature"
         ],
@@ -287,7 +1349,7 @@
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
@@ -304,6 +1366,14 @@
       ],
       "authors": [],
       "tags": [
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
         [
           "For What It’s Worth",
           "for-what-its-worth"
@@ -322,7 +1392,7 @@
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ],
         [
           "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
@@ -352,10 +1422,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>What does more harm: Killing animals (or being vegetarian) or abusing animals (or being vegan)? Along two articles, PJ Vogt and the author of the articles, <a href=\"https://en.m.wikipedia.org/wiki/Annie_Lowrey\">Annie Lowrey</a>, <a href=\"https://pjvogt.substack.com/p/can-i-microdose-veganism\">discuss our irrational relationship with animal rights</a>.</p>\r\n<p>The <a href=\"https://www.theatlantic.com/ideas/archive/2018/11/yellville-turkey-trot/576184/\">first story</a> is about the <a href=\"https://encyclopediaofarkansas.net/entries/turkey-trot-festival-3818/\">Turkey Trot festival</a> in <a href=\"https://en.m.wikipedia.org/wiki/Yellville,_Arkansas\">Yellville, Arkansas</a>, where the annual tradition of dropping about 10 turkeys from a plane has drawn national criticism. But what is more brutal: Dropping birds that cannot fly from a plane, or the 45 million turkeys killed in the US every year (and mostly from the surrounding area).</p>\r\n<p>The <a href=\"https://www.theatlantic.com/ideas/archive/2024/04/alexandre-farms-treatment-of-animals/677980/\">second article</a> looks at the systemic issues that lead to animal suffering. Because organic certification rules (in the US) prohibit the use of antibiotics, cow 13039 suffered from &ldquo;<a href=\"https://www.merckvetmanual.com/eye-diseases-and-disorders/neoplasia-of-the-eye-and-associated-structures/ocular-neoplasia-in-cattle\">eye cancer</a>&rdquo; and was not treated properly. This raises the question of whether to prioritise the health of consumers (who want to avoid milk contaminated with antibiotics) or animal welfare.</p>",
     "created": "2024-09-17 06:16:57.643Z",
     "date": "2024-09-06 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Podcast",
@@ -364,6 +1436,8 @@
     ],
     "id": "3ksqthbqcas74bl",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -380,6 +1454,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast episode",
@@ -412,7 +1488,7 @@
       "formats": [
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Fall of Civilizations",
@@ -420,7 +1496,7 @@
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "Consider the Burying Beetle. (Or Else.)",
@@ -428,7 +1504,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ],
       "authors": [],
@@ -461,10 +1537,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p><a href=\"https://billmckibben.com/bio.html\">Bill McKibben</a>, author of the <a href=\"https://en.m.wikipedia.org/wiki/The_End_of_Nature\">The End of Nature</a> (the book which is regarded as the first book on global warming written for a general audience), uses the newsletter &ldquo;<a href=\"https://billmckibben.substack.com/\">The Crucial Years</a>&rdquo; to directly talk about &ldquo;Working on Winning the Climate Fight&rdquo;</p>",
     "created": "2024-09-11 20:17:50.172Z",
     "date": "",
+    "description": "",
     "formats": [
       {
         "label": "Newsletter",
@@ -473,6 +1551,8 @@
     ],
     "id": "jelfy1cle323wii",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -487,6 +1567,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "Dense Discorvery",
       "slug": "dense-discorvery"
@@ -529,10 +1611,12 @@
     "authors": [],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "I couldn't find the author of this artifact’s image. Any hints to attribute it to the rightful person are welcome.",
     "connection": [],
     "content": "",
     "created": "2024-09-11 19:48:46.653Z",
     "date": "2024-09-08 03:11:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Photograph",
@@ -541,32 +1625,36 @@
     ],
     "id": "ej1918u87zw17mw",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/iqgcpndtaxf4bin08sgy?_a=BAMCkGJu0",
       "width": 1170,
       "height": 1614,
       "caption": "",
       "alt": "A woman sitting on a balcony that is destroyed by a typhoon.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/iqgcpndtaxf4bin08sgy?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/iqgcpndtaxf4bin08sgy?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/iqgcpndtaxf4bin08sgy?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/iqgcpndtaxf4bin08sgy?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/iqgcpndtaxf4bin08sgy?_a=BAMCkGJu0"
         ],
         [
           1170,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1170/iqgcpndtaxf4bin08sgy?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1170/iqgcpndtaxf4bin08sgy?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -577,6 +1665,8 @@
     "published": "2024-09-11 21:48:00.000Z",
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "China in Pictures",
       "slug": "china-in-pictures"
@@ -594,7 +1684,7 @@
     ],
     "title": "Aftermath of Typhoon Yagi in Haikou, China",
     "title_short": "Typhoon Yagi",
-    "updated": "2024-10-15 13:58:36.433Z",
+    "updated": "2024-12-26 14:44:47.984Z",
     "url": "https://x.com/tongbingxue/status/1832587517520179544",
     "video": "",
     "video_caption": "",
@@ -613,12 +1703,16 @@
       "publisher": [],
       "formats": [
         [
+          "Photographs of the Pyrocene",
+          "photographs-pyrocene"
+        ],
+        [
           "The Oldest Living Things in the World",
           "the-oldest-living-things-in-the-world"
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Bagger 288 in Lützerath",
@@ -629,7 +1723,7 @@
       "tags": [
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ]
       ]
     }
@@ -647,10 +1741,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p><a href=\"https://www.nytimes.com/2024/08/16/podcasts/the-daily/air-conditioning-climate-warming.html?\">T<span class=\"--r text-interaction-word-at-cursor-anchor\">his</span> episode of The Daily</a> looks at how air conditioning has become both our answer to a warming planet and a major obstacle to actually tackling it. When <a href=\"https://en.m.wikipedia.org/wiki/Willis_Carrier\">Willis Carrier</a> invented the first version of air conditioning in 1902 (to control the moisture content of printed documents), it suddenly made places like <a href=\"https://weatherspark.com/y/2228/Average-Weather-in-Las-Vegas-Nevada-United-States-Year-Round\">Las Vegas</a>, <a href=\"https://weatherspark.com/y/8813/Average-Weather-in-Dallas-Texas-United-States-Year-Round\">Dallas</a> and <a href=\"https://weatherspark.com/y/9247/Average-Weather-in-Houston-Texas-United-States-Year-Round\">Houston</a>, which had previously been almost uninhabitable, attractive places to live&nbsp;(often requiring an additional <a href=\"https://www.nytimes.com/2023/09/01/podcasts/the-daily/water-supply-arizona.html\">artificial water supply</a>). Because energy was cheap, buildings could be inefficient: glass instead of stone, air conditioning instead of windows, and less clever architectural features like <a href=\"https://www.youtube.com/watch?v=uhbDfi7Ee7k\">window awnings</a>. <span class=\"--l --r lmt__write_highlight_sentence py-[3px] sentence_highlight\">Many people now live in these \"greenhouses\", which are not only very vulnerable to power outages, but also contribute to 30 per cent of greenhouse gases in the United States.</span></p>",
     "created": "2024-08-20 07:44:41.164Z",
     "date": "2024-08-16 06:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Podcast",
@@ -659,6 +1755,8 @@
     ],
     "id": "9srq3oajktuaq4k",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -673,13 +1771,15 @@
     },
     "quote": "Air conditioning has lulled us into thinking that we’re not impacted by how hot it is outside. But it’s also maybe lulled us into thinking like, I’m not the one who needs to particularly change my behavior in any way.",
     "quote_author": "Emily Badger",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast episode",
       "slug": "podcast-episode",
       "key": "PodcastEpisode"
     },
-    "slug": "how-air-conditioning-conquered-america",
+    "slug": "air-conditioning-america",
     "tags": [
       "543fknvjv8enf64",
       "991yaahmkskmr6t",
@@ -687,7 +1787,7 @@
       "6a5m5edyi57f99n"
     ],
     "title": "How Air-Conditioning Conquered America",
-    "updated": "2024-09-02 11:12:22.624Z",
+    "updated": "2024-10-15 18:18:48.826Z",
     "url": "https://www.nytimes.com/2024/08/16/podcasts/the-daily/air-conditioning-climate-warming.html?",
     "video": "",
     "video_caption": "",
@@ -714,7 +1814,7 @@
       "publisher": [
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "Consider the Burying Beetle. (Or Else.)",
@@ -722,7 +1822,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ],
       "formats": [
@@ -736,7 +1836,7 @@
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "Consider the Burying Beetle. (Or Else.)",
@@ -744,7 +1844,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ],
       "authors": [
@@ -754,6 +1854,10 @@
         ]
       ],
       "tags": [
+        [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
         [
           "Aftermath of Typhoon Yagi in Haikou, China",
           "typhoon-yagi-in-haikou-china"
@@ -772,7 +1876,7 @@
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
@@ -780,7 +1884,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ]
     }
@@ -794,10 +1898,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>South African photographer Dillon Marsh combines photography with computer-generated images of material extracted from the landscape he portrays. In the series&nbsp;<a href=\"https://www.dillonmarsh.com/for-what-its-worth\">For What It&rsquo;s Worth</a>, the artist visits former <a href=\"https://www.dillonmarsh.com/copper\">copper</a>, <a href=\"https://www.dillonmarsh.com/diamonds\">diamond</a>, <a href=\"https://www.dillonmarsh.com/gold\">gold</a>, and <a href=\"https://www.dillonmarsh.com/platinum-group-metals\">platinum group metal</a> mines that are now scars on the landscape to create salient visualisation of extraction.&nbsp;</p>\r\n<p>The Palabora mine, <a href=\"https://www.instagram.com/p/CZlkLlIowcc\">pictured</a> above, is almost 2 km wide and over 800 m deep. 4.1 million tonnes of copper have been mined here, but this total is dwarfed by the massive hole left behind.</p>",
     "created": "2024-08-04 23:13:22.962Z",
     "date": "2014-08-26 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Artwork",
@@ -806,40 +1912,44 @@
     ],
     "id": "8ti8dk0fvwjc0cp",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0",
       "width": 1500,
       "height": 1200,
       "caption": "Dillon Marsh – Palabora Mine – 4.1 million tonnes of copper",
       "alt": "Photograph of the Palabora mine  with computer-generated sphere that shows the amount of copper",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/vkw9tndkeq5lztrcc7sh?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -854,6 +1964,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Visual artwork",
@@ -886,11 +1998,15 @@
       "formats": [
         [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ]
       ],
       "authors": [],
       "tags": [
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
         [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
@@ -901,7 +2017,7 @@
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ],
         [
           "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
@@ -919,10 +2035,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>One of the most striking and instructive <a href=\"https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7\">graph</a> in the IPCC's <a href=\"https://www.ipcc.ch/assessment-report/ar6/\">Sixth Assessment Report</a>: It lists the potential contribution to net emissions reductions by 2030 for different migration options in sectors such as energy, AFOLU (Agriculture, Forestry and Other Land Uses), buildings, transport and industry. In addition to the width of the bars, it also shows colour ranges for the cost of the reduction potential of the options.</p>\r\n<p>The areas with the highest potential contributions are solar and wind energy, halting deforestation, better agriculture, strengthening ecosystems and hydrogen in industry.</p>\r\n<p>Wind and solar energy are cheap up to 2 GtCO₂-eq per year, while the often-promised carbon capture is expensive from the outset and has very little potential.</p>\r\n<p>The graphic is part of the <a href=\"https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf\">Summary for Policymakers</a> in &ldquo;Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change&rdquo;.</p>",
     "created": "2024-08-04 22:38:02.805Z",
     "date": "2022-04-04 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Image",
@@ -931,44 +2049,48 @@
     ],
     "id": "j9uez6n86a1gnoz",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0",
       "width": 2016,
       "height": 2612,
       "caption": "IPCC, 2022: Summary for Policymakers – Figure SPM.7",
       "alt": "Bar chart with a list of mitigation options. Each bar is coloured according to its cost.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0"
         ],
         [
           2016,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2016/ehbqyr7rnxtux6nxmfkb?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2016/ehbqyr7rnxtux6nxmfkb?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": true,
     "language": {
       "label": "English",
@@ -983,6 +2105,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "Stefan Rahmstorf",
       "slug": "stefan-rahmstorf"
@@ -1041,12 +2165,24 @@
       "authors": [],
       "tags": [
         [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
         ],
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "For What It’s Worth",
@@ -1062,7 +2198,7 @@
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
@@ -1070,7 +2206,7 @@
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ],
         [
           "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
@@ -1078,11 +2214,11 @@
         ],
         [
           "Half Earth Socialism Game",
-          "half-earth-socialism-game"
+          "half-earth-socialism"
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ],
         [
           "100 gute Gründe gegen Atomkraft",
@@ -1104,10 +2240,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "",
     "created": "2024-08-03 22:19:39.699Z",
     "date": "2020-01-29 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Comic",
@@ -1116,36 +2254,40 @@
     ],
     "id": "w65hqi7pfc2o71v",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/snzh55myl3p4hkz8nghh?_a=BAMCkGJu0",
       "width": 1280,
       "height": 1517,
       "caption": "Emily Bernstein",
       "alt": "Comic of two people are interviewing a third person with a burning city and a meteoroid coming towards earth in the background.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/snzh55myl3p4hkz8nghh?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/snzh55myl3p4hkz8nghh?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/snzh55myl3p4hkz8nghh?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/snzh55myl3p4hkz8nghh?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/snzh55myl3p4hkz8nghh?_a=BAMCkGJu0"
         ],
         [
           1280,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1280/snzh55myl3p4hkz8nghh?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1280/snzh55myl3p4hkz8nghh?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -1160,6 +2302,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Visual artwork",
@@ -1195,8 +2339,12 @@
     "related": {
       "publisher": [
         [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ],
         [
           "Nuisance Bear",
@@ -1214,14 +2362,26 @@
       "formats": [
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ]
       ],
       "authors": [],
       "tags": [
         [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ],
+        [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
@@ -1233,27 +2393,27 @@
         ],
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ]
     }
@@ -1267,10 +2427,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Throughout history, civilisations have fallen and sometimes almost disappeared altogether. <a href=\"https://www.paulmmcooper.com/\">Paul Cooper</a> tells <a href=\"https://fallofcivilizationspodcast.com/\">their stories</a>, but always in relation to our own time: how similar was the <a href=\"https://pca.st/2W95\">Bronze Age&rsquo;s</a> dependence on the eponymous metal to today&rsquo;s dependence on oil?&nbsp;Could the <a href=\"https://pca.st/gq17\">Vikings&rsquo; refusal to adapt in Greenland</a> be similar to today's inactivity? And how could the <a href=\"https://pca.st/77rpr8tu\">Sumerian&rsquo;s change in diet</a> be a role model for us today?</p>\r\n<p>The disappearance of the indigenous people of Easter Island is particularly instructive: in contrast to the commonly told fable of a society responsible for its own downfall, Paul Cooper <a href=\"https://pca.st/gg71\">tells of their fate</a> as the result of Western imperialism.</p>\r\n<p>As well as being interesting, the podcast is excellently produced &ndash; often with multiple narrators and music from the time of the story. In <a href=\"https://www.abc.net.au/listen/programs/bigideas/fall-of-civilisations/103927526\">this interview</a>, Cooper talks about his &ldquo;catalogue of the worst leaders&rdquo;, which is also available as a <a href=\"https://fallofcivilizationspodcast.com/fall-of-civilizations-the-book/\">book</a>.</p>",
     "created": "2024-08-03 21:29:26.844Z",
     "date": "2019-01-21 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Podcast",
@@ -1279,6 +2441,8 @@
     ],
     "id": "ehh709otgp5zvb3",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -1293,6 +2457,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast series",
@@ -1334,11 +2500,11 @@
         ],
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "Consider the Burying Beetle. (Or Else.)",
@@ -1346,18 +2512,22 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ],
       "authors": [],
       "tags": [
+        [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
         [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
         ],
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
@@ -1369,15 +2539,15 @@
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Half Earth Socialism Game",
-          "half-earth-socialism-game"
+          "half-earth-socialism"
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ],
         [
           "100 gute Gründe gegen Atomkraft",
@@ -1395,10 +2565,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
-    "content": "<p>Since 2004, Brooklyn-based artist Rachel Sussman has explored harsh climates from Antarctica to the Mojave Desert to photograph the <a href=\"https://www.rachelsussman.com/oltw\">world&rsquo;s oldest living organisms</a>. This includes <a href=\"https://en.m.wikipedia.org/wiki/Pando_(tree)\">Pando</a>, an aspen colony in Utah with a root system around 80,000 years old, and the <a href=\"https://en.m.wikipedia.org/wiki/Yareta\">Llareta</a> plants in South America, which grow 1.5 cm annually and live for over 3,000 years. Despite their longevity, such ecosystems face threats from climate change and human activity.</p>\r\n<p>Her photographs are meditations on &ldquo;deep time&rdquo; &ndash; <a href=\"https://www.southbankcentre.co.uk/blog/articles/rachel-sussman-deep-time-oldest-living-things-world\">timescales that are outside of our human, physiological experience of time</a> &ndash; and often show the <a href=\"https://www.ted.com/talks/rachel_sussman_the_world_s_oldest_living_things\">most versatile adaptation to the harsh climate conditions</a> these organism are living in.</p>",
+    "content": "<p>Since 2004, Brooklyn-based artist Rachel Sussman has explored harsh climates from Antarctica to the Mojave Desert to photograph the <a href=\"https://www.rachelsussman.com/oltw\">world&rsquo;s oldest living organisms</a>. This includes <a href=\"https://en.m.wikipedia.org/wiki/Pando_(tree)\">Pando</a>, an <a href=\"https://www.nature.com/articles/d41586-024-03570-4\">aspen colony in Utah</a> with a root system around 80,000 years old, and the <a href=\"https://en.m.wikipedia.org/wiki/Yareta\">Llareta</a> plants in South America, which grow 1.5 cm annually and live for over 3,000 years. Despite their longevity, such ecosystems face threats from climate change and human activity.</p>\r\n<p>Her photographs are meditations on &ldquo;deep time&rdquo; &ndash; <a href=\"https://www.southbankcentre.co.uk/blog/articles/rachel-sussman-deep-time-oldest-living-things-world\">timescales that are outside of our human, physiological experience of time</a> &ndash; and often show the <a href=\"https://www.ted.com/talks/rachel_sussman_the_world_s_oldest_living_things\">most versatile adaptation to the harsh climate conditions</a> these organism are living in.</p>",
     "created": "2024-08-03 20:47:37.300Z",
     "date": "2014-04-01 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Book",
@@ -1411,32 +2583,36 @@
     ],
     "id": "oz9q1u5t31pt8lm",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/ol9jyc8ipdf4ijm5clhz?_a=BAMCkGJu0",
       "width": 1000,
       "height": 792,
       "caption": "Spruce Gran Picea #0909 – 11A07 (9,550 years old; Fulufjället, Sweden)",
       "alt": "Photograph of a solitary tree standing on a rocky ground.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/ol9jyc8ipdf4ijm5clhz?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/ol9jyc8ipdf4ijm5clhz?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/ol9jyc8ipdf4ijm5clhz?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/ol9jyc8ipdf4ijm5clhz?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/ol9jyc8ipdf4ijm5clhz?_a=BAMCkGJu0"
         ],
         [
           1000,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1000/ol9jyc8ipdf4ijm5clhz?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1000/ol9jyc8ipdf4ijm5clhz?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": true,
     "language": {
       "label": "English",
@@ -1451,6 +2627,8 @@
     },
     "quote": "It is imperative to the health of the planet, to the longevity of humans as a species, that we connect with timescales that are longer than our own.",
     "quote_author": "Rachel Sussman",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Book",
@@ -1465,7 +2643,7 @@
       "tns3grcobmgn8zw"
     ],
     "title": "The Oldest Living Things in the World",
-    "updated": "2024-08-06 10:33:09.659Z",
+    "updated": "2024-11-17 19:57:29.478Z",
     "url": "https://press.uchicago.edu/ucp/books/book/chicago/O/bo16364599.html",
     "video": "",
     "video_caption": "",
@@ -1492,12 +2670,16 @@
       "publisher": [],
       "formats": [
         [
+          "Photographs of the Pyrocene",
+          "photographs-pyrocene"
+        ],
+        [
           "Aftermath of Typhoon Yagi in Haikou, China",
           "typhoon-yagi-in-haikou-china"
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Is Artificial Light Poisoning the Planet?",
@@ -1515,6 +2697,10 @@
       "authors": [],
       "tags": [
         [
+          "Photographs of the Pyrocene",
+          "photographs-pyrocene"
+        ],
+        [
           "Speaking of Nature",
           "speaking-of-nature"
         ],
@@ -1524,7 +2710,7 @@
         ],
         [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ],
         [
           "Permillion",
@@ -1542,10 +2728,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Agnes Denes (*1931 in Budapest) is a pioneer in conceptual, environmental and ecological art. One of her <a href=\"https://en.m.wikipedia.org/wiki/Wheatfield_%E2%80%94_A_Confrontation\">most striking installations</a> is &ldquo;<a href=\"http://www.agnesdenesstudio.com/works7.html\">Wheatfield - A Confrontation: Battery Park Landfill, Downtown Manhattan</a>&rdquo; from 1982. During a three month period the artist and volunteers planted a wheat field in one of the last undeveloped sections of Manhattan. An area right next to the Twin Towers and Wall Street called <a href=\"https://en.m.wikipedia.org/wiki/Battery_Park_City\">Battery Park City</a>. The artist <a href=\"https://www.nytimes.com/2018/06/14/t-magazine/agnes-denes-art.html\">gained</a> <a href=\"https://www.theguardian.com/artanddesign/2022/jul/18/a-field-of-wheat-on-a-45bn-patch-of-new-york-the-prophetic-eco-art-of-agnes-denes\">more</a> <a href=\"https://www.architecturaldigest.com/story/agnes-denes-prophetic-wheatfield-remains-as-relevant-as-ever\">attention</a> recently, but is still overlooked in her prophetic art.</p>",
     "created": "2024-07-22 10:21:32.361Z",
     "date": "1982-05-01 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Installation",
@@ -1554,48 +2742,52 @@
     ],
     "id": "9qe2hqoo20eghb9",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0",
       "width": 3800,
       "height": 2560,
       "caption": "Photo by John McGrall. Courtesy the artist and Leslie Tonkonow Artworks + Projects.",
       "alt": "Photograph of Agnes Denes standing inside a wheat field with sky scrapers in the background.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0"
         ],
         [
           2100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0"
         ],
         [
           3800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_3800/hpeaamtnef3nc7kwqwgw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_3800/hpeaamtnef3nc7kwqwgw?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -1610,6 +2802,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "Neue Nationalgalerie",
       "slug": "neue-nationalgalerie"
@@ -1652,7 +2846,7 @@
         ],
         [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ],
         [
           "Permillion",
@@ -1660,7 +2854,7 @@
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ]
       ]
     }
@@ -1674,12 +2868,14 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [
       "6i61wlod7qvnykj"
     ],
     "content": "",
     "created": "2024-07-20 10:02:27.016Z",
     "date": "2022-10-19 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Article",
@@ -1688,6 +2884,8 @@
     ],
     "id": "iiyhzpnw1m773dr",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -1702,6 +2900,8 @@
     },
     "quote": "Those facing flood and fire can’t afford to lose hope. Neither should we.",
     "quote_author": "Rebecca Solnit",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -1728,6 +2928,14 @@
       "publisher": [],
       "formats": [
         [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Speaking of Nature",
           "speaking-of-nature"
         ],
@@ -1741,7 +2949,7 @@
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
@@ -1773,7 +2981,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ],
         [
           "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
@@ -1791,10 +2999,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "",
     "created": "2024-07-22 10:16:27.915Z",
     "date": "2023-05-24 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Comic",
@@ -1803,40 +3013,44 @@
     ],
     "id": "g25dz6jyfp0at9p",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/A27686_ktpm2t?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/A27686_ktpm2t?_a=BAMCkGJu0",
       "width": 1500,
       "height": 1500,
       "caption": "John McNamee",
       "alt": "Comic of two people sitting on the roof a small house with water surrounding the house and reaching up to the roof. One person is looking at their phone.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/A27686_ktpm2t?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/A27686_ktpm2t?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/A27686_ktpm2t?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/A27686_ktpm2t?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/A27686_ktpm2t?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/A27686_ktpm2t?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/A27686_ktpm2t?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/A27686_ktpm2t?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/A27686_ktpm2t?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/A27686_ktpm2t?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/A27686_ktpm2t?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/A27686_ktpm2t?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/A27686_ktpm2t?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -1851,20 +3065,22 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Visual artwork",
       "slug": "visual-artwork",
       "key": "VisualArtwork"
     },
-    "slug": "looks-like-congress-might-finally-do-something-about-tik-tok",
+    "slug": "congress-tiktok",
     "tags": [
       "amcy42c38zhh1z1",
       "w98y5g1o477uz2a",
       "w3agiq4xxjerj14"
     ],
     "title": "Looks like Congress might finally do something about TikTok.",
-    "updated": "2024-08-06 10:35:29.176Z",
+    "updated": "2024-10-15 18:18:35.423Z",
     "url": "https://www.newyorker.com/cartoons/daily-cartoon/friday-march-24th-congress-tiktok",
     "video": "",
     "video_caption": "",
@@ -1885,6 +3101,10 @@
     "quote_content": "",
     "related": {
       "publisher": [
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
         [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
@@ -1911,24 +3131,32 @@
       "authors": [],
       "tags": [
         [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ],
+        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ]
       ]
     }
@@ -1942,10 +3170,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p><a href=\"https://twitter.com/Nick_Newman/status/1666510464631595010\">Nick Newman</a> captures a billboard advertising the release of the new <a href=\"https://en.m.wikipedia.org/wiki/Diablo_IV\">Diablo IV</a> computer game while New York is being hit by <a href=\"https://www.nytimes.com/2023/06/09/podcasts/the-daily/wildfire-smoke-new-york.html\">heavy smoke from wildfire smoke in Canada</a>.</p>",
     "created": "2024-07-22 10:11:56.723Z",
     "date": "2023-06-07 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Photograph",
@@ -1954,32 +3184,36 @@
     ],
     "id": "re9uatc7cbmd38v",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/FyCibgvWIAMzFcL_y25iri?_a=BAMCkGJu0",
       "width": 1152,
       "height": 2048,
       "caption": "Nick Newman",
       "alt": "Photograph of an orange sky with a billboard that pictures a devil-like creature and the logo of Diable IV and the statement “Welcome to Hell, New York”.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/FyCibgvWIAMzFcL_y25iri?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/FyCibgvWIAMzFcL_y25iri?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/FyCibgvWIAMzFcL_y25iri?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/FyCibgvWIAMzFcL_y25iri?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/FyCibgvWIAMzFcL_y25iri?_a=BAMCkGJu0"
         ],
         [
           1152,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1152/FyCibgvWIAMzFcL_y25iri?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1152/FyCibgvWIAMzFcL_y25iri?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -1994,20 +3228,22 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Photograph",
       "slug": "photograph",
       "key": "Photograph"
     },
-    "slug": "diablo-iv-advertising-with-wildfire-smoke",
+    "slug": "diablo-iv-wildfire-smoke",
     "tags": [
       "w98y5g1o477uz2a",
       "fvwjbq5laixe87e",
       "991yaahmkskmr6t"
     ],
     "title": "Diablo IV advertising with wildfire smoke",
-    "updated": "2024-08-06 10:37:16.420Z",
+    "updated": "2024-10-15 18:19:07.913Z",
     "url": "https://twitter.com/Nick_Newman/status/1666510464631595010/photo/1",
     "video": "",
     "video_caption": "",
@@ -2030,7 +3266,7 @@
       "publisher": [
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ],
         [
           "Bagger 288 in Lützerath",
@@ -2038,6 +3274,10 @@
         ]
       ],
       "formats": [
+        [
+          "Photographs of the Pyrocene",
+          "photographs-pyrocene"
+        ],
         [
           "Aftermath of Typhoon Yagi in Haikou, China",
           "typhoon-yagi-in-haikou-china"
@@ -2054,8 +3294,20 @@
       "authors": [],
       "tags": [
         [
+          "Photographs of the Pyrocene",
+          "photographs-pyrocene"
+        ],
+        [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ],
+        [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
@@ -2071,19 +3323,19 @@
         ],
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ],
         [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ]
     }
@@ -2097,10 +3349,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>In this <a href=\"https://www.washingtonpost.com/opinions/2023/03/15/rebecca-solnit-climate-change-wealth-abundance/\">article Rebecca Solnit shifts the perspective on climate change</a>: Instead of framing the shift towards a green future as abundance to austerity, we should look at it as freeing from a flagellating state. By getting rid of &ldquo;deadly emissions[&hellip;], nagging feelings of doom and complicity in destruction.&rdquo; We could shift to a &ldquo;sense of security, social connectedness, mental and physical health, and other measures of well-being are often dismal.&rdquo; She shows how this would be an opportunity for &ldquo;a sense of meaning, of deep connection and generosity, of being truly alive in the face of uncertainty. Of joy.&rdquo;</p>",
     "created": "2024-07-22 10:09:20.196Z",
     "date": "2023-03-15 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Article",
@@ -2109,6 +3363,8 @@
     ],
     "id": "1asyepfsej62h0c",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -2123,6 +3379,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -2154,6 +3412,14 @@
       ],
       "formats": [
         [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Speaking of Nature",
           "speaking-of-nature"
         ],
@@ -2167,7 +3433,7 @@
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
@@ -2199,7 +3465,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ],
         [
           "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
@@ -2221,10 +3487,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>November 2022 hatten Aktivisti der Letzten Generation im Wiener Leopold Museum das Schutzglas eines Klimt-Bildes mit <a href=\"https://twitter.com/letztegenAT/status/1592461949719437312\">&Ouml;l besch&uuml;ttet und sich daran festgeklebt</a>. Der Museumsdirektor Hans-Peter Wipplinger hatte die Aktion damals als inhaltlich richtig aber formell kontraproduktiv kritisiert.</p>\r\n<p>Nun hat das Museum eine eigene Form der Aufmerksamkeitsgenerierung gefunden und <a href=\"https://www.weltkunst.de/kunstwissen/2023/03/leopold-museum-klima-schieflage\">15 Kunstwerke schief aufgehangen</a>. Die Neigung der Bilder skaliert dabei mit dem Temperaturanstieg in den entsprechend gezeigten Orten.</p>",
     "created": "2024-07-22 10:05:33.845Z",
     "date": "2023-03-21 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Artwork",
@@ -2233,36 +3501,40 @@
     ],
     "id": "u2htqw65423ztjc",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMCkGJu0",
       "width": 1282,
       "height": 962,
       "caption": "Andreas Jakwerth/Leopold Museum, Wien/dpa",
       "alt": "Zwei Menschen stehen vor einem schräg aufgehängtem Bild.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMCkGJu0"
         ],
         [
           1282,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1282/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1282/Klima_Schieflage_Mus_77401807-1282x962_knmwnf?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "German",
@@ -2277,20 +3549,22 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Visual artwork",
       "slug": "visual-artwork",
       "key": "VisualArtwork"
     },
-    "slug": "schiefe-bilder-als-klimaprotest",
+    "slug": "schiefe-bilder",
     "tags": [
       "uibq39vbkpnuibt",
       "w98y5g1o477uz2a",
       "e7g701bpr9rpyf7"
     ],
     "title": "Schiefe Bilder als Klimaprotest",
-    "updated": "2024-08-06 10:37:58.954Z",
+    "updated": "2024-10-16 12:51:35.441Z",
     "url": "https://www.weltkunst.de/kunstwissen/2023/03/leopold-museum-klima-schieflage",
     "video": "",
     "video_caption": "",
@@ -2320,6 +3594,14 @@
       "authors": [],
       "tags": [
         [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ],
+        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
         ],
@@ -2333,11 +3615,11 @@
         ],
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Permillion",
@@ -2345,7 +3627,7 @@
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ],
         [
           "Bagger 288 in Lützerath",
@@ -2367,10 +3649,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p><a tabindex=\"0\" href=\"https://en.m.wikipedia.org/wiki/Churchill,_Manitoba\" rel=\"noopener noreferrer\" data-token-index=\"0\">Churchill</a> is a town in northern Canada that is famous for migrating polar bears. The <a tabindex=\"0\" href=\"https://www.nuisancebearfilm.com/\" rel=\"noopener noreferrer\" data-token-index=\"2\">shortfilm</a> (14&rsquo;, 2022) documents clash between human infrastructure and animal, but also the tourism resulting from the spectacle. It leaves you with the question who the nuisance is.<!-- notionvc: d12f71e4-9e2e-46e7-a2fe-1b65d38c8a2b --></p>\r\n<p>The film is produced by <a tabindex=\"0\" href=\"https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone\" rel=\"noopener noreferrer\" data-token-index=\"1\">The New Yorker</a> and is available on <a href=\"https://vimeo.com/781627907\">Vimeo</a> and <a tabindex=\"0\" href=\"https://www.youtube.com/watch?v=kUdvgsgwvDY\" rel=\"noopener noreferrer\" data-token-index=\"3\">YouTube</a>.<!-- notionvc: 1ac3548a-0aa6-4def-842a-242a5b85a3df --></p>",
     "created": "2024-07-21 19:59:24.231Z",
     "date": "2022-10-19 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Shortfilm",
@@ -2379,6 +3663,8 @@
     ],
     "id": "77vrdbqfpwq2kni",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -2393,6 +3679,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Movie",
@@ -2433,12 +3721,16 @@
     "related": {
       "publisher": [
         [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
         ],
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ],
         [
           "Haulout",
@@ -2497,10 +3789,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>The shortfilm (2022, 25&prime;) documents walrus haulouts &ndash; large gatherings of walruses seeking refuge on shore when their search for remaining sea ice forces them to swim much farther and farther distances.<!-- notionvc: 69b696e2-a3c7-47a3-be2c-f6d875c02464 --></p>\r\n<p>The marine biologist Maxim Chakilev records these dramatic gatherings in Cape Serdtse-Kamen, Russia. Living together with the scientist in a small, wooden hut surrounded by thousands of walruses, the film team captures the intense atmosphere and suffering of the animals. And the helplessness of Maxim.<!-- notionvc: 51963c58-c895-43f6-80ed-9c6c456fe91d --></p>\r\n<p>The film is produced by The New Yorker (which provide <a tabindex=\"0\" href=\"https://www.newyorker.com/culture/the-new-yorker-documentary/where-walruses-go-when-sea-ice-is-gone\" rel=\"noopener noreferrer\" data-token-index=\"1\">valuable background information on the film</a>), is shortlisted for the 2023 Oscars and premiered 2022 at <a tabindex=\"0\" href=\"https://www.berlinale.de/en/2022/programme/202205576.html\" rel=\"noopener noreferrer\" data-token-index=\"3\">Berlinale</a>. It is currently disabled on <a tabindex=\"0\" href=\"https://www.youtube.com/watch?v=8mKBZ9dy5fQ\" rel=\"noopener noreferrer\" data-token-index=\"5\">YouTube</a>, which might be due to the Oscar nomination, but is still available at <a tabindex=\"0\" href=\"https://news.yahoo.com/video/haulout-melting-sea-ice-pushes-110000333.html?guccounter=1\" rel=\"noopener noreferrer\" data-token-index=\"7\">Yahoo</a>.<!-- notionvc: 2ec81bd5-1b4a-44db-9ad2-9abcb536b988 --></p>",
     "created": "2024-07-21 19:53:25.100Z",
     "date": "2022-11-21 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Shortfilm",
@@ -2509,6 +3803,8 @@
     ],
     "id": "x54u2ri7d1l1kh0",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": true,
     "language": {
       "label": "English",
@@ -2523,6 +3819,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Movie",
@@ -2563,12 +3861,16 @@
     "related": {
       "publisher": [
         [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
         ],
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ],
         [
           "Nuisance Bear",
@@ -2623,10 +3925,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>A team of scientists from the University of W&uuml;rzburg published an updated estimates of weight of biomass on earth by category. Wild land mammals have a total biomass of 22 million tons. Marine mammals account for 40 million tons. These numbers are far overshadowed by 390 million tons of human biomass and 630 million tons of livestock and other hangers-on such as urban rats.</p>\r\n<p>Reading the list of numbers in the <a href=\"https://www.science.org/content/article/who-rules-earth-wild-mammals-far-outweighed-humans-and-domestic-animals\">article</a> makes me wish for a visualisation, that would make the relations and categories much clearer.</p>\r\n<p>But at the very end, the article reveals another insight. But this time, it&rsquo;s about the thinking of one of the involved scientists, which could be read as representative of Western thinking about nature in general: &ldquo;We can only conserve what we understand, and we can only truly understand what we can quantify.&rdquo;</p>",
     "created": "2024-07-21 20:53:04.659Z",
     "date": "2023-02-27 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Study",
@@ -2635,6 +3939,8 @@
     ],
     "id": "s62x1iuzsoyt1bw",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -2649,6 +3955,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -2678,9 +3986,22 @@
     "quote_content": "",
     "related": {
       "publisher": [],
-      "formats": [],
+      "formats": [
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ]
+      ],
       "authors": [],
       "tags": [
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
         [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
@@ -2713,10 +4034,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Light pollution is an often overlooked environmental problem. In his &ldquo;<a href=\"https://www.penguin.co.uk/books/447865/the-darkness-manifesto-by-eklof-johan/9781847927156\">The Darkness Manifesto</a>&rdquo;, the Swedish ecologist Johan Ekl&ouml;f describes the various problems the lid-up night sky has for animals and plants. But also the effects of screens and other light sources for humans.</p>",
     "created": "2024-07-22 09:58:48.334Z",
     "date": "2023-02-20 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Book",
@@ -2725,6 +4048,8 @@
     ],
     "id": "q0ie38eb47i57vz",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -2739,6 +4064,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Article",
@@ -2774,12 +4101,16 @@
     "related": {
       "publisher": [
         [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
         ],
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ],
         [
           "Nuisance Bear",
@@ -2820,7 +4151,7 @@
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "Consider the Burying Beetle. (Or Else.)",
@@ -2842,10 +4173,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>It might not look like much but it's probably the most defining number of our time, one that will shape this century and many beyond it. It is the amount, in parts-per-million, of <a href=\"https://en.m.wikipedia.org/wiki/Carbon_dioxide_in_Earth%27s_atmosphere\">carbon dioxide in our planet's atmosphere</a>. This <a href=\"https://julianoliver.com/projects/permillion/\">project</a> by <a href=\"https://julianoliver.com/\">Julian Oliver</a> and <a href=\"http://www.yugo.at/\">Gardan Savičić</a> displays this number on your smartphone.</p>",
     "created": "2024-07-21 20:48:14.866Z",
     "date": "2023-02-23 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Website",
@@ -2854,40 +4187,44 @@
     ],
     "id": "w04hcgjoetgitsv",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0",
       "width": 1762,
       "height": 1177,
       "caption": "",
       "alt": "",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0"
         ],
         [
           1762,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1762/s370in4b5hzg8pluvkrw?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1762/s370in4b5hzg8pluvkrw?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": true,
     "language": {
       "label": "English",
@@ -2902,6 +4239,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "Julian Oliver",
       "slug": "julian-oliver"
@@ -2949,6 +4288,10 @@
       "authors": [],
       "tags": [
         [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
           "The Oldest Living Things in the World",
           "the-oldest-living-things-in-the-world"
         ],
@@ -2958,7 +4301,7 @@
         ],
         [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ],
         [
           "Bagger 288 in Lützerath",
@@ -2984,10 +4327,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "",
     "created": "2024-07-21 20:16:46.681Z",
     "date": "2023-02-02 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Article",
@@ -2996,6 +4341,8 @@
     ],
     "id": "xujb8grwu3jtyzo",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -3010,6 +4357,8 @@
     },
     "quote": "If we did go back to sleeping as much as we need to, as much as we did a century ago, then that would cause a huge recession as people would consume an hour less every day.",
     "quote_author": "Dr. Charles Czeisler",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "Dense Discorvery",
       "slug": "dense-discorvery"
@@ -3020,14 +4369,14 @@
       "slug": "article",
       "key": "Article"
     },
-    "slug": "our-attention-spans-are-being-stolen",
+    "slug": "attention-spans",
     "tags": [
       "w3agiq4xxjerj14",
       "lei1ymcyrz3jd1u",
       "c5ifgkr9e7l91y5"
     ],
     "title": "Our Attention Spans Are Being Stolen",
-    "updated": "2024-07-21 20:16:46.681Z",
+    "updated": "2024-10-15 18:19:57.908Z",
     "url": "https://atmos.earth/johann-hari-stolen-focus-concentration-span-attention-economy-climate-action",
     "video": "",
     "video_caption": "",
@@ -3049,6 +4398,14 @@
     "related": {
       "publisher": [],
       "formats": [
+        [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
         [
           "Speaking of Nature",
           "speaking-of-nature"
@@ -3081,6 +4438,10 @@
       "authors": [],
       "tags": [
         [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
           "Quick—tell us who you’re wearing!",
           "quick-tell-us-who-youre-wearing"
         ],
@@ -3090,7 +4451,7 @@
         ],
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ]
       ]
     }
@@ -3108,10 +4469,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "",
     "created": "2024-07-21 20:13:09.918Z",
     "date": "2023-02-10 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Article",
@@ -3120,6 +4483,8 @@
     ],
     "id": "p4eg5vdtb0s27m5",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "German",
@@ -3134,6 +4499,8 @@
     },
     "quote": "Versetzen Sie sich für einen Moment in die nähere Zukunft, sagen wir ins Jahr 2141. Was passiert? Sie schauen zurück, nerven sich über die vergangene Zeit, lachen vielleicht. Sie blicken auf Ihre eigene Gegenwart, so wie Sie heute in einem Museum auf die Viktorianer oder Wilhelm Tell zurückschauen würden. Man fühlt sich dabei überlegen, weil man lebt und die anderen tot sind; weil man Dinge weiss, die die anderen damals nicht wussten; weil sie Fehler begingen, die in Zukunft offensichtlich sind. Wenn Sie dann wieder aus dem Jahr 2141 in die Gegenwart zurück­kehren, dann werden Sie verstehen, dass auch Sie Teil eines historischen Prozesses sind, an den man sich später erinnern wird und den Sie mit Ihren Handlungen beeinflussen.",
     "quote_author": "Kim Stanley Robinson",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "David Bauer",
       "slug": "david-bauer"
@@ -3174,6 +4541,14 @@
       ],
       "formats": [
         [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Speaking of Nature",
           "speaking-of-nature"
         ],
@@ -3191,7 +4566,7 @@
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
@@ -3219,10 +4594,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>The <a tabindex=\"0\" href=\"https://en.m.wikipedia.org/wiki/Warming_stripes\" rel=\"noopener noreferrer\" data-token-index=\"1\">warming stripes</a> by <a tabindex=\"0\" href=\"https://www.met.reading.ac.uk/~ed/home/index.php\" rel=\"noopener noreferrer\" data-token-index=\"3\">Ed Hawkins</a> achieved what only few images and even less data visualisations did: they became an icon. Due to their simplicity they managed the gap between science and pop culture. They communicate their message without any explicit legend and reached a point where the pure display conveys a political message. And when the Reading FC football club wore the warming stripes on their jersey, they might have triggered the first <a tabindex=\"0\" href=\"https://twitter.com/ed_hawkins/status/1619456016638427136?s=20\" rel=\"noopener noreferrer\" data-token-index=\"5\">climate change conversation during live commentary of a football match</a>.<!-- notionvc: 2932bab5-e596-4b90-825f-bb43acb27d4e --></p>",
     "created": "2024-07-21 20:09:50.719Z",
     "date": "2023-01-28 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Video",
@@ -3231,6 +4608,8 @@
     ],
     "id": "xpoqvlqgux3h18o",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -3245,19 +4624,21 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "TV Episode",
       "slug": "tv-episode",
       "key": "TVEpisode"
     },
-    "slug": "climate-change-conversations-during-live-commentary",
+    "slug": "climate-change-conversation-live-commentary",
     "tags": [
       "pa3elfw03ton9vr",
       "w98y5g1o477uz2a"
     ],
     "title": "Climate change conversations during live commentary",
-    "updated": "2024-09-02 11:11:46.839Z",
+    "updated": "2024-10-15 18:20:23.477Z",
     "url": "https://twitter.com/ed_hawkins/status/1619456016638427136?s=20",
     "video": "uodvujif2g6v8mxvzb3w",
     "video_caption": "",
@@ -3276,16 +4657,29 @@
       "publisher": [
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Bagger 288 in Lützerath",
           "bagger-288-in-lutzerath"
         ]
       ],
-      "formats": [],
+      "formats": [
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ]
+      ],
       "authors": [],
       "tags": [
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ],
         [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
@@ -3304,15 +4698,15 @@
         ],
         [
           "Looks like Congress might finally do something about TikTok.",
-          "looks-like-congress-might-finally-do-something-about-tik-tok"
+          "congress-tiktok"
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ],
         [
           "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
@@ -3334,10 +4728,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Some Brazilian scientists fear that the Amazon may become a grassy savanna &mdash; with profound effects on the climate worldwide.<!-- notionvc: 07411b18-ba52-4062-9ca5-8d009e5420ce --></p>",
     "created": "2024-07-21 20:05:11.998Z",
     "date": "2023-01-29 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Podcast",
@@ -3346,6 +4742,8 @@
     ],
     "id": "y2iu9zo4wpp8q01",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -3360,20 +4758,23 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast episode",
       "slug": "podcast-episode",
       "key": "PodcastEpisode"
     },
-    "slug": "the-sunday-read-has-the-amazon-reached-its-tipping-point",
+    "slug": "sunday-read-amazon-tipping-point",
     "tags": [
       "qr52u2kyqskxit6",
       "xrpst36djjaxj2f",
       "ujtu9f6i6jfmi47"
     ],
     "title": "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-    "updated": "2024-07-21 20:05:48.122Z",
+    "title_short": "Has the Amazon Reached Its “Tipping Point”?",
+    "updated": "2024-10-15 18:21:11.986Z",
     "url": "https://www.nytimes.com/2023/01/29/podcasts/the-daily/amazon-rainforest-deforestation.html",
     "video": "",
     "video_caption": "",
@@ -3396,7 +4797,7 @@
       "publisher": [
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Consider the Burying Beetle. (Or Else.)",
@@ -3404,7 +4805,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ],
       "formats": [
@@ -3414,7 +4815,7 @@
         ],
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Fall of Civilizations",
@@ -3426,11 +4827,15 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ],
       "authors": [],
       "tags": [
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
         [
           "Is Artificial Light Poisoning the Planet?",
           "is-artificial-light-poisoning-the-planet"
@@ -3459,10 +4864,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>The story behind an ambitious new global agreement to protect biodiversity.<!-- notionvc: 98645f63-6376-4d98-b3d6-00c4b85d3abb --></p>",
     "created": "2024-07-20 10:27:24.682Z",
     "date": "2023-01-06 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Podcast",
@@ -3471,6 +4878,8 @@
     ],
     "id": "ze49xideou30wmw",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -3485,6 +4894,8 @@
     },
     "quote": "Climate change presents a near-term threat to the future of human civilization. The biodiversity crisis presents a longer term threat to the viability of the human species.",
     "quote_author": "Katharine Hayhoe",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast episode",
@@ -3511,15 +4922,15 @@
       "publisher": [
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ],
       "formats": [
@@ -3529,7 +4940,7 @@
         ],
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Fall of Civilizations",
@@ -3537,17 +4948,17 @@
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ],
       "authors": [
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ]
       ],
       "tags": [
@@ -3557,7 +4968,7 @@
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ]
       ]
     }
@@ -3571,10 +4982,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p><a tabindex=\"0\" href=\"https://www.mariusmichusch.de/\" rel=\"noopener noreferrer\" data-token-index=\"0\">Marius Michusch</a> photographs three police officers protecting <a tabindex=\"0\" href=\"https://en.m.wikipedia.org/wiki/Bagger_288\" rel=\"noopener noreferrer\" data-token-index=\"2\">Bagger 288</a> from protesters in the L&uuml;tzerath open pit mine.<!-- notionvc: 44764f8d-2ebc-459e-bd40-5acf1890992d --></p>",
     "created": "2024-07-20 10:23:43.948Z",
     "date": "2023-01-04 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Photograph",
@@ -3583,48 +4996,52 @@
     ],
     "id": "9qfq6dn8b3tjw0k",
     "image": {
-      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0",
+      "url": "https://res.cloudinary.com/dtnhgwnqe/image/upload/f_auto,q_auto/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0",
       "width": 4096,
       "height": 2731,
       "caption": "Marius Michusch",
       "alt": "Photograph of three people with police armour standing in front of a partly visible bucket-wheel excavator.",
-      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0",
-      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0",
+      "url_rss": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fit,f_auto,h_400,q_auto,w_400/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0",
+      "url_preview": "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_fill,f_auto,g_auto,h_630,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0",
+      "source_url": "",
+      "source_label": "",
       "sizes": [
         [
           300,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_300/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0"
         ],
         [
           600,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_600/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0"
         ],
         [
           900,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_900/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0"
         ],
         [
           1200,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1200/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0"
         ],
         [
           1500,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1500/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0"
         ],
         [
           1800,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_1800/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0"
         ],
         [
           2100,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_2100/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0"
         ],
         [
           4096,
-          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_4096/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMAH2Ju0"
+          "https://res.cloudinary.com/dtnhgwnqe/image/upload/c_scale,f_auto,q_auto,w_4096/Flpi0eoXwBcT2Ud_uanvbu_ubagwd?_a=BAMCkGJu0"
         ]
       ]
     },
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "German",
@@ -3639,6 +5056,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Photograph",
@@ -3675,14 +5094,18 @@
       "publisher": [
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ]
       ],
       "formats": [
+        [
+          "Photographs of the Pyrocene",
+          "photographs-pyrocene"
+        ],
         [
           "Aftermath of Typhoon Yagi in Haikou, China",
           "typhoon-yagi-in-haikou-china"
@@ -3693,14 +5116,18 @@
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ]
       ],
       "authors": [],
       "tags": [
         [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
           "Schiefe Bilder als Klimaprotest",
-          "schiefe-bilder-als-klimaprotest"
+          "schiefe-bilder"
         ],
         [
           "Permillion",
@@ -3726,10 +5153,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Der russische Angriffskrieg in der Ukraine hat blo&szlig;gelegt, was Klimaforscher_innen schon lange kritisierten: die Abh&auml;ngigkeit von fossilen Energien (und von totalit&auml;ren Regimen). Die ewigen Verschleppungstaktiken beim sozial-&ouml;kologischen Umbau der Gesellschaften hin zu einer nachhaltigeren Form des globalen Miteinanders k&ouml;nnen wir uns nicht mehr leisten. Wie lassen sich die miteinander verschr&auml;nkten Krisen aus Krieg, Klimakrise und der Gefahr autorit&auml;rer, faschistischer Bewegungen analysieren und beantworten?<!-- notionvc: 8907f276-4e22-43e2-af83-b57102d3d45c --></p>",
     "created": "2024-07-20 10:20:37.142Z",
     "date": "2022-12-18 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Talk",
@@ -3738,6 +5167,8 @@
     ],
     "id": "zqo6lkqydw2rgpv",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "German",
@@ -3752,6 +5183,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Conversation",
@@ -3785,17 +5218,35 @@
     ],
     "quote_content": "",
     "related": {
-      "publisher": [],
-      "formats": [],
+      "publisher": [
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ]
+      ],
+      "formats": [
+        [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ]
+      ],
       "authors": [],
       "tags": [
+        [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
         [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
         ],
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
@@ -3833,10 +5284,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Scenarios about our future are generated with&nbsp;<a tabindex=\"0\" href=\"https://climatescenarios.org/primer/\" rel=\"noopener noreferrer\" data-token-index=\"1\">models</a>&nbsp;that calculate climate impacts based on various variables like energy mix, policy decisions and population development. What if you could set these variables and let the simulation evolve? The planetary crisis panning game&nbsp;<a tabindex=\"0\" href=\"https://play.half.earth/\" rel=\"noopener noreferrer\" data-token-index=\"3\">Half Earth Socialism</a>&nbsp;allows for just that. Using the open-source model&nbsp;<a tabindex=\"0\" href=\"https://jgcri.github.io/hector/\" rel=\"noopener noreferrer\" data-token-index=\"5\">Hector</a>,&nbsp;<a tabindex=\"0\" href=\"https://frnsys.com/\" rel=\"noopener noreferrer\" data-token-index=\"7\">Francis Tseng</a>&nbsp;and&nbsp;<a tabindex=\"0\" href=\"https://www.son-la.co/\" rel=\"noopener noreferrer\" data-token-index=\"9\">Son La Pham</a>&nbsp;(with the help of other&nbsp;<a tabindex=\"0\" href=\"https://www.half.earth/credits\" rel=\"noopener noreferrer\" data-token-index=\"11\">designers, researchers, and artists</a>) created a format that kept me engaged for 4 hours straight with the myriad of tweaks and trade-offs of climate policy. The game is lovingly designed and embellished with myriad narrative details and an entertaining political embedding by borrowing from the&nbsp;book <a tabindex=\"0\" href=\"https://www.half.earth/\" rel=\"noopener noreferrer\" data-token-index=\"13\">Half Earth Socialism</a>. And when no settings you try, works out, a look at&nbsp;<a tabindex=\"0\" href=\"https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-7/\" rel=\"noopener noreferrer\" data-token-index=\"15\">this IPCC figure</a>&nbsp;might help.<!-- notionvc: ef6c111e-1c91-4990-9390-5bf8ba2d2fd7 --></p>",
     "created": "2024-07-20 10:07:24.982Z",
     "date": "2022-05-07 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Game",
@@ -3845,6 +5298,8 @@
     ],
     "id": "qb4ztd0p2l62cld",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": true,
     "language": {
       "label": "English",
@@ -3859,6 +5314,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "Kim",
       "slug": "kim"
@@ -3869,14 +5326,14 @@
       "slug": "video-game",
       "key": "VideoGame"
     },
-    "slug": "half-earth-socialism-game",
+    "slug": "half-earth-socialism",
     "tags": [
       "xvy0yzm7zdmm0bt",
       "lzx69t0trqshvt1",
       "bgan5wbkss1tqa5"
     ],
     "title": "Half Earth Socialism Game",
-    "updated": "2024-07-20 10:07:24.982Z",
+    "updated": "2024-10-16 12:51:59.524Z",
     "url": "https://play.half.earth/",
     "video": "",
     "video_caption": "",
@@ -3901,6 +5358,10 @@
       "authors": [],
       "tags": [
         [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
           "mitigation-options-costs-potentials"
         ],
@@ -3910,7 +5371,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ],
         [
           "100 gute Gründe gegen Atomkraft",
@@ -3932,10 +5393,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>No greater challenge faces humanity than reducing emissions without backsliding into preindustrial poverty. One tiny country is leading the way.<!-- notionvc: 729bacd4-0317-458e-9dd6-af12836dceea --></p>",
     "created": "2024-07-20 10:10:32.823Z",
     "date": "2022-11-20 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Podcast",
@@ -3944,6 +5407,8 @@
     ],
     "id": "4nyyc46752yo3js",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -3958,20 +5423,23 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Podcast episode",
       "slug": "podcast-episode",
       "key": "PodcastEpisode"
     },
-    "slug": "the-sunday-read-what-does-sustainable-living-look-like...",
+    "slug": "sunday-read-sustainable-uruguay",
     "tags": [
       "991yaahmkskmr6t",
       "lzx69t0trqshvt1",
       "ptpbk4nicqrykya"
     ],
     "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-    "updated": "2024-07-20 10:10:32.823Z",
+    "title_short": "What Does Sustainable Living Look Like? Maybe Like Uruguay",
+    "updated": "2024-10-15 18:20:56.918Z",
     "url": "https://www.nytimes.com/2022/11/20/podcasts/the-daily/uruguay-sustainable-living.html",
     "video": "",
     "video_caption": "",
@@ -3994,11 +5462,11 @@
       "publisher": [
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "Consider the Burying Beetle. (Or Else.)",
@@ -4012,7 +5480,7 @@
         ],
         [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Fall of Civilizations",
@@ -4020,7 +5488,7 @@
         ],
         [
           "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
-          "the-sunday-read-has-the-amazon-reached-its-tipping-point"
+          "sunday-read-amazon-tipping-point"
         ],
         [
           "Consider the Burying Beetle. (Or Else.)",
@@ -4030,8 +5498,12 @@
       "authors": [],
       "tags": [
         [
+          "Greta Thunberg at the Houses of Parliament, United Kingdom",
+          "greta-thunberg-house-of-parliament"
+        ],
+        [
           "How Air-Conditioning Conquered America",
-          "how-air-conditioning-conquered-america"
+          "air-conditioning-america"
         ],
         [
           "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
@@ -4051,7 +5523,7 @@
         ],
         [
           "Diablo IV advertising with wildfire smoke",
-          "diablo-iv-advertising-with-wildfire-smoke"
+          "diablo-iv-wildfire-smoke"
         ],
         [
           "What if climate change meant not doom — but abundance?",
@@ -4059,7 +5531,7 @@
         ],
         [
           "Half Earth Socialism Game",
-          "half-earth-socialism-game"
+          "half-earth-socialism"
         ],
         [
           "100 gute Gründe gegen Atomkraft",
@@ -4089,10 +5561,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Filmmakers travel to six continents and 20 countries to document the impact humans have made on the planet.<!-- notionvc: d5c43c9f-049d-487f-a455-4ff5bbf23a1e --></p>",
     "created": "2024-07-20 10:14:25.242Z",
     "date": "2019-09-29 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Movie",
@@ -4101,6 +5575,8 @@
     ],
     "id": "xarbrf46tusa1my",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": true,
     "language": {
       "label": "English",
@@ -4115,6 +5591,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Movie",
@@ -4162,10 +5640,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Alle Gr&uuml;nde von #1 bis #100 auf einer Seite oder &ndash; der &Uuml;bersicht halber &ndash; sortiert in sieben farbig markierten Kategorien angezeigt.<!-- notionvc: 53a96cc0-bf5c-4c4e-8405-3e72c1f499e8 --></p>",
     "created": "2024-07-20 10:16:25.501Z",
     "date": "",
+    "description": "",
     "formats": [
       {
         "label": "Website",
@@ -4174,6 +5654,8 @@
     ],
     "id": "8d0d222q1a7fmmc",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "German",
@@ -4188,6 +5670,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Guide",
@@ -4226,6 +5710,14 @@
       "authors": [],
       "tags": [
         [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
         ],
@@ -4247,11 +5739,11 @@
         ],
         [
           "Half Earth Socialism Game",
-          "half-earth-socialism-game"
+          "half-earth-socialism"
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ]
     }
@@ -4265,10 +5757,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Menschen, die gegen Flut und Feuer k&auml;mpfen, k&ouml;nnen es sich nicht leisten, die Hoffnung zu verlieren. Warum also sollten wir das tun?<!-- notionvc: 8e04290c-2892-443a-9bb8-ed10467cb909 --></p>",
     "created": "2024-07-20 09:39:47.524Z",
     "date": "2023-01-16 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Article",
@@ -4277,6 +5771,8 @@
     ],
     "id": "6i61wlod7qvnykj",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "German",
@@ -4291,6 +5787,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "David Bauer",
       "slug": "david-bauer"
@@ -4326,6 +5824,14 @@
       ],
       "formats": [
         [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Speaking of Nature",
           "speaking-of-nature"
         ],
@@ -4343,7 +5849,7 @@
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
@@ -4375,7 +5881,7 @@
         ],
         [
           "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
-          "the-sunday-read-what-does-sustainable-living-look-like..."
+          "sunday-read-sustainable-uruguay"
         ]
       ]
     }
@@ -4393,10 +5899,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>The scientific evidence is clear: the only celestial body that can support us is the one we evolved with.<!-- notionvc: 7da5c22e-3549-4e3e-8b70-b1cf6e8fe9f8 --></p>",
     "created": "2024-07-20 10:00:07.900Z",
     "date": "2023-01-16 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Article",
@@ -4405,6 +5913,8 @@
     ],
     "id": "bo1t775idhwlqwx",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "English",
@@ -4419,6 +5929,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference": {
       "label": "Hackernews",
       "slug": "hackernews"
@@ -4442,6 +5954,14 @@
       "publisher": [],
       "formats": [
         [
+          "The environmental dimension of Russia’s war on Ukraine",
+          "russia-ecocide"
+        ],
+        [
+          "When the Arctic Melts",
+          "the-arctic-melts"
+        ],
+        [
           "Speaking of Nature",
           "speaking-of-nature"
         ],
@@ -4459,7 +5979,7 @@
         ],
         [
           "Our Attention Spans Are Being Stolen",
-          "our-attention-spans-are-being-stolen"
+          "attention-spans"
         ],
         [
           "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
@@ -4483,10 +6003,12 @@
     ],
     "collectionId": "ihpvff9pojwzslu",
     "collectionName": "posts",
+    "comment": "",
     "connection": [],
     "content": "<p>Unsere Vorstellungen von Klima und Klimawandel stammen aus Bildern &ndash; Bildern, mit denen Wissenschaften ihre Erkenntnisse sichtbar machen. Diese Bilder m&uuml;ssen gedeutet und kritisiert werden, um ihre Aussagekraft und Intentionen offenzulegen.<!-- notionvc: 084b5b02-be94-4f6b-836e-965ad397b35c --></p>",
     "created": "2024-07-21 19:50:39.910Z",
     "date": "2023-01-25 12:00:00.000Z",
+    "description": "",
     "formats": [
       {
         "label": "Book",
@@ -4495,6 +6017,8 @@
     ],
     "id": "tdzmyhh3znbsxo8",
     "image": null,
+    "image_source_label": "",
+    "image_source_url": "",
     "isFavorite": false,
     "language": {
       "label": "German",
@@ -4509,6 +6033,8 @@
     },
     "quote": "",
     "quote_author": "",
+    "quote_source_label": "",
+    "quote_source_url": "",
     "reference_link": "",
     "schemas": {
       "label": "Book",
@@ -4551,6 +6077,14 @@
       "authors": [],
       "tags": [
         [
+          "Political divisions on climate change",
+          "political-divisions"
+        ],
+        [
+          "How Disaster Media Fails",
+          "desater-media-fails"
+        ],
+        [
           "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
           "climate-485-million-years"
         ],
@@ -4564,7 +6098,7 @@
         ],
         [
           "Climate change conversations during live commentary",
-          "climate-change-conversations-during-live-commentary"
+          "climate-change-conversation-live-commentary"
         ]
       ]
     }
