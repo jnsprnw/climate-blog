@@ -30,7 +30,11 @@
 	<nav class="flex flex-wrap justify-center text-sm gap-x-3">
 		{#each list as { label, path, isCurrent, isPrev, isNext }}
 			{#if isCurrent}
-				<a href={getAbsoluteURL(path, isModeLight)} class="text-mute p-2" aria-current="page">
+				<a
+					href={getAbsoluteURL(path, isModeLight)}
+					class="text-mute dark:text-gray-300 p-2"
+					aria-current="page"
+				>
 					{label}
 				</a>
 			{:else}
@@ -45,6 +49,7 @@
 		<a
 			class="p-2 basis-full text-center"
 			class:text-mute={currentIndex === KEY_ALL_POSTS}
+			class:dark:text-gray-300={currentIndex === KEY_ALL_POSTS}
 			class:link={currentIndex !== KEY_ALL_POSTS}
 			aria-current={currentIndex === KEY_ALL_POSTS ? 'page' : undefined}
 			href={getAbsoluteURL(KEY_ALL_POSTS, isModeLight)}

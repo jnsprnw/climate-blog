@@ -84,7 +84,7 @@
 			</span>
 		</ConditionalLink>
 	</header>
-	<main class="col-span-3 border-y border-border py-6 flex flex-col gap-y-8">
+	<main class="col-span-3 border-y border-border dark:border-[#99999A] py-6 flex flex-col gap-y-8">
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				{#if isModeLight}
@@ -117,7 +117,7 @@
 				{#if image.caption || (image.source_url && image.source_label)}
 					<figcaption
 						itemprop="author"
-						class="text-xs place-self-end text-mute contrast-more:text-black"
+						class="text-xs place-self-end text-mute dark:text-gray-300 contrast-more:text-black"
 					>
 						{#if image.caption}
 							{image.caption}{#if image.source_url && image.source_label}
@@ -169,8 +169,9 @@
 		class:grid-cols-2={!hasReference}
 		class:grid-cols-3={hasReference}
 	>
-		<time class="text-mute text-left contrast-more:text-black" datetime={post.published}
-			>{formatDate(new Date(post.published), true)}</time
+		<time
+			class="text-mute dark:text-gray-300 text-left contrast-more:text-black"
+			datetime={post.published}>{formatDate(new Date(post.published), true)}</time
 		>
 		{#if hasReference}
 			<span class="text-center"
@@ -216,7 +217,7 @@
 			<h2 class="font-semibold" id="related-artefacts">Related artefacts</h2>
 			{#if related.tags}
 				<dl class="flex gap-y-1 flex-col">
-					<dt class="text-sm text-mute contrast-more:text-black">Same topics</dt>
+					<dt class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">Same topics</dt>
 					{#each related.tags as [title, slug]}
 						<dd>
 							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
@@ -226,7 +227,9 @@
 			{/if}
 			{#if related.authors.length}
 				<dl class="flex gap-y-1 flex-col">
-					<h4 class="text-sm text-mute contrast-more:text-black">Same authors</h4>
+					<h4 class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">
+						Same authors
+					</h4>
 					{#each related.authors as [title, slug]}
 						<dd>
 							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
@@ -236,7 +239,9 @@
 			{/if}
 			{#if related.formats.length}
 				<dl class="flex gap-y-1 flex-col">
-					<dt class="text-sm text-mute contrast-more:text-black">Same formats</dt>
+					<dt class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">
+						Same formats
+					</dt>
 					{#each related.formats as [title, slug]}
 						<dd>
 							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
@@ -246,7 +251,9 @@
 			{/if}
 			{#if related.publisher.length}
 				<dl class="flex gap-y-1 flex-col">
-					<dt class="text-sm text-mute contrast-more:text-black">Same publisher</dt>
+					<dt class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">
+						Same publisher
+					</dt>
 					{#each related.publisher as [title, slug]}
 						<dd>
 							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
