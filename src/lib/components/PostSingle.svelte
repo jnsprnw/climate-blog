@@ -1,15 +1,15 @@
 <script lang="ts">
+	import { getContext } from 'svelte';
+	import Authors from '$lib/components/Authors.svelte';
+	import ConditionalLink from '$lib/components/ConditionalLink.svelte';
+	import DateTag from '$lib/components/Date.svelte';
 	import Favorite from '$lib/icons/Favorite.svelte';
 	import Link from '$lib/icons/Link.svelte';
-	import Authors from '$lib/components/Authors.svelte';
-	import DateTag from '$lib/components/Date.svelte';
-	import { formatDate } from '$utils/format';
 	import type { PostsRecord } from '$types/pocketbase-types';
-	import { getAbsoluteURL } from '$utils/url';
-	import { isSameDay, checkValidDate } from '$utils/date';
-	import { getContext } from 'svelte';
-	import ConditionalLink from '$lib/components/ConditionalLink.svelte';
 	import type { IsModeLight } from '$types/ui';
+	import { checkValidDate, isSameDay } from '$utils/date';
+	import { formatDate } from '$utils/format';
+	import { getAbsoluteURL } from '$utils/url';
 
 	const isModeLight = getContext<IsModeLight>('isModeLight');
 
@@ -203,7 +203,13 @@
 			{#if post.topics.length}
 				<section>
 					<h2 class="font-semibold" id="topics">Topic{post.topics.length === 1 ? '' : 's'}</h2>
-					<p>{formatterList.format(post.topics.map(({ label }) => label))}</p>
+					<p>
+						{formatterList.format(
+							post.topics
+								.map(({ label }) => label)
+								.sort((a: string, b: string) => a.localeCompare(b))
+						)}
+					</p>
 				</section>
 			{/if}
 			{#if post.formats.length}
