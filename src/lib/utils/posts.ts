@@ -1,16 +1,16 @@
-import posts from '$posts';
+import { maxBy, range } from 'lodash-es';
 import {
-	POSTS_PER_PAGE,
-	SITE_DESCRIPTION,
-	STRING_PLACEHOLDER,
-	LANGUAGES,
 	KEY_ALL_POSTS,
 	KEY_MODE_LIGHT,
-	STR_FAVORITE
+	LANGUAGES,
+	POSTS_PER_PAGE,
+	SITE_DESCRIPTION,
+	STR_FAVORITE,
+	STRING_PLACEHOLDER
 } from '$config';
+import posts from '$posts';
 import type { PostsRecord } from '$types/pocketbase-types';
 import type { Lang } from '$types/ui';
-import { maxBy, range } from 'lodash-es';
 
 export function getPostsCount() {
 	return posts.length;
@@ -96,7 +96,13 @@ export function getPagination(posts_total: number, currentIndex: number | string
 		} else if (i === pages_count) {
 			label = 'Last page';
 		}
-		page_list.push({ label, path: i === 1 ? undefined : String(i), isCurrent, isPrev, isNext });
+		page_list.push({
+			label,
+			path: i === 1 ? undefined : String(i),
+			isCurrent,
+			isPrev,
+			isNext
+		});
 	}
 	return {
 		list: page_list,
@@ -113,8 +119,11 @@ export function getLastMod(arr: PostsRecord[]): string | undefined {
 	return undefined;
 }
 
-export function getPageDescription() {
-	return SITE_DESCRIPTION.replace(STRING_PLACEHOLDER, String(getPostsCount()));
+export function getPageDescription(include_count: boolean = true) {
+	return SITE_DESCRIPTION.replace(
+		STRING_PLACEHOLDER,
+		include_count ? String(getPostsCount()) : ''
+	).replace('  ', ' ');
 }
 
 export function getPaginationPages() {
