@@ -76,6 +76,118 @@
 </section>
 
 <section>
+	<p>Many of these principles are inspired by the following articles/projects/websites:</p>
+	<ul class="list-outside marker:text-accent ml-6 list-['–__'] my-2 space-y-2">
+		<li>
+			<a href="https://www.noemamag.com/We Need To Rewild The Internet ">Accessible Light Mode</a>
+			(<a href="https://netzpolitik.org/2024/essay-wir-muessen-zurueck-zum-wilden-internet/">
+				German translation
+			</a>)
+		</li>
+		<li>
+			<a href="https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/">
+				Low-Tech Magazine: How to Build a Low-tech Website?
+			</a>
+		</li>
+		<li>
+			<a href="https://rachelbythebay.com/w/2025/01/04/cruft/">
+				Web page annoyances that I don't inflict on you here
+			</a>
+		</li>
+		<li>
+			<a href="https://www.youtube.com/watch?v=OFRjZtYs3wY">
+				Tom Scott: Why The Web Is Such A Mess
+			</a>
+		</li>
+		<li><a href="https://justfuckingusehtml.com/">Just fucking use HTML</a></li>
+		<li><a href="https://brutalist-web.design/">Guidelines for Brutalist Web Design</a></li>
+		<li>
+			<a href="https://perfectmotherfuckingwebsite.com/">
+				This is the final motherfucking website.
+			</a>
+		</li>
+		<li>
+			<a href="https://seirdy.one/posts/2020/11/23/website-best-practices/">
+				Best practices for inclusive textual websites
+			</a>
+		</li>
+		<li>
+			<a href="https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/">
+				The unreasonable effectiveness of simple HTML
+			</a>
+		</li>
+		<li>
+			<a href="https://frankgroeneveld.nl/2021/08/24/most-underused-browser-feature/">
+				he most underused browser feature
+			</a>
+		</li>
+		<li>
+			<a href="https://tantek.com/2015/069/t1/js-dr-javascript-required-dead">
+				js;dr = JavaScript required; Didn’t Read.
+			</a>
+		</li>
+		<li>
+			<a href="https://www.kryogenix.org/code/browser/everyonehasjs.html">
+				Everyone has JavaScript, right?
+			</a>
+		</li>
+		<li>
+			<a href="https://danluu.com/web-bloat/">
+				How web bloat impacts users with slow connections
+			</a>
+		</li>
+		<li>
+			<a href="https://1mb.club/"> 1MB Club </a>
+		</li>
+		<li>
+			<a
+				href="https://reedybear.bearblog.dev/ive-been-advocating-for-rss-support-and-you-should-too/"
+			>
+				I've been advocating for RSS support, and you should too
+			</a>
+		</li>
+		<li>
+			<a href="https://www.smashingmagazine.com/2021/09/reducing-carbon-emissions-on-web/">
+				Reducing Carbon Emissions On The Web
+			</a>
+		</li>
+		<li>
+			<a href="https://publicinfrastructure.org/2023/03/29/the-three-legged-stool/">
+				The Three-Legged Stool: A Manifesto for a Smaller, Denser Internet
+			</a>
+		</li>
+		<li>
+			<a href="https://rohan.ga/blog/early-internet/">
+				I Wish I Didn't Miss the '90s-00s Internet
+			</a>
+		</li>
+		<li>
+			<a
+				href="https://english.elpais.com/lifestyle/2025-01-07/the-internet-hasnt-made-us-bad-we-were-already-like-that-the-mistake-of-yearning-for-the-friendly-online-world-of-20-years-ago.html"
+			>
+				‘The internet hasn’t made us bad, we were already like that’: The mistake of yearning for
+				the ‘friendly’ online world of 20 years ago
+			</a>
+		</li>
+		<li>
+			<a href="https://vhsoverdrive.neocities.org/essays/oldweb">
+				An Argument for a Return to Web 1.0
+			</a>
+		</li>
+		<li>
+			<a href="https://github.com/Organic-Basics/ob-low-impact-website">
+				The Low Impact version of the Organic Basics website
+			</a>
+		</li>
+		<li>
+			<a href="https://lars-christian.com/posts/2024-07-22-re-do-people-irl-know-you-have-a-blog/">
+				Re: Do people IRL know you have a blog?
+			</a>
+		</li>
+	</ul>
+</section>
+
+<section>
 	<p>
 		This blog is built with <a href="https://kit.svelte.dev/">SvelteKit</a> and
 		<a href="https://tailwindcss.com/">Tailwind</a>. The CMS for this blog is
