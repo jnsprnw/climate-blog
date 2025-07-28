@@ -41,7 +41,8 @@
 @tailwind components;
 @tailwind utilities;
 
-p a {
+p a,
+li a {
 	@apply underline decoration-accent hover:text-accent transition-colors;
 }
 
