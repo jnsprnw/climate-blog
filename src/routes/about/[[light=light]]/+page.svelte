@@ -193,9 +193,10 @@
 	<p>
 		This blog is built with <a href="https://kit.svelte.dev/">SvelteKit</a> and
 		<a href="https://tailwindcss.com/">Tailwind</a>. The CMS for this blog is
-		<a href="https://pocketbase.io/">Pocketbase</a> because of its lightness. It runs on
+		<a href="https://pocketbase.io/">Pocketbase</a>. It runs on
 		<a href="https://pockethost.io/">Pockethost.io</a>. The page itself is hosted on
-		<a href="https://www.cloudflare.com/">Cloudflare Pages</a>.
+		<a href="https://www.cloudflare.com/">Cloudflare Pages</a>. Find the source code on
+		<a href="https://github.com/jnsprnw/climate-blog">GitHub</a>.
 	</p>
 
 	<p>
