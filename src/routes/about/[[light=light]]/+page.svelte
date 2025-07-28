@@ -79,7 +79,9 @@
 	<p>Many of these principles are inspired by the following articles/projects/websites:</p>
 	<ul class="list-outside marker:text-accent ml-6 list-['–__'] my-2 space-y-2">
 		<li>
-			<a href="https://www.noemamag.com/We Need To Rewild The Internet ">Accessible Light Mode</a>
+			<a href="https://www.noemamag.com/we-need-to-rewild-the-internet/">
+				We Need To Rewild The Internet
+			</a>
 			(<a href="https://netzpolitik.org/2024/essay-wir-muessen-zurueck-zum-wilden-internet/">
 				German translation
 			</a>)
