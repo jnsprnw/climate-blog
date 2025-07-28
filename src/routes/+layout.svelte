@@ -1,15 +1,15 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { version } from '$app/environment';
-	import { SITE_TITLE } from '$config';
-	import { getAbsoluteURL } from '$utils/url';
-	import { getPageDescription } from '$utils/posts';
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import type { LayoutData } from './$types';
 	import type { Snippet } from 'svelte';
-	import type { IsModeLight, IsModePlain } from '$types/ui';
 	import { setContext } from 'svelte';
+	import { version } from '$app/environment';
+	import { page } from '$app/stores';
+	import { SITE_TITLE } from '$config';
+	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import type { IsModeLight, IsModePlain } from '$types/ui';
+	import { getPageDescription } from '$utils/posts';
+	import { getAbsoluteURL } from '$utils/url';
+	import type { LayoutData } from './$types';
 
 	const { data, children }: { data: LayoutData; children: Snippet } = $props();
 
@@ -59,14 +59,6 @@
 
 	<meta itemprop="name" content={SITE_TITLE} />
 	<meta itemprop="description" content={description} />
-
-	<meta name="twitter:card" content="summary_large_image" />
-	<meta name="twitter:creator" content="@zeto" />
-	<meta name="twitter:url" content={url} />
-	<meta name="twitter:title" content={title} />
-	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image" content={preview} />
-	<meta name="twitter:image:alt" content={preview_alt} />
 
 	<link rel="canonical" href={url} />
 
