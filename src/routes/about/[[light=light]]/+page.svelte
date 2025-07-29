@@ -92,6 +92,13 @@
 			</a>
 		</li>
 		<li>
+			<a
+				href="https://unframed.lacma.org/2025/04/21/cleaner-faster-greener-rethinking-how-we-build-websites"
+			>
+				Cleaner, Faster, Greener: Rethinking How We Build Websites
+			</a>
+		</li>
+		<li>
 			<a href="https://rachelbythebay.com/w/2025/01/04/cruft/">
 				Web page annoyances that I don't inflict on you here
 			</a>
