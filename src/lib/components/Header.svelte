@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { getContext } from 'svelte';
+	import { page } from '$app/stores';
 	import type { IsModeLight } from '$types/ui';
 	import { getPageDescription } from '$utils/posts';
 	import { getAbsoluteURL } from '$utils/url';
@@ -20,7 +21,11 @@
 			{getPageDescription()}
 		</p>
 	</div>
-	<a class="link md:place-self-end text-sm" href={getAbsoluteURL('about', isModeLight)}>
+	<a
+		class="link md:place-self-end text-sm"
+		aria-current={$page.data?.path === 'about' ? 'page' : undefined}
+		href={getAbsoluteURL('about', isModeLight)}
+	>
 		About this blog
 	</a>
 </header>

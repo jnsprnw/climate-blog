@@ -1,7 +1,8 @@
 <script lang="ts">
+	import { page } from '$app/stores';
+	import type { IsModeLight } from '$types/ui';
 	import { formatDate, formatDateFull } from '$utils/format';
 	import { getAbsoluteURL, getRelativeURL } from '$utils/url';
-	import type { IsModeLight } from '$types/ui';
 
 	const {
 		buildDateTime,
@@ -24,5 +25,9 @@
 		<a href={getRelativeURL(currentPath, true)} class="link">Hide images</a>
 	{/if}
 	<span>v {version}</span>
-	<a class="link" href={getAbsoluteURL('about', isModeLight)}>About</a>
+	<a
+		class="link"
+		href={getAbsoluteURL('about', isModeLight)}
+		aria-current={$page.data?.path === 'about' ? 'page' : undefined}>About</a
+	>
 </footer>
