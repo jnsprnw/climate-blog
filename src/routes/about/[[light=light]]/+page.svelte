@@ -57,9 +57,9 @@
 		<li>Everything is pre-rendered. It’s just a static site.</li>
 		<li><a href="/light">This blog provides a light theme that does not display images.</a></li>
 		<li>
-			The fonts used on this website are <a href="https://everythingfonts.com/subsetter"
-				>subsetted</a
-			>. <a href="https://everythingfonts.com/subsetter">Find out more about this technique.</a>
+			The fonts used on this website are <a href="https://everythingfonts.com/subsetter">
+				subsetted
+			</a>. <a href="https://everythingfonts.com/subsetter">Find out more about this technique.</a>
 		</li>
 		<li>
 			You can filter the content to your liking. <a href="#filter">See the instructions below.</a>
@@ -120,7 +120,7 @@
 		</li>
 		<li>
 			<a href="https://frankgroeneveld.nl/2021/08/24/most-underused-browser-feature/">
-				he most underused browser feature
+				The most underused browser feature
 			</a>
 		</li>
 		<li>
