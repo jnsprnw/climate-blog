@@ -9,6 +9,7 @@
 	import type { IsModeLight } from '$types/ui';
 	import { checkValidDate, isSameDay } from '$utils/date';
 	import { formatDate } from '$utils/format';
+	import { getDimensionLabel } from '$utils/posts';
 	import { getAbsoluteURL } from '$utils/url';
 
 	const isModeLight = getContext<IsModeLight>('isModeLight');
@@ -37,7 +38,8 @@
 		publisher,
 		url,
 		reference,
-		related
+		related,
+		relationships
 	} = post;
 	const hasReference = $derived(typeof reference !== 'undefined');
 
@@ -221,6 +223,24 @@
 		</aside>
 		<div class="col-span-3 text-base grid gap-y-4">
 			<h2 class="font-semibold" id="related-artefacts">Related artefacts</h2>
+			<ul class="flex gap-y-2 flex-col">
+				{#each relationships as { title, slug, relationships: edges }}
+					<li>
+						<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
+						<ul class="text-xs flex flex-col gap-y-0">
+							{#each edges as [key, items]}
+								{#if items.length > 0}
+									<li>
+										Same {getDimensionLabel(key, items.length)}: {formatterList.format(
+											items.map(({ label }) => label)
+										)}
+									</li>
+								{/if}
+							{/each}
+						</ul>
+					</li>
+				{/each}
+			</ul>
 			{#if related.tags}
 				<dl class="flex gap-y-1 flex-col">
 					<dt class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">Same topics</dt>

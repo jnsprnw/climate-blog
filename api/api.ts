@@ -10,7 +10,7 @@ import {
 } from './pocketbase';
 import { writeFile, slugify } from './utils';
 import { getImageDetails } from './cloudinary';
-import { truncate } from 'lodash-es';
+import { truncate, intersection } from 'lodash-es';
 import type { PostsRecord } from '../src/types/pocketbase-types';
 
 function compare(p1: PostsRecord, p2: PostsRecord, key: string) {
@@ -21,6 +21,37 @@ function compare(p1: PostsRecord, p2: PostsRecord, key: string) {
 	} else {
 		return e1 === e2;
 	}
+}
+
+const RELATIONSHIPS = ['authors', 'formats', 'tags', 'publishers'];
+
+function getRelationship(current_post: PostsRecord, all_posts: PostsRecord[], dimensions) {
+	const relationships_list = Object.keys(dimensions)
+		.map((key) => {
+			const related_posts = all_posts
+				.filter((post) => post.id !== current_post.id) // Filter out the current post
+				.map((post) => [post.id, key, intersection(post[key], current_post[key])]) // Map each post to an array containing the intersection length and the post ID
+				.filter((intersection) => intersection[2].length > 0) // Filter out empty intersections
+				.sort((a, b) => b[2].length - a[2].length); // Sort by intersection length
+			return related_posts;
+		})
+		.flat();
+
+	const edges = Object.entries(Object.groupBy(relationships_list, (edge) => edge[0])).map(
+		([id, relationships]) => {
+			const post = all_posts.find((post) => post.id === id);
+			return {
+				slug: post.slug,
+				title: post.title,
+				count: relationships.map((edge) => edge[2].length).reduce((acc, curr) => acc + curr, 0),
+				relationships: relationships.map(([_, key, edges]) => [
+					key,
+					edges.map((edge) => dimensions[key].get(edge))
+				])
+			};
+		}
+	);
+	return edges.sort((a, b) => b.count - a.count);
 }
 
 function getRelatedPosts(current_post: PostsRecord, all_posts: PostsRecord[], key: string) {
@@ -71,6 +102,15 @@ async function getData() {
 				: null;
 			delete post.image_caption;
 			delete post.image_alt;
+			console.log(
+				getRelationship(post, posts, {
+					authors: authors,
+					formats: formats,
+					tags: topics,
+					publishers: publishers
+				})
+			);
+			// console.log(post.formats.map((key: string) => formats.get(key)));
 			return {
 				...post,
 				language: languages.get(post.language),
@@ -90,7 +130,13 @@ async function getData() {
 					formats: getRelatedPosts(post, posts, 'formats'),
 					authors: getRelatedPosts(post, posts, 'authors'),
 					tags: getRelatedPosts(post, posts, 'tags')
-				}
+				},
+				relationships: getRelationship(post, posts, {
+					authors: authors,
+					formats: formats,
+					tags: topics,
+					publishers: publishers
+				})
 			};
 		})
 	);
