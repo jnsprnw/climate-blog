@@ -23,8 +23,6 @@ function compare(p1: PostsRecord, p2: PostsRecord, key: string) {
 	}
 }
 
-const RELATIONSHIPS = ['authors', 'formats', 'tags', 'publishers'];
-
 function getRelationship(current_post: PostsRecord, all_posts: PostsRecord[], dimensions) {
 	const relationships_list = Object.keys(dimensions)
 		.map((key) => {
@@ -43,10 +41,12 @@ function getRelationship(current_post: PostsRecord, all_posts: PostsRecord[], di
 			return {
 				slug: post.slug,
 				title: post.title,
-				count: relationships.map((edge) => edge[2].length).reduce((acc, curr) => acc + curr, 0),
+				count: relationships
+					.map(([_, key, edges]) => edges.length * dimensions[key].weight)
+					.reduce((acc, curr) => acc + curr, 0),
 				relationships: relationships.map(([_, key, edges]) => [
 					key,
-					edges.map((edge) => dimensions[key].get(edge))
+					edges.map((edge) => dimensions[key].list.get(edge))
 				])
 			};
 		}
@@ -102,14 +102,14 @@ async function getData() {
 				: null;
 			delete post.image_caption;
 			delete post.image_alt;
-			console.log(
-				getRelationship(post, posts, {
-					authors: authors,
-					formats: formats,
-					tags: topics,
-					publishers: publishers
-				})
-			);
+			// console.log(
+			// 	getRelationship(post, posts, {
+			// 		authors: authors,
+			// 		formats: formats,
+			// 		tags: topics,
+			// 		publishers: publishers
+			// 	})
+			// );
 			// console.log(post.formats.map((key: string) => formats.get(key)));
 			return {
 				...post,
@@ -132,10 +132,10 @@ async function getData() {
 					tags: getRelatedPosts(post, posts, 'tags')
 				},
 				relationships: getRelationship(post, posts, {
-					authors: authors,
-					formats: formats,
-					tags: topics,
-					publishers: publishers
+					authors: { list: authors, weight: 1 },
+					formats: { list: formats, weight: 0.25 },
+					tags: { list: topics, weight: 0.75 },
+					publishers: { list: publishers, weight: 0.5 }
 				})
 			};
 		})
