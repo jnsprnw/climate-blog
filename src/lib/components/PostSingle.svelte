@@ -232,7 +232,7 @@
 								{#if items.length > 0}
 									<li>
 										Same {getDimensionLabel(key, items.length)}: {formatterList.format(
-											items.map(({ label }) => label)
+											items.map(({ label }) => label).sort()
 										)}
 									</li>
 								{/if}
