@@ -141,6 +141,7 @@ async function getData() {
 		})
 	);
 	writeFile('posts', entries);
+	console.log(`${entries.length} entries written to posts.json`);
 }
 
 getData();
