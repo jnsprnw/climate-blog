@@ -1,7 +1,13 @@
 import posts from '$posts';
 
-export function getTagsByCount() {
-	const tags = new Map<string, { count: number; label: string; slug: string }>();
+export type TagCount = {
+	count: number;
+	label: string;
+	slug: string;
+};
+
+export function getTagsByCount(): TagCount[] {
+	const tags = new Map<string, TagCount>();
 
 	for (const post of posts) {
 		for (const { slug, label } of post.topics) {
@@ -16,8 +22,14 @@ export function getTagsByCount() {
 	return Array.from(tags.values()).sort((a, b) => b.count - a.count);
 }
 
-export function getTagCombinationsByCount() {
-	const combinations = new Map<string, { count: number; labels: string[]; slugs: string[] }>();
+export type TagCombination = {
+	count: number;
+	labels: [string, string];
+	slugs: [string, string];
+};
+
+export function getTagCombinationsByCount(): TagCombination[] {
+	const combinations = new Map<string, TagCombination>();
 
 	for (const post of posts) {
 		for (const { slug: slug1, label: label1 } of post.topics) {

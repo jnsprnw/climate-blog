@@ -1,14 +1,17 @@
 <script lang="ts">
+	import type { TagCombination, TagCount } from '$utils/statistics';
+
 	type Props = {
-		tags: any;
-		combinations: any;
+		tags: TagCount[];
+		combinations: TagCombination[];
 	};
 
 	const { data }: { data: Props } = $props();
+	const { tags, combinations } = $derived(data);
 </script>
 
 <ul>
-	{#each data.tags as { slug, label, count }}
+	{#each tags as { slug, label, count }}
 		<li>
 			<a href={`/tags/${slug}`}>{label} ({count})</a>
 		</li>
@@ -16,7 +19,7 @@
 </ul>
 
 <ul>
-	{#each data.combinations as { labels, count, slugs }}
+	{#each combinations as { labels, count, slugs }}
 		<li>
 			<a href={`/tags/${slugs.join('+')}`}>{labels.join(', ')} ({count})</a>
 		</li>

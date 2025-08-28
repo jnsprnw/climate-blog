@@ -87,10 +87,10 @@
 </svelte:head>
 
 <div
-	class="mx-auto max-w-3xl px-3 pt-6 sm:pt-16 md:pt-20 flex flex-col gap-y-6 sm:gap-y-10 md:gap-y-12"
-	class:mb-6={isModePlain}
-	class:sm:mb-8={isModePlain}
-	class:md:mb-12={isModePlain}
+	class={[
+		'mx-auto max-w-3xl px-3 pt-6 sm:pt-16 md:pt-20 flex flex-col gap-y-6 sm:gap-y-10 md:gap-y-12',
+		{ 'mb-6 sm:mb-8 md:mb-12': isModePlain }
+	]}
 >
 	{#if !isModePlain}
 		<Header />
