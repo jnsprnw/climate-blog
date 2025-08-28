@@ -26,20 +26,7 @@
 
 	<Category title="Tag Combinations" count={combinations.length}>
 		{#snippet table()}
-			<table class="w-full">
-				<tbody>
-					{#each combinations as { labels, count }}
-						<tr>
-							<td>
-								{labels.join(' + ')}
-							</td>
-							<td class="text-right">
-								{count}
-							</td>
-						</tr>
-					{/each}
-				</tbody>
-			</table>
+			<TableSingle arr={combinations} />
 		{/snippet}
 	</Category>
 

@@ -1,15 +1,15 @@
 <script lang="ts">
-	import type { PropertyCount } from '$utils/statistics';
+	import type { PropertyCount, TagCombination } from '$utils/statistics';
 
-	const { arr }: { arr: PropertyCount[] } = $props();
+	const { arr }: { arr: PropertyCount[] | TagCombination[] } = $props();
 </script>
 
 <table class="w-full">
 	<tbody>
-		{#each arr as { label, count }}
+		{#each arr as { labels, label, count }}
 			<tr>
 				<td>
-					{label}
+					{labels ? labels.join(', ') : label}
 				</td>
 				<td class="text-right">
 					{count}
