@@ -10,18 +10,32 @@
 	const { tags, combinations } = $derived(data);
 </script>
 
-<ul>
-	{#each tags as { slug, label, count }}
-		<li>
-			<a href={`/tags/${slug}`}>{label} ({count})</a>
-		</li>
-	{/each}
-</ul>
+<h1 class="font-semibold text-2xl">Statistics</h1>
 
-<ul>
-	{#each combinations as { labels, count, slugs }}
-		<li>
-			<a href={`/tags/${slugs.join('+')}`}>{labels.join(', ')} ({count})</a>
-		</li>
-	{/each}
-</ul>
+<div class="flex flex-row gap-4">
+	<section>
+		<h2 class="text-2xl">Tags</h2>
+		<table>
+			<tbody>
+				{#each tags as { slug, label, count }}
+					<tr>
+						<td>
+							{label}
+						</td>
+						<td class="text-right">
+							{count}
+						</td>
+					</tr>
+				{/each}
+			</tbody>
+		</table>
+	</section>
+
+	<ul>
+		{#each combinations as { labels, count, slugs }}
+			<li>
+				<a href={`/tags/${slugs.join('+')}`}>{labels.join(', ')} ({count})</a>
+			</li>
+		{/each}
+	</ul>
+</div>

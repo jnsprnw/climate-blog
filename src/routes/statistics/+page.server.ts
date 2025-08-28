@@ -4,6 +4,8 @@ import { getTagsByCount, getTagCombinationsByCount } from '$utils/statistics';
 export async function load() {
 	return {
 		tags: getTagsByCount(),
-		combinations: getTagCombinationsByCount()
+		combinations: getTagCombinationsByCount(),
+		title: 'Statistics',
+		is_wide: true
 	};
 }

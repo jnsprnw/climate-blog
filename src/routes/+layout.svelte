@@ -25,7 +25,9 @@
 		$page.data?.post?.image_alt ?? 'Green circle on a white background.'
 	);
 	const path = $derived($page.data?.path);
-	const title = $derived($page.data?.post?.title_short ?? $page.data?.post?.title ?? SITE_TITLE);
+	const title = $derived(
+		$page.data?.title ?? $page.data?.post?.title_short ?? $page.data?.post?.title ?? SITE_TITLE
+	);
 	const type = $derived($page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL(path));
 	const urlLightMode = $derived(getAbsoluteURL(path, isModeLight));
@@ -88,8 +90,9 @@
 
 <div
 	class={[
-		'mx-auto max-w-3xl px-3 pt-6 sm:pt-16 md:pt-20 flex flex-col gap-y-6 sm:gap-y-10 md:gap-y-12',
-		{ 'mb-6 sm:mb-8 md:mb-12': isModePlain }
+		'mx-auto px-3 pt-6 sm:pt-16 md:pt-20 flex flex-col gap-y-6 sm:gap-y-10 md:gap-y-12',
+		{ 'mb-6 sm:mb-8 md:mb-12': isModePlain },
+		$page.data?.is_wide ? '' : 'max-w-3xl'
 	]}
 >
 	{#if !isModePlain}
