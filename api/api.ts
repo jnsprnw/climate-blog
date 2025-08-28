@@ -142,6 +142,86 @@ async function getData() {
 	);
 	writeFile('posts', entries);
 	console.log(`${entries.length} entries written to posts.json`);
+	getNetworkData(entries);
+}
+
+type Entity = { id: string; title: string; type: string; weight: number };
+type Link = { source: string; target: string; weight: number };
+
+function getNetworkData(entries) {
+	const entities = new Map<string, Entity>();
+	const links = new Map<string, Link>();
+
+	for (const entry of entries) {
+		const post_id = `post-${entry.id}`;
+		entities.set(post_id, {
+			id: post_id,
+			title: entry.title,
+			type: 'post',
+			weight: 1
+		});
+
+		if (typeof entry.publisher !== 'undefined') {
+			const publisher_id = `publisher-${entry.publisher.slug}`;
+			if (!entities.has(publisher_id)) {
+				entities.set(publisher_id, {
+					id: publisher_id,
+					title: entry.publisher.label,
+					type: 'publisher',
+					weight: 1
+				});
+			} else {
+				entities.get(publisher_id)!.weight += 1;
+			}
+			links.set(`${post_id}-${publisher_id}`, {
+				source: post_id,
+				target: publisher_id,
+				weight: 1
+			});
+		}
+
+		for (const author of entry.authors) {
+			const author_id = `author-${author.slug}`;
+			if (!entities.has(author_id)) {
+				entities.set(author_id, {
+					id: author_id,
+					title: author.label,
+					type: 'author',
+					weight: 1
+				});
+			} else {
+				entities.get(author_id)!.weight += 1;
+			}
+			links.set(`${post_id}-${author_id}`, {
+				source: post_id,
+				target: author_id,
+				weight: 1
+			});
+		}
+
+		for (const topic of entry.topics) {
+			const topic_id = `topic-${topic.slug}`;
+
+			if (!entities.has(topic_id)) {
+				entities.set(topic_id, {
+					id: topic_id,
+					title: topic.label,
+					type: 'topic',
+					weight: 1
+				});
+			} else {
+				entities.get(topic_id)!.weight += 1;
+			}
+			links.set(`${post_id}-${topic_id}`, {
+				source: post_id,
+				target: topic_id,
+				weight: 1
+			});
+		}
+	}
+
+	writeFile('entities', Array.from(entities.values()));
+	writeFile('links', Array.from(links.values()));
 }
 
 getData();

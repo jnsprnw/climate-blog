@@ -1,0 +1,1400 @@
+[
+  {
+    "id": "post-ws1g2c784x193n7",
+    "title": "The Cooled vs. the Cooked",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-new-york-times",
+    "title": "New York Times",
+    "type": "publisher",
+    "weight": 7
+  },
+  {
+    "id": "author-jeff-goodell",
+    "title": "Jeff Goodell",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-tova-katzman",
+    "title": "Tova Katzman",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-temperature",
+    "title": "Temperature",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-society",
+    "title": "Society",
+    "type": "topic",
+    "weight": 9
+  },
+  {
+    "id": "topic-heat",
+    "title": "Heat",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-inequality",
+    "title": "Inequality",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-7utx4urk1sf9hb2",
+    "title": "Wildfires Rage Across Southern Europe",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-the-atlantic",
+    "title": "The Atlantic",
+    "type": "publisher",
+    "weight": 2
+  },
+  {
+    "id": "author-marcelo-del-pozo",
+    "title": "Marcelo del Pozo",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-alan-taylor",
+    "title": "Alan Taylor",
+    "type": "author",
+    "weight": 2
+  },
+  {
+    "id": "topic-wildfire",
+    "title": "Wildfire",
+    "type": "topic",
+    "weight": 4
+  },
+  {
+    "id": "topic-pyrocene",
+    "title": "pyrocene",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-destruction",
+    "title": "Destruction",
+    "type": "topic",
+    "weight": 3
+  },
+  {
+    "id": "topic-nature",
+    "title": "Nature",
+    "type": "topic",
+    "weight": 5
+  },
+  {
+    "id": "post-x4wuy537825254u",
+    "title": "“I hate how pretty the end of the world is.”",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-the-new-yorker",
+    "title": "The New Yorker",
+    "type": "publisher",
+    "weight": 7
+  },
+  {
+    "id": "author-patrick-mc-kelvie",
+    "title": "Patrick McKelvie",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-satire",
+    "title": "Satire",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-cartoon",
+    "title": "Cartoon",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-7pse60672wmx2e5",
+    "title": "An Environmental Crisis Haunts the Ruins of Gaza",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-bloomberg-green",
+    "title": "Bloomberg Green",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-fadwa-hodali",
+    "title": "Fadwa Hodali",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-krishna-karra",
+    "title": "Krishna Karra",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-caroline-alexander",
+    "title": "Caroline Alexander",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-denise-lu",
+    "title": "Denise Lu",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-war",
+    "title": "War",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-ecocide",
+    "title": "ecocide",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-politics",
+    "title": "Politics",
+    "type": "topic",
+    "weight": 10
+  },
+  {
+    "id": "topic-waste",
+    "title": "Waste",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-pollution",
+    "title": "Pollution",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-sea",
+    "title": "Sea",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-visualisation",
+    "title": "Visualisation",
+    "type": "topic",
+    "weight": 7
+  },
+  {
+    "id": "post-1360ovq7d0o1q9a",
+    "title": "The Scale of China’s Solar-Power Projects",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-feature-china",
+    "title": "Feature China",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-solar",
+    "title": "Solar",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-china",
+    "title": "China",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-j55xz8v43z3399o",
+    "title": "Ocean with David Attenborough ",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-you-tube-com",
+    "title": "YouTube.com",
+    "type": "publisher",
+    "weight": 3
+  },
+  {
+    "id": "author-david-attenborough",
+    "title": "David Attenborough",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-toby-nowlan",
+    "title": "Toby Nowlan",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-keith-scholey",
+    "title": "Keith Scholey",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-colin-butfield",
+    "title": "Colin Butfield",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-oceans",
+    "title": "Oceans",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-capitalism",
+    "title": "Capitalism",
+    "type": "topic",
+    "weight": 4
+  },
+  {
+    "id": "topic-overfishing",
+    "title": "Overfishing",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-c4toy8bo2j02h3x",
+    "title": "The Last Words of a Dying Glacier",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-lutz-stautner",
+    "title": "Lutz Stautner",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-ludwig-berger",
+    "title": "Ludwig Berger",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-ice",
+    "title": "Ice",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-glacier",
+    "title": "Glacier",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-field-recording",
+    "title": "Field recording",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-documentary",
+    "title": "Documentary",
+    "type": "topic",
+    "weight": 4
+  },
+  {
+    "id": "topic-art",
+    "title": "Art",
+    "type": "topic",
+    "weight": 5
+  },
+  {
+    "id": "topic-sound",
+    "title": "Sound",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-bo863961511fdgg",
+    "title": "Jevons Paradox",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-wikipedia-org",
+    "title": "Wikipedia.org",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-william-stanley-jevons",
+    "title": "William Stanley Jevons",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-technology",
+    "title": "Technology",
+    "type": "topic",
+    "weight": 4
+  },
+  {
+    "id": "topic-economics",
+    "title": "Economics",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-4os1b70d2ze859x",
+    "title": "The Road Not Taken",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-austyn-gaffney",
+    "title": "Austyn Gaffney",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-grv420qb3gx16oh",
+    "title": "Photographs of the Pyrocene",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-instagram",
+    "title": "Instagram",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-ethan-swope",
+    "title": "Ethan Swope",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-media",
+    "title": "Media",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "post-twfh1k769i3k7e7",
+    "title": "The environmental dimension of Russia’s war on Ukraine",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-forbes",
+    "title": "Forbes",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-david-vetter",
+    "title": "David Vetter",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-eej9z60o67yfhjq",
+    "title": "Greta Thunberg at the Houses of Parliament, United Kingdom",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-the-guardian",
+    "title": "The Guardian",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-greta-thunberg",
+    "title": "Greta Thunberg",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-policy",
+    "title": "Policy",
+    "type": "topic",
+    "weight": 5
+  },
+  {
+    "id": "topic-activism",
+    "title": "Activism",
+    "type": "topic",
+    "weight": 3
+  },
+  {
+    "id": "topic-protest",
+    "title": "Protest",
+    "type": "topic",
+    "weight": 4
+  },
+  {
+    "id": "post-gflp3wpnmes9cx4",
+    "title": "Political divisions on climate change",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-pew-research-center",
+    "title": "Pew Research Center",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-jacob-poushter",
+    "title": "Jacob Poushter",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-moira-fagan",
+    "title": "Moira Fagan",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-sneha-gubbala",
+    "title": "Sneha Gubbala",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-science",
+    "title": "Science",
+    "type": "topic",
+    "weight": 7
+  },
+  {
+    "id": "topic-attention",
+    "title": "Attention",
+    "type": "topic",
+    "weight": 4
+  },
+  {
+    "id": "post-ihsr96art8szht7",
+    "title": "When the Arctic Melts",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-elizabeth-kolbert",
+    "title": "Elizabeth Kolbert",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-tipping-point",
+    "title": "Tipping point",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-greenland",
+    "title": "Greenland",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-arctic",
+    "title": "Arctic",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-w7xxkwibymyhqus",
+    "title": "How Disaster Media Fails",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-thomas-flight",
+    "title": "Thomas Flight",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-popculture",
+    "title": "Popculture",
+    "type": "topic",
+    "weight": 6
+  },
+  {
+    "id": "topic-theory",
+    "title": "Theory",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "post-brfvzrl3rxffa1t",
+    "title": "Speaking of Nature",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-orion-magazine",
+    "title": "Orion magazine",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-robin-wall-kimmerer",
+    "title": "Robin Wall Kimmerer",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-animals",
+    "title": "Animals",
+    "type": "topic",
+    "weight": 5
+  },
+  {
+    "id": "topic-non-human",
+    "title": "Non-human",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-human-exceptionalism",
+    "title": "Human exceptionalism",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-language",
+    "title": "Language",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-5i6llxiifqr287p",
+    "title": "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-washington-post",
+    "title": "Washington Post",
+    "type": "publisher",
+    "weight": 2
+  },
+  {
+    "id": "author-sarah-kaplan",
+    "title": "Sarah Kaplan",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-simon-ducroquet",
+    "title": "Simon Ducroquet",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-emily-j-judd",
+    "title": "Emily J. Judd",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-models",
+    "title": "Models",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-history",
+    "title": "History",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "post-3ksqthbqcas74bl",
+    "title": "Can I microdose veganism?",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-search-engine",
+    "title": "Search Engine",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-pj-vogt",
+    "title": "PJ Vogt",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-annie-lowrey",
+    "title": "Annie Lowrey",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-veganism",
+    "title": "Veganism",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-jelfy1cle323wii",
+    "title": "The Crucial Years",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-substack",
+    "title": "Substack",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-bill-mc-kibben",
+    "title": "Bill McKibben",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-news",
+    "title": "News",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-education",
+    "title": "Education",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-ej1918u87zw17mw",
+    "title": "Aftermath of Typhoon Yagi in Haikou, China",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "topic-infrastructure",
+    "title": "Infrastructure",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-typhoon",
+    "title": "Typhoon",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-9srq3oajktuaq4k",
+    "title": "How Air-Conditioning Conquered America",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-michael-barbaro",
+    "title": "Michael Barbaro",
+    "type": "author",
+    "weight": 2
+  },
+  {
+    "id": "author-emily-badger",
+    "title": "Emily Badger",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-8ti8dk0fvwjc0cp",
+    "title": "For What It’s Worth",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-dillon-marsh",
+    "title": "Dillon Marsh",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-dillon-marsh",
+    "title": "Dillon Marsh",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-extraction",
+    "title": "Extraction",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-j9uez6n86a1gnoz",
+    "title": "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-ipcc",
+    "title": "IPCC",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-ipcc",
+    "title": "IPCC",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-w65hqi7pfc2o71v",
+    "title": "Quick—tell us who you’re wearing!",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-emily-bernstein",
+    "title": "Emily Bernstein",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-ehh709otgp5zvb3",
+    "title": "Fall of Civilizations",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-fall-of-civilizations-podcast-com",
+    "title": "FallOfCivilizationsPodcast.com",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-paul-cooper",
+    "title": "Paul Cooper",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-oz9q1u5t31pt8lm",
+    "title": "The Oldest Living Things in the World",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-the-university-of-chicago-press",
+    "title": "The University of Chicago Press",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-rachel-sussman",
+    "title": "Rachel Sussman",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-deep-time",
+    "title": "Deep time",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-9qe2hqoo20eghb9",
+    "title": "Wheatfield – A Confrontation",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-agnes-denes",
+    "title": "Agnes Denes",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-agnes-denes",
+    "title": "Agnes Denes",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-iiyhzpnw1m773dr",
+    "title": "Why climate despair is a luxury",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-the-new-stateman",
+    "title": "The New Stateman",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-rebecca-solnit",
+    "title": "Rebecca Solnit",
+    "type": "author",
+    "weight": 3
+  },
+  {
+    "id": "topic-hope",
+    "title": "Hope",
+    "type": "topic",
+    "weight": 4
+  },
+  {
+    "id": "post-g25dz6jyfp0at9p",
+    "title": "Looks like Congress might finally do something about TikTok.",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-john-mc-namee",
+    "title": "John McNamee",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-re9uatc7cbmd38v",
+    "title": "Diablo IV advertising with wildfire smoke",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-twitter",
+    "title": "Twitter",
+    "type": "publisher",
+    "weight": 3
+  },
+  {
+    "id": "author-nick-newman",
+    "title": "Nick Newman",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-1asyepfsej62h0c",
+    "title": "What if climate change meant not doom — but abundance?",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "post-u2htqw65423ztjc",
+    "title": "Schiefe Bilder als Klimaprotest",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-weltkunst",
+    "title": "Weltkunst",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-leopold-museum",
+    "title": "Leopold Museum",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-hans-peter-wipplinger",
+    "title": "Hans-Peter Wipplinger",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-77vrdbqfpwq2kni",
+    "title": "Nuisance Bear",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-jack-weisman",
+    "title": "Jack Weisman",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-gabriela-osio-vanden",
+    "title": "Gabriela Osio Vanden",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-artic",
+    "title": "Artic",
+    "type": "topic",
+    "weight": 2
+  },
+  {
+    "id": "topic-polar-bears",
+    "title": "Polar bears",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-x54u2ri7d1l1kh0",
+    "title": "Haulout",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-evgenia-arbugaeva",
+    "title": "Evgenia Arbugaeva",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-maxim-arbugaev",
+    "title": "Maxim Arbugaev",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-maxim-chakilev",
+    "title": "Maxim Chakilev",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-walrus",
+    "title": "Walrus",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-s62x1iuzsoyt1bw",
+    "title": "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-nature",
+    "title": "Nature",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-elizabeth-pennisi",
+    "title": "Elizabeth Pennisi",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-patrick-schultheiss",
+    "title": "Patrick Schultheiss",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-biomass",
+    "title": "Biomass",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-q0ie38eb47i57vz",
+    "title": "Is Artificial Light Poisoning the Planet?",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-adam-gopnik",
+    "title": "Adam Gopnik",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-johan-eklof",
+    "title": "Johan Eklöf",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-light-pollution",
+    "title": "Light pollution",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-biodiversity",
+    "title": "Biodiversity",
+    "type": "topic",
+    "weight": 3
+  },
+  {
+    "id": "post-w04hcgjoetgitsv",
+    "title": "Permillion",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-permillion-live",
+    "title": "permillion.live",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-julian-oliver",
+    "title": "Julian Oliver",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-gordan-savicic",
+    "title": "Gordan Savičić",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-xujb8grwu3jtyzo",
+    "title": "Our Attention Spans Are Being Stolen",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-atmos-earth",
+    "title": "Atmos.Earth",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-johann-hari",
+    "title": "Johann Hari",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-daphne-chouliaraki-milner",
+    "title": "Daphne Chouliaraki Milner",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-dr-charles-czeisler",
+    "title": "Dr. Charles Czeisler",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-big-tech",
+    "title": "Big Tech",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-p4eg5vdtb0s27m5",
+    "title": "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-republik",
+    "title": "Republik",
+    "type": "publisher",
+    "weight": 2
+  },
+  {
+    "id": "author-kim-stanley-robinson",
+    "title": "Kim Stanley Robinson",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-elia-blulle",
+    "title": "Elia Blülle",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-cli-fi",
+    "title": "Cli-Fi",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "topic-interview",
+    "title": "Interview",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-xpoqvlqgux3h18o",
+    "title": "Climate change conversations during live commentary",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-ed-hawkins",
+    "title": "Ed Hawkins",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-sam-matterface",
+    "title": "Sam Matterface",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-y2iu9zo4wpp8q01",
+    "title": "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-alex-cuadros",
+    "title": "Alex Cuadros",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-jonathan-davis",
+    "title": "Jonathan Davis",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-amazon",
+    "title": "Amazon",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-ze49xideou30wmw",
+    "title": "Consider the Burying Beetle. (Or Else.)",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-catrin-einhorn",
+    "title": "Catrin Einhorn",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-katharine-hayhoe",
+    "title": "Katharine Hayhoe",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-9qfq6dn8b3tjw0k",
+    "title": "Bagger 288 in Lützerath",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-marius-michusch",
+    "title": "Marius Michusch",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-coal",
+    "title": "Coal",
+    "type": "topic",
+    "weight": 1
+  },
+  {
+    "id": "post-zqo6lkqydw2rgpv",
+    "title": "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-carolin-emcke",
+    "title": "Carolin Emcke",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-stefan-rahmstorf",
+    "title": "Stefan Rahmstorf",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-kira-vinke",
+    "title": "Kira Vinke",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-qb4ztd0p2l62cld",
+    "title": "Half Earth Socialism Game",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-half-earth",
+    "title": "Half.Earth",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-francis-tseng",
+    "title": "Francis Tseng",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-son-la-pham",
+    "title": "Son La Pham",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-drew-pendergrass",
+    "title": "Drew Pendergrass",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-troy-vettese",
+    "title": "Troy Vettese",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-4nyyc46752yo3js",
+    "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "author-noah-gallagher-shannon",
+    "title": "Noah Gallagher Shannon",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-james-patrick-cronin",
+    "title": "James Patrick Cronin",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-xarbrf46tusa1my",
+    "title": "Anthropocene: The Human Epoch",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-the-anthropocene-org",
+    "title": "TheAnthropocene.org",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-jennifer-baichwal",
+    "title": "Jennifer Baichwal",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-edward-burtynsky",
+    "title": "Edward Burtynsky",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-nicholas-de-pencier",
+    "title": "Nicholas de Pencier",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-8d0d222q1a7fmmc",
+    "title": "100 gute Gründe gegen Atomkraft",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-100-gute-gruende-de",
+    "title": "100-gute-gruende.de",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-elektrizitatswerke-schonau",
+    "title": "Elektrizitätswerke Schönau",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-6i61wlod7qvnykj",
+    "title": "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "post-bo1t775idhwlqwx",
+    "title": "There’s no planet B",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-aeon",
+    "title": "Aeon",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-arwen-e-nicholson",
+    "title": "Arwen E Nicholson",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "author-raphaelle-d-haywood",
+    "title": "Raphaëlle D Haywood",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "post-tdzmyhh3znbsxo8",
+    "title": "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
+    "type": "post",
+    "weight": 1
+  },
+  {
+    "id": "publisher-matthes-seitz-berlin",
+    "title": "Matthes & Seitz Berlin",
+    "type": "publisher",
+    "weight": 1
+  },
+  {
+    "id": "author-birgit-schneider",
+    "title": "Birgit Schneider",
+    "type": "author",
+    "weight": 1
+  }
+]

@@ -15,6 +15,8 @@ const config = {
 		alias: {
 			$config: 'src/config.ts',
 			$posts: 'src/data/posts.json',
+			$entities: 'src/data/entities.json',
+			$links: 'src/data/links.json',
 			$types: 'src/types',
 			$utils: 'src/lib/utils'
 		},

@@ -1,0 +1,1477 @@
+[
+  {
+    "source": "post-ws1g2c784x193n7",
+    "target": "publisher-new-york-times",
+    "weight": 1
+  },
+  {
+    "source": "post-ws1g2c784x193n7",
+    "target": "author-jeff-goodell",
+    "weight": 1
+  },
+  {
+    "source": "post-ws1g2c784x193n7",
+    "target": "author-tova-katzman",
+    "weight": 1
+  },
+  {
+    "source": "post-ws1g2c784x193n7",
+    "target": "topic-temperature",
+    "weight": 1
+  },
+  {
+    "source": "post-ws1g2c784x193n7",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-ws1g2c784x193n7",
+    "target": "topic-heat",
+    "weight": 1
+  },
+  {
+    "source": "post-ws1g2c784x193n7",
+    "target": "topic-inequality",
+    "weight": 1
+  },
+  {
+    "source": "post-7utx4urk1sf9hb2",
+    "target": "publisher-the-atlantic",
+    "weight": 1
+  },
+  {
+    "source": "post-7utx4urk1sf9hb2",
+    "target": "author-marcelo-del-pozo",
+    "weight": 1
+  },
+  {
+    "source": "post-7utx4urk1sf9hb2",
+    "target": "author-alan-taylor",
+    "weight": 1
+  },
+  {
+    "source": "post-7utx4urk1sf9hb2",
+    "target": "topic-wildfire",
+    "weight": 1
+  },
+  {
+    "source": "post-7utx4urk1sf9hb2",
+    "target": "topic-pyrocene",
+    "weight": 1
+  },
+  {
+    "source": "post-7utx4urk1sf9hb2",
+    "target": "topic-destruction",
+    "weight": 1
+  },
+  {
+    "source": "post-7utx4urk1sf9hb2",
+    "target": "topic-nature",
+    "weight": 1
+  },
+  {
+    "source": "post-x4wuy537825254u",
+    "target": "publisher-the-new-yorker",
+    "weight": 1
+  },
+  {
+    "source": "post-x4wuy537825254u",
+    "target": "author-patrick-mc-kelvie",
+    "weight": 1
+  },
+  {
+    "source": "post-x4wuy537825254u",
+    "target": "topic-wildfire",
+    "weight": 1
+  },
+  {
+    "source": "post-x4wuy537825254u",
+    "target": "topic-satire",
+    "weight": 1
+  },
+  {
+    "source": "post-x4wuy537825254u",
+    "target": "topic-cartoon",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "publisher-bloomberg-green",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "author-fadwa-hodali",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "author-krishna-karra",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "author-caroline-alexander",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "author-denise-lu",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "topic-war",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "topic-destruction",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "topic-ecocide",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "topic-waste",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "topic-pollution",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "topic-sea",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "topic-visualisation",
+    "weight": 1
+  },
+  {
+    "source": "post-1360ovq7d0o1q9a",
+    "target": "publisher-the-atlantic",
+    "weight": 1
+  },
+  {
+    "source": "post-1360ovq7d0o1q9a",
+    "target": "author-feature-china",
+    "weight": 1
+  },
+  {
+    "source": "post-1360ovq7d0o1q9a",
+    "target": "author-alan-taylor",
+    "weight": 1
+  },
+  {
+    "source": "post-1360ovq7d0o1q9a",
+    "target": "topic-solar",
+    "weight": 1
+  },
+  {
+    "source": "post-1360ovq7d0o1q9a",
+    "target": "topic-china",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "publisher-you-tube-com",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "author-david-attenborough",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "author-toby-nowlan",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "author-keith-scholey",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "author-colin-butfield",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "topic-oceans",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "topic-capitalism",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "topic-overfishing",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "topic-destruction",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "publisher-new-york-times",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "author-lutz-stautner",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "author-ludwig-berger",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "topic-ice",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "topic-glacier",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "topic-field-recording",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "topic-nature",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "topic-documentary",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "topic-art",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "topic-sound",
+    "weight": 1
+  },
+  {
+    "source": "post-bo863961511fdgg",
+    "target": "publisher-wikipedia-org",
+    "weight": 1
+  },
+  {
+    "source": "post-bo863961511fdgg",
+    "target": "author-william-stanley-jevons",
+    "weight": 1
+  },
+  {
+    "source": "post-bo863961511fdgg",
+    "target": "topic-technology",
+    "weight": 1
+  },
+  {
+    "source": "post-bo863961511fdgg",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-bo863961511fdgg",
+    "target": "topic-capitalism",
+    "weight": 1
+  },
+  {
+    "source": "post-bo863961511fdgg",
+    "target": "topic-economics",
+    "weight": 1
+  },
+  {
+    "source": "post-4os1b70d2ze859x",
+    "target": "publisher-new-york-times",
+    "weight": 1
+  },
+  {
+    "source": "post-4os1b70d2ze859x",
+    "target": "author-austyn-gaffney",
+    "weight": 1
+  },
+  {
+    "source": "post-4os1b70d2ze859x",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-grv420qb3gx16oh",
+    "target": "publisher-instagram",
+    "weight": 1
+  },
+  {
+    "source": "post-grv420qb3gx16oh",
+    "target": "author-ethan-swope",
+    "weight": 1
+  },
+  {
+    "source": "post-grv420qb3gx16oh",
+    "target": "topic-pyrocene",
+    "weight": 1
+  },
+  {
+    "source": "post-grv420qb3gx16oh",
+    "target": "topic-nature",
+    "weight": 1
+  },
+  {
+    "source": "post-grv420qb3gx16oh",
+    "target": "topic-wildfire",
+    "weight": 1
+  },
+  {
+    "source": "post-grv420qb3gx16oh",
+    "target": "topic-media",
+    "weight": 1
+  },
+  {
+    "source": "post-twfh1k769i3k7e7",
+    "target": "publisher-forbes",
+    "weight": 1
+  },
+  {
+    "source": "post-twfh1k769i3k7e7",
+    "target": "author-david-vetter",
+    "weight": 1
+  },
+  {
+    "source": "post-twfh1k769i3k7e7",
+    "target": "topic-ecocide",
+    "weight": 1
+  },
+  {
+    "source": "post-twfh1k769i3k7e7",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-eej9z60o67yfhjq",
+    "target": "publisher-the-guardian",
+    "weight": 1
+  },
+  {
+    "source": "post-eej9z60o67yfhjq",
+    "target": "author-greta-thunberg",
+    "weight": 1
+  },
+  {
+    "source": "post-eej9z60o67yfhjq",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-eej9z60o67yfhjq",
+    "target": "topic-policy",
+    "weight": 1
+  },
+  {
+    "source": "post-eej9z60o67yfhjq",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-eej9z60o67yfhjq",
+    "target": "topic-activism",
+    "weight": 1
+  },
+  {
+    "source": "post-eej9z60o67yfhjq",
+    "target": "topic-protest",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "publisher-pew-research-center",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "author-jacob-poushter",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "author-moira-fagan",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "author-sneha-gubbala",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "topic-visualisation",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "topic-science",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "topic-attention",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-ihsr96art8szht7",
+    "target": "publisher-the-new-yorker",
+    "weight": 1
+  },
+  {
+    "source": "post-ihsr96art8szht7",
+    "target": "author-elizabeth-kolbert",
+    "weight": 1
+  },
+  {
+    "source": "post-ihsr96art8szht7",
+    "target": "topic-tipping-point",
+    "weight": 1
+  },
+  {
+    "source": "post-ihsr96art8szht7",
+    "target": "topic-ice",
+    "weight": 1
+  },
+  {
+    "source": "post-ihsr96art8szht7",
+    "target": "topic-greenland",
+    "weight": 1
+  },
+  {
+    "source": "post-ihsr96art8szht7",
+    "target": "topic-arctic",
+    "weight": 1
+  },
+  {
+    "source": "post-ihsr96art8szht7",
+    "target": "topic-science",
+    "weight": 1
+  },
+  {
+    "source": "post-w7xxkwibymyhqus",
+    "target": "publisher-you-tube-com",
+    "weight": 1
+  },
+  {
+    "source": "post-w7xxkwibymyhqus",
+    "target": "author-thomas-flight",
+    "weight": 1
+  },
+  {
+    "source": "post-w7xxkwibymyhqus",
+    "target": "topic-popculture",
+    "weight": 1
+  },
+  {
+    "source": "post-w7xxkwibymyhqus",
+    "target": "topic-theory",
+    "weight": 1
+  },
+  {
+    "source": "post-w7xxkwibymyhqus",
+    "target": "topic-media",
+    "weight": 1
+  },
+  {
+    "source": "post-brfvzrl3rxffa1t",
+    "target": "publisher-orion-magazine",
+    "weight": 1
+  },
+  {
+    "source": "post-brfvzrl3rxffa1t",
+    "target": "author-robin-wall-kimmerer",
+    "weight": 1
+  },
+  {
+    "source": "post-brfvzrl3rxffa1t",
+    "target": "topic-nature",
+    "weight": 1
+  },
+  {
+    "source": "post-brfvzrl3rxffa1t",
+    "target": "topic-animals",
+    "weight": 1
+  },
+  {
+    "source": "post-brfvzrl3rxffa1t",
+    "target": "topic-non-human",
+    "weight": 1
+  },
+  {
+    "source": "post-brfvzrl3rxffa1t",
+    "target": "topic-human-exceptionalism",
+    "weight": 1
+  },
+  {
+    "source": "post-brfvzrl3rxffa1t",
+    "target": "topic-language",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "publisher-washington-post",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "author-sarah-kaplan",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "author-simon-ducroquet",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "author-emily-j-judd",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "topic-models",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "topic-science",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "topic-history",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "topic-temperature",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "topic-visualisation",
+    "weight": 1
+  },
+  {
+    "source": "post-3ksqthbqcas74bl",
+    "target": "publisher-search-engine",
+    "weight": 1
+  },
+  {
+    "source": "post-3ksqthbqcas74bl",
+    "target": "author-pj-vogt",
+    "weight": 1
+  },
+  {
+    "source": "post-3ksqthbqcas74bl",
+    "target": "author-annie-lowrey",
+    "weight": 1
+  },
+  {
+    "source": "post-3ksqthbqcas74bl",
+    "target": "topic-animals",
+    "weight": 1
+  },
+  {
+    "source": "post-3ksqthbqcas74bl",
+    "target": "topic-veganism",
+    "weight": 1
+  },
+  {
+    "source": "post-jelfy1cle323wii",
+    "target": "publisher-substack",
+    "weight": 1
+  },
+  {
+    "source": "post-jelfy1cle323wii",
+    "target": "author-bill-mc-kibben",
+    "weight": 1
+  },
+  {
+    "source": "post-jelfy1cle323wii",
+    "target": "topic-news",
+    "weight": 1
+  },
+  {
+    "source": "post-jelfy1cle323wii",
+    "target": "topic-education",
+    "weight": 1
+  },
+  {
+    "source": "post-ej1918u87zw17mw",
+    "target": "topic-infrastructure",
+    "weight": 1
+  },
+  {
+    "source": "post-ej1918u87zw17mw",
+    "target": "topic-typhoon",
+    "weight": 1
+  },
+  {
+    "source": "post-9srq3oajktuaq4k",
+    "target": "publisher-new-york-times",
+    "weight": 1
+  },
+  {
+    "source": "post-9srq3oajktuaq4k",
+    "target": "author-michael-barbaro",
+    "weight": 1
+  },
+  {
+    "source": "post-9srq3oajktuaq4k",
+    "target": "author-emily-badger",
+    "weight": 1
+  },
+  {
+    "source": "post-9srq3oajktuaq4k",
+    "target": "topic-policy",
+    "weight": 1
+  },
+  {
+    "source": "post-9srq3oajktuaq4k",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-9srq3oajktuaq4k",
+    "target": "topic-technology",
+    "weight": 1
+  },
+  {
+    "source": "post-9srq3oajktuaq4k",
+    "target": "topic-infrastructure",
+    "weight": 1
+  },
+  {
+    "source": "post-8ti8dk0fvwjc0cp",
+    "target": "publisher-dillon-marsh",
+    "weight": 1
+  },
+  {
+    "source": "post-8ti8dk0fvwjc0cp",
+    "target": "author-dillon-marsh",
+    "weight": 1
+  },
+  {
+    "source": "post-8ti8dk0fvwjc0cp",
+    "target": "topic-visualisation",
+    "weight": 1
+  },
+  {
+    "source": "post-8ti8dk0fvwjc0cp",
+    "target": "topic-extraction",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "publisher-ipcc",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "author-ipcc",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "topic-visualisation",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "topic-science",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "topic-policy",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "topic-technology",
+    "weight": 1
+  },
+  {
+    "source": "post-w65hqi7pfc2o71v",
+    "target": "publisher-the-new-yorker",
+    "weight": 1
+  },
+  {
+    "source": "post-w65hqi7pfc2o71v",
+    "target": "author-emily-bernstein",
+    "weight": 1
+  },
+  {
+    "source": "post-w65hqi7pfc2o71v",
+    "target": "topic-popculture",
+    "weight": 1
+  },
+  {
+    "source": "post-w65hqi7pfc2o71v",
+    "target": "topic-attention",
+    "weight": 1
+  },
+  {
+    "source": "post-w65hqi7pfc2o71v",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-ehh709otgp5zvb3",
+    "target": "publisher-fall-of-civilizations-podcast-com",
+    "weight": 1
+  },
+  {
+    "source": "post-ehh709otgp5zvb3",
+    "target": "author-paul-cooper",
+    "weight": 1
+  },
+  {
+    "source": "post-ehh709otgp5zvb3",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-ehh709otgp5zvb3",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-ehh709otgp5zvb3",
+    "target": "topic-history",
+    "weight": 1
+  },
+  {
+    "source": "post-oz9q1u5t31pt8lm",
+    "target": "publisher-the-university-of-chicago-press",
+    "weight": 1
+  },
+  {
+    "source": "post-oz9q1u5t31pt8lm",
+    "target": "author-rachel-sussman",
+    "weight": 1
+  },
+  {
+    "source": "post-oz9q1u5t31pt8lm",
+    "target": "topic-art",
+    "weight": 1
+  },
+  {
+    "source": "post-oz9q1u5t31pt8lm",
+    "target": "topic-deep-time",
+    "weight": 1
+  },
+  {
+    "source": "post-oz9q1u5t31pt8lm",
+    "target": "topic-nature",
+    "weight": 1
+  },
+  {
+    "source": "post-oz9q1u5t31pt8lm",
+    "target": "topic-non-human",
+    "weight": 1
+  },
+  {
+    "source": "post-9qe2hqoo20eghb9",
+    "target": "publisher-agnes-denes",
+    "weight": 1
+  },
+  {
+    "source": "post-9qe2hqoo20eghb9",
+    "target": "author-agnes-denes",
+    "weight": 1
+  },
+  {
+    "source": "post-9qe2hqoo20eghb9",
+    "target": "topic-art",
+    "weight": 1
+  },
+  {
+    "source": "post-9qe2hqoo20eghb9",
+    "target": "topic-capitalism",
+    "weight": 1
+  },
+  {
+    "source": "post-iiyhzpnw1m773dr",
+    "target": "publisher-the-new-stateman",
+    "weight": 1
+  },
+  {
+    "source": "post-iiyhzpnw1m773dr",
+    "target": "author-rebecca-solnit",
+    "weight": 1
+  },
+  {
+    "source": "post-iiyhzpnw1m773dr",
+    "target": "topic-hope",
+    "weight": 1
+  },
+  {
+    "source": "post-g25dz6jyfp0at9p",
+    "target": "publisher-the-new-yorker",
+    "weight": 1
+  },
+  {
+    "source": "post-g25dz6jyfp0at9p",
+    "target": "author-john-mc-namee",
+    "weight": 1
+  },
+  {
+    "source": "post-g25dz6jyfp0at9p",
+    "target": "topic-satire",
+    "weight": 1
+  },
+  {
+    "source": "post-g25dz6jyfp0at9p",
+    "target": "topic-popculture",
+    "weight": 1
+  },
+  {
+    "source": "post-g25dz6jyfp0at9p",
+    "target": "topic-attention",
+    "weight": 1
+  },
+  {
+    "source": "post-re9uatc7cbmd38v",
+    "target": "publisher-twitter",
+    "weight": 1
+  },
+  {
+    "source": "post-re9uatc7cbmd38v",
+    "target": "author-nick-newman",
+    "weight": 1
+  },
+  {
+    "source": "post-re9uatc7cbmd38v",
+    "target": "topic-popculture",
+    "weight": 1
+  },
+  {
+    "source": "post-re9uatc7cbmd38v",
+    "target": "topic-wildfire",
+    "weight": 1
+  },
+  {
+    "source": "post-re9uatc7cbmd38v",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-1asyepfsej62h0c",
+    "target": "publisher-washington-post",
+    "weight": 1
+  },
+  {
+    "source": "post-1asyepfsej62h0c",
+    "target": "author-rebecca-solnit",
+    "weight": 1
+  },
+  {
+    "source": "post-1asyepfsej62h0c",
+    "target": "topic-hope",
+    "weight": 1
+  },
+  {
+    "source": "post-u2htqw65423ztjc",
+    "target": "publisher-weltkunst",
+    "weight": 1
+  },
+  {
+    "source": "post-u2htqw65423ztjc",
+    "target": "author-leopold-museum",
+    "weight": 1
+  },
+  {
+    "source": "post-u2htqw65423ztjc",
+    "target": "author-hans-peter-wipplinger",
+    "weight": 1
+  },
+  {
+    "source": "post-u2htqw65423ztjc",
+    "target": "topic-protest",
+    "weight": 1
+  },
+  {
+    "source": "post-u2htqw65423ztjc",
+    "target": "topic-popculture",
+    "weight": 1
+  },
+  {
+    "source": "post-u2htqw65423ztjc",
+    "target": "topic-art",
+    "weight": 1
+  },
+  {
+    "source": "post-77vrdbqfpwq2kni",
+    "target": "publisher-the-new-yorker",
+    "weight": 1
+  },
+  {
+    "source": "post-77vrdbqfpwq2kni",
+    "target": "author-jack-weisman",
+    "weight": 1
+  },
+  {
+    "source": "post-77vrdbqfpwq2kni",
+    "target": "author-gabriela-osio-vanden",
+    "weight": 1
+  },
+  {
+    "source": "post-77vrdbqfpwq2kni",
+    "target": "topic-animals",
+    "weight": 1
+  },
+  {
+    "source": "post-77vrdbqfpwq2kni",
+    "target": "topic-documentary",
+    "weight": 1
+  },
+  {
+    "source": "post-77vrdbqfpwq2kni",
+    "target": "topic-artic",
+    "weight": 1
+  },
+  {
+    "source": "post-77vrdbqfpwq2kni",
+    "target": "topic-polar-bears",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "publisher-the-new-yorker",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "author-evgenia-arbugaeva",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "author-maxim-arbugaev",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "author-maxim-chakilev",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "topic-animals",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "topic-documentary",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "topic-artic",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "topic-walrus",
+    "weight": 1
+  },
+  {
+    "source": "post-s62x1iuzsoyt1bw",
+    "target": "publisher-nature",
+    "weight": 1
+  },
+  {
+    "source": "post-s62x1iuzsoyt1bw",
+    "target": "author-elizabeth-pennisi",
+    "weight": 1
+  },
+  {
+    "source": "post-s62x1iuzsoyt1bw",
+    "target": "author-patrick-schultheiss",
+    "weight": 1
+  },
+  {
+    "source": "post-s62x1iuzsoyt1bw",
+    "target": "topic-biomass",
+    "weight": 1
+  },
+  {
+    "source": "post-s62x1iuzsoyt1bw",
+    "target": "topic-science",
+    "weight": 1
+  },
+  {
+    "source": "post-q0ie38eb47i57vz",
+    "target": "publisher-the-new-yorker",
+    "weight": 1
+  },
+  {
+    "source": "post-q0ie38eb47i57vz",
+    "target": "author-adam-gopnik",
+    "weight": 1
+  },
+  {
+    "source": "post-q0ie38eb47i57vz",
+    "target": "author-johan-eklof",
+    "weight": 1
+  },
+  {
+    "source": "post-q0ie38eb47i57vz",
+    "target": "topic-light-pollution",
+    "weight": 1
+  },
+  {
+    "source": "post-q0ie38eb47i57vz",
+    "target": "topic-animals",
+    "weight": 1
+  },
+  {
+    "source": "post-q0ie38eb47i57vz",
+    "target": "topic-biodiversity",
+    "weight": 1
+  },
+  {
+    "source": "post-w04hcgjoetgitsv",
+    "target": "publisher-permillion-live",
+    "weight": 1
+  },
+  {
+    "source": "post-w04hcgjoetgitsv",
+    "target": "author-julian-oliver",
+    "weight": 1
+  },
+  {
+    "source": "post-w04hcgjoetgitsv",
+    "target": "author-gordan-savicic",
+    "weight": 1
+  },
+  {
+    "source": "post-w04hcgjoetgitsv",
+    "target": "topic-protest",
+    "weight": 1
+  },
+  {
+    "source": "post-w04hcgjoetgitsv",
+    "target": "topic-art",
+    "weight": 1
+  },
+  {
+    "source": "post-w04hcgjoetgitsv",
+    "target": "topic-activism",
+    "weight": 1
+  },
+  {
+    "source": "post-xujb8grwu3jtyzo",
+    "target": "publisher-atmos-earth",
+    "weight": 1
+  },
+  {
+    "source": "post-xujb8grwu3jtyzo",
+    "target": "author-johann-hari",
+    "weight": 1
+  },
+  {
+    "source": "post-xujb8grwu3jtyzo",
+    "target": "author-daphne-chouliaraki-milner",
+    "weight": 1
+  },
+  {
+    "source": "post-xujb8grwu3jtyzo",
+    "target": "author-dr-charles-czeisler",
+    "weight": 1
+  },
+  {
+    "source": "post-xujb8grwu3jtyzo",
+    "target": "topic-attention",
+    "weight": 1
+  },
+  {
+    "source": "post-xujb8grwu3jtyzo",
+    "target": "topic-big-tech",
+    "weight": 1
+  },
+  {
+    "source": "post-xujb8grwu3jtyzo",
+    "target": "topic-capitalism",
+    "weight": 1
+  },
+  {
+    "source": "post-p4eg5vdtb0s27m5",
+    "target": "publisher-republik",
+    "weight": 1
+  },
+  {
+    "source": "post-p4eg5vdtb0s27m5",
+    "target": "author-kim-stanley-robinson",
+    "weight": 1
+  },
+  {
+    "source": "post-p4eg5vdtb0s27m5",
+    "target": "author-elia-blulle",
+    "weight": 1
+  },
+  {
+    "source": "post-p4eg5vdtb0s27m5",
+    "target": "topic-cli-fi",
+    "weight": 1
+  },
+  {
+    "source": "post-p4eg5vdtb0s27m5",
+    "target": "topic-interview",
+    "weight": 1
+  },
+  {
+    "source": "post-xpoqvlqgux3h18o",
+    "target": "publisher-twitter",
+    "weight": 1
+  },
+  {
+    "source": "post-xpoqvlqgux3h18o",
+    "target": "author-ed-hawkins",
+    "weight": 1
+  },
+  {
+    "source": "post-xpoqvlqgux3h18o",
+    "target": "author-sam-matterface",
+    "weight": 1
+  },
+  {
+    "source": "post-xpoqvlqgux3h18o",
+    "target": "topic-visualisation",
+    "weight": 1
+  },
+  {
+    "source": "post-xpoqvlqgux3h18o",
+    "target": "topic-popculture",
+    "weight": 1
+  },
+  {
+    "source": "post-y2iu9zo4wpp8q01",
+    "target": "publisher-new-york-times",
+    "weight": 1
+  },
+  {
+    "source": "post-y2iu9zo4wpp8q01",
+    "target": "author-alex-cuadros",
+    "weight": 1
+  },
+  {
+    "source": "post-y2iu9zo4wpp8q01",
+    "target": "author-jonathan-davis",
+    "weight": 1
+  },
+  {
+    "source": "post-y2iu9zo4wpp8q01",
+    "target": "topic-tipping-point",
+    "weight": 1
+  },
+  {
+    "source": "post-y2iu9zo4wpp8q01",
+    "target": "topic-biodiversity",
+    "weight": 1
+  },
+  {
+    "source": "post-y2iu9zo4wpp8q01",
+    "target": "topic-amazon",
+    "weight": 1
+  },
+  {
+    "source": "post-ze49xideou30wmw",
+    "target": "publisher-new-york-times",
+    "weight": 1
+  },
+  {
+    "source": "post-ze49xideou30wmw",
+    "target": "author-michael-barbaro",
+    "weight": 1
+  },
+  {
+    "source": "post-ze49xideou30wmw",
+    "target": "author-catrin-einhorn",
+    "weight": 1
+  },
+  {
+    "source": "post-ze49xideou30wmw",
+    "target": "author-katharine-hayhoe",
+    "weight": 1
+  },
+  {
+    "source": "post-ze49xideou30wmw",
+    "target": "topic-biodiversity",
+    "weight": 1
+  },
+  {
+    "source": "post-9qfq6dn8b3tjw0k",
+    "target": "publisher-twitter",
+    "weight": 1
+  },
+  {
+    "source": "post-9qfq6dn8b3tjw0k",
+    "target": "author-marius-michusch",
+    "weight": 1
+  },
+  {
+    "source": "post-9qfq6dn8b3tjw0k",
+    "target": "topic-protest",
+    "weight": 1
+  },
+  {
+    "source": "post-9qfq6dn8b3tjw0k",
+    "target": "topic-activism",
+    "weight": 1
+  },
+  {
+    "source": "post-9qfq6dn8b3tjw0k",
+    "target": "topic-coal",
+    "weight": 1
+  },
+  {
+    "source": "post-zqo6lkqydw2rgpv",
+    "target": "publisher-you-tube-com",
+    "weight": 1
+  },
+  {
+    "source": "post-zqo6lkqydw2rgpv",
+    "target": "author-carolin-emcke",
+    "weight": 1
+  },
+  {
+    "source": "post-zqo6lkqydw2rgpv",
+    "target": "author-stefan-rahmstorf",
+    "weight": 1
+  },
+  {
+    "source": "post-zqo6lkqydw2rgpv",
+    "target": "author-kira-vinke",
+    "weight": 1
+  },
+  {
+    "source": "post-zqo6lkqydw2rgpv",
+    "target": "topic-models",
+    "weight": 1
+  },
+  {
+    "source": "post-zqo6lkqydw2rgpv",
+    "target": "topic-science",
+    "weight": 1
+  },
+  {
+    "source": "post-zqo6lkqydw2rgpv",
+    "target": "topic-policy",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "publisher-half-earth",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "author-francis-tseng",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "author-son-la-pham",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "author-drew-pendergrass",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "author-troy-vettese",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "topic-technology",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "topic-policy",
+    "weight": 1
+  },
+  {
+    "source": "post-4nyyc46752yo3js",
+    "target": "publisher-new-york-times",
+    "weight": 1
+  },
+  {
+    "source": "post-4nyyc46752yo3js",
+    "target": "author-noah-gallagher-shannon",
+    "weight": 1
+  },
+  {
+    "source": "post-4nyyc46752yo3js",
+    "target": "author-james-patrick-cronin",
+    "weight": 1
+  },
+  {
+    "source": "post-4nyyc46752yo3js",
+    "target": "topic-society",
+    "weight": 1
+  },
+  {
+    "source": "post-4nyyc46752yo3js",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-4nyyc46752yo3js",
+    "target": "topic-hope",
+    "weight": 1
+  },
+  {
+    "source": "post-xarbrf46tusa1my",
+    "target": "publisher-the-anthropocene-org",
+    "weight": 1
+  },
+  {
+    "source": "post-xarbrf46tusa1my",
+    "target": "author-jennifer-baichwal",
+    "weight": 1
+  },
+  {
+    "source": "post-xarbrf46tusa1my",
+    "target": "author-edward-burtynsky",
+    "weight": 1
+  },
+  {
+    "source": "post-xarbrf46tusa1my",
+    "target": "author-nicholas-de-pencier",
+    "weight": 1
+  },
+  {
+    "source": "post-xarbrf46tusa1my",
+    "target": "topic-documentary",
+    "weight": 1
+  },
+  {
+    "source": "post-8d0d222q1a7fmmc",
+    "target": "publisher-100-gute-gruende-de",
+    "weight": 1
+  },
+  {
+    "source": "post-8d0d222q1a7fmmc",
+    "target": "author-elektrizitatswerke-schonau",
+    "weight": 1
+  },
+  {
+    "source": "post-8d0d222q1a7fmmc",
+    "target": "topic-science",
+    "weight": 1
+  },
+  {
+    "source": "post-8d0d222q1a7fmmc",
+    "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-6i61wlod7qvnykj",
+    "target": "publisher-republik",
+    "weight": 1
+  },
+  {
+    "source": "post-6i61wlod7qvnykj",
+    "target": "author-rebecca-solnit",
+    "weight": 1
+  },
+  {
+    "source": "post-6i61wlod7qvnykj",
+    "target": "topic-hope",
+    "weight": 1
+  },
+  {
+    "source": "post-bo1t775idhwlqwx",
+    "target": "publisher-aeon",
+    "weight": 1
+  },
+  {
+    "source": "post-bo1t775idhwlqwx",
+    "target": "author-arwen-e-nicholson",
+    "weight": 1
+  },
+  {
+    "source": "post-bo1t775idhwlqwx",
+    "target": "author-raphaelle-d-haywood",
+    "weight": 1
+  },
+  {
+    "source": "post-tdzmyhh3znbsxo8",
+    "target": "publisher-matthes-seitz-berlin",
+    "weight": 1
+  },
+  {
+    "source": "post-tdzmyhh3znbsxo8",
+    "target": "author-birgit-schneider",
+    "weight": 1
+  },
+  {
+    "source": "post-tdzmyhh3znbsxo8",
+    "target": "topic-theory",
+    "weight": 1
+  },
+  {
+    "source": "post-tdzmyhh3znbsxo8",
+    "target": "topic-visualisation",
+    "weight": 1
+  }
+]
