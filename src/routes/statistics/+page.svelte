@@ -1,41 +1,63 @@
 <script lang="ts">
-	import type { TagCombination, TagCount } from '$utils/statistics';
+	import type { TagCombination, PropertyCount } from '$utils/statistics';
+	import Category from '$lib/components/statistics/Category.svelte';
+	import TableSingle from '$lib/components/statistics/TableSingle.svelte';
 
 	type Props = {
-		tags: TagCount[];
+		tags: PropertyCount[];
+		formats: PropertyCount[];
+		publishers: PropertyCount[];
+		authors: PropertyCount[];
 		combinations: TagCombination[];
 	};
 
 	const { data }: { data: Props } = $props();
-	const { tags, combinations } = $derived(data);
+	const { tags, combinations, formats, publishers, authors } = $derived(data);
 </script>
 
 <h1 class="font-semibold text-2xl">Statistics</h1>
 
-<div class="flex flex-row gap-4">
-	<section>
-		<h2 class="text-2xl">Tags</h2>
-		<table>
-			<tbody>
-				{#each tags as { slug, label, count }}
-					<tr>
-						<td>
-							{label}
-						</td>
-						<td class="text-right">
-							{count}
-						</td>
-					</tr>
-				{/each}
-			</tbody>
-		</table>
-	</section>
+<div class="flex flex-row gap-4 justify-between">
+	<Category title="Tags" count={tags.length}>
+		{#snippet table()}
+			<TableSingle arr={tags} />
+		{/snippet}
+	</Category>
 
-	<ul>
-		{#each combinations as { labels, count, slugs }}
-			<li>
-				<a href={`/tags/${slugs.join('+')}`}>{labels.join(', ')} ({count})</a>
-			</li>
-		{/each}
-	</ul>
+	<Category title="Tag Combinations" count={combinations.length}>
+		{#snippet table()}
+			<table class="w-full">
+				<tbody>
+					{#each combinations as { labels, count }}
+						<tr>
+							<td>
+								{labels.join(' + ')}
+							</td>
+							<td class="text-right">
+								{count}
+							</td>
+						</tr>
+					{/each}
+				</tbody>
+			</table>
+		{/snippet}
+	</Category>
+
+	<Category title="Formats" count={formats.length}>
+		{#snippet table()}
+			<TableSingle arr={formats} />
+		{/snippet}
+	</Category>
+
+	<Category title="Publishers" count={publishers.length}>
+		{#snippet table()}
+			<TableSingle arr={publishers} />
+		{/snippet}
+	</Category>
+
+	<Category title="Authors" count={authors.length}>
+		{#snippet table()}
+			<TableSingle arr={authors} />
+		{/snippet}
+	</Category>
 </div>

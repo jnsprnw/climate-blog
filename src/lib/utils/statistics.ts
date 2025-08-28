@@ -1,16 +1,25 @@
 import posts from '$posts';
 
-export type TagCount = {
+export type PropertyCount = {
 	count: number;
 	label: string;
 	slug: string;
 };
 
-export function getTagsByCount(): TagCount[] {
-	const tags = new Map<string, TagCount>();
+function getPropertyByCount(key: string): PropertyCount[] {
+	const tags = new Map<string, PropertyCount>();
 
 	for (const post of posts) {
-		for (const { slug, label } of post.topics) {
+		if (Array.isArray(post[key])) {
+			for (const { slug, label } of post[key]) {
+				if (tags.has(slug)) {
+					tags.get(slug)!.count += 1;
+				} else {
+					tags.set(slug, { count: 1, label, slug });
+				}
+			}
+		} else if (typeof post[key] === 'object') {
+			const { slug, label } = post[key];
 			if (tags.has(slug)) {
 				tags.get(slug)!.count += 1;
 			} else {
@@ -19,7 +28,16 @@ export function getTagsByCount(): TagCount[] {
 		}
 	}
 
-	return Array.from(tags.values()).sort((a, b) => b.count - a.count);
+	return Array.from(tags.values()).sort((a, b) => {
+		if (a.count === b.count) {
+			return a.label.localeCompare(b.label);
+		}
+		return b.count - a.count;
+	});
+}
+
+export function getTagsByCount(): PropertyCount[] {
+	return getPropertyByCount('topics');
 }
 
 export type TagCombination = {
@@ -49,4 +67,16 @@ export function getTagCombinationsByCount(): TagCombination[] {
 	return Array.from(combinations.values())
 		.filter(({ count }) => count > 1)
 		.sort((a, b) => b.count - a.count);
+}
+
+export function getFormatsByCount(): PropertyCount[] {
+	return getPropertyByCount('formats');
+}
+
+export function getAuthorsByCount(): PropertyCount[] {
+	return getPropertyByCount('authors');
+}
+
+export function getPublishersByCount(): PropertyCount[] {
+	return getPropertyByCount('publisher');
 }
