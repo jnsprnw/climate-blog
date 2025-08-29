@@ -1,5 +1,4 @@
 <script lang="ts">
-	// import type { Entity, Link } from '$types/network';
 	import entities from '$entities';
 
 	import { LayerCake, Svg } from 'layercake';
