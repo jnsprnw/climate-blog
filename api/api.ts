@@ -40,6 +40,7 @@ function getRelationship(current_post: PostsRecord, all_posts: PostsRecord[], di
 			const post = all_posts.find((post) => post.id === id);
 			return {
 				slug: post.slug,
+				id: post.id,
 				title: post.title,
 				count: relationships
 					.map(([_, key, edges]) => edges.length * dimensions[key].weight)
@@ -145,7 +146,7 @@ async function getData() {
 	getNetworkData(entries);
 }
 
-type Entity = { id: string; title: string; type: string; weight: number };
+type Entity = { id: string; title: string; type: string; weight: number; date?: Date };
 type Link = { source: string; target: string; weight: number };
 
 function getNetworkData(entries) {
@@ -158,8 +159,23 @@ function getNetworkData(entries) {
 			id: post_id,
 			title: entry.title,
 			type: 'post',
-			weight: 1
+			weight: 1,
+			date: entry.published
 		});
+
+		for (const relationship of entry.relationships) {
+			const relationship_id = `post-${relationship.id}`;
+			const link_id = [post_id, relationship_id].sort().join('-');
+			if (!links.has(link_id)) {
+				links.set(`${post_id}-${relationship}`, {
+					source: post_id,
+					target: relationship_id,
+					weight: 1
+				});
+			} else {
+				links.get(link_id)!.weight += 1;
+			}
+		}
 
 		if (typeof entry.publisher !== 'undefined') {
 			const publisher_id = `publisher-${entry.publisher.slug}`;

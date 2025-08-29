@@ -15,8 +15,13 @@
 	} from 'd3-force';
 	import type { Entity, Link } from '$types/network';
 	import linksRaw from '$links';
+	import { scaleOrdinal, scaleTime, scaleLinear } from 'd3-scale';
+	
 
-	const { data, width, height, rGet, zGet, rRange } = getContext('LayerCake');
+	const { data, width, height, rGet, zGet, rRange, xScale, xGet, xRange, xDomain, yGet } =
+		getContext('LayerCake');
+	
+	
 
 	/* --------------------------------------------
 	 * Make a copy because the simulation will alter the objects
@@ -38,7 +43,7 @@
 		if (d.type === 'post') {
 			return $rRange[1];
 		}
-		return $rGet(d); // Divide this by two because an svg stroke is drawn halfway out
+		return $rGet(d);
 	}
 
 	/* ----------------------------------------------
@@ -65,7 +70,7 @@
 
 {#each links as link}
 	<line
-		class="stroke-1 stroke-gray-300"
+		class="stroke-1 stroke-gray-300 opacity-50"
 		x1={link.source.x}
 		y1={link.source.y}
 		x2={link.target.x}

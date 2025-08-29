@@ -1,5 +1,30 @@
 [
   {
+    "source": "post-53m9s8777wcjtn0",
+    "target": "post-9qfq6dn8b3tjw0k",
+    "weight": 1
+  },
+  {
+    "source": "post-53m9s8777wcjtn0",
+    "target": "publisher-twitter",
+    "weight": 1
+  },
+  {
+    "source": "post-53m9s8777wcjtn0",
+    "target": "author-duncan-porter",
+    "weight": 1
+  },
+  {
+    "source": "post-53m9s8777wcjtn0",
+    "target": "topic-glacier",
+    "weight": 1
+  },
+  {
+    "source": "post-ws1g2c784x193n7",
+    "target": "post-bo1t775idhwlqwx",
+    "weight": 1
+  },
+  {
     "source": "post-ws1g2c784x193n7",
     "target": "publisher-new-york-times",
     "weight": 1
@@ -32,6 +57,11 @@
   {
     "source": "post-ws1g2c784x193n7",
     "target": "topic-inequality",
+    "weight": 1
+  },
+  {
+    "source": "post-7utx4urk1sf9hb2",
+    "target": "post-9qfq6dn8b3tjw0k",
     "weight": 1
   },
   {
@@ -71,6 +101,11 @@
   },
   {
     "source": "post-x4wuy537825254u",
+    "target": "post-w65hqi7pfc2o71v",
+    "weight": 1
+  },
+  {
+    "source": "post-x4wuy537825254u",
     "target": "publisher-the-new-yorker",
     "weight": 1
   },
@@ -92,6 +127,11 @@
   {
     "source": "post-x4wuy537825254u",
     "target": "topic-cartoon",
+    "weight": 1
+  },
+  {
+    "source": "post-7pse60672wmx2e5",
+    "target": "post-bo1t775idhwlqwx",
     "weight": 1
   },
   {
@@ -161,6 +201,11 @@
   },
   {
     "source": "post-1360ovq7d0o1q9a",
+    "target": "post-9qfq6dn8b3tjw0k",
+    "weight": 1
+  },
+  {
+    "source": "post-1360ovq7d0o1q9a",
     "target": "publisher-the-atlantic",
     "weight": 1
   },
@@ -182,6 +227,11 @@
   {
     "source": "post-1360ovq7d0o1q9a",
     "target": "topic-china",
+    "weight": 1
+  },
+  {
+    "source": "post-j55xz8v43z3399o",
+    "target": "post-xarbrf46tusa1my",
     "weight": 1
   },
   {
@@ -227,6 +277,11 @@
   {
     "source": "post-j55xz8v43z3399o",
     "target": "topic-destruction",
+    "weight": 1
+  },
+  {
+    "source": "post-c4toy8bo2j02h3x",
+    "target": "post-xarbrf46tusa1my",
     "weight": 1
   },
   {
@@ -281,6 +336,11 @@
   },
   {
     "source": "post-bo863961511fdgg",
+    "target": "post-8d0d222q1a7fmmc",
+    "weight": 1
+  },
+  {
+    "source": "post-bo863961511fdgg",
     "target": "publisher-wikipedia-org",
     "weight": 1
   },
@@ -311,6 +371,11 @@
   },
   {
     "source": "post-4os1b70d2ze859x",
+    "target": "post-bo1t775idhwlqwx",
+    "weight": 1
+  },
+  {
+    "source": "post-4os1b70d2ze859x",
     "target": "publisher-new-york-times",
     "weight": 1
   },
@@ -322,6 +387,11 @@
   {
     "source": "post-4os1b70d2ze859x",
     "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-grv420qb3gx16oh",
+    "target": "post-9qfq6dn8b3tjw0k",
     "weight": 1
   },
   {
@@ -356,6 +426,11 @@
   },
   {
     "source": "post-twfh1k769i3k7e7",
+    "target": "post-bo1t775idhwlqwx",
+    "weight": 1
+  },
+  {
+    "source": "post-twfh1k769i3k7e7",
     "target": "publisher-forbes",
     "weight": 1
   },
@@ -372,6 +447,11 @@
   {
     "source": "post-twfh1k769i3k7e7",
     "target": "topic-politics",
+    "weight": 1
+  },
+  {
+    "source": "post-eej9z60o67yfhjq",
+    "target": "post-zqo6lkqydw2rgpv",
     "weight": 1
   },
   {
@@ -407,6 +487,11 @@
   {
     "source": "post-eej9z60o67yfhjq",
     "target": "topic-protest",
+    "weight": 1
+  },
+  {
+    "source": "post-gflp3wpnmes9cx4",
+    "target": "post-tdzmyhh3znbsxo8",
     "weight": 1
   },
   {
@@ -451,6 +536,11 @@
   },
   {
     "source": "post-ihsr96art8szht7",
+    "target": "post-bo1t775idhwlqwx",
+    "weight": 1
+  },
+  {
+    "source": "post-ihsr96art8szht7",
     "target": "publisher-the-new-yorker",
     "weight": 1
   },
@@ -486,6 +576,11 @@
   },
   {
     "source": "post-w7xxkwibymyhqus",
+    "target": "post-tdzmyhh3znbsxo8",
+    "weight": 1
+  },
+  {
+    "source": "post-w7xxkwibymyhqus",
     "target": "publisher-you-tube-com",
     "weight": 1
   },
@@ -507,6 +602,11 @@
   {
     "source": "post-w7xxkwibymyhqus",
     "target": "topic-media",
+    "weight": 1
+  },
+  {
+    "source": "post-brfvzrl3rxffa1t",
+    "target": "post-bo1t775idhwlqwx",
     "weight": 1
   },
   {
@@ -542,6 +642,11 @@
   {
     "source": "post-brfvzrl3rxffa1t",
     "target": "topic-language",
+    "weight": 1
+  },
+  {
+    "source": "post-5i6llxiifqr287p",
+    "target": "post-bo1t775idhwlqwx",
     "weight": 1
   },
   {
@@ -591,6 +696,11 @@
   },
   {
     "source": "post-3ksqthbqcas74bl",
+    "target": "post-4nyyc46752yo3js",
+    "weight": 1
+  },
+  {
+    "source": "post-3ksqthbqcas74bl",
     "target": "publisher-search-engine",
     "weight": 1
   },
@@ -636,12 +746,22 @@
   },
   {
     "source": "post-ej1918u87zw17mw",
+    "target": "post-9qfq6dn8b3tjw0k",
+    "weight": 1
+  },
+  {
+    "source": "post-ej1918u87zw17mw",
     "target": "topic-infrastructure",
     "weight": 1
   },
   {
     "source": "post-ej1918u87zw17mw",
     "target": "topic-typhoon",
+    "weight": 1
+  },
+  {
+    "source": "post-9srq3oajktuaq4k",
+    "target": "post-y2iu9zo4wpp8q01",
     "weight": 1
   },
   {
@@ -681,6 +801,11 @@
   },
   {
     "source": "post-8ti8dk0fvwjc0cp",
+    "target": "post-u2htqw65423ztjc",
+    "weight": 1
+  },
+  {
+    "source": "post-8ti8dk0fvwjc0cp",
     "target": "publisher-dillon-marsh",
     "weight": 1
   },
@@ -697,6 +822,11 @@
   {
     "source": "post-8ti8dk0fvwjc0cp",
     "target": "topic-extraction",
+    "weight": 1
+  },
+  {
+    "source": "post-j9uez6n86a1gnoz",
+    "target": "post-tdzmyhh3znbsxo8",
     "weight": 1
   },
   {
@@ -741,6 +871,11 @@
   },
   {
     "source": "post-w65hqi7pfc2o71v",
+    "target": "post-x4wuy537825254u",
+    "weight": 1
+  },
+  {
+    "source": "post-w65hqi7pfc2o71v",
     "target": "publisher-the-new-yorker",
     "weight": 1
   },
@@ -766,6 +901,11 @@
   },
   {
     "source": "post-ehh709otgp5zvb3",
+    "target": "post-ze49xideou30wmw",
+    "weight": 1
+  },
+  {
+    "source": "post-ehh709otgp5zvb3",
     "target": "publisher-fall-of-civilizations-podcast-com",
     "weight": 1
   },
@@ -787,6 +927,11 @@
   {
     "source": "post-ehh709otgp5zvb3",
     "target": "topic-history",
+    "weight": 1
+  },
+  {
+    "source": "post-oz9q1u5t31pt8lm",
+    "target": "post-tdzmyhh3znbsxo8",
     "weight": 1
   },
   {
@@ -821,6 +966,11 @@
   },
   {
     "source": "post-9qe2hqoo20eghb9",
+    "target": "post-xujb8grwu3jtyzo",
+    "weight": 1
+  },
+  {
+    "source": "post-9qe2hqoo20eghb9",
     "target": "publisher-agnes-denes",
     "weight": 1
   },
@@ -841,6 +991,11 @@
   },
   {
     "source": "post-iiyhzpnw1m773dr",
+    "target": "post-bo1t775idhwlqwx",
+    "weight": 1
+  },
+  {
+    "source": "post-iiyhzpnw1m773dr",
     "target": "publisher-the-new-stateman",
     "weight": 1
   },
@@ -852,6 +1007,11 @@
   {
     "source": "post-iiyhzpnw1m773dr",
     "target": "topic-hope",
+    "weight": 1
+  },
+  {
+    "source": "post-g25dz6jyfp0at9p",
+    "target": "post-xpoqvlqgux3h18o",
     "weight": 1
   },
   {
@@ -881,6 +1041,11 @@
   },
   {
     "source": "post-re9uatc7cbmd38v",
+    "target": "post-9qfq6dn8b3tjw0k",
+    "weight": 1
+  },
+  {
+    "source": "post-re9uatc7cbmd38v",
     "target": "publisher-twitter",
     "weight": 1
   },
@@ -906,6 +1071,11 @@
   },
   {
     "source": "post-1asyepfsej62h0c",
+    "target": "post-bo1t775idhwlqwx",
+    "weight": 1
+  },
+  {
+    "source": "post-1asyepfsej62h0c",
     "target": "publisher-washington-post",
     "weight": 1
   },
@@ -917,6 +1087,11 @@
   {
     "source": "post-1asyepfsej62h0c",
     "target": "topic-hope",
+    "weight": 1
+  },
+  {
+    "source": "post-u2htqw65423ztjc",
+    "target": "post-8ti8dk0fvwjc0cp",
     "weight": 1
   },
   {
@@ -947,6 +1122,11 @@
   {
     "source": "post-u2htqw65423ztjc",
     "target": "topic-art",
+    "weight": 1
+  },
+  {
+    "source": "post-77vrdbqfpwq2kni",
+    "target": "post-xarbrf46tusa1my",
     "weight": 1
   },
   {
@@ -982,6 +1162,11 @@
   {
     "source": "post-77vrdbqfpwq2kni",
     "target": "topic-polar-bears",
+    "weight": 1
+  },
+  {
+    "source": "post-x54u2ri7d1l1kh0",
+    "target": "post-xarbrf46tusa1my",
     "weight": 1
   },
   {
@@ -1026,6 +1211,11 @@
   },
   {
     "source": "post-s62x1iuzsoyt1bw",
+    "target": "post-8d0d222q1a7fmmc",
+    "weight": 1
+  },
+  {
+    "source": "post-s62x1iuzsoyt1bw",
     "target": "publisher-nature",
     "weight": 1
   },
@@ -1047,6 +1237,11 @@
   {
     "source": "post-s62x1iuzsoyt1bw",
     "target": "topic-science",
+    "weight": 1
+  },
+  {
+    "source": "post-q0ie38eb47i57vz",
+    "target": "post-tdzmyhh3znbsxo8",
     "weight": 1
   },
   {
@@ -1081,6 +1276,11 @@
   },
   {
     "source": "post-w04hcgjoetgitsv",
+    "target": "post-8d0d222q1a7fmmc",
+    "weight": 1
+  },
+  {
+    "source": "post-w04hcgjoetgitsv",
     "target": "publisher-permillion-live",
     "weight": 1
   },
@@ -1107,6 +1307,11 @@
   {
     "source": "post-w04hcgjoetgitsv",
     "target": "topic-activism",
+    "weight": 1
+  },
+  {
+    "source": "post-xujb8grwu3jtyzo",
+    "target": "post-bo1t775idhwlqwx",
     "weight": 1
   },
   {
@@ -1146,6 +1351,11 @@
   },
   {
     "source": "post-p4eg5vdtb0s27m5",
+    "target": "post-bo1t775idhwlqwx",
+    "weight": 1
+  },
+  {
+    "source": "post-p4eg5vdtb0s27m5",
     "target": "publisher-republik",
     "weight": 1
   },
@@ -1171,6 +1381,11 @@
   },
   {
     "source": "post-xpoqvlqgux3h18o",
+    "target": "post-tdzmyhh3znbsxo8",
+    "weight": 1
+  },
+  {
+    "source": "post-xpoqvlqgux3h18o",
     "target": "publisher-twitter",
     "weight": 1
   },
@@ -1192,6 +1407,11 @@
   {
     "source": "post-xpoqvlqgux3h18o",
     "target": "topic-popculture",
+    "weight": 1
+  },
+  {
+    "source": "post-y2iu9zo4wpp8q01",
+    "target": "post-4nyyc46752yo3js",
     "weight": 1
   },
   {
@@ -1226,6 +1446,11 @@
   },
   {
     "source": "post-ze49xideou30wmw",
+    "target": "post-4nyyc46752yo3js",
+    "weight": 1
+  },
+  {
+    "source": "post-ze49xideou30wmw",
     "target": "publisher-new-york-times",
     "weight": 1
   },
@@ -1251,6 +1476,11 @@
   },
   {
     "source": "post-9qfq6dn8b3tjw0k",
+    "target": "post-re9uatc7cbmd38v",
+    "weight": 1
+  },
+  {
+    "source": "post-9qfq6dn8b3tjw0k",
     "target": "publisher-twitter",
     "weight": 1
   },
@@ -1272,6 +1502,11 @@
   {
     "source": "post-9qfq6dn8b3tjw0k",
     "target": "topic-coal",
+    "weight": 1
+  },
+  {
+    "source": "post-zqo6lkqydw2rgpv",
+    "target": "post-eej9z60o67yfhjq",
     "weight": 1
   },
   {
@@ -1307,6 +1542,11 @@
   {
     "source": "post-zqo6lkqydw2rgpv",
     "target": "topic-policy",
+    "weight": 1
+  },
+  {
+    "source": "post-qb4ztd0p2l62cld",
+    "target": "post-8d0d222q1a7fmmc",
     "weight": 1
   },
   {
@@ -1351,6 +1591,11 @@
   },
   {
     "source": "post-4nyyc46752yo3js",
+    "target": "post-ze49xideou30wmw",
+    "weight": 1
+  },
+  {
+    "source": "post-4nyyc46752yo3js",
     "target": "publisher-new-york-times",
     "weight": 1
   },
@@ -1381,6 +1626,11 @@
   },
   {
     "source": "post-xarbrf46tusa1my",
+    "target": "post-j55xz8v43z3399o",
+    "weight": 1
+  },
+  {
+    "source": "post-xarbrf46tusa1my",
     "target": "publisher-the-anthropocene-org",
     "weight": 1
   },
@@ -1406,6 +1656,11 @@
   },
   {
     "source": "post-8d0d222q1a7fmmc",
+    "target": "post-w04hcgjoetgitsv",
+    "weight": 1
+  },
+  {
+    "source": "post-8d0d222q1a7fmmc",
     "target": "publisher-100-gute-gruende-de",
     "weight": 1
   },
@@ -1426,6 +1681,11 @@
   },
   {
     "source": "post-6i61wlod7qvnykj",
+    "target": "post-bo1t775idhwlqwx",
+    "weight": 1
+  },
+  {
+    "source": "post-6i61wlod7qvnykj",
     "target": "publisher-republik",
     "weight": 1
   },
@@ -1441,6 +1701,11 @@
   },
   {
     "source": "post-bo1t775idhwlqwx",
+    "target": "post-6i61wlod7qvnykj",
+    "weight": 1
+  },
+  {
+    "source": "post-bo1t775idhwlqwx",
     "target": "publisher-aeon",
     "weight": 1
   },
@@ -1452,6 +1717,11 @@
   {
     "source": "post-bo1t775idhwlqwx",
     "target": "author-raphaelle-d-haywood",
+    "weight": 1
+  },
+  {
+    "source": "post-tdzmyhh3znbsxo8",
+    "target": "post-q0ie38eb47i57vz",
     "weight": 1
   },
   {

@@ -1,9 +1,35 @@
 [
   {
+    "id": "post-53m9s8777wcjtn0",
+    "title": "It made me cry",
+    "type": "post",
+    "weight": 1,
+    "date": "2025-08-28 20:33:00.000Z"
+  },
+  {
+    "id": "publisher-twitter",
+    "title": "Twitter",
+    "type": "publisher",
+    "weight": 4
+  },
+  {
+    "id": "author-duncan-porter",
+    "title": "Duncan Porter",
+    "type": "author",
+    "weight": 1
+  },
+  {
+    "id": "topic-glacier",
+    "title": "Glacier",
+    "type": "topic",
+    "weight": 2
+  },
+  {
     "id": "post-ws1g2c784x193n7",
     "title": "The Cooled vs. the Cooked",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-08-20 21:17:00.000Z"
   },
   {
     "id": "publisher-new-york-times",
@@ -51,7 +77,8 @@
     "id": "post-7utx4urk1sf9hb2",
     "title": "Wildfires Rage Across Southern Europe",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-08-17 09:27:00.000Z"
   },
   {
     "id": "publisher-the-atlantic",
@@ -79,7 +106,7 @@
   },
   {
     "id": "topic-pyrocene",
-    "title": "pyrocene",
+    "title": "Pyrocene",
     "type": "topic",
     "weight": 2
   },
@@ -99,7 +126,8 @@
     "id": "post-x4wuy537825254u",
     "title": "“I hate how pretty the end of the world is.”",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-08-02 07:20:00.000Z"
   },
   {
     "id": "publisher-the-new-yorker",
@@ -129,7 +157,8 @@
     "id": "post-7pse60672wmx2e5",
     "title": "An Environmental Crisis Haunts the Ruins of Gaza",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-07-30 20:02:00.000Z"
   },
   {
     "id": "publisher-bloomberg-green",
@@ -169,7 +198,7 @@
   },
   {
     "id": "topic-ecocide",
-    "title": "ecocide",
+    "title": "Ecocide",
     "type": "topic",
     "weight": 2
   },
@@ -207,7 +236,8 @@
     "id": "post-1360ovq7d0o1q9a",
     "title": "The Scale of China’s Solar-Power Projects",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-07-19 22:03:00.000Z"
   },
   {
     "id": "author-feature-china",
@@ -231,7 +261,8 @@
     "id": "post-j55xz8v43z3399o",
     "title": "Ocean with David Attenborough ",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-07-12 21:51:00.000Z"
   },
   {
     "id": "publisher-you-tube-com",
@@ -285,7 +316,8 @@
     "id": "post-c4toy8bo2j02h3x",
     "title": "The Last Words of a Dying Glacier",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-07-11 21:01:00.000Z"
   },
   {
     "id": "author-lutz-stautner",
@@ -304,12 +336,6 @@
     "title": "Ice",
     "type": "topic",
     "weight": 2
-  },
-  {
-    "id": "topic-glacier",
-    "title": "Glacier",
-    "type": "topic",
-    "weight": 1
   },
   {
     "id": "topic-field-recording",
@@ -339,7 +365,8 @@
     "id": "post-bo863961511fdgg",
     "title": "Jevons Paradox",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-01-30 08:44:00.000Z"
   },
   {
     "id": "publisher-wikipedia-org",
@@ -369,7 +396,8 @@
     "id": "post-4os1b70d2ze859x",
     "title": "The Road Not Taken",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-01-23 17:11:00.000Z"
   },
   {
     "id": "author-austyn-gaffney",
@@ -381,7 +409,8 @@
     "id": "post-grv420qb3gx16oh",
     "title": "Photographs of the Pyrocene",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-01-12 14:45:00.000Z"
   },
   {
     "id": "publisher-instagram",
@@ -405,7 +434,8 @@
     "id": "post-twfh1k769i3k7e7",
     "title": "The environmental dimension of Russia’s war on Ukraine",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-01-08 21:34:00.000Z"
   },
   {
     "id": "publisher-forbes",
@@ -423,7 +453,8 @@
     "id": "post-eej9z60o67yfhjq",
     "title": "Greta Thunberg at the Houses of Parliament, United Kingdom",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-01-02 21:41:00.000Z"
   },
   {
     "id": "publisher-the-guardian",
@@ -459,7 +490,8 @@
     "id": "post-gflp3wpnmes9cx4",
     "title": "Political divisions on climate change",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2025-01-02 18:07:00.000Z"
   },
   {
     "id": "publisher-pew-research-center",
@@ -501,7 +533,8 @@
     "id": "post-ihsr96art8szht7",
     "title": "When the Arctic Melts",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-11-17 22:36:00.000Z"
   },
   {
     "id": "author-elizabeth-kolbert",
@@ -531,7 +564,8 @@
     "id": "post-w7xxkwibymyhqus",
     "title": "How Disaster Media Fails",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-11-17 21:39:00.000Z"
   },
   {
     "id": "author-thomas-flight",
@@ -555,7 +589,8 @@
     "id": "post-brfvzrl3rxffa1t",
     "title": "Speaking of Nature",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-10-03 22:15:00.000Z"
   },
   {
     "id": "publisher-orion-magazine",
@@ -597,7 +632,8 @@
     "id": "post-5i6llxiifqr287p",
     "title": "Scientists have captured Earth’s climate over the last 485 million years. Here’s the surprising place we stand now.",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-10-03 20:06:00.000Z"
   },
   {
     "id": "publisher-washington-post",
@@ -639,7 +675,8 @@
     "id": "post-3ksqthbqcas74bl",
     "title": "Can I microdose veganism?",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-09-17 17:17:00.000Z"
   },
   {
     "id": "publisher-search-engine",
@@ -669,7 +706,8 @@
     "id": "post-jelfy1cle323wii",
     "title": "The Crucial Years",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-09-11 22:06:00.000Z"
   },
   {
     "id": "publisher-substack",
@@ -699,7 +737,8 @@
     "id": "post-ej1918u87zw17mw",
     "title": "Aftermath of Typhoon Yagi in Haikou, China",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-09-11 21:48:00.000Z"
   },
   {
     "id": "topic-infrastructure",
@@ -717,7 +756,8 @@
     "id": "post-9srq3oajktuaq4k",
     "title": "How Air-Conditioning Conquered America",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-08-20 09:44:00.000Z"
   },
   {
     "id": "author-michael-barbaro",
@@ -735,7 +775,8 @@
     "id": "post-8ti8dk0fvwjc0cp",
     "title": "For What It’s Worth",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-08-05 01:13:00.000Z"
   },
   {
     "id": "publisher-dillon-marsh",
@@ -759,7 +800,8 @@
     "id": "post-j9uez6n86a1gnoz",
     "title": "Overview of mitigation options and their estimated ranges of costs and potentials in 2030",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-08-05 00:37:00.000Z"
   },
   {
     "id": "publisher-ipcc",
@@ -777,7 +819,8 @@
     "id": "post-w65hqi7pfc2o71v",
     "title": "Quick—tell us who you’re wearing!",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-08-04 00:19:00.000Z"
   },
   {
     "id": "author-emily-bernstein",
@@ -789,7 +832,8 @@
     "id": "post-ehh709otgp5zvb3",
     "title": "Fall of Civilizations",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-08-03 23:29:00.000Z"
   },
   {
     "id": "publisher-fall-of-civilizations-podcast-com",
@@ -807,7 +851,8 @@
     "id": "post-oz9q1u5t31pt8lm",
     "title": "The Oldest Living Things in the World",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-08-03 22:48:00.000Z"
   },
   {
     "id": "publisher-the-university-of-chicago-press",
@@ -831,7 +876,8 @@
     "id": "post-9qe2hqoo20eghb9",
     "title": "Wheatfield – A Confrontation",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-07-20 12:00:00.000Z"
   },
   {
     "id": "publisher-agnes-denes",
@@ -849,7 +895,8 @@
     "id": "post-iiyhzpnw1m773dr",
     "title": "Why climate despair is a luxury",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2024-01-17 12:00:00.000Z"
   },
   {
     "id": "publisher-the-new-stateman",
@@ -873,7 +920,8 @@
     "id": "post-g25dz6jyfp0at9p",
     "title": "Looks like Congress might finally do something about TikTok.",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-09-02 12:00:00.000Z"
   },
   {
     "id": "author-john-mc-namee",
@@ -885,13 +933,8 @@
     "id": "post-re9uatc7cbmd38v",
     "title": "Diablo IV advertising with wildfire smoke",
     "type": "post",
-    "weight": 1
-  },
-  {
-    "id": "publisher-twitter",
-    "title": "Twitter",
-    "type": "publisher",
-    "weight": 3
+    "weight": 1,
+    "date": "2023-06-08 12:00:00.000Z"
   },
   {
     "id": "author-nick-newman",
@@ -903,13 +946,15 @@
     "id": "post-1asyepfsej62h0c",
     "title": "What if climate change meant not doom — but abundance?",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-03-28 12:00:00.000Z"
   },
   {
     "id": "post-u2htqw65423ztjc",
     "title": "Schiefe Bilder als Klimaprotest",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-03-23 12:00:00.000Z"
   },
   {
     "id": "publisher-weltkunst",
@@ -933,7 +978,8 @@
     "id": "post-77vrdbqfpwq2kni",
     "title": "Nuisance Bear",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-03-07 12:00:00.000Z"
   },
   {
     "id": "author-jack-weisman",
@@ -963,7 +1009,8 @@
     "id": "post-x54u2ri7d1l1kh0",
     "title": "Haulout",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-03-06 12:00:00.000Z"
   },
   {
     "id": "author-evgenia-arbugaeva",
@@ -993,7 +1040,8 @@
     "id": "post-s62x1iuzsoyt1bw",
     "title": "Who rules Earth? Wild mammals far outweighed by humans and domestic animals",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-03-04 12:00:00.000Z"
   },
   {
     "id": "publisher-nature",
@@ -1023,7 +1071,8 @@
     "id": "post-q0ie38eb47i57vz",
     "title": "Is Artificial Light Poisoning the Planet?",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-03-04 12:00:00.000Z"
   },
   {
     "id": "author-adam-gopnik",
@@ -1053,7 +1102,8 @@
     "id": "post-w04hcgjoetgitsv",
     "title": "Permillion",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-02-24 12:00:00.000Z"
   },
   {
     "id": "publisher-permillion-live",
@@ -1077,7 +1127,8 @@
     "id": "post-xujb8grwu3jtyzo",
     "title": "Our Attention Spans Are Being Stolen",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-02-22 12:00:00.000Z"
   },
   {
     "id": "publisher-atmos-earth",
@@ -1113,7 +1164,8 @@
     "id": "post-p4eg5vdtb0s27m5",
     "title": "„Ich wollte schon immer erzählen, wie wir trotz Klimakrise eine bessere Welt erschaffen können.“",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-02-18 12:00:00.000Z"
   },
   {
     "id": "publisher-republik",
@@ -1149,7 +1201,8 @@
     "id": "post-xpoqvlqgux3h18o",
     "title": "Climate change conversations during live commentary",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-31 12:00:00.000Z"
   },
   {
     "id": "author-ed-hawkins",
@@ -1167,7 +1220,8 @@
     "id": "post-y2iu9zo4wpp8q01",
     "title": "The Sunday Read: ‘Has the Amazon Reached Its “Tipping Point”?’",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-30 12:00:00.000Z"
   },
   {
     "id": "author-alex-cuadros",
@@ -1191,7 +1245,8 @@
     "id": "post-ze49xideou30wmw",
     "title": "Consider the Burying Beetle. (Or Else.)",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-24 12:00:00.000Z"
   },
   {
     "id": "author-catrin-einhorn",
@@ -1209,7 +1264,8 @@
     "id": "post-9qfq6dn8b3tjw0k",
     "title": "Bagger 288 in Lützerath",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-23 12:00:00.000Z"
   },
   {
     "id": "author-marius-michusch",
@@ -1227,7 +1283,8 @@
     "id": "post-zqo6lkqydw2rgpv",
     "title": "Streitraum: Emanzipation und Klima – wovon wir uns befreien müssen/dürfen",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-22 12:00:00.000Z"
   },
   {
     "id": "author-carolin-emcke",
@@ -1251,7 +1308,8 @@
     "id": "post-qb4ztd0p2l62cld",
     "title": "Half Earth Socialism Game",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-21 12:00:00.000Z"
   },
   {
     "id": "publisher-half-earth",
@@ -1287,7 +1345,8 @@
     "id": "post-4nyyc46752yo3js",
     "title": "The Sunday Read: ‘What Does Sustainable Living Look Like? Maybe Like Uruguay’",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-21 12:00:00.000Z"
   },
   {
     "id": "author-noah-gallagher-shannon",
@@ -1305,7 +1364,8 @@
     "id": "post-xarbrf46tusa1my",
     "title": "Anthropocene: The Human Epoch",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-21 12:00:00.000Z"
   },
   {
     "id": "publisher-the-anthropocene-org",
@@ -1335,7 +1395,8 @@
     "id": "post-8d0d222q1a7fmmc",
     "title": "100 gute Gründe gegen Atomkraft",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-21 12:00:00.000Z"
   },
   {
     "id": "publisher-100-gute-gruende-de",
@@ -1353,13 +1414,15 @@
     "id": "post-6i61wlod7qvnykj",
     "title": "Wir haben kein Recht, vor der Klima­krise zu kapitulieren",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-17 16:24:00.000Z"
   },
   {
     "id": "post-bo1t775idhwlqwx",
     "title": "There’s no planet B",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2023-01-16 12:00:00.000Z"
   },
   {
     "id": "publisher-aeon",
@@ -1383,7 +1446,8 @@
     "id": "post-tdzmyhh3znbsxo8",
     "title": "Klimabilder – Eine Genealogie globaler Bildpolitiken von Klima und Klimawandel",
     "type": "post",
-    "weight": 1
+    "weight": 1,
+    "date": "2018-07-04 12:00:00.000Z"
   },
   {
     "id": "publisher-matthes-seitz-berlin",
