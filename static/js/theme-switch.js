@@ -1,24 +1,20 @@
 /**
- * Standalone Lit Dark Mode Switch Web Component
- * Kann unabhängig von jedem Framework verwendet werden
+ * Standalone Lit Theme Switch Web Component with Radio Buttons
+ * Drei Modi: System, Light, Dark
  */
 
 import { LitElement, html, css } from 'https://cdn.skypack.dev/lit@3.1.0';
 
-class DarkModeSwitch extends LitElement {
+class ThemeSwitch extends LitElement {
   static properties = {
-    darkMode: { type: Boolean, reflect: true, attribute: 'dark-mode' },
-    useSystemPreference: { type: Boolean, reflect: true, attribute: 'use-system' },
-    showLabels: { type: Boolean, reflect: true, attribute: 'show-labels' },
-    compact: { type: Boolean, reflect: true }
+    theme: { type: String, reflect: true }, // 'system', 'light', 'dark'
   };
 
   constructor() {
     super();
-    this.darkMode = false;
-    this.useSystemPreference = true;
-    this.showLabels = true;
+    this.theme = 'system'; // Default: System-Präferenz
     this.compact = false;
+    this.showLabels = true;
     this.systemPrefersDark = false;
     this.mediaQueryList = null;
   }
@@ -29,161 +25,86 @@ class DarkModeSwitch extends LitElement {
       font-family: system-ui, -apple-system, sans-serif;
     }
 
-    .theme-controls {
+    .theme-options {
       display: flex;
-      flex-direction: column;
-      gap: 12px;
-      padding: var(--padding, 16px);
-      background: var(--bg-secondary, #f8f9fa);
-      border: 1px solid var(--border-color, #dee2e6);
-      border-radius: 8px;
-      min-width: var(--min-width, 280px);
-    }
-
-    :host([compact]) .theme-controls {
       flex-direction: row;
-      align-items: center;
-      padding: 8px 12px;
-      gap: 16px;
-      min-width: auto;
+      gap: 2px;
     }
 
-    .system-preference {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      cursor: pointer;
-      font-size: 14px;
-      color: var(--text-primary, #212529);
-    }
-
-    :host([compact]) .system-preference {
+    .theme-options input {
       display: none;
     }
 
-    .system-preference input {
-      margin: 0;
+    .theme-option {
+      padding: 4px;
+      width: 18px;
+      height: 18px;
+      border-radius: 6px;
     }
 
-    .manual-toggle {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      opacity: var(--toggle-opacity, 1);
-      transition: opacity 0.3s ease;
-    }
-
-    .manual-toggle.disabled {
-      --toggle-opacity: 0.5;
-      pointer-events: none;
-    }
-
-    .switch {
-      position: relative;
-      display: inline-block;
-      width: 60px;
-      height: 34px;
-    }
-
-    .switch input {
-      opacity: 0;
-      width: 0;
-      height: 0;
-    }
-
-    .slider {
-      position: absolute;
-      cursor: pointer;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: var(--switch-bg, #ccc);
-      transition: .4s;
-      border-radius: 34px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 6px;
-    }
-
-    .slider:before {
-      position: absolute;
-      content: "";
-      height: 26px;
-      width: 26px;
-      left: 4px;
-      bottom: 4px;
-      background-color: white;
-      transition: .4s;
-      border-radius: 50%;
-      z-index: 2;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    }
-
-    input:checked + .slider {
-      background-color: var(--primary-color, #2196F3);
-    }
-
-    input:checked + .slider:before {
-      transform: translateX(26px);
-    }
-
-    .icon {
-      font-size: 12px;
-      z-index: 1;
+    .theme-option:not(:has(input:checked)) {
       transition: color 0.3s ease;
+      color: oklch(70.8% 0 0);
+      cursor: pointer;
     }
 
-    .sun {
-      color: var(--sun-color, #ffa500);
+    .theme-option svg {
+      width: 100%;
+      height: 100%;
     }
 
-    .moon {
-      color: var(--moon-color, #4a4a4a);
+    .theme-option:hover:not(:has(input:checked)) {
+      /*background-color: var(--bg-primary, #ffffff);*/
+      color: var(--bg-primary, #000);
+    }
+    .theme-option:has(input:checked) {
+      color: black;
     }
 
-    input:checked ~ .slider .sun,
-    input:checked ~ .slider .moon {
-      color: white;
-    }
-
-    .mode-label {
-      font-weight: 500;
-      font-size: 14px;
-      color: var(--text-primary, #212529);
-    }
-
-    .status {
-      font-size: 12px;
-      color: var(--text-secondary, #6c757d);
+    .option-content {
       display: flex;
-      flex-direction: column;
-      gap: 4px;
+      align-items: center;
+      gap: 6px;
     }
 
-    :host([compact]) .status {
-      display: none;
+    /* Theme-spezifische Farben */
+    .theme-option input:checked + .option-content .option-icon.system {
+      color: var(--primary-color, #2196F3);
     }
 
-    .status p {
-      margin: 0;
+    .theme-option input:checked + .option-content .option-icon.light {
+      color: #ffa500;
     }
 
-    /* Dark theme auto-detection */
+    .theme-option input:checked + .option-content .option-icon.dark {
+      color: #4a4a4a;
+    }
+
+    /* Auto Dark Theme */
     @media (prefers-color-scheme: dark) {
       .theme-controls {
         --bg-secondary: #2d2d2d;
-        --border-color: #404040;
+        --bg-primary: #ffffff;
+        --border-color: #eee;
         --text-primary: #ffffff;
         --text-secondary: #cccccc;
-        --switch-bg: #555;
+      }
+
+      .theme-option input:checked + .option-content .option-icon.dark {
+        color: #ffffff;
       }
     }
   `;
 
   get currentMode() {
-    return this.useSystemPreference ? this.systemPrefersDark : this.darkMode;
+    if (this.theme === 'system') {
+      return this.systemPrefersDark ? 'dark' : 'light';
+    }
+    return this.theme;
+  }
+
+  get isDarkActive() {
+    return this.currentMode === 'dark';
   }
 
   connectedCallback() {
@@ -216,14 +137,15 @@ class DarkModeSwitch extends LitElement {
     this.handleMediaChange = (e) => {
       this.systemPrefersDark = e.matches;
       this.requestUpdate();
-      this.applyTheme();
+      // Nur anwenden wenn System-Modus aktiv ist
+      if (this.theme === 'system') {
+        this.applyTheme();
+      }
     };
 
-    // Modern browsers
     if (this.mediaQueryList.addEventListener) {
       this.mediaQueryList.addEventListener('change', this.handleMediaChange);
     } else {
-      // Fallback für ältere Browser
       this.mediaQueryList.addListener(this.handleMediaChange);
     }
   }
@@ -241,110 +163,96 @@ class DarkModeSwitch extends LitElement {
   loadSettings() {
     if (typeof localStorage === 'undefined') return;
 
-    const savedDarkMode = localStorage.getItem('lit-dark-mode');
-    const savedUseSystem = localStorage.getItem('lit-use-system-preference');
-
-    if (savedDarkMode !== null) {
-      this.darkMode = savedDarkMode === 'true';
-    }
-
-    if (savedUseSystem !== null) {
-      this.useSystemPreference = savedUseSystem === 'true';
+    const savedTheme = localStorage.getItem('theme-preference');
+    if (savedTheme && ['system', 'light', 'dark'].includes(savedTheme)) {
+      this.theme = savedTheme;
     }
   }
 
   saveSettings() {
     if (typeof localStorage === 'undefined') return;
-
-    localStorage.setItem('lit-dark-mode', this.darkMode.toString());
-    localStorage.setItem('lit-use-system-preference', this.useSystemPreference.toString());
+    localStorage.setItem('theme-preference', this.theme);
   }
 
   applyTheme() {
     if (typeof document === 'undefined') return;
 
-    const isDark = this.currentMode;
+    const isDark = this.isDarkActive;
 
-    // CSS-Klasse auf html-Element setzen
+    // CSS-Klassen auf html-Element setzen
     document.documentElement.classList.toggle('dark', isDark);
     document.documentElement.classList.toggle('light', !isDark);
-console.log({isDark}, this.useSystemPreference)
+
     // CSS Custom Properties setzen
-    document.documentElement.style.setProperty('--theme-mode', isDark ? 'dark' : 'light');
+    // document.documentElement.style.setProperty('--theme-mode', isDark ? 'dark' : 'light');
+    // document.documentElement.style.setProperty('--theme-preference', this.theme);
 
     // Custom Event dispatchen
-    this.dispatchEvent(new CustomEvent('theme-changed', {
-      detail: {
-        darkMode: isDark,
-        useSystemPreference: this.useSystemPreference,
-        systemPrefersDark: this.systemPrefersDark
-      },
-      bubbles: true,
-      composed: true // Wichtig für Shadow DOM
-    }));
+    // this.dispatchEvent(new CustomEvent('theme-changed', {
+    //   detail: {
+    //     theme: this.theme,
+    //     currentMode: this.currentMode,
+    //     isDark: isDark,
+    //     systemPrefersDark: this.systemPrefersDark
+    //   },
+    //   bubbles: true,
+    //   composed: true
+    // }));
 
     this.saveSettings();
   }
 
-  handleSystemPreferenceToggle(e) {
-    this.useSystemPreference = e.target.checked;
-    this.applyTheme();
-  }
-
-  handleDarkModeToggle(e) {
-    this.darkMode = e.target.checked;
+  handleThemeChange(e) {
+    this.theme = e.target.value;
     this.applyTheme();
   }
 
   render() {
     return html`
       <div class="theme-controls">
-        ${!this.compact ? html`
-          <label class="system-preference">
+        <div class="theme-options">
+          <label class="theme-option">
             <input
-              type="checkbox"
-              .checked=${this.useSystemPreference}
-              @change=${this.handleSystemPreferenceToggle}
+              type="radio"
+              name="theme"
+              value="system"
+              .checked=${this.theme === 'system'}
+              @change=${this.handleThemeChange}
             />
-            System-Präferenz verwenden
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brightness"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" /><path d="M12 3l0 18" /><path d="M12 9l4.65 -4.65" /><path d="M12 14.3l7.37 -7.37" /><path d="M12 19.6l8.85 -8.85" /></svg>
           </label>
-        ` : ''}
 
-        <div class="manual-toggle ${this.useSystemPreference && !this.compact ? 'disabled' : ''}">
-          <label class="switch">
+          <label class="theme-option">
             <input
-              type="checkbox"
-              .checked=${this.darkMode}
-              .disabled=${this.useSystemPreference && !this.compact}
-              @change=${this.handleDarkModeToggle}
+              type="radio"
+              name="theme"
+              value="light"
+              .checked=${this.theme === 'light'}
+              @change=${this.handleThemeChange}
             />
-            <span class="slider">
-              <span class="icon sun">☀️</span>
-              <span class="icon moon">🌙</span>
-            </span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-brightness-up"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 8a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z" /><path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2a1 1 0 0 1 1 -1z" /><path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-1.4 1.4a1 1 0 0 1 -1.497 -1.32l.083 -.094l1.4 -1.4z" /><path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-2a1 1 0 0 1 -.117 -1.993l.117 -.007h2z" /><path d="M16.293 16.293a1 1 0 0 1 1.32 -.083l.094 .083l1.4 1.4a1 1 0 0 1 -1.32 1.497l-.094 -.083l-1.4 -1.4a1 1 0 0 1 0 -1.414z" /><path d="M12 18a1 1 0 0 1 .993 .883l.007 .117v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2a1 1 0 0 1 1 -1z" /><path d="M6.293 16.293a1 1 0 0 1 1.497 1.32l-.083 .094l-1.4 1.4a1 1 0 0 1 -1.497 -1.32l.083 -.094l1.4 -1.4z" /><path d="M6 11a1 1 0 0 1 .117 1.993l-.117 .007h-2a1 1 0 0 1 -.117 -1.993l.117 -.007h2z" /><path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l1.4 1.4a1 1 0 0 1 -1.32 1.497l-.094 -.083l-1.4 -1.4a1 1 0 0 1 0 -1.414z" /></svg>
           </label>
-          ${this.showLabels ? html`
-            <span class="mode-label">
-              ${this.currentMode ? 'Dark Mode' : 'Light Mode'}
-            </span>
-          ` : ''}
+
+          <label class="theme-option">
+            <input
+              type="radio"
+              name="theme"
+              value="dark"
+              .checked=${this.theme === 'dark'}
+              @change=${this.handleThemeChange}
+            />
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z" /></svg>
+          </label>
         </div>
-
-        ${!this.compact ? html`
-          <div class="status">
-            <p>System: ${this.systemPrefersDark ? 'Dark' : 'Light'}</p>
-            <p>Aktiv: ${this.currentMode ? 'Dark' : 'Light'}</p>
-          </div>
-        ` : ''}
       </div>
     `;
   }
 }
 
 // Custom Element registrieren
-if (!customElements.get('dark-mode-switch')) {
-  customElements.define('dark-mode-switch', DarkModeSwitch);
+if (!customElements.get('theme-switch')) {
+  customElements.define('theme-switch', ThemeSwitch);
 }
 
 // Für Verwendung als ES-Modul
-export { DarkModeSwitch };
+export { ThemeSwitch };

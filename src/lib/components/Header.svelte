@@ -12,7 +12,11 @@
 	class="mb-8 pb-8 sm:mb-12 md:mb-16 border-b-2 border-dark dark:border-[#99999A] sm:pb-12 md:pb-16 flex gap-y-4 flex-col md:flex-row justify-between"
 >
 	<div>
-		<a href={getAbsoluteURL('/', isModeLight)} class="hover:text-accent transition-colors">
+		<a
+			href={getAbsoluteURL('/', isModeLight)}
+			aria-current={$page.data?.path === '' ? 'page' : undefined}
+			class="hover:text-accent transition-colors"
+		>
 			<h1 class="text-3xl leading-none md:text-4xl font-semibold md:leading-9">
 				Artefacts of a<br /> Burning World
 			</h1>
@@ -20,13 +24,25 @@
 		<p class="mt-3 max-w-xs font-serif italic leading-5">
 			{getPageDescription()}
 		</p>
-		<dark-mode-switch class="nav-theme-switch" show-labels="false"></dark-mode-switch>
 	</div>
-	<a
-		class="link md:place-self-end text-sm"
-		aria-current={$page.data?.path === 'about' ? 'page' : undefined}
-		href={getAbsoluteURL('about', isModeLight)}
-	>
-		About this blog
-	</a>
+	<div class="grid grid-rows-[auto_auto] justify-items-end">
+		<theme-switch class="nav-theme-switch"></theme-switch>
+		{#if $page.data?.path === 'about'}
+			<a
+				class="link md:place-self-end text-sm"
+				aria-current={$page.data?.path === '' ? 'page' : undefined}
+				href={getAbsoluteURL('/', isModeLight)}
+			>
+				Back to the collection
+			</a>
+		{:else}
+			<a
+				class="link md:place-self-end text-sm"
+				aria-current={$page.data?.path === 'about' ? 'page' : undefined}
+				href={getAbsoluteURL('about', isModeLight)}
+			>
+				About this blog
+			</a>
+		{/if}
+	</div>
 </header>

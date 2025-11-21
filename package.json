@@ -34,12 +34,12 @@
 	"type": "module",
 	"dependencies": {
 		"@sveltejs/adapter-cloudflare": "^4.9.0",
+		"@tailwindcss/postcss": "^4.1.17",
 		"@types/bun": "^1.1.16",
 		"@types/d3-force": "^3.0.10",
 		"@types/d3-scale": "^4.0.9",
 		"@types/d3-scale-chromatic": "^3.1.0",
 		"@types/lodash-es": "^4.17.12",
-		"autoprefixer": "^10.4.20",
 		"cloudinary": "^2.5.1",
 		"d3-force": "^3.0.0",
 		"d3-scale": "^4.0.2",
@@ -49,6 +49,6 @@
 		"lodash-es": "^4.17.21",
 		"pocketbase": "^0.21.5",
 		"postcss": "^8.4.49",
-		"tailwindcss": "^3.4.17"
+		"tailwindcss": "^4.1.17"
 	}
 }

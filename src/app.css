@@ -1,45 +1,76 @@
-@font-face {
-	font-family: 'Untitled Sans';
-	font-style: normal;
-	font-weight: 500;
-	src:
-		local(''),
-		url('/fonts/untitled-sans-web-regular-subset.woff2') format('woff2'),
-		url('/fonts/untitled-sans-web-regular-subset.woff') format('woff');
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-*: initial;
+  --font-sans: Untitled Sans, Helvetica Neue, Helvetica, sans-serif;
+  --font-serif: Charter, Georgia, Times New Roman, serif;
+
+  --color-accent: #32852e;
+  --color-border: #d4d4d4;
+  --color-mute: #757575;
+  --color-dark: #171717;
 }
 
-@font-face {
-	font-family: 'Untitled Sans';
-	font-style: normal;
-	font-weight: 600;
-	src:
-		local(''),
-		url('/fonts/untitled-sans-web-medium-subset.woff2') format('woff2'),
-		url('/fonts/untitled-sans-web-medium-subset.woff') format('woff');
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
 }
 
-@font-face {
-	font-family: 'Untitled Sans';
-	font-style: normal;
-	font-weight: 700;
-	src:
-		local(''),
-		url('/fonts/untitled-sans-web-bold-subset.woff2') format('woff2'),
-		url('/fonts/untitled-sans-web-bold-subset.woff') format('woff');
-}
+@layer base {
+  @font-face {
+    font-family: 'Untitled Sans';
+    font-style: normal;
+    font-weight: 500;
+    src:
+      local(''),
+      url('/fonts/untitled-sans-web-regular-subset.woff2') format('woff2'),
+      url('/fonts/untitled-sans-web-regular-subset.woff') format('woff');
+  }
 
-@font-face {
-	font-family: 'Charter';
-	font-style: italic;
-	font-weight: normal;
-	src:
-		local(''),
-		url('/fonts/charter_italic.woff2') format('woff2');
-}
+  @font-face {
+    font-family: 'Untitled Sans';
+    font-style: normal;
+    font-weight: 600;
+    src:
+      local(''),
+      url('/fonts/untitled-sans-web-medium-subset.woff2') format('woff2'),
+      url('/fonts/untitled-sans-web-medium-subset.woff') format('woff');
+  }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @font-face {
+    font-family: 'Untitled Sans';
+    font-style: normal;
+    font-weight: 700;
+    src:
+      local(''),
+      url('/fonts/untitled-sans-web-bold-subset.woff2') format('woff2'),
+      url('/fonts/untitled-sans-web-bold-subset.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'Charter';
+    font-style: italic;
+    font-weight: normal;
+    src:
+      local(''),
+      url('/fonts/charter_italic.woff2') format('woff2');
+  }
+}
 
 p a,
 li a {
