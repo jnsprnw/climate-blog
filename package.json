@@ -45,6 +45,7 @@
 		"d3-scale": "^4.0.2",
 		"d3-scale-chromatic": "^3.1.0",
 		"layercake": "^10.0.1",
+		"lit": "^3.3.1",
 		"lodash-es": "^4.17.21",
 		"pocketbase": "^0.21.5",
 		"postcss": "^8.4.49",

@@ -20,6 +20,7 @@
 		<p class="mt-3 max-w-xs font-serif italic leading-5">
 			{getPageDescription()}
 		</p>
+		<dark-mode-switch class="nav-theme-switch" show-labels="false"></dark-mode-switch>
 	</div>
 	<a
 		class="link md:place-self-end text-sm"
