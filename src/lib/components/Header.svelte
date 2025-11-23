@@ -4,6 +4,7 @@
 	import type { IsModeLight } from '$types/ui';
 	import { getPageDescription } from '$utils/posts';
 	import { getAbsoluteURL } from '$utils/url';
+	import ThemeSwitch from './ThemeSwitch.svelte';
 
 	const isModeLight = getContext<IsModeLight>('isModeLight');
 </script>
@@ -26,7 +27,7 @@
 		</p>
 	</div>
 	<div class="grid grid-rows-[auto_auto] justify-items-end">
-		<theme-switch class="nav-theme-switch"></theme-switch>
+		<ThemeSwitch />
 		{#if $page.data?.path === 'about'}
 			<a
 				class="link md:place-self-end text-sm"

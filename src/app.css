@@ -10,7 +10,11 @@
   --color-accent: #32852e;
   --color-border: #d4d4d4;
   --color-mute: #757575;
-  --color-dark: #171717;
+  --color-fg: #ffffff;
+}
+
+.light {
+  --color-fg: #171717;
 }
 
 /*
