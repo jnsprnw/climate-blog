@@ -53,7 +53,7 @@
 		</li>
 		<li>This website uses semantic tags.</li>
 		<li>The website’s design has high contrast.</li>
-		<li>No JavaScript is shipped or needed.</li>
+		<li>Javascript is only used for manual theme switching.</li>
 		<li>Everything is pre-rendered. It’s just a static site.</li>
 		<li><a href="/light">This blog provides a light theme that does not display images.</a></li>
 		<li>
