@@ -5,7 +5,8 @@
 			type="radio"
 			name="theme"
 			value="system"
-			aria-label="System-Theme verwenden"
+			aria-label="System theme"
+			title="System theme"
 		/>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +33,8 @@
 			type="radio"
 			name="theme"
 			value="light"
-			aria-label="Helles Theme verwenden"
+			aria-label="Light theme"
+			title="Light theme"
 		/>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +71,8 @@
 			type="radio"
 			name="theme"
 			value="dark"
-			aria-label="Dunkles Theme verwenden"
+			aria-label="Dark theme"
+			title="Dark theme"
 		/>
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
