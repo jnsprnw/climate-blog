@@ -1,13 +1,6 @@
 <fieldset class="theme-switch flex flex-row gap-x-2">
-	<label>
-		<input
-			class="sr-only"
-			type="radio"
-			name="theme"
-			value="system"
-			aria-label="System theme"
-			title="System theme"
-		/>
+	<label title="System theme">
+		<input class="sr-only" type="radio" name="theme" value="system" aria-label="System theme" />
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -27,15 +20,8 @@
 		>
 	</label>
 
-	<label>
-		<input
-			class="sr-only"
-			type="radio"
-			name="theme"
-			value="light"
-			aria-label="Light theme"
-			title="Light theme"
-		/>
+	<label title="Light theme">
+		<input class="sr-only" type="radio" name="theme" value="light" aria-label="Light theme" />
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -65,15 +51,8 @@
 		>
 	</label>
 
-	<label>
-		<input
-			class="sr-only"
-			type="radio"
-			name="theme"
-			value="dark"
-			aria-label="Dark theme"
-			title="Dark theme"
-		/>
+	<label title="Dark theme">
+		<input class="sr-only" type="radio" name="theme" value="dark" aria-label="Dark theme" />
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
