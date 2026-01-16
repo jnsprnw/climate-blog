@@ -6,22 +6,16 @@
       this.theme = 'system'; // 'system', 'light', 'dark'
       this.systemPrefersDark = false;
       this.mediaQueryList = null;
-
-      // Sofort initialisieren um Flash zu vermeiden
       this.init();
     }
 
     init() {
-      // Gespeicherte Einstellungen laden
       this.loadSettings();
 
-      // System-Präferenz setup
       this.setupMediaQuery();
 
-      // Theme sofort anwenden (vor DOM ready)
       this.applyTheme();
 
-      // DOM Event Listeners setup nach DOM ready
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => this.setupUI());
       } else {
@@ -51,7 +45,6 @@
 
       const handleChange = (e) => {
         this.systemPrefersDark = e.matches;
-        // Nur anwenden wenn System-Modus aktiv ist
         if (this.theme === 'system') {
           this.applyTheme();
         }
@@ -81,7 +74,6 @@
 
       const isDark = this.isDarkActive();
 
-      // CSS-Klassen auf html-Element setzen
       document.documentElement.classList.toggle('dark', isDark);
       document.documentElement.classList.toggle('light', !isDark);
     }
@@ -96,24 +88,17 @@
     }
 
     setupUI() {
-      // Theme-Switches finden und Event Listeners hinzufügen
       this.initializeThemeSwitches();
-
-      // Initial UI update
       this.updateUI();
     }
 
     initializeThemeSwitches() {
-      // Alle Theme-Switch Container finden
       this.createThemeSwitch()
     }
 
     createThemeSwitch() {
-      // Event Listeners für Radio Buttons
-      console.log('hallo')
       const radioButtons = document.querySelectorAll('.theme-switch input[type="radio"]');
       radioButtons.forEach(radio => {
-        console.log(radio)
         radio.addEventListener('change', (e) => {
           if (e.target.checked) {
             this.setTheme(e.target.value);
