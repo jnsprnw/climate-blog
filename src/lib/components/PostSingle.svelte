@@ -91,7 +91,7 @@
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
 				{#if isModeLight}
 					<div
-						class="flex flex-col gap-y-6 items-center border border-border rounded-sm bg-gray-50 py-6 px-4"
+						class="flex flex-col gap-y-6 items-center border border-border rounded-xs bg-gray-50 py-6 px-4"
 					>
 						<span class="text-gray-500 text-center text-balance"
 							>You are browsing in data-saving mode, where images are disabled.</span
@@ -134,7 +134,7 @@
 		{/if}
 		{#if post.comment}
 			<div
-				class="flex flex-col gap-y-6 items-center border border-border rounded-sm bg-gray-50 py-6 px-4"
+				class="flex flex-col gap-y-6 items-center border border-border rounded-xs bg-gray-50 py-6 px-4"
 			>
 				<span class="text-gray-500 text-center text-balance">{post.comment}</span>
 			</div>
