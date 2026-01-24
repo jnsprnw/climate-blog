@@ -45,7 +45,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: ftps
           port: 21
-          local-dir: ./.svelte-kit/output/prerendered/pages/
+          local-dir: ./build/
           server-dir: ./
           dangerous-clean-slate: false
           exclude: |
