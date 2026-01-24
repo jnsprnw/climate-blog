@@ -28,10 +28,10 @@
 	</div>
 	<div class="grid grid-rows-[auto_auto] justify-items-end">
 		<ThemeSwitch />
-		{#if $page.data?.path === 'about'}
+		{#if page.data?.path === 'about'}
 			<a
 				class="link md:place-self-end text-sm"
-				aria-current={$page.data?.path === '' ? 'page' : undefined}
+				aria-current={page.data?.path === '' ? 'page' : undefined}
 				href={getAbsoluteURL('/', isModeLight)}
 			>
 				Back to the collection
@@ -39,7 +39,7 @@
 		{:else}
 			<a
 				class="link md:place-self-end text-sm"
-				aria-current={$page.data?.path === 'about' ? 'page' : undefined}
+				aria-current={page.data?.path === 'about' ? 'page' : undefined}
 				href={getAbsoluteURL('about', isModeLight)}
 			>
 				About this blog
