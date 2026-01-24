@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { getContext } from 'svelte';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import type { IsModeLight } from '$types/ui';
 	import { getPageDescription } from '$utils/posts';
 	import { getAbsoluteURL } from '$utils/url';
@@ -15,7 +15,7 @@
 	<div>
 		<a
 			href={getAbsoluteURL('/', isModeLight)}
-			aria-current={$page.data?.path === '' ? 'page' : undefined}
+			aria-current={page.data?.path === '' ? 'page' : undefined}
 			class="hover:text-accent transition-colors"
 		>
 			<h1 class="text-3xl leading-none md:text-4xl font-semibold md:leading-9">

@@ -2,7 +2,7 @@
 	import type { Snippet } from 'svelte';
 	import { setContext } from 'svelte';
 	import { version } from '$app/environment';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import { SITE_TITLE } from '$config';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
@@ -19,20 +19,18 @@
 	const isModePlain: IsModePlain = data.isModePlain ?? false;
 
 	const preview = $derived(
-		$page.data?.post?.image?.url_preview ?? getAbsoluteURL('apple-touch-icon.png')
+		page.data?.post?.image?.url_preview ?? getAbsoluteURL('apple-touch-icon.png')
 	);
-	const preview_alt = $derived(
-		$page.data?.post?.image_alt ?? 'Green circle on a white background.'
-	);
-	const path = $derived($page.data?.path);
+	const preview_alt = $derived(page.data?.post?.image_alt ?? 'Green circle on a white background.');
+	const path = $derived(page.data?.path);
 	const title = $derived(
-		$page.data?.title ?? $page.data?.post?.title_short ?? $page.data?.post?.title ?? SITE_TITLE
+		page.data?.title ?? page.data?.post?.title_short ?? page.data?.post?.title ?? SITE_TITLE
 	);
-	const type = $derived($page.data?.type ?? 'website');
+	const type = $derived(page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL(path));
 	const urlLightMode = $derived(getAbsoluteURL(path, isModeLight));
-	const lastModified = $derived($page.data?.post?.updated ?? $page.data?.lastMod);
-	const description = $derived($page.data?.post?.description ?? getPageDescription(false));
+	const lastModified = $derived(page.data?.post?.updated ?? page.data?.lastMod);
+	const description = $derived(page.data?.post?.description ?? getPageDescription(false));
 	setContext<IsModeLight>('isModeLight', isModeLight);
 </script>
 
@@ -42,7 +40,7 @@
 
 	<meta name="robots" content="index, follow, noimageindex" />
 
-	{#if $page.data?.preconnectImage}
+	{#if page.data?.preconnectImage}
 		<link rel="dns-prefetch" href="https://res.cloudinary.com" />
 	{/if}
 
@@ -92,7 +90,7 @@
 	class={[
 		'mx-auto px-3 pt-6 sm:pt-16 md:pt-20 flex flex-col gap-y-6 sm:gap-y-10 md:gap-y-12',
 		{ 'mb-6 sm:mb-8 md:mb-12': isModePlain },
-		$page.data?.is_wide ? '' : 'max-w-3xl'
+		page.data?.is_wide ? '' : 'max-w-3xl'
 	]}
 >
 	{#if !isModePlain}

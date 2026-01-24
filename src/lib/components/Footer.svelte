@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
 	import type { IsModeLight } from '$types/ui';
 	import { formatDate, formatDateFull } from '$utils/format';
 	import { getAbsoluteURL, getRelativeURL } from '$utils/url';
@@ -28,6 +28,6 @@
 	<a
 		class="link"
 		href={getAbsoluteURL('about', isModeLight)}
-		aria-current={$page.data?.path === 'about' ? 'page' : undefined}>About</a
+		aria-current={page.data?.path === 'about' ? 'page' : undefined}>About</a
 	>
 </footer>
