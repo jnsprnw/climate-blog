@@ -9,7 +9,7 @@
 </script>
 
 <code
-	class="text-xs bg-slate-50 rounded-sm p-1 place-self-start max-w-full whitespace-nowrap overflow-y-scroll"
+	class="text-xs bg-slate-50 rounded-xs p-1 place-self-start max-w-full whitespace-nowrap overflow-y-scroll"
 >
 	{getAbsoluteURL(url)}
 </code>
