@@ -46,11 +46,20 @@ jobs:
 
       # 5. FTP Upload
       - name: Deploy to FTP Server
-        uses: sebastianpopp/ftp-action@releases/v2
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          host: ${{ secrets.FTP_SERVER }}
-          user: ${{ secrets.FTP_USERNAME }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: ./build/
-          remoteDir: ./
-          options: '--verbose --no-perms --delete --exclude .git* --exclude node_modules/'
+          protocol: ftps
+          port: 21
+          local-dir: ./build/
+          server-dir: ./
+          dangerous-clean-slate: false
+          timeout: 600000
+          log-level: verbose
+          security: loose
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
