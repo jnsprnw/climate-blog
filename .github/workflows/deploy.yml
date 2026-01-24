@@ -1,0 +1,54 @@
+name: Build and Deploy via FTP
+
+on:
+  # Trigger bei Push auf main branch
+  push:
+    branches:
+      - main
+
+  # Manueller Trigger über GitHub UI
+  workflow_dispatch:
+
+  # Trigger per POST-Request / API
+  repository_dispatch:
+    types: [deploy]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Code auschecken
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Bun installieren (da du bun.lockb hast)
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      # 3. Dependencies installieren
+      - name: Install dependencies
+        run: bun install
+
+      # 4. SvelteKit Build
+      - name: Build SvelteKit app
+        run: bun run build
+
+      # 5. FTP Upload
+      - name: Deploy to FTP Server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          port: 21
+          local-dir: ./.svelte-kit/output/prerendered/pages/
+          server-dir: ./
+          dangerous-clean-slate: false
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
