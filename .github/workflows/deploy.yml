@@ -34,7 +34,15 @@ jobs:
 
       # 4. SvelteKit Build
       - name: Build SvelteKit app
-        run: bun run build
+        run: make fetch && bun run build
+        env:
+          CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+          CLOUDINARY_KEY: ${{ secrets.CLOUDINARY_KEY }}
+          CLOUDINARY_SECRET: ${{ secrets.CLOUDINARY_SECRET }}
+          POCKETBASE_PW: ${{ secrets.POCKETBASE_PW }}
+          POCKETBASE_URL: ${{ secrets.POCKETBASE_URL }}
+          POCKETBASE_USER: ${{ secrets.POCKETBASE_USER }}
+          PUBLIC_PAGE_URL: ${{ secrets.PUBLIC_PAGE_URL }}
 
       # 5. FTP Upload
       - name: Deploy to FTP Server
