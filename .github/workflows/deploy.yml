@@ -44,21 +44,18 @@ jobs:
           POCKETBASE_USER: ${{ secrets.POCKETBASE_USER }}
           PUBLIC_PAGE_URL: ${{ secrets.PUBLIC_PAGE_URL }}
 
-      # 5. FTP Upload
-      - name: Deploy to FTP Server
+      # 5. SFTP Upload
+      - name: Deploy to SFTP Server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: ftps-legacy
-          port: 21
+          protocol: sftp
+          port: 22
           local-dir: ./build/
           server-dir: ./
           dangerous-clean-slate: false
-          timeout: 600000
-          log-level: verbose
-          security: loose
           exclude: |
             **/.git*
             **/.git*/**
