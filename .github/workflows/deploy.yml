@@ -44,19 +44,13 @@ jobs:
           POCKETBASE_USER: ${{ secrets.POCKETBASE_USER }}
           PUBLIC_PAGE_URL: ${{ secrets.PUBLIC_PAGE_URL }}
 
-      # 5. SFTP Upload
-      - name: Deploy to SFTP Server
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      # 5. FTP Upload (optimized for speed)
+      - name: Deploy to FTP Server
+        uses: sebastianpopp/ftp-action@releases/v2
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          protocol: sftp
-          port: 22
-          local-dir: ./build/
-          server-dir: ./
-          dangerous-clean-slate: false
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
+          localDir: ./build/
+          remoteDir: ./
+          options: '--verbose --only-newer --parallel=10 --use-cache --no-perms --exclude .git* --exclude node_modules/'
