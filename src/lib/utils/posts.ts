@@ -100,6 +100,15 @@ export function getPagination(posts_total: number, currentIndex: number | string
 			label = 'First page';
 		} else if (i === pages_count) {
 			label = 'Last page';
+    }
+    if (i === pages_count && !isCurrent) {
+      page_list.push({
+  			label: 'Next page',
+  			path: String((typeof currentIndex === 'number' ? currentIndex : parseInt(currentIndex)) + 1),
+  			isCurrent: false,
+  			isPrev: false,
+  			isNext: true
+      });
 		}
 		page_list.push({
 			label,
@@ -107,7 +116,16 @@ export function getPagination(posts_total: number, currentIndex: number | string
 			isCurrent,
 			isPrev,
 			isNext
-		});
+    });
+    if (i === 1 && !isCurrent) {
+      page_list.push({
+  			label: 'Previous page',
+  			path: String((typeof currentIndex === 'number' ? currentIndex : parseInt(currentIndex)) - 1),
+  			isCurrent: false,
+  			isPrev: true,
+  			isNext: false
+      });
+		}
 	}
 	return {
 		list: page_list,
