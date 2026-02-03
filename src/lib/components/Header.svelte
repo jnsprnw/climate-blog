@@ -10,7 +10,7 @@
 </script>
 
 <header
-	class="mb-8 pb-8 sm:mb-12 md:mb-16 border-b-2 border-dark dark:border-[#99999A] sm:pb-12 md:pb-16 flex gap-y-4 flex-col md:flex-row justify-between"
+	class="mb-8 pb-8 sm:mb-12 md:mb-16 border-b-2 border-dark dark:border-[#99999A] sm:pb-12 md:pb-16 flex gap-y-4 flex-col sm:flex-row justify-between"
 >
 	<div>
 		<a
@@ -26,11 +26,11 @@
 			{getPageDescription()}
 		</p>
 	</div>
-	<div class="grid grid-rows-[auto_auto] justify-items-end">
+	<div class="grid grid-rows-[auto_auto] gap-y-2 justify-items-end">
 		<ThemeSwitch />
 		{#if page.data?.path === 'about'}
 			<a
-				class="link md:place-self-end text-sm"
+				class="link sm:place-self-end text-sm"
 				aria-current={page.data?.path === '' ? 'page' : undefined}
 				href={getAbsoluteURL('/', isModeLight)}
 			>
@@ -38,7 +38,7 @@
 			</a>
 		{:else}
 			<a
-				class="link md:place-self-end text-sm"
+				class="link sm:place-self-end text-sm"
 				aria-current={page.data?.path === 'about' ? 'page' : undefined}
 				href={getAbsoluteURL('about', isModeLight)}
 			>
