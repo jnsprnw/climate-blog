@@ -1,17 +1,9 @@
 <script lang="ts">
-	import type { TagCombination, PropertyCount } from '#utils/statistics';
 	import Category from '#lib/components/statistics/Category.svelte';
 	import TableSingle from '#lib/components/statistics/TableSingle.svelte';
+	import type { PageProps } from './$types';
 
-	type Props = {
-		tags: PropertyCount[];
-		formats: PropertyCount[];
-		publishers: PropertyCount[];
-		authors: PropertyCount[];
-		combinations: TagCombination[];
-	};
-
-	const { data }: { data: Props } = $props();
+	const { data }: PageProps = $props();
 	const { tags, combinations, formats, publishers, authors } = $derived(data);
 </script>
 

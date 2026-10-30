@@ -6,9 +6,9 @@ import {
 	getAuthorsByCount
 } from '#utils/statistics';
 
-/** @type {import('./$types').PageLoad} */
 export async function load() {
 	return {
+		path: 'statistics',
 		tags: getTagsByCount(),
 		combinations: getTagCombinationsByCount(),
 		formats: getFormatsByCount(),

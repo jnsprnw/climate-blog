@@ -3,7 +3,6 @@
   Generates an SVG force simulation using [d3-force](https://github.com/d3/d3-force). The values here are defaults which you will likely have to customize because every force simulation is different. This technique comes from @plmrry.
  -->
 <script lang="ts">
-	import { getContext } from 'svelte';
 	import {
 		forceSimulation,
 		forceLink,
@@ -11,75 +10,77 @@
 		forceCollide,
 		forceCenter,
 		forceX,
-		forceY
+		forceY,
+		type SimulationLinkDatum,
+		type SimulationNodeDatum
 	} from 'd3-force';
-	import type { Entity, Link } from '#types/network';
-	import linksRaw from '#links' with { type: 'json' };
-	import { scaleOrdinal, scaleTime, scaleLinear } from 'd3-scale';
-	
+	import { getLayerCakeContext } from 'layercake';
+	import type { Entity } from '#types/network';
+	import { links as linksData } from '#utils/data';
 
-	const { data, width, height, rGet, zGet, rRange, xScale, xGet, xRange, xDomain, yGet } =
-		getContext('LayerCake');
-	
-	
+	type Node = Entity & SimulationNodeDatum;
+	type Edge = SimulationLinkDatum<Node> & { weight: number };
+	type Line = { id: string; x1?: number; y1?: number; x2?: number; y2?: number };
 
-	/* --------------------------------------------
-	 * Make a copy because the simulation will alter the objects
-	 */
-	const initialNodes = $data.map((d: Entity) => ({ ...d }));
-	const initialLinks = linksRaw.map((d: Link) => ({ ...d }));
+	const k = getLayerCakeContext<unknown, Entity[]>();
+
+	// Make a copy because the simulation will alter the objects
+	const initialNodes: Node[] = k.data.map((d) => ({ ...d }));
+	const initialLinks: Edge[] = linksData.map((d) => ({ ...d }));
 
 	const simulation = forceSimulation(initialNodes);
 
-	let nodes = $state([]);
-	let links = $state([]);
+	let nodes = $state.raw<Node[]>([]);
+	let lines = $state.raw<Line[]>([]);
 
 	simulation.on('tick', () => {
-		nodes = simulation.nodes();
-		links = initialLinks;
+		// New objects on every tick so Svelte picks up the changed positions
+		nodes = simulation.nodes().map((d) => ({ ...d }));
+		lines = initialLinks.map(({ source, target }, i) => {
+			const s = source as Node;
+			const t = target as Node;
+			return { id: `${s.id}-${t.id}-${i}`, x1: s.x, y1: s.y, x2: t.x, y2: t.y };
+		});
 	});
 
-	function getRadius(d: Entity) {
-		if (d.type === 'post') {
-			return $rRange[1];
-		}
-		return $rGet(d);
+	function getRadius(d: Node): number {
+		return d.type === 'post' ? k.rRange[1] : k.rGet(d);
 	}
 
-	/* ----------------------------------------------
-	 * When variables change, set forces and restart the simulation
-	 */
+	// When the chart size changes, set forces and restart the simulation
 	$effect(() => {
 		simulation
 			.force(
 				'link',
-				forceLink(initialLinks).id((d) => d.id)
+				forceLink<Node, Edge>(initialLinks).id((d) => d.id)
 			)
 			.force('charge', forceManyBody())
 			.force(
 				'collision',
-				forceCollide().radius((d) => getRadius(d) + 4)
+				forceCollide<Node>().radius((d) => getRadius(d) + 4)
 			)
-			.force('center', forceCenter($width / 2, $height / 2))
+			.force('center', forceCenter(k.width / 2, k.height / 2))
 			.force('x', forceX())
 			.force('y', forceY())
 			.alpha(1)
 			.restart();
 	});
+
+	$effect(() => () => simulation.stop());
 </script>
 
-{#each links as link}
+{#each lines as line (line.id)}
 	<line
 		class="stroke-1 stroke-gray-300 opacity-50"
-		x1={link.source.x}
-		y1={link.source.y}
-		x2={link.target.x}
-		y2={link.target.y}
+		x1={line.x1}
+		y1={line.y1}
+		x2={line.x2}
+		y2={line.y2}
 	/>
 {/each}
 
-{#each nodes as point}
-	<circle r={getRadius(point)} fill={$zGet(point)} cx={point.x} cy={point.y}>
+{#each nodes as point (point.id)}
+	<circle r={getRadius(point)} fill={k.zGet(point)} cx={point.x} cy={point.y}>
 		<title>{point.title}</title>
 	</circle>
 {/each}

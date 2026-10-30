@@ -1,20 +1,17 @@
 import { SitemapStream, streamToPromise } from 'sitemap';
-import posts from '#posts' with { type: 'json' };
+import { posts } from '#utils/data';
 import { getLastMod } from '#utils/posts';
 import { getAbsoluteURL } from '#utils/url';
 
 export async function GET() {
 	const sitemap = new SitemapStream({ hostname: getAbsoluteURL() });
 
-	sitemap.write({ url: `/`, lastmod: getLastMod(posts) });
-	sitemap.write({ url: `/about` });
+	sitemap.write({ url: '/', lastmod: getLastMod(posts) });
+	sitemap.write({ url: '/about' });
 
-	posts.forEach((post) => {
-		sitemap.write({
-			url: getAbsoluteURL(post.slug),
-			lastmod: post.updated
-		});
-	});
+	for (const post of posts) {
+		sitemap.write({ url: getAbsoluteURL(post.slug), lastmod: post.updated });
+	}
 
 	sitemap.end();
 

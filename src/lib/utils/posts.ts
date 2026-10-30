@@ -1,7 +1,6 @@
-import { maxBy, range } from 'lodash-es';
+import { maxBy } from 'lodash-es';
 import {
 	KEY_ALL_POSTS,
-	KEY_MODE_LIGHT,
 	LANGUAGES,
 	POSTS_PER_PAGE,
 	SITE_DESCRIPTION,
@@ -9,16 +8,18 @@ import {
 	STRING_PLACEHOLDER,
 	DIMENSIONS
 } from '#config';
-import posts from '#posts' with { type: 'json' };
-import type { PostsRecord } from '#types/pocketbase-types';
+import type { Dimension, Post } from '#types/post';
 import type { Lang } from '#types/ui';
+import { posts } from '#utils/data';
 
-export function getDimensionLabel(dimension: string, count: number) {
-	return DIMENSIONS[dimension][count === 1 ? 0 : 1];
+export type PageNumber = number | typeof KEY_ALL_POSTS;
+
+export function isLang(value: string | undefined): value is Lang {
+	return (LANGUAGES as string[]).includes(value ?? '');
 }
 
-export function getPostsCount() {
-	return posts.length;
+export function getDimensionLabel(dimension: Dimension, count: number) {
+	return DIMENSIONS[dimension][count === 1 ? 0 : 1];
 }
 
 export function getAllSlugs() {
@@ -29,181 +30,157 @@ export function checkPostSlug(slug: string) {
 	return posts.some((post) => post.slug === slug);
 }
 
-export function getPostsForFilter(
-	isFavorite: boolean = false,
-	lang: string | undefined
-): PostsRecord[] {
-	let data = posts;
-	if (isFavorite) {
-		data = data.filter((post) => post.isFavorite);
-	}
-	if (lang) {
-		data = data.filter((post) => post.language?.key === lang);
-	}
-	return data;
-}
-
-export function getCurrentPosts(page_number: number | string, posts: PostsRecord[]): PostsRecord[] {
-	if (typeof page_number === 'string' && page_number === KEY_ALL_POSTS) {
-		// Display all posts
-		return posts;
-	} else if (typeof page_number === 'number') {
-		// Display posts for separate pages
-		return posts.slice((page_number - 1) * POSTS_PER_PAGE, page_number * POSTS_PER_PAGE);
-	}
-	return [];
-}
-
-export function getPostBySlug(slug: string): PostsRecord | undefined {
+export function getPostBySlug(slug: string): Post | undefined {
 	return posts.find((post) => post.slug === slug);
 }
 
-type Page = {
+export function getPostsForFilter(isFavorite: boolean = false, lang?: Lang): Post[] {
+	return posts.filter(
+		(post) => (!isFavorite || post.isFavorite) && (!lang || post.language.key === lang)
+	);
+}
+
+export function getCurrentPosts<T>(page: PageNumber, list: T[]): T[] {
+	if (page === KEY_ALL_POSTS) {
+		return list;
+	}
+	if (page < 1) {
+		return [];
+	}
+	return list.slice((page - 1) * POSTS_PER_PAGE, page * POSTS_PER_PAGE);
+}
+
+export function getPageCount(posts_total: number): number {
+	return Math.ceil(posts_total / POSTS_PER_PAGE);
+}
+
+/**
+ * Parses the optional `page` route param. A missing param is the first page.
+ */
+export function parsePageParam(page: string | undefined): PageNumber {
+	if (page === KEY_ALL_POSTS) {
+		return KEY_ALL_POSTS;
+	}
+	return page ? parseInt(page, 10) : 1;
+}
+
+/**
+ * Path of a list page relative to the root, e.g. `de/favorite/2`.
+ * The first page has no page segment.
+ */
+export function getListPath(
+	lang: Lang | undefined,
+	isFavorite: boolean,
+	page: PageNumber | undefined = 1
+): string {
+	return [lang, isFavorite ? STR_FAVORITE : undefined, page === 1 ? undefined : page]
+		.filter(Boolean)
+		.join('/');
+}
+
+export function getNextPage(page: PageNumber, posts_total: number): number | undefined {
+	return typeof page === 'number' && page < getPageCount(posts_total) ? page + 1 : undefined;
+}
+
+export function getPrevPage(page: PageNumber): number | undefined {
+	return typeof page === 'number' && page > 1 ? page - 1 : undefined;
+}
+
+export type PaginationItem = {
 	label: string;
-	path: string | undefined;
+	path: string;
 	isCurrent: boolean;
 	isPrev: boolean;
 	isNext: boolean;
 };
 
-function getPageCountForPosts(posts_total: number): number {
-	return Math.ceil(posts_total / POSTS_PER_PAGE);
-}
+/**
+ * Builds the pagination for a list page. `basePath` is the path of the current filter
+ * (language and favorites) so the links stay within the filter.
+ */
+export function getPagination(posts_total: number, current: PageNumber, basePath: string = '') {
+	const count = getPageCount(posts_total);
+	const prev = getPrevPage(current);
+	const next = getNextPage(current, posts_total);
+	const getPath = (page: PageNumber) =>
+		[basePath, page === 1 ? undefined : page].filter(Boolean).join('/');
+	const item = (
+		label: string,
+		page: number,
+		props: Partial<PaginationItem> = {}
+	): PaginationItem => ({
+		label,
+		path: getPath(page),
+		isCurrent: false,
+		isPrev: false,
+		isNext: false,
+		...props
+	});
 
-export function getNextPage(
-	currentIndex: number | typeof KEY_ALL_POSTS,
-	pages_count: number
-): number | undefined {
-	// TODO: Use this function in the getPagination function
-	const next = typeof currentIndex === 'number' ? currentIndex + 1 : undefined;
-	return typeof next === 'number' && getPageCountForPosts(pages_count) < next ? undefined : next;
-}
-
-export function getPagination(posts_total: number, currentIndex: number | string) {
-	const pages_count = getPageCountForPosts(posts_total);
-	const page_list: Page[] = [];
-	const next = typeof currentIndex === 'number' ? currentIndex + 1 : undefined;
-	const prev = typeof currentIndex === 'number' ? currentIndex - 1 : undefined;
-	for (let i = 1; i <= pages_count; i++) {
-		let label = String(i);
-		let isCurrent = false;
-		let isPrev = false;
-		let isNext = false;
-		if (i === currentIndex) {
-			isCurrent = true;
-		} else if (i === next) {
-			isNext = true;
-		} else if (i === prev) {
-			isPrev = true;
+	const list: PaginationItem[] = [];
+	for (let i = 1; i <= count; i++) {
+		if (i === count && next) {
+			list.push(item('Next page', next, { isNext: true }));
 		}
-		if (i === 1) {
-			label = 'First page';
-		} else if (i === pages_count) {
-			label = 'Last page';
-    }
-    if (i === pages_count && !isCurrent) {
-      page_list.push({
-  			label: 'Next page',
-  			path: String((typeof currentIndex === 'number' ? currentIndex : parseInt(currentIndex)) + 1),
-  			isCurrent: false,
-  			isPrev: false,
-  			isNext: true
-      });
-		}
-		page_list.push({
-			label,
-			path: i === 1 ? undefined : String(i),
-			isCurrent,
-			isPrev,
-			isNext
-    });
-    if (i === 1 && !isCurrent) {
-      page_list.push({
-  			label: 'Previous page',
-  			path: String((typeof currentIndex === 'number' ? currentIndex : parseInt(currentIndex)) - 1),
-  			isCurrent: false,
-  			isPrev: true,
-  			isNext: false
-      });
+		const label = i === 1 ? 'First page' : i === count ? 'Last page' : String(i);
+		list.push(item(label, i, { isCurrent: i === current }));
+		if (i === 1 && prev) {
+			list.push(item('Previous page', prev, { isPrev: true }));
 		}
 	}
+
 	return {
-		list: page_list,
-		count: pages_count,
-		next: typeof next === 'number' && pages_count < next ? undefined : next,
-		prev: typeof prev === 'number' && prev < 0 ? undefined : prev
+		list,
+		count,
+		first: getPath(1),
+		last: getPath(count),
+		prev: prev ? getPath(prev) : undefined,
+		next: next ? getPath(next) : undefined,
+		all: getPath(KEY_ALL_POSTS)
 	};
 }
 
-export function getLastMod(arr: PostsRecord[]): string | undefined {
-	if (Array.isArray(arr) && typeof arr !== 'undefined' && arr.length > 0) {
-		return maxBy(arr, (d) => new Date(d.updated))?.updated ?? undefined;
-	}
-	return undefined;
+export function getLastMod(list: Post[]): string | undefined {
+	return maxBy(list, (post) => new Date(post.updated).getTime())?.updated;
 }
 
 export function getPageDescription(include_count: boolean = true) {
 	return SITE_DESCRIPTION.replace(
 		STRING_PLACEHOLDER,
-		include_count ? String(getPostsCount()) : ''
+		include_count ? String(posts.length) : ''
 	).replace('  ', ' ');
 }
 
-export function getPaginationPages() {
+/**
+ * All combinations of the `lang`, `favorite` and `page` params that should be prerendered.
+ */
+export function getPaginationEntries() {
 	return [undefined, ...LANGUAGES].flatMap((lang) =>
-		[true, false].flatMap((isModeLight) => {
-			return [true, false].flatMap((favorite) => {
-				const posts = getPostsForFilter(favorite, lang);
-				const page_count = getPageCountForPosts(posts.length);
-				return [KEY_ALL_POSTS, ...range(0, page_count + 1)].map((count) => {
-					const posts_filtered = getPostsForFilter(favorite, lang);
-					const page_posts = getCurrentPosts(count, posts_filtered);
-					const lastMod = getLastMod(page_posts);
-					return {
-						page:
-							count === KEY_ALL_POSTS
-								? KEY_ALL_POSTS
-								: typeof count === 'number' && count > 0
-									? String(count)
-									: undefined,
-						// page_count,
-						// count: posts.length,
-						favorite: favorite ? STR_FAVORITE : undefined,
-						lang,
-						lastMod,
-						light: isModeLight ? KEY_MODE_LIGHT : ''
-					};
-				});
-			});
+		[true, false].flatMap((isFavorite) => {
+			const page_count = getPageCount(getPostsForFilter(isFavorite, lang).length);
+			const pages: (PageNumber | undefined)[] = [undefined, KEY_ALL_POSTS];
+			for (let page = 1; page <= page_count; page++) {
+				pages.push(page);
+			}
+			return pages.map((page) => ({
+				...(page !== undefined && { page: String(page) }),
+				...(lang && { lang }),
+				...(isFavorite && { favorite: STR_FAVORITE })
+			}));
 		})
 	);
 }
 
-export function getPaginationEntries() {
-	return getPaginationPages().map(({ page, lang, favorite }) => ({
-		...(page && { page }),
-		...(lang && { lang }),
-		...(favorite && { favorite })
-	}));
-}
-
-export function getCurrentPath(lang: Lang, isFavorite: boolean, page: number): string {
-	return [lang, isFavorite ? STR_FAVORITE : undefined, page].filter(Boolean).join('/');
-}
-
-export function getPostsIndicesFromPageNumber(
-	page_current: number | typeof KEY_ALL_POSTS,
-	number_total_posts: number
-): string {
-	if (page_current === KEY_ALL_POSTS) {
+export function getPostsRange(page: PageNumber, posts_total: number): string {
+	if (page === KEY_ALL_POSTS) {
 		return 'all';
 	}
-	const start = (page_current - 1) * POSTS_PER_PAGE + 1;
-	const end = Math.min(start + POSTS_PER_PAGE - 1, number_total_posts);
-	return [start, end].join('–');
+	const start = (page - 1) * POSTS_PER_PAGE + 1;
+	const end = Math.min(start + POSTS_PER_PAGE - 1, posts_total);
+	return `${start}–${end}`;
 }
 
-export function getLanguageName(lang: Lang): string {
+export function getLanguageName(lang: Lang | undefined): string {
 	switch (lang) {
 		case 'en':
 			return 'English';
@@ -215,24 +192,33 @@ export function getLanguageName(lang: Lang): string {
 }
 
 export function getCurrentFilter(
-	lang: Lang,
+	lang: Lang | undefined,
 	isFavorite: boolean,
-	page_current: number | typeof KEY_ALL_POSTS,
-	number_total_posts: number
-) {
+	page: PageNumber,
+	posts_total: number
+): string | null {
 	if (
-		number_total_posts === 0 ||
-		(typeof page_current === 'number' && (page_current - 1) * POSTS_PER_PAGE > number_total_posts)
+		posts_total === 0 ||
+		(typeof page === 'number' && (page - 1) * POSTS_PER_PAGE >= posts_total)
 	) {
 		return null;
 	}
-	return `You are viewing ${getPostsIndicesFromPageNumber(page_current, number_total_posts)} of ${isFavorite ? 'my favourite' : ''} ${number_total_posts} ${getLanguageName(lang)} post${number_total_posts === 1 ? '' : 's'}.`;
+	const words = [
+		'You are viewing',
+		getPostsRange(page, posts_total),
+		'of',
+		isFavorite ? 'my favourite' : '',
+		String(posts_total),
+		getLanguageName(lang),
+		posts_total === 1 ? 'post' : 'posts'
+	];
+	return `${words.filter(Boolean).join(' ')}.`;
 }
 
-export function hasImage(post: PostsRecord) {
-	return post.image?.url;
+export function hasImage(post: Post): boolean {
+	return Boolean(post.image?.url);
 }
 
-export function hasImages(posts: PostsRecord[]) {
-	return posts.some(hasImage);
+export function hasImages(list: Post[]): boolean {
+	return list.some(hasImage);
 }

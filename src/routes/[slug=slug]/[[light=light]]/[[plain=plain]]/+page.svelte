@@ -1,16 +1,13 @@
 <script lang="ts">
 	import PostSingle from '#lib/components/PostSingle.svelte';
-	import type { PostsRecord } from '#types/pocketbase-types';
 	import { createBlogPostingSchema, serializeSchema } from '#utils/json-ld';
+	import type { PageProps } from './$types';
 
-	type Props = {
-		post: PostsRecord;
-	};
-
-	const { data }: { data: Props } = $props();
+	const { data }: PageProps = $props();
 </script>
 
 <svelte:head>
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -- serialized and escaped JSON-LD -->
 	{@html serializeSchema(createBlogPostingSchema(data.post))}
 </svelte:head>
 

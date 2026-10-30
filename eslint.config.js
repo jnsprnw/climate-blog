@@ -29,6 +29,14 @@ export default defineConfig(
 		}
 	},
 	{
+		rules: {
+			// Links are absolute URLs built with getAbsoluteURL so they include the light mode suffix
+			'svelte/no-navigation-without-resolve': 'off',
+			// String mustaches are used on purpose to keep exact whitespace around inline text
+			'svelte/no-useless-mustaches': 'off'
+		}
+	},
+	{
 		files: ['**/*.svelte', '**/*.svelte.ts', '**/*.svelte.js'],
 
 		languageOptions: {

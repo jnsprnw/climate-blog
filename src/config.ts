@@ -1,3 +1,5 @@
+import type { Lang } from '#types/ui';
+
 export const SITE_TITLE = 'Artefacts of a Burning World';
 export const SITE_DESCRIPTION =
 	'Opinionated collection of %% articles, films, podcasts and other artefacts related to the climate crisis.';
@@ -9,7 +11,7 @@ export const KEY_MODE_LIGHT = 'light';
 export const KEY_MODE_PLAIN = 'plain';
 export const STR_FAVORITE = 'favorite';
 export const KEY_ALL_POSTS = 'all';
-export const LANGUAGES = ['en', 'de'];
+export const LANGUAGES: Lang[] = ['en', 'de'];
 export const DIMENSION_TAG = ['topic', 'topics'];
 export const DIMENSION_PUBLISHER = ['publisher', 'publishers'];
 export const DIMENSION_AUTHOR = ['author', 'authors'];

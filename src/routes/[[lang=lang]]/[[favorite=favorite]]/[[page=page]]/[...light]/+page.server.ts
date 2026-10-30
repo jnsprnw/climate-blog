@@ -1,40 +1,43 @@
+import { KEY_MODE_LIGHT } from '#config';
 import {
 	getCurrentPosts,
 	getLastMod,
 	getPaginationEntries,
 	getPostsForFilter,
-	getCurrentPath,
+	getListPath,
 	getCurrentFilter,
 	hasImages,
-	getNextPage
+	getNextPage,
+	isLang,
+	parsePageParam
 } from '#utils/posts';
 import { checkFavorite, getEntriesList } from '#utils/url';
-import { KEY_ALL_POSTS } from '#config';
+import type { EntryGenerator, PageServerLoad } from './$types';
 
-/** @type {import('./$types').PageLoad} */
-export async function load({ params }) {
-	const { lang, favorite, page } = params;
-	const isFavorite = checkFavorite(favorite);
-	const page_current = page === KEY_ALL_POSTS ? KEY_ALL_POSTS : parseInt(page ?? 1);
+export const load: PageServerLoad = async ({ params }) => {
+	const lang = isLang(params.lang) ? params.lang : undefined;
+	const isFavorite = checkFavorite(params.favorite);
+	const page_current = parsePageParam(params.page);
 	const posts_filtered = getPostsForFilter(isFavorite, lang);
 	const posts_current = getCurrentPosts(page_current, posts_filtered);
-	const lastMod = getLastMod(posts_current);
-	const preconnectImage = hasImages(posts_filtered);
+	const nextPage = getNextPage(page_current, posts_filtered.length);
+	const basePath = getListPath(lang, isFavorite);
+
 	return {
 		posts: posts_current,
 		posts_total: posts_filtered.length,
 		page_current,
-		path: getCurrentPath(lang, isFavorite, page),
-		lastMod,
+		path: getListPath(lang, isFavorite, page_current),
+		basePath,
+		nextPath: nextPage ? getListPath(lang, isFavorite, nextPage) : undefined,
+		lastMod: getLastMod(posts_current),
 		filter: getCurrentFilter(lang, isFavorite, page_current, posts_filtered.length),
-		preconnectImage,
-		nextPage: getNextPage(page_current, posts_filtered.length)
+		preconnectImage: hasImages(posts_current)
 	};
-}
+};
 
-/** @type {import('./$types').EntryGenerator} */
-export function entries() {
-	return getEntriesList(getPaginationEntries());
-}
+export const entries: EntryGenerator = () => {
+	return getEntriesList(getPaginationEntries(), [KEY_MODE_LIGHT]);
+};
 
 export const prerender = true;

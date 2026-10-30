@@ -33,7 +33,7 @@
 		</li>
 		<li>This blog is not a newsletter. There is no premium content.</li>
 		<li>
-			New content on this blog is not sheduled but produced if I find the time and find some
+			New content on this blog is not scheduled but produced if I find the time and find some
 			valuable to add.
 		</li>
 		<li>Content addition is driven by friction and slowness. No breaking news.</li>
@@ -47,9 +47,8 @@
 		<li>Blog posts have header images if they are relevant. Not some stock photo.</li>
 		<li>All Images have alt text, captions and sources.</li>
 		<li>
-			Images are delivered in modern formats and responsive sizes to minimize traffic. Images are
-			delivered in modern formats and responsive sizes to minimise traffic. Yes, I will leave
-			Cloudinary if I can find the time to set up my own system.
+			Images are delivered in modern formats and responsive sizes to minimise traffic. Yes, I will
+			leave Cloudinary if I can find the time to set up my own system.
 		</li>
 		<li>This website uses semantic tags.</li>
 		<li>The website’s design has high contrast.</li>
@@ -220,7 +219,7 @@
 			<URL url="rss.xml" />
 		</li>
 		<li class="grid grid-cols-subgrid sm:col-span-2">
-			<span>Engish posts feed</span>
+			<span>English posts feed</span>
 			<URL url="en/rss.xml" />
 		</li>
 		<li class="grid grid-cols-subgrid sm:col-span-2">

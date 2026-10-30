@@ -1,9 +1,10 @@
 import { error } from '@sveltejs/kit';
+import { KEY_MODE_LIGHT, KEY_MODE_PLAIN } from '#config';
 import { getPostBySlug, getAllSlugs, hasImage } from '#utils/posts';
 import { getEntriesList } from '#utils/url';
+import type { EntryGenerator, PageServerLoad } from './$types';
 
-/** @type {import('./$types').PageLoad} */
-export async function load({ params }) {
+export const load: PageServerLoad = async ({ params }) => {
 	const { slug } = params;
 	const post = getPostBySlug(slug);
 
@@ -11,18 +12,19 @@ export async function load({ params }) {
 		error(404, 'Not found');
 	}
 
-	const preconnectImage = hasImage(post);
 	return {
 		post,
 		type: 'article',
 		path: slug,
-		preconnectImage
+		preconnectImage: hasImage(post)
 	};
-}
+};
 
-/** @type {import('./$types').EntryGenerator} */
-export function entries() {
-	return getEntriesList(getAllSlugs().map((slug) => ({ slug })));
-}
+export const entries: EntryGenerator = () => {
+	return getEntriesList(
+		getAllSlugs().map((slug) => ({ slug })),
+		[KEY_MODE_LIGHT, KEY_MODE_PLAIN]
+	);
+};
 
 export const prerender = true;

@@ -3,6 +3,7 @@ export type Entity = {
 	title: string;
 	type: string;
 	weight: number;
+	date?: string;
 };
 
 export type Link = {

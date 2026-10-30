@@ -1,31 +1,29 @@
 <script lang="ts">
-	import { getContext } from 'svelte';
 	import Authors from '#lib/components/Authors.svelte';
 	import ConditionalLink from '#lib/components/ConditionalLink.svelte';
 	import DateTag from '#lib/components/Date.svelte';
 	import Favorite from '#lib/icons/Favorite.svelte';
 	import Link from '#lib/icons/Link.svelte';
-	import type { PostsRecord } from '#types/pocketbase-types';
-	import type { IsModeLight } from '#types/ui';
+	import { getIsModeLight } from '#lib/context.ts';
+	import type { Post } from '#types/post';
 	import { checkValidDate, isSameDay } from '#utils/date';
 	import { formatDate } from '#utils/format';
 	import { getDimensionLabel } from '#utils/posts';
 	import { getAbsoluteURL } from '#utils/url';
 
-	const isModeLight = getContext<IsModeLight>('isModeLight');
+	const isModeLight = getIsModeLight();
 
 	const {
 		post,
 		isSingle = false,
 		isFirst = false
-	}: { post: PostsRecord; isSingle?: boolean; isFirst?: boolean } = $props();
+	}: { post: Post; isSingle?: boolean; isFirst?: boolean } = $props();
 
 	const {
 		authors,
 		content,
 		formats,
 		image,
-		image_alt,
 		isFavorite,
 		language,
 		quote_author,
@@ -38,10 +36,11 @@
 		publisher,
 		url,
 		reference,
+		reference_link,
 		related,
 		relationships
-	} = post;
-	const hasReference = $derived(typeof reference !== 'undefined');
+	} = $derived(post);
+	const imageSrc = $derived(image ? (image.sizes[1]?.[1] ?? image.sizes[0]?.[1]) : undefined);
 
 	const formatterList = new Intl.ListFormat('en', { style: 'long', type: 'conjunction' });
 </script>
@@ -58,9 +57,8 @@
 			<span
 				class="col-span-3 pb-2 text-xs font-semibold uppercase tracking-wider text-accent"
 				lang="en-GB"
-				id="formats"
 			>
-				{formats.at(0).label}
+				{formats[0]?.label}
 			</span>
 			{#if isFavorite}
 				<Favorite />
@@ -71,7 +69,6 @@
 				class="mb-2 text-3xl leading-tight md:text-4xl lg:text-5xl text-balance"
 				itemprop="name"
 				lang={language.key}
-				id="title"
 			>
 				{title}
 			</h1>
@@ -89,7 +86,7 @@
 	<main class="col-span-3 border-y border-border dark:border-[#99999A] py-6 flex flex-col gap-y-8">
 		{#if image}
 			<figure class="flex flex-col gap-y-1" itemscope itemtype="https://schema.org/ImageObject">
-				{#if isModeLight}
+				{#if isModeLight()}
 					<div
 						class="flex flex-col gap-y-6 items-center border border-border rounded-xs bg-gray-50 py-6 px-4"
 					>
@@ -99,16 +96,14 @@
 						{#if image.alt}
 							<span class="text-center text-balance">{image.alt}</span>
 						{/if}
-						<a class="link" href={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
-							>Click to open the image</a
-						>
+						<a class="link" href={imageSrc}>Click to open the image</a>
 					</div>
 				{:else}
 					<img
 						itemprop="contentUrl"
 						style={`aspect-ratio: ${image.width} / ${image.height};`}
 						class="w-full bg-gray-50 text-xs text-gray-400"
-						src={image.sizes[1]?.[1] ?? image.sizes[0]?.[1]}
+						src={imageSrc}
 						srcset={image.sizes.map(([px, url]) => `${url} ${px}w`).join(',')}
 						sizes="(max-width: 48rem) 100vw, 48rem"
 						loading={isFirst || isSingle ? 'eager' : 'lazy'}
@@ -162,22 +157,23 @@
 		{/if}
 		{#if content}
 			<div itemprop="description">
+				<!-- eslint-disable-next-line svelte/no-at-html-tags -- trusted HTML from the own CMS -->
 				{@html content}
 			</div>
 		{/if}
 	</main>
 	<footer
 		class="grid leading-tight justify-between w-full col-span-3 gap-x-2 text-sm"
-		class:grid-cols-2={!hasReference}
-		class:grid-cols-3={hasReference}
+		class:grid-cols-2={!reference}
+		class:grid-cols-3={!!reference}
 	>
 		<time
 			class="text-mute dark:text-gray-300 text-left contrast-more:text-black"
 			datetime={post.published}>{formatDate(new Date(post.published), true)}</time
 		>
-		{#if hasReference}
+		{#if reference}
 			<span class="text-center"
-				>Via <a class="link" href={post.reference_link}>{post.reference.label}</a></span
+				>Via <a class="link" href={reference_link}>{reference.label}</a></span
 			>
 		{/if}
 
@@ -197,9 +193,11 @@
 				<p>
 					This post was published <DateTag date={post.published} />
 					{#if !isSameDay(post.published, post.updated)}
-						and last updated <DateTag date={post.updated} />{/if}. {#if checkValidDate(post.date)}
+						and last updated <DateTag date={post.updated} />{/if}.
+					{#if checkValidDate(post.date)}
 						The referenced artefact was (probably) published on
-						<DateTag date={post.date} />{/if}.
+						<DateTag date={post.date} />.
+					{/if}
 				</p>
 			</section>
 			{#if post.topics.length}
@@ -224,11 +222,11 @@
 		<div class="col-span-3 text-base grid gap-y-4">
 			<h2 class="font-semibold" id="related-artefacts">Related artefacts</h2>
 			<ul class="flex gap-y-2 flex-col">
-				{#each relationships as { title, slug, relationships: edges }}
+				{#each relationships as { title, slug, relationships: edges } (slug)}
 					<li>
-						<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
+						<a class="link" href={getAbsoluteURL(slug, isModeLight())}>{title}</a>
 						<ul class="text-xs flex flex-col gap-y-0">
-							{#each edges as [key, items]}
+							{#each edges as [key, items] (key)}
 								{#if items.length > 0}
 									<li>
 										Same {getDimensionLabel(key, items.length)}: {formatterList.format(
@@ -241,24 +239,24 @@
 					</li>
 				{/each}
 			</ul>
-			{#if related.tags}
+			{#if related.tags.length}
 				<dl class="flex gap-y-1 flex-col">
 					<dt class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">Same topics</dt>
-					{#each related.tags as [title, slug]}
+					{#each related.tags as [title, slug] (slug)}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isModeLight())}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
 			{/if}
 			{#if related.authors.length}
 				<dl class="flex gap-y-1 flex-col">
-					<h4 class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">
+					<dt class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">
 						Same authors
-					</h4>
-					{#each related.authors as [title, slug]}
+					</dt>
+					{#each related.authors as [title, slug] (slug)}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isModeLight())}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
@@ -268,9 +266,9 @@
 					<dt class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">
 						Same formats
 					</dt>
-					{#each related.formats as [title, slug]}
+					{#each related.formats as [title, slug] (slug)}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isModeLight())}>{title}</a>
 						</dd>
 					{/each}
 				</dl>
@@ -280,9 +278,9 @@
 					<dt class="text-sm text-mute dark:text-gray-300 contrast-more:text-black">
 						Same publisher
 					</dt>
-					{#each related.publisher as [title, slug]}
+					{#each related.publisher as [title, slug] (slug)}
 						<dd>
-							<a class="link" href={getAbsoluteURL(slug, isModeLight)}>{title}</a>
+							<a class="link" href={getAbsoluteURL(slug, isModeLight())}>{title}</a>
 						</dd>
 					{/each}
 				</dl>

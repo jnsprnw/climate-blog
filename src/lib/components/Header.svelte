@@ -1,12 +1,11 @@
 <script lang="ts">
-	import { getContext } from 'svelte';
 	import { page } from '$app/state';
-	import type { IsModeLight } from '#types/ui';
+	import { getIsModeLight } from '#lib/context.ts';
 	import { getPageDescription } from '#utils/posts';
 	import { getAbsoluteURL } from '#utils/url';
 	import ThemeSwitch from './ThemeSwitch.svelte';
 
-	const isModeLight = getContext<IsModeLight>('isModeLight');
+	const isModeLight = getIsModeLight();
 </script>
 
 <header
@@ -14,7 +13,7 @@
 >
 	<div>
 		<a
-			href={getAbsoluteURL('/', isModeLight)}
+			href={getAbsoluteURL('/', isModeLight())}
 			aria-current={page.data?.path === '' ? 'page' : undefined}
 			class="hover:text-accent transition-colors"
 		>
@@ -29,19 +28,11 @@
 	<div class="grid grid-rows-[auto_auto] gap-y-2 justify-items-end">
 		<ThemeSwitch />
 		{#if page.data?.path === 'about'}
-			<a
-				class="link sm:place-self-end text-sm"
-				aria-current={page.data?.path === '' ? 'page' : undefined}
-				href={getAbsoluteURL('/', isModeLight)}
-			>
+			<a class="link sm:place-self-end text-sm" href={getAbsoluteURL('/', isModeLight())}>
 				Back to the collection
 			</a>
 		{:else}
-			<a
-				class="link sm:place-self-end text-sm"
-				aria-current={page.data?.path === 'about' ? 'page' : undefined}
-				href={getAbsoluteURL('about', isModeLight)}
-			>
+			<a class="link sm:place-self-end text-sm" href={getAbsoluteURL('about', isModeLight())}>
 				About this blog
 			</a>
 		{/if}

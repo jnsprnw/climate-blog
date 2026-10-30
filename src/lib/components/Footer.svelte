@@ -9,7 +9,7 @@
 		version,
 		currentPath,
 		isModeLight
-	}: { buildDateTime: Date; version: string; currentPath: string; isModeLight: IsModeLight } =
+	}: { buildDateTime: Date; version: string; currentPath?: string; isModeLight: IsModeLight } =
 		$props();
 </script>
 

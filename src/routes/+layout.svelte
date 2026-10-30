@@ -1,12 +1,11 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
-	import { setContext } from 'svelte';
 	import { version } from '$app/env';
 	import { page } from '$app/state';
 	import { SITE_TITLE } from '#config';
 	import Footer from '#lib/components/Footer.svelte';
 	import Header from '#lib/components/Header.svelte';
-	import type { IsModeLight, IsModePlain } from '#types/ui';
+	import { setIsModeLight } from '#lib/context.ts';
 	import { getPageDescription } from '#utils/posts';
 	import { getAbsoluteURL } from '#utils/url';
 	import type { LayoutData } from './$types';
@@ -15,23 +14,25 @@
 
 	import '../app.css';
 
-	const isModeLight: IsModeLight = data.isModeLight ?? false;
-	const isModePlain: IsModePlain = data.isModePlain ?? false;
+	const isModeLight = $derived(data.isModeLight);
+	const isModePlain = $derived(data.isModePlain);
+	setIsModeLight(() => isModeLight);
 
 	const preview = $derived(
 		page.data?.post?.image?.url_preview ?? getAbsoluteURL('apple-touch-icon.png')
 	);
-	const preview_alt = $derived(page.data?.post?.image_alt ?? 'Green circle on a white background.');
+	const preview_alt = $derived(
+		page.data?.post?.image?.alt || 'Green circle on a white background.'
+	);
 	const path = $derived(page.data?.path);
 	const title = $derived(
 		page.data?.title ?? page.data?.post?.title_short ?? page.data?.post?.title ?? SITE_TITLE
 	);
 	const type = $derived(page.data?.type ?? 'website');
 	const url = $derived(getAbsoluteURL(path));
-	const urlLightMode = $derived(getAbsoluteURL(path, isModeLight));
+	const urlLightMode = $derived(getAbsoluteURL(path, true));
 	const lastModified = $derived(page.data?.post?.updated ?? page.data?.lastMod);
-	const description = $derived(page.data?.post?.description ?? getPageDescription(false));
-	setContext<IsModeLight>('isModeLight', isModeLight);
+	const description = $derived(page.data?.post?.description || getPageDescription(false));
 </script>
 
 <svelte:head>
@@ -64,9 +65,9 @@
 
 	<link rel="alternate" type="application/rss+xml" href={getAbsoluteURL('rss.xml')} title="RSS" />
 	{#if isModeLight}
-		<link rel="alternate" href={urlLightMode} title="Hide images" />
-	{:else}
 		<link rel="alternate" href={url} title="Display images" />
+	{:else}
+		<link rel="alternate" href={urlLightMode} title="Hide images" />
 	{/if}
 
 	<link rel="me" href="https://climatejustice.social/@jonas" />
@@ -74,15 +75,11 @@
 	<meta name="version" content={version} />
 	<meta name="build" content={data.buildDateTime.toISOString()} />
 
+	<!-- prettier-ignore -->
 	<script type="speculationrules">
-    {
-      "prerender": [{
-        "eagerness": "immediate",
-        "where": {
-          "selector_matches": ".link-preload",
-        }
-      }]
-    }
+		{
+			"prerender": [{ "eagerness": "immediate", "where": { "selector_matches": ".link-preload" } }]
+		}
 	</script>
 </svelte:head>
 

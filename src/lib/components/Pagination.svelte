@@ -1,58 +1,55 @@
 <script lang="ts">
-	import { getPagination } from '#utils/posts';
-	import { getAbsoluteURL } from '#utils/url';
-	import { getContext } from 'svelte';
 	import { KEY_ALL_POSTS } from '#config';
-	import type { IsModeLight } from '#types/ui';
+	import PageLink from '#lib/components/PageLink.svelte';
+	import { getIsModeLight } from '#lib/context.ts';
+	import { getPagination, type PageNumber } from '#utils/posts';
+	import { getAbsoluteURL } from '#utils/url';
 
 	type Props = {
-		currentIndex: number | string;
+		currentIndex: PageNumber;
 		posts_total: number;
+		basePath?: string;
 	};
 
-	const { currentIndex, posts_total }: Props = $props();
-	const { count, list, prev, next } = $derived(getPagination(posts_total, currentIndex));
-	const isModeLight = getContext<IsModeLight>('isModeLight');
+	const { currentIndex, posts_total, basePath = '' }: Props = $props();
+	const pagination = $derived(getPagination(posts_total, currentIndex, basePath));
+	const isModeLight = getIsModeLight();
+	const isAll = $derived(currentIndex === KEY_ALL_POSTS);
 </script>
 
 <svelte:head>
-	<link rel="first" href={getAbsoluteURL('', isModeLight)} />
-	<link rel="last" href={getAbsoluteURL(String(count), isModeLight)} />
-	{#if prev}
-		<link rel="prev" href={getAbsoluteURL(String(prev), isModeLight)} />
+	<link rel="first" href={getAbsoluteURL(pagination.first, isModeLight())} />
+	<link rel="last" href={getAbsoluteURL(pagination.last, isModeLight())} />
+	{#if pagination.prev !== undefined}
+		<link rel="prev" href={getAbsoluteURL(pagination.prev, isModeLight())} />
 	{/if}
-	{#if next}
-		<link rel="next" href={getAbsoluteURL(String(next), isModeLight)} />
+	{#if pagination.next !== undefined}
+		<link rel="next" href={getAbsoluteURL(pagination.next, isModeLight())} />
 	{/if}
 </svelte:head>
 
-{#if count > 1}
+{#if pagination.count > 1}
 	<nav class="flex flex-wrap justify-center text-sm gap-x-3">
-		{#each list as { label, path, isCurrent, isPrev, isNext }}
+		{#each pagination.list as { label, path, isCurrent, isPrev, isNext } (label)}
 			{#if isCurrent}
 				<a
-					href={getAbsoluteURL(path, isModeLight)}
+					href={getAbsoluteURL(path, isModeLight())}
 					class="text-mute dark:text-gray-300 p-2"
 					aria-current="page"
 				>
 					{label}
 				</a>
 			{:else}
-				<a
-					class="link p-2"
-					class:link-preload={isNext}
-					href={getAbsoluteURL(path, isModeLight)}
-					rel={isPrev ? 'prev' : isNext ? 'next' : undefined}>{label}</a
-				>
+				<PageLink class="p-2" {path} {label} {isPrev} {isNext} isModeLight={isModeLight()} />
 			{/if}
 		{/each}
 		<a
 			class="p-2 basis-full text-center"
-			class:text-mute={currentIndex === KEY_ALL_POSTS}
-			class:dark:text-gray-300={currentIndex === KEY_ALL_POSTS}
-			class:link={currentIndex !== KEY_ALL_POSTS}
-			aria-current={currentIndex === KEY_ALL_POSTS ? 'page' : undefined}
-			href={getAbsoluteURL(KEY_ALL_POSTS, isModeLight)}
+			class:text-mute={isAll}
+			class:dark:text-gray-300={isAll}
+			class:link={!isAll}
+			aria-current={isAll ? 'page' : undefined}
+			href={getAbsoluteURL(pagination.all, isModeLight())}
 		>
 			View all {posts_total} posts on a single page
 		</a>

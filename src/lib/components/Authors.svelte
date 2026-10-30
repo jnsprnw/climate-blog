@@ -1,5 +1,5 @@
 <script lang="ts">
-	const { authors, lang = 'en' }: { authors: string[]; lang: string } = $props();
+	const { authors, lang = 'en' }: { authors: string[]; lang?: string } = $props();
 
 	const lang_authors = $derived(lang === 'en' ? undefined : lang);
 
@@ -8,7 +8,7 @@
 	const parts = $derived(formatter.formatToParts(authors));
 </script>
 
-{#each parts as { type, value }}
+{#each parts as { type, value }, i (i)}
 	{#if type === 'literal'}
 		<span>{value}</span>
 	{:else}

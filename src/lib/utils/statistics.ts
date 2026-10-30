@@ -1,4 +1,5 @@
-import posts from '#posts' with { type: 'json' };
+import type { Post, Term } from '#types/post';
+import { posts as allPosts } from '#utils/data';
 
 export type PropertyCount = {
 	count: number;
@@ -6,59 +7,63 @@ export type PropertyCount = {
 	slug: string;
 };
 
-function getPropertyByCount(key: string): PropertyCount[] {
-	const tags = new Map<string, PropertyCount>();
-
-	for (const post of posts) {
-		if (Array.isArray(post[key])) {
-			for (const { slug, label } of post[key]) {
-				if (tags.has(slug)) {
-					tags.get(slug)!.count += 1;
-				} else {
-					tags.set(slug, { count: 1, label, slug });
-				}
-			}
-		} else if (typeof post[key] === 'object') {
-			const { slug, label } = post[key];
-			if (tags.has(slug)) {
-				tags.get(slug)!.count += 1;
-			} else {
-				tags.set(slug, { count: 1, label, slug });
-			}
-		}
-	}
-
-	return Array.from(tags.values()).sort((a, b) => {
-		if (a.count === b.count) {
-			return a.label.localeCompare(b.label);
-		}
-		return b.count - a.count;
-	});
-}
-
-export function getTagsByCount(): PropertyCount[] {
-	return getPropertyByCount('topics');
-}
-
 export type TagCombination = {
 	count: number;
 	labels: [string, string];
 	slugs: [string, string];
 };
 
-export function getTagCombinationsByCount(): TagCombination[] {
+function countTerms(terms: Term[]): PropertyCount[] {
+	const counts = new Map<string, PropertyCount>();
+
+	for (const { slug, label } of terms) {
+		const entry = counts.get(slug);
+		if (entry) {
+			entry.count += 1;
+		} else {
+			counts.set(slug, { count: 1, label, slug });
+		}
+	}
+
+	return Array.from(counts.values()).sort((a, b) =>
+		a.count === b.count ? a.label.localeCompare(b.label) : b.count - a.count
+	);
+}
+
+export function getTagsByCount(posts: Post[] = allPosts): PropertyCount[] {
+	return countTerms(posts.flatMap((post) => post.topics));
+}
+
+export function getFormatsByCount(posts: Post[] = allPosts): PropertyCount[] {
+	return countTerms(posts.flatMap((post) => post.formats));
+}
+
+export function getAuthorsByCount(posts: Post[] = allPosts): PropertyCount[] {
+	return countTerms(posts.flatMap((post) => post.authors));
+}
+
+export function getPublishersByCount(posts: Post[] = allPosts): PropertyCount[] {
+	return countTerms(posts.flatMap((post) => (post.publisher ? [post.publisher] : [])));
+}
+
+/**
+ * Counts how often two topics are used together. Only combinations that occur in more than
+ * one post are returned.
+ */
+export function getTagCombinationsByCount(posts: Post[] = allPosts): TagCombination[] {
 	const combinations = new Map<string, TagCombination>();
 
 	for (const post of posts) {
-		for (const { slug: slug1, label: label1 } of post.topics) {
-			for (const { slug: slug2, label: label2 } of post.topics) {
-				if (slug1 !== slug2) {
-					const key = [slug1, slug2].sort().join(',');
-					if (combinations.has(key)) {
-						combinations.get(key)!.count += 1;
-					} else {
-						combinations.set(key, { count: 0, labels: [label1, label2], slugs: [slug1, slug2] });
-					}
+		const topics = [...post.topics].sort((a, b) => a.slug.localeCompare(b.slug));
+		for (let i = 0; i < topics.length; i++) {
+			for (let j = i + 1; j < topics.length; j++) {
+				const [a, b] = [topics[i], topics[j]];
+				const key = `${a.slug},${b.slug}`;
+				const entry = combinations.get(key);
+				if (entry) {
+					entry.count += 1;
+				} else {
+					combinations.set(key, { count: 1, labels: [a.label, b.label], slugs: [a.slug, b.slug] });
 				}
 			}
 		}
@@ -67,16 +72,4 @@ export function getTagCombinationsByCount(): TagCombination[] {
 	return Array.from(combinations.values())
 		.filter(({ count }) => count > 1)
 		.sort((a, b) => b.count - a.count);
-}
-
-export function getFormatsByCount(): PropertyCount[] {
-	return getPropertyByCount('formats');
-}
-
-export function getAuthorsByCount(): PropertyCount[] {
-	return getPropertyByCount('authors');
-}
-
-export function getPublishersByCount(): PropertyCount[] {
-	return getPropertyByCount('publisher');
 }
