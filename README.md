@@ -5,7 +5,7 @@ This is the source code of the website [climate.jonasparnow.com](https://climate
 
 **It’s a work in progress.**
 
-This blog is built with [SvelteKit](https://kit.svelte.dev/) and [Tailwind](https://tailwindcss.com/). Special attention was paid to minimal size, accessibility and web standards. The CMS for this blog is [Pocketbase](https://pocketbase.io/) because of its lightness. It runs on [Pockethost.io](https://pockethost.io/). The page itself is hosted on [Cloudflare Pages](https://www.cloudflare.com/).
+This blog is built with [SvelteKit](https://kit.svelte.dev/) and [Tailwind](https://tailwindcss.com/). Special attention was paid to minimal size, accessibility and web standards. The CMS for this blog is [Pocketbase](https://pocketbase.io/) because of its lightness. It runs on [Pockethost.io](https://pockethost.io/). The page is built as a static site and hosted on Hetzner webhosting.
 
 ## Data fetching
 
@@ -28,5 +28,17 @@ bun run dev
 To create a production version of your app:
 
 ```bash
-npm run build
+bun run build
 ```
+
+## Deployment
+
+Every push to `main` triggers the GitHub Action in `.github/workflows/deploy.yml`: it fetches the current content from Pocketbase, runs the tests, builds the site and uploads `build/` via FTPS. It can also be triggered manually or after content changes in Pocketbase:
+
+```bash
+gh workflow run deploy.yml
+# or
+gh api repos/jnsprnw/climate-blog/dispatches -f event_type=deploy
+```
+
+The required secrets (`POCKETBASE_*`, `CLOUDINARY_*`, `PUBLIC_PAGE_URL`, `FTP_*`) are stored as repository secrets.

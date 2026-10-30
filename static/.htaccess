@@ -1,0 +1,24 @@
+# Static SvelteKit build (adapter-static): every page is a `<path>.html` file,
+# but many pages also have a directory of the same name (e.g. `about.html` and
+# `about/light.html`). Serve the HTML file instead of redirecting to the directory.
+Options -Indexes -MultiViews
+DirectorySlash Off
+
+RewriteEngine On
+
+# /about/ → /about (only if about.html exists)
+RewriteCond %{REQUEST_URI} ^/(.+)/$
+RewriteCond %{DOCUMENT_ROOT}/%1.html -f
+RewriteRule ^ /%1 [R=301,L]
+
+# /about → about.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L]
+
+<IfModule mod_headers.c>
+	# Hashed build assets never change
+	<If "%{REQUEST_URI} =~ m#^/_app/immutable/#">
+		Header set Cache-Control "public, max-age=31536000, immutable"
+	</If>
+</IfModule>

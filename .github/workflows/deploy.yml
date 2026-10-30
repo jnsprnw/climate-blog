@@ -1,0 +1,98 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  # Rebuild after content changes in Pocketbase:
+  # gh api repos/jnsprnw/climate-blog/dispatches -f event_type=deploy
+  repository_dispatch:
+    types: [deploy]
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node
+        uses: actions/setup-node@v7
+        with:
+          node-version: lts/*
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Fetch content from Pocketbase
+        run: bun ./api/api.ts
+        env:
+          POCKETBASE_URL: ${{ secrets.POCKETBASE_URL }}
+          POCKETBASE_USER: ${{ secrets.POCKETBASE_USER }}
+          POCKETBASE_PW: ${{ secrets.POCKETBASE_PW }}
+          CLOUDINARY_CLOUD: ${{ secrets.CLOUDINARY_CLOUD }}
+          CLOUDINARY_KEY: ${{ secrets.CLOUDINARY_KEY }}
+          CLOUDINARY_SECRET: ${{ secrets.CLOUDINARY_SECRET }}
+
+      - name: Test
+        run: bun test
+
+      - name: Build
+        run: bun run build
+        env:
+          PUBLIC_PAGE_URL: ${{ secrets.PUBLIC_PAGE_URL }}
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: build
+          path: build/
+          include-hidden-files: true # .htaccess
+          retention-days: 7
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://climate.jonasparnow.com
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v8
+        with:
+          name: build
+          path: build
+
+      - name: Install lftp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      # Two passes: first upload everything (new assets land before stale ones
+      # disappear), then delete files that are no longer part of the build.
+      - name: Upload via FTPS
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          LFTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp --env-password -u "$FTP_USERNAME" "$FTP_SERVER" <<'EOF'
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          set net:max-retries 3
+          mirror --reverse --no-perms --parallel=10 --verbose build/ ./
+          mirror --reverse --no-perms --only-missing --delete --verbose build/ ./
+          quit
+          EOF
+
+      - name: Smoke test
+        run: |
+          for path in / /about /network /rss.xml /sitemap.xml; do
+            curl --fail --silent --show-error --output /dev/null "https://climate.jonasparnow.com$path"
+          done
