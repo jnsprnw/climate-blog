@@ -1,5 +1,5 @@
 <script lang="ts">
-	import entities from '$entities';
+	import entities from '#entities' with { type: 'json' };
 
 	import { LayerCake, Svg } from 'layercake';
 	import Layout from './Layout.svg.svelte';

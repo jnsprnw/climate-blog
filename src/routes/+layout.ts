@@ -1,6 +1,6 @@
-import { dev } from '$app/environment';
-import { KEY_MODE_LIGHT, KEY_MODE_PLAIN } from '$config';
-import type { IsModeLight, IsModePlain } from '$types/ui';
+import { dev } from '$app/env';
+import { KEY_MODE_LIGHT, KEY_MODE_PLAIN } from '#config';
+import type { IsModeLight, IsModePlain } from '#types/ui';
 
 export async function load({ params }) {
 	const isModeLight: IsModeLight = params.light === KEY_MODE_LIGHT;

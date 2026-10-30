@@ -1,7 +1,7 @@
 import { SitemapStream, streamToPromise } from 'sitemap';
-import posts from '$posts';
-import { getLastMod } from '$utils/posts';
-import { getAbsoluteURL } from '$utils/url';
+import posts from '#posts' with { type: 'json' };
+import { getLastMod } from '#utils/posts';
+import { getAbsoluteURL } from '#utils/url';
 
 export async function GET() {
 	const sitemap = new SitemapStream({ hostname: getAbsoluteURL() });

@@ -1,16 +1,16 @@
 <script lang="ts">
 	import { getContext } from 'svelte';
-	import Authors from '$lib/components/Authors.svelte';
-	import ConditionalLink from '$lib/components/ConditionalLink.svelte';
-	import DateTag from '$lib/components/Date.svelte';
-	import Favorite from '$lib/icons/Favorite.svelte';
-	import Link from '$lib/icons/Link.svelte';
-	import type { PostsRecord } from '$types/pocketbase-types';
-	import type { IsModeLight } from '$types/ui';
-	import { checkValidDate, isSameDay } from '$utils/date';
-	import { formatDate } from '$utils/format';
-	import { getDimensionLabel } from '$utils/posts';
-	import { getAbsoluteURL } from '$utils/url';
+	import Authors from '#lib/components/Authors.svelte';
+	import ConditionalLink from '#lib/components/ConditionalLink.svelte';
+	import DateTag from '#lib/components/Date.svelte';
+	import Favorite from '#lib/icons/Favorite.svelte';
+	import Link from '#lib/icons/Link.svelte';
+	import type { PostsRecord } from '#types/pocketbase-types';
+	import type { IsModeLight } from '#types/ui';
+	import { checkValidDate, isSameDay } from '#utils/date';
+	import { formatDate } from '#utils/format';
+	import { getDimensionLabel } from '#utils/posts';
+	import { getAbsoluteURL } from '#utils/url';
 
 	const isModeLight = getContext<IsModeLight>('isModeLight');
 

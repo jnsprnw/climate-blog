@@ -1,4 +1,4 @@
-import posts from '$posts';
+import posts from '#posts' with { type: 'json' };
 
 export type PropertyCount = {
 	count: number;

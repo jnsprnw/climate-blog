@@ -1,6 +1,6 @@
 <script lang="ts">
-	import PostSingle from '$lib/components/PostSingle.svelte';
-	import type { PostsRecord } from '$types/pocketbase-types';
+	import PostSingle from '#lib/components/PostSingle.svelte';
+	import type { PostsRecord } from '#types/pocketbase-types';
 
 	const { posts }: { posts: PostsRecord[] } = $props();
 </script>

@@ -1,7 +1,7 @@
-import { dev } from '$app/environment';
-import { PUBLIC_PAGE_URL } from '$env/static/public';
-import { KEY_MODE_LIGHT, STR_FAVORITE, KEY_MODE_PLAIN } from '$config';
-import type { IsModeLight } from '$types/ui';
+import { dev } from '$app/env';
+import { PUBLIC_PAGE_URL } from '$app/env/public';
+import { KEY_MODE_LIGHT, STR_FAVORITE, KEY_MODE_PLAIN } from '#config';
+import type { IsModeLight } from '#types/ui';
 
 export function getAbsoluteURLWithLightMode(path: string = ''): string {
 	return getAbsoluteURL(path, true);

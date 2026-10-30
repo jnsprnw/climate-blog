@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { getAbsoluteURL } from '$utils/url';
+	import { getAbsoluteURL } from '#utils/url';
 
 	type Props = {
 		url: string;

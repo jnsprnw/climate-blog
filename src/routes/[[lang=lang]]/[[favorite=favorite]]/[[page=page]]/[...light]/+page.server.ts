@@ -7,9 +7,9 @@ import {
 	getCurrentFilter,
 	hasImages,
 	getNextPage
-} from '$utils/posts';
-import { checkFavorite, getEntriesList } from '$utils/url';
-import { KEY_ALL_POSTS } from '$config';
+} from '#utils/posts';
+import { checkFavorite, getEntriesList } from '#utils/url';
+import { KEY_ALL_POSTS } from '#config';
 
 /** @type {import('./$types').PageLoad} */
 export async function load({ params }) {

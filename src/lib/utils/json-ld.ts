@@ -1,6 +1,6 @@
 import type { BlogPosting } from 'schema-dts';
-import type { PostsRecord } from '$types/pocketbase-types';
-import { getAbsoluteURL } from '$utils/url';
+import type { PostsRecord } from '#types/pocketbase-types';
+import { getAbsoluteURL } from '#utils/url';
 
 export function serializeSchema(schema: BlogPosting) {
 	return `<script type="application/ld+json">${JSON.stringify(addContext(schema))}</script>`;

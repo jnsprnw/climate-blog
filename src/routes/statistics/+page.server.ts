@@ -4,7 +4,7 @@ import {
 	getFormatsByCount,
 	getPublishersByCount,
 	getAuthorsByCount
-} from '$utils/statistics';
+} from '#utils/statistics';
 
 /** @type {import('./$types').PageLoad} */
 export async function load() {

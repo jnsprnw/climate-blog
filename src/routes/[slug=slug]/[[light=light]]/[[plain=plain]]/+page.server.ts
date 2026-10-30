@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
-import { getPostBySlug, getAllSlugs, hasImage } from '$utils/posts';
-import { getEntriesList } from '$utils/url';
+import { getPostBySlug, getAllSlugs, hasImage } from '#utils/posts';
+import { getEntriesList } from '#utils/url';
 
 /** @type {import('./$types').PageLoad} */
 export async function load({ params }) {
@@ -8,9 +8,7 @@ export async function load({ params }) {
 	const post = getPostBySlug(slug);
 
 	if (!post) {
-		error(404, {
-			message: 'Not found'
-		});
+		error(404, 'Not found');
 	}
 
 	const preconnectImage = hasImage(post);

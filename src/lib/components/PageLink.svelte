@@ -1,6 +1,6 @@
 <script lang="ts">
-	import type { IsModeLight } from '$types/ui';
-	import { getAbsoluteURL } from '$utils/url';
+	import type { IsModeLight } from '#types/ui';
+	import { getAbsoluteURL } from '#utils/url';
 
 	// TODO: Use this component in the Pagination component
 

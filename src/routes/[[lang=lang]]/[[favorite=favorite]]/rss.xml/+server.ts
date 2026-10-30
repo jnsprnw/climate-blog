@@ -1,7 +1,7 @@
-import { getCurrentPosts, getPostsForFilter } from '$utils/posts';
-import { getAbsoluteURL, checkFavorite, generateFeedURL } from '$utils/url';
-import type { PostsRecord } from '$types/pocketbase-types';
-import { SITE_TITLE, SITE_DESCRIPTION } from '$config';
+import { getCurrentPosts, getPostsForFilter } from '#utils/posts';
+import { getAbsoluteURL, checkFavorite, generateFeedURL } from '#utils/url';
+import type { PostsRecord } from '#types/pocketbase-types';
+import { SITE_TITLE, SITE_DESCRIPTION } from '#config';
 
 function insertQuote(post: PostsRecord) {
 	if (post.quote_content) {

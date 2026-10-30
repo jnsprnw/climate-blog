@@ -8,10 +8,10 @@ import {
 	STR_FAVORITE,
 	STRING_PLACEHOLDER,
 	DIMENSIONS
-} from '$config';
-import posts from '$posts';
-import type { PostsRecord } from '$types/pocketbase-types';
-import type { Lang } from '$types/ui';
+} from '#config';
+import posts from '#posts' with { type: 'json' };
+import type { PostsRecord } from '#types/pocketbase-types';
+import type { Lang } from '#types/ui';
 
 export function getDimensionLabel(dimension: string, count: number) {
 	return DIMENSIONS[dimension][count === 1 ? 0 : 1];

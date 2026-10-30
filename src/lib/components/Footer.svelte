@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import type { IsModeLight } from '$types/ui';
-	import { formatDate, formatDateFull } from '$utils/format';
-	import { getAbsoluteURL, getRelativeURL } from '$utils/url';
+	import type { IsModeLight } from '#types/ui';
+	import { formatDate, formatDateFull } from '#utils/format';
+	import { getAbsoluteURL, getRelativeURL } from '#utils/url';
 
 	const {
 		buildDateTime,

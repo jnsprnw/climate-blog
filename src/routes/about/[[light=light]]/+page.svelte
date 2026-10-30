@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { getAbsoluteURL } from '$utils/url';
-	import { KEY_ALL_POSTS } from '$config';
+	import { getAbsoluteURL } from '#utils/url';
+	import { KEY_ALL_POSTS } from '#config';
 	import URL from './URL.svelte';
 </script>
 

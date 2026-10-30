@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { PropertyCount, TagCombination } from '$utils/statistics';
+	import type { PropertyCount, TagCombination } from '#utils/statistics';
 
 	const { arr }: { arr: PropertyCount[] | TagCombination[] } = $props();
 </script>

@@ -13,8 +13,8 @@
 		forceX,
 		forceY
 	} from 'd3-force';
-	import type { Entity, Link } from '$types/network';
-	import linksRaw from '$links';
+	import type { Entity, Link } from '#types/network';
+	import linksRaw from '#links' with { type: 'json' };
 	import { scaleOrdinal, scaleTime, scaleLinear } from 'd3-scale';
 	
 

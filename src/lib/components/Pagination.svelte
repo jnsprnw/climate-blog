@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { getPagination } from '$utils/posts';
-	import { getAbsoluteURL } from '$utils/url';
+	import { getPagination } from '#utils/posts';
+	import { getAbsoluteURL } from '#utils/url';
 	import { getContext } from 'svelte';
-	import { KEY_ALL_POSTS } from '$config';
-	import type { IsModeLight } from '$types/ui';
+	import { KEY_ALL_POSTS } from '#config';
+	import type { IsModeLight } from '#types/ui';
 
 	type Props = {
 		currentIndex: number | string;

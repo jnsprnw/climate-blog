@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { getContext } from 'svelte';
-	import PostList from '$lib/components/PostList.svelte';
-	import Pagination from '$lib/components/Pagination.svelte';
-	import PageLink from '$lib/components/PageLink.svelte';
-	import type { IsModeLight } from '$types/ui';
-	import type { PostsRecord } from '$types/pocketbase-types';
+	import PostList from '#lib/components/PostList.svelte';
+	import Pagination from '#lib/components/Pagination.svelte';
+	import PageLink from '#lib/components/PageLink.svelte';
+	import type { IsModeLight } from '#types/ui';
+	import type { PostsRecord } from '#types/pocketbase-types';
 
 	const isModeLight = getContext<IsModeLight>('isModeLight');
 

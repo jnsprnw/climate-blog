@@ -1,14 +1,14 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
 	import { setContext } from 'svelte';
-	import { version } from '$app/environment';
+	import { version } from '$app/env';
 	import { page } from '$app/state';
-	import { SITE_TITLE } from '$config';
-	import Footer from '$lib/components/Footer.svelte';
-	import Header from '$lib/components/Header.svelte';
-	import type { IsModeLight, IsModePlain } from '$types/ui';
-	import { getPageDescription } from '$utils/posts';
-	import { getAbsoluteURL } from '$utils/url';
+	import { SITE_TITLE } from '#config';
+	import Footer from '#lib/components/Footer.svelte';
+	import Header from '#lib/components/Header.svelte';
+	import type { IsModeLight, IsModePlain } from '#types/ui';
+	import { getPageDescription } from '#utils/posts';
+	import { getAbsoluteURL } from '#utils/url';
 	import type { LayoutData } from './$types';
 
 	const { data, children }: { data: LayoutData; children: Snippet } = $props();

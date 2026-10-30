@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { TagCombination, PropertyCount } from '$utils/statistics';
-	import Category from '$lib/components/statistics/Category.svelte';
-	import TableSingle from '$lib/components/statistics/TableSingle.svelte';
+	import type { TagCombination, PropertyCount } from '#utils/statistics';
+	import Category from '#lib/components/statistics/Category.svelte';
+	import TableSingle from '#lib/components/statistics/TableSingle.svelte';
 
 	type Props = {
 		tags: PropertyCount[];
